@@ -15,18 +15,18 @@ It's one file, **`index.html`**. It needs no internet, nothing to install, and n
 
 Your edits save automatically in that browser on that computer.
 
-## What it does
+## How it works (one step at a time)
 
-- **Your whole case as an editable doc.** Click any text to edit it, or select text for bold, highlight and headings. Sections: Opening, Rebuttal, Counter Rebuttal, Crossfire (we ask), Crossfire Predictions (they ask), Summary, Ending Statement, and Quick Stats.
-- **Search every word.** Press `/` to search; every match in the whole case is highlighted. Topic chips (Bills, Water, AI, China, Jobs…) filter cards by subject.
-- **⚡ Crossfire helper** (press `X`). Type the other team's question (shorthand and typos are fine) and the best prepared answer appears as you type, reworded to fit the question, with an "ask back" follow-up and the evidence to cite. If there's no prepared answer, it writes a new counter from your own cards in the same style.
-- **⌨ Type what they say**, on every section:
-  - 🎤 Opening: splits their case into contentions and highlights (purple) which rebuttals, crossfire questions and answers to use this round.
-  - 🛡️ Rebuttal and 🔁 Counter: each line you type finds the card that answers it.
-  - 🧭 Summary and 🏁 Final Focus: builds your speech from everything they said this round.
-- **Timers** for every PF speech, plus prep-time clocks.
-- **📚 Evidence Library.** Every number has who, when and a link, so you can show the source when the other team asks for a card.
-- **✅ Fact-Check Log.** Every claim Claude corrected in the original doc, what it said before and why it changed.
+1. **Start a round.** Pick **PRO or CON**, then whether you speak **first or second**. Your side and order are locked for the round, so you never have to wonder which side you're on.
+2. **The app walks you through the round in real PF order,** showing only the current step, each with its own timer:
+   - **Your Constructive**: your speech, big and readable. Tap to fix any text.
+   - **Their speeches**: a box where you type what they say (shorthand is fine). Your best answers appear right underneath as you type.
+   - **Crossfire**: type their question and the best answer pops up instantly, with a question to ask back. Your own questions to ask them are listed next to it.
+   - **Your Rebuttal**: the right rebuttal card for each of their contentions, in order.
+   - **Your Summary / Final Focus**: built automatically from your notes on what they said. Edit it, then read it.
+3. Press **Next →** to move on. A **Prep** timer is always at the top.
+
+Outside of a round, **Review / edit my case** opens your whole case as a simple doc you can edit and search. **Evidence** shows the source for every number, in case they ask to see a card. **What Claude fixed** lists every claim that was corrected in your original doc, and why.
 
 ## Sharing with your partner
 

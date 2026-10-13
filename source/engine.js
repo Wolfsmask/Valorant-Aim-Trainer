@@ -27,7 +27,7 @@
     [/\bmega\s*watts?\b/g, ' megawatt '], [/\bgiga\s*watts?\b/g, ' gigawatt '], [/\b(\d+)\s*mw\b/g, '$1 megawatt'], [/\b(\d+)\s*gw\b/g, '$1 gigawatt'],
     [/\bnon[\s-]*disclosure\b/g, 'nondisclosure'], [/\bn\.?d\.?a\.?s?\b/g, ' nda '],
     [/\bclosed[\s-]*loop\b/g, 'closedloop'], [/\bzero[\s-]*water\b/g, 'zerowater'], [/\bmicro[\s-]*grids?\b/g, 'microgrid'],
-    [/\bthree mile island\b/g, 'threemileisland'], [/\bhugging\s*face\b/g, 'huggingface'], [/\bopen\s*ai\b/g, 'openai'],
+    [/\bthree mile island\b/g, 'threemileisland'], [/\btmi\b/g, 'threemileisland'], [/\bnukes?\b/g, 'nuclear'], [/\bhugging\s*face\b/g, 'huggingface'], [/\bopen\s*ai\b/g, 'openai'],
     [/\bdeep\s*seek\b/g, 'deepseek'], [/\bsmall modular reactors?\b/g, ' smr '], [/\bs\.?m\.?r\.?s?\b/g, ' smr '],
     [/\bu\.?s\.?a?\.?(?=\s|$)/g, ' us '], [/\bunited states\b/g, ' us '], [/\bamerica(n|ns)?\b/g, ' us '],
     [/\bpjm\b/g, ' pjm '], [/\bnerc\b/g, ' nerc '], [/\bgdp\b/g, ' gdp '], [/\bu\.?a\.?e\.?\b/g, ' uae '],
@@ -168,7 +168,8 @@
 
   class Index {
     constructor() { this.docs = []; this.df = new Map(); this.N = 0; this.avgLen = 1; this.vocab = []; }
-    build(sideData, evidence) {
+    build(sideData, evidence, side) {
+      this.side = side || 'pro';
       this.docs = [];
       this.ev = []; this.evById = {};
       for (const e of evidence || []) {
@@ -205,6 +206,10 @@
       for (const d of this.docs) for (const t of d.tf.keys()) this.df.set(t, (this.df.get(t) || 0) + 1);
       this.avgLen = this.docs.reduce((a, d) => a + d.len, 0) / this.N || 1;
       this.vocab = [...this.df.keys()].filter(t => t.length >= 5);
+      this.raw = new Set(); const addRaw = t => normalize(t).replace(/[^a-z' ]+/g, ' ').split(' ').forEach(w => { if (w.length >= 4) this.raw.add(w.replace(/'s$/, '')); });
+      for (const d of this.docs) addRaw(d.head + ' ' + (d.item.alts || []).join(' ') + ' ' + d.body);
+      for (const r of this.ev) addRaw(r.e.tag + ' ' + r.e.text);
+      for (const def of Object.values(CONCEPTS)) addRaw(def.terms.join(' '));
       return this;
     }
     searchEvidence(q, n) {
@@ -262,25 +267,31 @@
   const NEG_AUX = { "isn't": 'is', "aren't": 'are', "doesn't": 'does', "don't": 'do', "won't": 'will', "wouldn't": 'would', "can't": 'can', "couldn't": 'could', "shouldn't": 'should', "hasn't": 'has', "haven't": 'have', "didn't": 'did', "wasn't": 'was', "weren't": 'were' };
   const POS_AUX = { is: "isn't", are: "aren't", does: "doesn't", do: "don't", will: "won't", would: "wouldn't", can: "can't", could: "couldn't", should: "shouldn't", has: "hasn't", have: "haven't", did: "didn't", was: "wasn't", were: "weren't" };
   // only echo-deny predictions/opinions — never past facts (has/did/was) where "No" could be false
+  const MODAL = new Set(["won't", "wouldn't", "can't", "couldn't", "shouldn't", 'will', 'would', 'can', 'could', 'should']);
+  const OUR_PLAN = /^(a|the|your|this|that|our)?\s*(federal\s+|national\s+)?(moratorium|pause|ban|plan|policy|case|proposal|it|this|that)\b/i;
+  const REPORTED = /\b(say|says|said|find|finds|found|show|shows|showed|claim|claims|report|reports|estimate|estimates|predict|predicts|admit|admits)\b|\d/i;
+  function auxSubj(q) { const m = cleanQ(q).match(/^(isn't|aren't|doesn't|don't|won't|wouldn't|can't|couldn't|shouldn't|hasn't|haven't|didn't|wasn't|weren't|is|are|does|do|will|would|can|could|should|has|have|did|was|were)\s+(.*)$/i); return m ? { aux: m[1].toLowerCase(), rest: m[2] } : null; }
+  function denyOK(q) { const a = auxSubj(q); if (!a) return false; if (REPORTED.test(a.rest)) return false; return MODAL.has(a.aux) || OUR_PLAN.test(a.rest); }
   const ECHO_OK = new Set(["won't", "wouldn't", "doesn't", "don't", "can't", "couldn't", "shouldn't", "isn't", "aren't", 'will', 'would', 'does', 'do', 'can', 'could', 'should', 'is', 'are']);
   const VERBS = new Set(('force forces hurt hurts kill kills cause causes create creates make makes mean means raise raises increase increases destroy destroys push pushes help helps protect protects need needs use uses lead leads require requires put puts give gives take takes bring brings let lets stop stops harm harms cost costs drive drives send sends move moves endanger endangers violate violates compromise compromises undermine undermines slow slows prevent prevents reduce reduces lower lowers have has be become becomes allow allows risk risks threaten threatens affect affects damage damages hand hands lose loses win wins benefit benefits fund funds pay pays build builds invest invests provide provides generate generates support supports solve solves fix fixes work works matter matters apply applies block blocks ban bans shift shifts devastate devastates cripple cripples scare scares chase chases delay delays hinder hinders hamper hampers result results end ends leave leaves go goes get gets stay stays keep keeps feed feeds care cares agree think believe want wants deserve deserves').split(' '));
   const ADVERBS = new Set('just really still also actually simply already basically even ultimately necessarily'.split(' '));
 
   function swapPronouns(s) {
     const map = { you: 'we', your: 'our', yours: 'ours', "you're": "we're", yourself: 'ourselves', yourselves: 'ourselves', we: 'you', our: 'your', ours: 'yours', us: 'you', "we're": "you're" };
-    return s.replace(/\b(you're|we're|yourselves|yourself|yours|your|you|ours|our|us|we)\b/gi, m => map[m.toLowerCase()] || m);
+    return s.replace(/\b(you're|we're|yourselves|yourself|yours|your|you|ours|our|us|we)\b/gi, (m, _1, off, str) => (m === 'US' || m === 'U.S' || str[off + m.length] === '.' && m.toLowerCase() === 'us' && str[off - 1] === '.') ? m : (map[m.toLowerCase()] || m));
   }
 
   const FILLER = /^\s*(okay|ok|so|well|um+|uh+|alright|and|but|right|yeah|my question is|question|quick question|next question|i want to ask|i'd like to ask|let me ask)[,:\s]+/i;
   const CONTRACT = /\b(isnt|arent|doesnt|dont|wont|wouldnt|cant|couldnt|shouldnt|hasnt|havent|didnt|wasnt|werent|youre|theyre|thats|whats|its)\b/gi;
   const CONTRACT_MAP = { isnt: "isn't", arent: "aren't", doesnt: "doesn't", dont: "don't", wont: "won't", wouldnt: "wouldn't", cant: "can't", couldnt: "couldn't", shouldnt: "shouldn't", hasnt: "hasn't", havent: "haven't", didnt: "didn't", wasnt: "wasn't", werent: "weren't", youre: "you're", theyre: "they're", thats: "that's", whats: "what's", its: "its" };
-  function cleanQ(q) { let s = String(q || '').replace(/[’‘]/g, "'").replace(CONTRACT, m => { const r = CONTRACT_MAP[m.toLowerCase()]; return m[0] === m[0].toUpperCase() ? r[0].toUpperCase() + r.slice(1) : r; }).trim(); for (let i = 0; i < 3; i++) s = s.replace(FILLER, ''); return s.trim(); }
+  const SHORTHAND = [[/\b(dosent|dosnt|dsnt)\b/gi, "doesn't"], [/\bu\b(?!\.)/gi, 'you'], [/\bur\b/gi, 'your'], [/\br\b/gi, 'are'], [/^y\b/i, 'why'], [/\by not\b/gi, 'why not'], [/\bhw\b/gi, 'how'], [/\b(wat|wht|wut)\b/gi, 'what'], [/\babt\b/gi, 'about'], [/\bppl\b/gi, 'people'], [/\bgovt\b/gi, 'government'], [/\bfed\b/gi, 'federal'], [/\btho\b/gi, 'though'], [/\bdcs\b/gi, 'data centers'], [/\bdc\b/gi, 'data center'], [/\bnukes?\b/gi, 'nuclear'], [/\btmi\b/gi, 'Three Mile Island'], [/\bthere (jobs|fair share|power|bills?|water)\b/gi, 'their $1']];
+  function cleanQ(q) { let s = String(q || '').replace(/[’‘]/g, "'"); for (const [re, r] of SHORTHAND) s = s.replace(re, r); s = s.replace(CONTRACT, m => { const r = CONTRACT_MAP[m.toLowerCase()]; return m[0] === m[0].toUpperCase() ? r[0].toUpperCase() + r.slice(1) : r; }).trim(); for (let i = 0; i < 3; i++) s = s.replace(FILLER, ''); return s.trim(); }
   function normalizeQ(q) { return cleanQ(q).toLowerCase(); }
 
   function classify(q) {
     const s = normalizeQ(q);
     if (/\b(what('s| is) (your|the) (evidence|source|card|study|proof|warrant)|what (evidence|proof|source|data|study)|(do|did) you have (any |a )?(evidence|proof|card|source|study|data)|can (i|we) see (the|your|that) (card|evidence|source)|who says|what study|source for that|cite that|where('s| is| did you get) (that|the|your)? ?(evidence|number|stat|statistic|data|proof)?)\b/.test(s)) return 'evidence';
-    if (/^(so )?(you|you're|you are) (admit|conced|agree)|^do you (concede|admit)|^so you('re| are) saying|^so you agree/.test(s)) return 'concession';
+    if (/^(so )?(you|you're|you are) (admit|conced|agree)|^(you're|you are) saying|^(you'd|you would) rather|^do you (concede|admit)|^so you('re| are) saying|^so you agree/.test(s)) return 'concession';
     if (/^(what|which) (is|are|'s) (your )?(definition|threshold)|^(how|what) do you (define|mean)|^what do you mean|^how long|^how big|^how many|^how much|^what (percent|percentage|share|number)|^what counts|^define/.test(s)) return 'clarify';
     if (/^(isn't|aren't|doesn't|don't|won't|wouldn't|can't|couldn't|shouldn't|hasn't|haven't|didn't|wasn't|weren't)\b/.test(s) || /isn't it true|don't you (think|agree)|wouldn't you (agree|say)|(right|correct|true)\??$/.test(s)) return 'leading';
     if (/^why\b/.test(s)) return 'why';
@@ -295,7 +306,10 @@
   // pro-friendly framing detector → decide yes/no stance for generated answers
   const PRO_FRIENDLY = ['afford', 'protect famil', 'protect communit', 'protect taxpayer', 'safe', 'clean water', 'drinking water', 'reliab', 'transparen', 'accountab', 'fair', 'consent', 'should pay', 'pay their fair', 'conserv', 'public health', 'regulate ai', 'risk of ai', 'deserve'];
   const CON_FRIENDLY = ['job', 'economy', 'econom', 'china', 'innovat', 'growth', 'recession', 'national security', 'tax revenue', 'cure', 'efficien', 'local control', 'states right', 'overreach', 'unenforce', 'smaller', 'leakage', 'offshore', 'overseas', 'hurt', 'kill', 'destroy', 'harm', 'lose', 'block', 'scare', 'unconstitution', 'backfire', 'worse'];
+const AGREE = /^(do|don't|wouldn't|would|won't|will) you (agree|think|believe|accept)|^(do|did|don't) you (use|want|support|care|like|value)\b|\b(important|deserve|deserves|matter|matters)\b/i;
+  const HARM = /\b(hurt|kill|destroy|harm|lose|worse|backfire|unconstitutional|recession|overreach|fail|ban|stop|block|raise|pointless|wrong|scare|tank)/i;
   function stanceFor(q) {
+    if (AGREE.test(cleanQ(q)) && !HARM.test(q)) return 'yes';
     const n = normalize(q);
     let p = 0, c = 0;
     for (const w of PRO_FRIENDLY) if (n.includes(w)) p++;
@@ -323,8 +337,9 @@
     if (vi <= 0 || vi > 6) return '';
     const subj = swapPronouns(words.slice(0, vi).join(' '));
     const pred = swapPronouns(words.slice(vi).join(' '));
+    if (REPORTED.test(subj) || !(MODAL.has(aux) || OUR_PLAN.test(subj))) return '';
     const negAux = NEG_AUX[aux] ? aux : POS_AUX[aux];
-    if (!negAux || stance === 'yes') return '';
+    if (!negAux || stance !== 'no') return '';
     return trimClause(('No — ' + subj + ' ' + negAux + ' ' + pred).replace(/\s+/g, ' '));
   }
   function trimClause(s) {
@@ -377,6 +392,8 @@
     cloud:     { impact: 'Existing cloud capacity keeps running.', punch: 'Your email doesn\'t need a new 500-megawatt building.', weigh: 'No existing service shuts off under a moratorium.' },
     evidence:  { impact: 'Here\'s the source.', punch: 'What\'s the date on yours?', weigh: 'Prefer recent, specific evidence.' }
   };
+  const NEUTRAL_VOICE = { impact: '', punch: '', weigh: 'Prefer our impacts on probability and magnitude — weigh them against what they actually proved.' };
+  const voiceFor = (c, idx) => (idx && idx.side === 'con') ? NEUTRAL_VOICE : (VOICE[c] || DEFAULT_VOICE);
   const DEFAULT_VOICE = { impact: 'And families are already paying for it — $9.3 billion in PJM alone.', punch: 'A moratorium is an emergency brake, not a ban.', weigh: 'Our harms are happening now; theirs depend on "if."' };
 
   /* ---------------- answer builder (crossfire) ---------------- */
@@ -419,13 +436,16 @@
     const it = doc.item; const short = (it.short || '').trim();
     const body = stripHtml(it.html || '');
     if (type === 'evidence') return 'Sure — here\'s our source:';
+    if (stance === 'yes' && AGREE.test(q) && (type === 'leading' || type === 'yesno' || type === 'concession')) return echo(q, 'yes') || 'Yes.';
     if (short) {
-      if (/^(no|not at all)\.?$/i.test(short) && (type === 'leading' || type === 'yesno')) return echo(q, 'no') || short;
+      const yn = type === 'leading' || type === 'yesno' || type === 'concession';
+      if (/^(no|not at all)\.?$/i.test(short) && yn) return (stance === 'no' && echo(q, 'no')) || (denyOK(q) ? short : '');
+      if (/^(no|not at all)\b[\s—,.-]+\S/i.test(short) && !(yn && (denyOK(q) || type === 'concession'))) { const s2 = short.replace(/^(no|not at all)\b[\s—,.-]+/i, ''); return s2.charAt(0).toUpperCase() + s2.slice(1); }
       return /[.!?…]$/.test(short) ? short : short + '.';
     }
     if (ANSWER_START.test(body)) return '';
-    if (type === 'leading' || type === 'yesno') return echo(q, stance) || (stance === 'yes' ? 'Yes — but here\'s the catch.' : 'No.');
-    if (type === 'concession') return stance === 'yes' ? 'Yes — and that\'s exactly why we need a pause.' : 'No — that\'s not what we said.';
+    if (type === 'leading' || type === 'yesno') return echo(q, stance) || (stance === 'yes' ? 'Yes — but here\'s the catch.' : (stance === 'no' && denyOK(q)) ? 'No.' : '');
+    if (type === 'concession') return stance === 'yes' ? 'Yes — and that\'s exactly our point.' : 'No — that\'s not what we said.';
     return '';
   }
 
@@ -446,12 +466,23 @@
   /**
    * answer(question, idx) → { mode: 'prefire'|'adapted'|'generated', confidence 0..1, opener, body, turn, bridge, cards, evidence, concepts, type }
    */
+  function correct(q, idx) {
+    if (!idx.raw) return q;
+    return q.replace(/[A-Za-z']{4,}/g, w => {
+      const lw = w.toLowerCase(); if (idx.raw.has(lw) || STOP.has(lw) || /'/.test(lw)) return w;
+      const max = lw.length >= 8 ? 2 : 1; let best = null, bd = 9;
+      for (const v of idx.raw) { if (Math.abs(v.length - lw.length) > max || v[0] !== lw[0]) continue; const d = lev(lw, v, max); if (d < bd) { bd = d; best = v; if (d === 1) break; } }
+      return best && bd <= max ? best : w;
+    });
+  }
   function answer(query, idx, opts = {}) {
     const q = cleanQ(query);
+    const qs = correct(q, idx);   // typo-corrected copy: used ONLY for matching, never shown
     if (q.length < 3) return null;
     const type = classify(q);
-    const stance = stanceFor(q);
-    const { results, qc } = idx.search(q, { boost: { qa: 1.15, rebuttal: 1.0, counter: 0.95, askq: 0.3 }, limit: 8 });
+    let stance = stanceFor(q);
+    if (idx.side === 'con' && stance !== 'yes') stance = 'neutral';  // engine's yes/no heuristics are tuned for PRO
+    const { results, qc } = idx.search(qs, { boost: { qa: 1.15, rebuttal: 1.0, counter: 0.95, askq: 0.3 }, limit: 8 });
     // the generic "can I see your card" entry only wins when no topic is given
     const topical = topConcepts(qc, 3);
     let ranked = results.filter(r => r.doc.type !== 'askq' && !(r.doc.item.generic && topical.length));
@@ -467,8 +498,8 @@
       conf = Math.max(0, Math.min(1, abs * 0.8 + margin * 0.2));
     }
     const out = { type, stance, concepts, confidence: conf, cards: ranked.slice(0, 4), query: q };
-    const askq = idx.search(q, { types: ['askq'], limit: 1 }).results[0];
-    const voice = VOICE[concepts[0]] || DEFAULT_VOICE;
+    const askq = idx.search(qs, { types: ['askq'], limit: 1 }).results[0];
+    const voice = voiceFor(concepts[0], idx);
 
     if (top && conf >= 0.5) {
       const it = top.doc.item;
@@ -478,14 +509,16 @@
       const bodyText = stripHtml(it.html || '');
       out.body = /^(No|Yes)\b/.test(out.opener) ? stripLeadingAnswerWord(bodyText) : bodyText;
       if (out.opener && out.body.toLowerCase().startsWith(out.opener.toLowerCase().replace(/[.!]$/, ''))) out.opener = '';
+      out.body = dedupeLead(out.opener, out.body);
       out.bodyHtml = it.html;
-      out.turn = it.turn || it.follow || (askq && askq.score > 0.3 && askq.doc.item.follow) || voice.punch;
-      out.evidence = evidenceFor(q, idx, top.doc, type === 'evidence' || type === 'clarify' ? 2 : 1);
-      if (type === 'evidence' && out.evidence[0]) out.opener = 'Sure — ' + whoOf(out.evidence[0]) + ':';
+      out.turn = it.turn || it.follow || '';
+      if (!out.turn && voice.punch) out.turn = '';
+      out.evidence = evidenceFor(qs, idx, top.doc, type === 'evidence' || type === 'clarify' ? 2 : 1);
+      if (type === 'evidence' && out.evidence[0]) { const e0 = out.evidence[0]; out.opener = 'Sure — ' + whoOf(e0) + ':'; out.body = e0.tag + '. ' + (sentencesOf(e0.text)[0] || ''); }
       if (type === 'clarify' && QUANT.test(q) && out.evidence[0]) out.opener = out.evidence[0].tag + ' (' + whoOf(out.evidence[0]) + ').';
       if (out.mode === 'adapted') {
         const novel = novelTerms(q, bodyText);
-        if (novel) out.bridge = 'On ' + novel + ' specifically: ' + voice.impact;
+        if (novel && voice.impact) out.bridge = 'On ' + novel + ' specifically: ' + tidyImpact(voice.impact);
       }
       return out;
     }
@@ -494,13 +527,13 @@
     out.mode = 'generated';
     out.card = top || null;
     const pool = ranked.slice(0, 5);
-    const picked = pickSentences(pool, q, 3);
+    const picked = pickSentences(pool, qs, 3);
     let opener = '';
     if (type === 'evidence') opener = 'Sure — here\'s our source:';
-    else if (type === 'leading' || type === 'yesno') opener = echo(q, stance) || (stance === 'yes' ? 'Yes — and that\'s exactly why we need a pause.' : (concepts.length ? 'No.' : 'Not necessarily.'));
-    else if (type === 'concession') opener = stance === 'yes' ? 'Yes — and that\'s exactly why we need a pause.' : 'No — that\'s not what we said.';
+    else if (type === 'leading' || type === 'yesno') opener = echo(q, stance) || (stance === 'yes' ? 'Yes — and that\'s exactly our point.' : (concepts.length && stance === 'no' && denyOK(q) ? 'No.' : ''));
+    else if (type === 'concession') opener = stance === 'yes' ? (idx.side === 'con' ? 'Yes.' : 'Yes — and that\'s exactly our point.') : 'No — that\'s not what we said.';
     else if (type === 'clarify') opener = 'Good question.';
-    else if (!concepts.length) opener = 'Even if that\'s true, it doesn\'t outweigh our harms.';
+    else if (!concepts.length) opener = '';
 
     const parts = [];
     if (picked.length && concepts.length) {
@@ -509,28 +542,39 @@
       parts.push(stripLeadingConj(claim.s));
       if (cited) parts.push(stripLeadingConj(cited.s));
     }
-    if (!parts.length) parts.push('Families are already paying for this build-out — PJM\'s market monitor tied $9.3 billion in higher costs to data centers (PJM IMM).');
+    if (!parts.length && !concepts.length && conf < 0.3) parts.push('(No prepared card for this — answer honestly in one sentence, then pivot to our case.)'); if (!parts.length) parts.push(idx.side === 'con' ? '(No prepared card for this — answer honestly in one sentence, then pivot to our case.)' : 'Families are already paying for this build-out — PJM\'s market monitor tied $9.3 billion in higher costs to data centers (PJM IMM).');
     let body = parts.join(' ');
     if (type === 'why') body = 'Because ' + body.charAt(0).toLowerCase() + body.slice(1);
     else if (/^(No|Yes)\b/.test(opener)) body = stripLeadingAnswerWord(body);
-    if (!/[.!?]$/.test(body)) body += '.';
-    body += ' ' + voice.punch;
+    if (!/[.!?][)"']?$/.test(body)) body += '.';
+    if (voice.punch) body += ' ' + voice.punch;
     out.opener = opener;
     out.body = body.replace(/\s+/g, ' ').trim();
-    out.turn = (top && (top.doc.item.turn || top.doc.item.follow)) || (askq && askq.doc.item.follow) || 'What\'s your evidence for that — and what\'s the date on it?';
-    out.evidence = evidenceFor(q, idx, top && top.doc, 2);
+    out.turn = (top && conf >= 0.3 && (top.doc.item.turn || top.doc.item.follow)) || 'What\'s your evidence for that — and what\'s the date on it?';
+    out.evidence = evidenceFor(qs, idx, top && top.doc, 2);
     const novel = novelTerms(q, out.body);
-    if (novel && concepts.length) out.bridge = 'On ' + novel + ': ' + voice.impact;
+    if (novel && concepts.length && voice.impact) out.bridge = 'On ' + novel + ': ' + tidyImpact(voice.impact);
     out.confidence = Math.min(conf, 0.49);
     return out;
   }
 
+  function tidyImpact(s) { s = String(s).replace(/^and\s+/i, ''); return s.charAt(0).toLowerCase() + s.slice(1); }
+  function dedupeLead(opener, body) {
+    if (!opener || !body) return body;
+    const w = x => (String(x).toLowerCase().match(/[a-z']+/) || [''])[0];
+    if (w(opener) && w(opener) === w(body)) {
+      const cut = body.search(/ — |\. /);
+      if (cut > 0 && cut < 90) { const rest = body.slice(cut).replace(/^( — |\. )/, ''); return rest.charAt(0).toUpperCase() + rest.slice(1); }
+    }
+    return body;
+  }
   function novelTerms(q, body) {
     // proper nouns / numbers the opponent named that our answer doesn't mention
     const raw = String(q).match(/\b([A-Z][a-zA-Z]+(?:\s+[A-Z][a-zA-Z]+)*|\d[\d,.]*\s*(?:%|percent|megawatts?|gigawatts?|billion|million|gallons|jobs)?)\b/g) || [];
     const skip = /^(Isn|Aren|Doesn|Don|Won|Wouldn|Can|Couldn|Shouldn|If|What|Why|How|When|Where|Who|Which|Is|Are|Do|Does|Will|Would|Should|So|And|But|The|A|An|You|Your|We|Our|They|Their|It|This|That|I|Okay|Ok|Well|Since|Given|Pro|Con|Judge|Yes|No|Hasn|Haven|Didn|Wasn|Weren|Has|Have|Did|Was|Were|AI|US|U)$/;
     const b = body.toLowerCase();
-    const found = raw.map(s => s.trim()).filter(s => s.length > 2 && !skip.test(s.split(' ')[0]) && !b.includes(s.toLowerCase()));
+    const digits = b.replace(/[^0-9]/g, ' ');
+    const found = raw.map(s => s.trim()).filter(s => s.length > 2 && !skip.test(s.split(' ')[0]) && !b.includes(s.toLowerCase()) && !(/^\d/.test(s) && digits.includes(s.replace(/[^0-9]/g, '').slice(0, 2))));
     return found.length ? found.slice(0, 2).join(' and ') : '';
   }
 
@@ -597,6 +641,7 @@
         const sc = Object.entries(cc).reduce((a, [c, v]) => a + (tc.includes(c) ? v : 0.2 * v), 0) + (hasEvidence(u) ? 0.5 : 0) - j * 0.1 - (signOnly ? 3 : 0);
         if (sc > bs) { bs = sc; best = u; }
       }
+      best = String(best).replace(/^\s*(c ?[1-4]|contention ?(one|two|three|four|[1-4])|first(ly)?|second(ly)?|third(ly)?|finally|lastly)\b[\s:,.-]*/i, '') || best;
       const blockText = b.units.join(' ');
       const reb = idx.search(blockText, { types: ['rebuttal', 'counter'], limit: 3, boost: { rebuttal: 1.1 } }).results.filter(r => r.score > 0.2);
       const ask = idx.search(blockText, { types: ['askq'], limit: 2 }).results.filter(r => r.score > 0.15);
@@ -605,7 +650,7 @@
         n: i + 1, label, concepts: tc, key: best, text: blockText,
         evidence: b.units.filter(hasEvidence).slice(0, 3),
         rebuttals: reb, ask, prep,
-        weigh: (VOICE[tc[0]] || DEFAULT_VOICE).weigh
+        weigh: voiceFor(tc[0], idx).weigh
       };
     }).filter(b => b.text.split(' ').length >= 3 && b.concepts.length);
     out.forEach((b, i) => { b.n = i + 1; });
@@ -617,7 +662,7 @@
   /* ---------------- speech builders (summary / final focus) ---------------- */
   function oppThemes(roundLog, idx) {
     // roundLog: [{section, text}] — later speeches weigh more
-    const weights = { opening: 1, rebuttal: 1.3, counter: 1.3, crossfire: 0.8, predictions: 0.8, summary: 1.6, closing: 1.2 };
+    const weights = { opening: 1, rebuttal: 1.3, counter: 1.3, crossfire: 0.5, predictions: 0.5, summary: 1.6, closing: 1.2 };
     const score = {}; const lines = {};
     for (const seg of roundLog || []) {
       for (const u of splitUnits(seg.text)) {
@@ -625,7 +670,8 @@
         for (const [c, v] of Object.entries(cc)) {
           if (c === 'evidence' || c === 'definition') continue;
           score[c] = (score[c] || 0) + v * (weights[seg.section] || 1);
-          const claimy = /\b(will|would|can|could|is|are|means|causes?|hurts?|kills?|helps?|outweighs?)\b/i.test(u) ? 1.2 : 1;
+          const isQ = /\?\s*$/.test(u) || /^(isn't|aren't|doesn't|don't|won't|wouldn't|can't|why|how|what|who|do|does|is|are|will|would|can|should)\b/i.test(u.trim());
+          const claimy = isQ ? 0.15 : /\b(will|would|can|could|is|are|means|causes?|hurts?|kills?|helps?|outweighs?)\b/i.test(u) ? 1.2 : 1;
           const evi = /^(according to|a study|the .* (institute|report)|\d)/i.test(u) ? 0.6 : 1;
           (lines[c] = lines[c] || []).push({ u, w: v * (weights[seg.section] || 1) * claimy * evi });
         }
@@ -654,15 +700,15 @@
     const base = stripHtml(String(baseHtml || '').replace(/<h\d[^>]*>[\s\S]*?<\/h\d>/gi, '').replace(/<ul[\s\S]*?<\/ul>/gi, ''));
     const sents = sentencesOf(base);
     const openLine = sents.slice(0, 2).join(' ');
-    const closeLine = (sents.find(s => /vote pro/i.test(s)) || 'Vote Pro to protect our communities and our infrastructure.');
+    const closeLine = (sents.find(s => /vote (pro|con)|urge a (pro|con)|(pro|con) ballot/i.test(s)) || (idx.side === 'con' ? 'For these reasons, we urge a Con ballot.' : 'Vote Pro to protect our communities and our infrastructure.'));
     const counters = themes.map(t => {
       const ct = counterFor(t.c, t.line, idx);
-      const body = [ct.claim, ct.cited].filter(Boolean).join(' ') || (VOICE[t.c] || DEFAULT_VOICE).impact;
+      const body = [ct.claim, ct.cited].filter(Boolean).join(' ') || voiceFor(t.c, idx).impact || 'our evidence answers this directly.';
       return { concept: t.c, label: t.label, theyQuote: shortQuote(t.line, 14), counter: stripLeadingConj(compress(body, 48)), card: ct.card };
     });
     const weighLines = [];
-    for (const t of themes.slice(0, 2)) weighLines.push((VOICE[t.c] || DEFAULT_VOICE).weigh);
-    weighLines.push('Reversibility: a pause can be lifted tomorrow; a power plant built for a bubble sits on families\' bills for 30 years.');
+    for (const t of themes.slice(0, 2)) { const w = voiceFor(t.c, idx).weigh; if (!weighLines.includes(w)) weighLines.push(w); }
+    if (idx.side !== 'con') weighLines.push('Reversibility: a pause can be lifted tomorrow; a power plant built for a bubble sits on families\' bills for 30 years.');
     const text = [
       openLine,
       ...(counters.length ? ['Here\'s where their case breaks down.'] : []),
@@ -681,6 +727,7 @@
   }
 
   function buildSummary(roundLog, sideData, idx) {
+    if (idx.side === 'con') return buildSummaryGeneric(roundLog, sideData, idx);
     const themes = oppThemes(roundLog, idx).slice(0, 3);
     // what they attacked on OUR case → frontlines from counter section
     const attackText = (roundLog || []).filter(s => s.section !== 'opening').map(s => s.text).join(' ');
@@ -690,12 +737,25 @@
       `<p><b>Extend Contention 1 — families pay.</b> Data centers caused 63% of PJM's record capacity spike — $9.3 billion passed to customers (PJM IMM). Either way families lose: if AI demand is real, prices spike; if it's a bubble, they pay for stranded plants (Altman '25).</p>`,
       front.length ? `<p><b>Their responses → our frontlines:</b></p><ul>${front.map(r => `<li><b>${escapeHtml(r.doc.head)}</b> → ${escapeHtml(compress(stripHtml(r.doc.item.html), 45))}</li>`).join('')}</ul>` : '',
       `<p><b>Extend Contention 3 — AI safety.</b> This summer, models from OpenAI and Anthropic hacked real companies during testing (CNN / AP '26). Compute is the most effective lever we have (Sastry et al.).</p>`,
-      themes.length ? `<p><b>Their case doesn't stand:</b></p><ul>${themes.map(t => { const ct = counterFor(t.c, t.line, idx); return `<li><b>${escapeHtml(t.label)}:</b> ${escapeHtml(compress(ct.claim || (VOICE[t.c] || DEFAULT_VOICE).impact, 32))}</li>`; }).join('')}</ul>` : '',
-      `<p><b>Weigh:</b> ${escapeHtml(themes.slice(0, 2).map(t => (VOICE[t.c] || DEFAULT_VOICE).weigh).join(' ') || DEFAULT_VOICE.weigh)} Prefer us on probability — our harms are already happening — and reversibility.</p>`
+      themes.length ? `<p><b>Their case doesn't stand:</b></p><ul>${themes.map(t => { const ct = counterFor(t.c, t.line, idx); return `<li><b>${escapeHtml(t.label)}:</b> ${escapeHtml(stripLeadingConj(compress(ct.claim || voiceFor(t.c, idx).impact, 32)))}</li>`; }).join('')}</ul>` : '',
+      `<p><b>Weigh:</b> ${escapeHtml(themes.slice(0, 2).map(t => voiceFor(t.c, idx).weigh).join(' ') || DEFAULT_VOICE.weigh)} Prefer us on probability — our harms are already happening — and reversibility.</p>`
     ].join('');
     return { html, themes, frontlines: front };
   }
 
+  function buildSummaryGeneric(roundLog, sideData, idx) {
+    const themes = oppThemes(roundLog, idx).slice(0, 3);
+    const attackText = (roundLog || []).filter(s => s.section !== 'opening').map(s => s.text).join(' ');
+    const front = attackText ? idx.search(attackText, { types: ['counter'], limit: 3 }).results.filter(r => r.score > 0.25) : [];
+    const html = [
+      `<p><b>Roadmap:</b> I'll extend our case, answer what they said, then weigh.</p>`,
+      `<p><b>Extend our case:</b> [your strongest contention + its evidence]</p>`,
+      front.length ? `<p><b>Their responses → our frontlines:</b></p><ul>${front.map(r => `<li><b>${escapeHtml(r.doc.head)}</b> → ${escapeHtml(compress(stripHtml(r.doc.item.html), 45))}</li>`).join('')}</ul>` : '',
+      themes.length ? `<p><b>Their case doesn't stand:</b></p><ul>${themes.map(t => { const ct = counterFor(t.c, t.line, idx); return `<li><b>${escapeHtml(t.label)}:</b> ${escapeHtml(compress(ct.claim || '[your answer]', 32))}</li>`; }).join('')}</ul>` : '',
+      `<p><b>Weigh:</b> ${escapeHtml(NEUTRAL_VOICE.weigh)}</p>`
+    ].join('');
+    return { html, themes, frontlines: front };
+  }
   function compress(s, maxWords) {
     const w = String(s).split(/\s+/);
     if (w.length <= maxWords) return s;
