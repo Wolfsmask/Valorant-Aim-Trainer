@@ -1,0 +1,27 @@
+[
+ {
+  "title": "Rebuttal evidence drawer label: quotes are summaries, not verbatim",
+  "find": "📜 Verbatim Source Evidence (\"Call for the Card\")",
+  "replace": "📜 Source Evidence (\"Call for the Card\") — summary; cut the exact quote from the link"
+ },
+ {
+  "title": "Source Cards copy button label",
+  "find": "📋 Copy Verbatim Card",
+  "replace": "📋 Copy Card"
+ },
+ {
+  "title": "Source Cards evidence label",
+  "find": "📜 Verbatim Cut-Card Quote (\"Call for the Card\")",
+  "replace": "📜 What the Source Says (summary — cut the exact quote from the link)"
+ },
+ {
+  "title": "Copied card text label",
+  "find": "\\nVerbatim Quote: ${card.verbatim || card.takeaway}",
+  "replace": "\\nWhat the source says (summary): ${card.verbatim || card.takeaway}"
+ },
+ {
+  "title": "Setup screen: SIPRI totals are overall spending, not conventional-only",
+  "find": "8.3-to-1 conventional edge",
+  "replace": "8.3-to-1 spending edge"
+ }
+]

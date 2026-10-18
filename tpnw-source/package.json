@@ -1,0 +1,12 @@
+{
+  "name": "tpnw-app-build",
+  "private": true,
+  "description": "Builds ../tpnw.html (offline, fact-corrected) from gemini-original.html",
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "devDependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/lora": "5.3.0",
+    "tailwindcss": "3.4.17"
+  }
+}
