@@ -1,8 +1,13 @@
 [
  {
-  "title": "Rebuttal evidence drawer label: quotes are summaries, not verbatim",
-  "find": "📜 Verbatim Source Evidence (\"Call for the Card\")",
-  "replace": "📜 Source Evidence (\"Call for the Card\") — summary; cut the exact quote from the link"
+  "title": "Copied card text: say which parts are exact",
+  "find": "\\nVerbatim Quote: ${card.verbatim || card.takeaway}",
+  "replace": "\\nCard text (words in quotation marks are exact; the rest is a summary): ${card.verbatim || card.takeaway}"
+ },
+ {
+  "title": "Rebuttal card drawer: neutral label",
+  "find": "📜 Verbatim Card (${escapeHtml(linkedCards[0].short)})",
+  "replace": "📜 Source Card (${escapeHtml(linkedCards[0].short)})"
  },
  {
   "title": "Source Cards copy button label",
@@ -10,14 +15,9 @@
   "replace": "📋 Copy Card"
  },
  {
-  "title": "Source Cards evidence label",
+  "title": "Source Cards text label: exact vs summary",
   "find": "📜 Verbatim Cut-Card Quote (\"Call for the Card\")",
-  "replace": "📜 What the Source Says (summary — cut the exact quote from the link)"
- },
- {
-  "title": "Copied card text label",
-  "find": "\\nVerbatim Quote: ${card.verbatim || card.takeaway}",
-  "replace": "\\nWhat the source says (summary): ${card.verbatim || card.takeaway}"
+  "replace": "📜 Card Text — words in quotation marks are exact; the rest is a summary"
  },
  {
   "title": "Setup screen: SIPRI totals are overall spending, not conventional-only",

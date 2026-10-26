@@ -4,7 +4,7 @@ Offline apps for **Public Forum** debate. Each one is a single `.html` file: no 
 
 | File | Topic | Notes |
 |---|---|---|
-| **`tpnw.html`** | **Nov/Dec 2026**: *Resolved: European members of NATO should ratify the Treaty on the Prohibition of Nuclear Weapons.* | Gemini's design, kept exactly. Every fact was checked, PRO and CON, and the bugs were fixed. |
+| **`tpnw.html`** | **Nov/Dec 2026**: *Resolved: European members of NATO should ratify the Treaty on the Prohibition of Nuclear Weapons.* | Gemini's v3 design, kept exactly. Every fact on PRO and CON was checked and corrected; it works offline. |
 | `index.html` | Sept/Oct 2026: *Resolved: The United States federal government should enact a moratorium on hyperscale data center construction.* | Step-by-step round guide (PRO). |
 
 ## How to open either app
@@ -20,18 +20,18 @@ Your edits save automatically in that browser on that computer.
 
 ## `tpnw.html`: NATO & TPNW (Nov/Dec)
 
+This is Gemini's latest version (v3), with the same design and features. Only the facts were corrected, plus a few needed fixes.
+
 1. **Setup:** pick PRO or CON and whether you speak first or second, then **Launch**.
-2. The round goes one step at a time, each with its own timer. Press **Space** to start or pause the clock and **[** / **]** to move between steps.
-   - **Constructive:** your case, big and readable. Tap a paragraph when you finish it.
-   - **Opponent speeches:** type what they say. The matching rebuttals jump to the top. Press **⌘/Ctrl+Enter** to log a quote with its time.
-   - **Crossfire:** type their question to get the best answer instantly. If nothing matches exactly, it shows the **closest answer**, so check that it fits. Your own questions to ask are on the right.
-   - **Summary / Grand Crossfire / Final Focus:** an editable script with your dropped and extended arguments ready to insert.
-3. **🗂 Source Cards** has the source for every card. If an opponent **calls for a card**, show the link and the citation. The card text is a **summary** unless it's in quotation marks, so cut the exact quote from the source before the tournament.
-4. **↺ Reset Round** between rounds. It clears the logged quotes, card statuses and closing edits.
+2. The round follows all **11 PF steps**, one at a time, each with its own timer: case, crossfires, rebuttals, summaries, grand crossfire and final focus ("voter speech").
+   - **Opponent speeches:** type what they say, even in shorthand. The counter that answers their **specific** claim jumps to the top. If a general trigger word pointed at the wrong card, it switches to the right one.
+   - **Crossfire:** type their question to get the best answer instantly. If nothing matches exactly, it shows the **closest answer** ("Closest Answer — check it fits").
+3. **🗂 Source Cards** has a card for every source the app cites. Words in quotation marks are exact quotes; everything else is a summary. Cut the full card from the link before the tournament.
+4. **↺ Reset Round** between rounds.
 
-**What changed from the Gemini version:** see [`tpnw-source/FACT-CHANGES.md`](tpnw-source/FACT-CHANGES.md) for every fact that was corrected, with the reason and the source.
+**What changed from Gemini's version:** see [`tpnw-source/FACT-CHANGES.md`](tpnw-source/FACT-CHANGES.md) for every correction, with the reason and the source.
 
-If you used the old Gemini file in the same browser, any card you **edited yourself** keeps your version, including any old numbers in it. Click **↺ Reset** on that card to get the corrected text.
+If you used Gemini's file in the same browser, any card you **edited yourself** keeps your version, including any old numbers in it. Click **↺ Reset** on that card to get the corrected text.
 
 ---
 
@@ -57,5 +57,5 @@ NSDA rules ban getting outside help during a round, and some state associations 
 |---|---|
 | `tpnw.html` | The Nov/Dec app. |
 | `index.html` | The Sept/Oct app. |
-| `tpnw-source/` | Builds `tpnw.html` from Gemini's original: fact edits, code fixes, offline fonts and styles. Run `cd tpnw-source && npm install && node build.mjs`. |
+| `tpnw-source/` | Builds `tpnw.html` from Gemini's original (`gemini-original.html`) using the corrected data (`fact-data.json`), code fixes and offline fonts/styles. Run `cd tpnw-source && npm install && node build.mjs`. |
 | `source/` | Builds `index.html`. Run `cd source && node build.mjs --out=../index.html`. |

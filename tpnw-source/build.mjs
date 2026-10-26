@@ -1,18 +1,20 @@
 // Build the offline, fact-corrected TPNW app from Gemini's original HTML.
 // Rebuild: cd tpnw-source && npm install && node build.mjs
-// (defaults: gemini-original.html -> ../tpnw.html using fact-edits.json, code-fixes.json, label-fixes.json)
+// (defaults: gemini-original.html -> ../tpnw.html using fact-data.json, code-fixes.json, label-fixes.json)
 import fs from 'fs'; import path from 'path'; import { execSync } from 'child_process';
 const HERE = path.dirname(new URL(import.meta.url).pathname);
 const arg = (i, d) => process.argv[i] || path.join(HERE, d);
-const [SRC, OUT, EDITS, FIXES, LABELS] = [arg(2, 'gemini-original.html'), arg(3, '../tpnw.html'), arg(4, 'fact-edits.json'), arg(5, 'code-fixes.json'), arg(6, 'label-fixes.json')];
+const [SRC, OUT, EDITS, FIXES, LABELS] = [arg(2, 'gemini-original.html'), arg(3, '../tpnw.html'), arg(4, 'fact-data.json'), arg(5, 'code-fixes.json'), arg(6, 'label-fixes.json')];
 const TW = HERE;
 let html = fs.readFileSync(SRC, 'utf8');
 const report = { dataEdits: 0, dataEditsFailed: [], codeFixes: 0, codeFixesFailed: [], labels: 0 };
 
 /* ---------- 1. data edits ---------- */
-function blockRange(name, endMarker) {
+function blockRange(name) {
   const a = html.indexOf('const ' + name + ' = ') + ('const ' + name + ' = ').length;
-  const b = html.indexOf(endMarker, a);
+  // the block ends right before the next top-level declaration or section comment
+  const ends = ['\n    const ', '\n    let ', '\n    function ', '\n    // ===='].map(m => html.indexOf(m, a)).filter(i => i > 0);
+  const b = Math.min(...ends);
   const body = html.slice(a, b); const end = body.lastIndexOf('}') + 1;
   return [a, a + end];
 }
@@ -21,15 +23,22 @@ function getPath(obj, p) {
   let o = obj; for (let i = 0; i < parts.length - 1; i++) o = o[parts[i]];
   return { parent: o, key: parts[parts.length - 1] };
 }
-if (EDITS && fs.existsSync(EDITS)) {
-  const edits = JSON.parse(fs.readFileSync(EDITS, 'utf8'));
+const EDITS_JSON = EDITS && fs.existsSync(EDITS) ? JSON.parse(fs.readFileSync(EDITS, 'utf8')) : null;
+if (EDITS_JSON && !Array.isArray(EDITS_JSON) && EDITS_JSON.DEBATE_DATA) {
+  // full corrected data: replace the data blocks wholesale (JSON is valid JS)
+  for (const name of ['CLOSING_SNIPPETS', 'DEFAULT_CLOSING_SCRIPTS', 'DEBATE_DATA']) {
+    const [x, y] = blockRange(name); html = html.slice(0, x) + JSON.stringify(EDITS_JSON[name], null, 2) + html.slice(y);
+  }
+  report.dataEdits = 'full data file';
+} else if (EDITS_JSON) {
+  const edits = EDITS_JSON;
   // DEBATE_DATA is exact JSON.stringify(…,2) → parse, edit, re-serialize (zero diff elsewhere)
-  let [a, b] = blockRange('DEBATE_DATA', '// ====');
+  let [a, b] = blockRange('DEBATE_DATA');
   const D = JSON.parse(html.slice(a, b));
   // closing objects are JS literals → evaluate, edit, then replace string literals textually
   const lit = {};
-  for (const [name, endM] of [['DEFAULT_CLOSING_SCRIPTS', 'const CLOSING_SNIPPETS'], ['CLOSING_SNIPPETS', 'const state']]) {
-    const [x, y] = blockRange(name, endM); lit[name] = { src: html.slice(x, y), obj: eval('(' + html.slice(x, y) + ')') };
+  for (const name of ['DEFAULT_CLOSING_SCRIPTS', 'CLOSING_SNIPPETS']) {
+    const [x, y] = blockRange(name); lit[name] = { src: html.slice(x, y), obj: eval('(' + html.slice(x, y) + ')') };
   }
   for (const e of edits) {
     const root = e.path.startsWith('DEBATE_DATA') ? D : e.path.startsWith('DEFAULT_CLOSING_SCRIPTS') ? lit.DEFAULT_CLOSING_SCRIPTS.obj : e.path.startsWith('CLOSING_SNIPPETS') ? lit.CLOSING_SNIPPETS.obj : null;
@@ -47,10 +56,10 @@ if (EDITS && fs.existsSync(EDITS)) {
     report.dataEdits++;
   }
   // write back (do closing literals first: they come after DEBATE_DATA, so offsets of DEBATE_DATA unaffected)
-  for (const [name, endM] of [['CLOSING_SNIPPETS', 'const state'], ['DEFAULT_CLOSING_SCRIPTS', 'const CLOSING_SNIPPETS']]) {
-    const [x, y] = blockRange(name, endM); html = html.slice(0, x) + lit[name].src + html.slice(y);
+  for (const name of ['CLOSING_SNIPPETS', 'DEFAULT_CLOSING_SCRIPTS']) {
+    const [x, y] = blockRange(name); html = html.slice(0, x) + lit[name].src + html.slice(y);
   }
-  [a, b] = blockRange('DEBATE_DATA', '// ====');
+  [a, b] = blockRange('DEBATE_DATA');
   html = html.slice(0, a) + JSON.stringify(D, null, 2) + html.slice(b);
 }
 
