@@ -1,0 +1,783 @@
+{
+ "edits": [
+  {
+   "path": "DEBATE_DATA.CON.constructiveParagraphs[1]",
+   "find": "to ratify means to formally approve a treaty so it becomes legally binding national and international law",
+   "replace": "to ratify means to formally approve a treaty so the country becomes legally bound by it under international law",
+   "reason": "Ratification is a state's formal consent to be bound under international law; whether a treaty becomes national law depends on each country's constitution (dualist states like the UK need implementing legislation).",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.constructiveParagraphs[2]",
+   "find": "most on invulnerable continuous-at-sea ballistic missile submarines",
+   "replace": "most on survivable continuous-at-sea ballistic missile submarines",
+   "reason": "Van Hooft says the submarine-based weapons are 'highly likely to survive a first strike'; he does not call them invulnerable (earlier card fix).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.constructiveParagraphs[2]",
+   "find": "That is especially dangerous when, in 2025 video interviews, former CIA Directors John Brennan and Leon Panetta (Brennan and Panetta, 25) warned that President Trump does not have NATO's back—meaning",
+   "replace": "That is especially dangerous when former CIA Director John Brennan branded Washington's March 2025 intelligence freeze on Ukraine extortion (Brennan, 25) and President Trump said of NATO allies, 'If they don't pay, I'm not going to defend them' (AP, 25)—meaning",
+   "reason": "No source was found for Brennan or Panetta saying Trump 'does not have NATO's back' in 2025 video interviews. Brennan's verified March 2025 remarks (Times Radio, reported by Ukrainska Pravda/UNN) were about the Ukraine intelligence pause, which he called a pressure tactic and extortion; Panetta's Article 5 remarks were a BILD print interview in Aug 2026; Bjorn Beam's Dec 2025 Agenda Pública print interview never mentions Article 5 or Trump having NATO's back. Replaced with Brennan's verified remark plus Trump's own March 6, 2025 words (AP).",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/",
+    "https://unn.ua/en/news/threat-of-catastrophe-former-cia-chief-horrified-by-trumps-decision-to-stop-sharing-intelligence-with-ukraine",
+    "https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/",
+    "https://agendapublica.es/noticia/20507/former-cia-agent-explains-trump-logic-and-warns-that-europe-is-not-united",
+    "https://news.liga.net/en/war/news/former-us-secretary-of-defense-did-not-rule-out-russian-military-action-on-german-territory"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.constructiveParagraphs[3]",
+   "find": "testified in November 2025 that European militaries still face multi-year shortfalls in air defense and long-range strike munitions",
+   "replace": "testified in November 2025 that European militaries still lack enough air defense and long-range strike munitions",
+   "reason": "Jones's 17 Nov 2025 Helsinki Commission testimony says European militaries still lack enough short-range air defense, long-range fires, heavy ground forces and long-range precision strike munitions; 'multi-year' shortfalls/lags were not found (same fix as earlier rounds, canonical JON-1).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.csis.org/analysis/russian-nuclear-calibration-war-ukraine"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.constructiveParagraphs[4]",
+   "find": "keep expanding and modernizing their arsenals through state-run weapons complexes",
+   "replace": "keep modernizing their arsenals—China and North Korea are expanding them—through state-run weapons complexes",
+   "reason": "SIPRI Yearbook 2026 says Russian and US stockpiles 'appear to have stayed relatively stable in 2025' while modernizing; it is China ('expanding its nuclear arsenal faster than any other country') and North Korea that are expanding.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[1].response",
+   "find": "Our opponents treat an 8-to-1 conventional budget like a magic shield",
+   "replace": "Our opponents treat an 8-to-1 spending edge like a magic shield",
+   "reason": "SIPRI's 8.3-to-1 NATO/Russia ratio is total military spending, nuclear included, not 'conventional' (canonical SIPRI-2, recurring fix).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[4].response",
+   "find": "reaffirmed across all 32 allies in April 2026 (NAC, 26) that NATO will remain a nuclear alliance and the TPNW is incompatible with Alliance deterrence.",
+   "replace": "reaffirmed across all 32 allies in April 2026 (North Atlantic Council, 26) that NATO will remain a nuclear alliance, and NATO leaders call the TPNW 'inconsistent and incompatible with the Alliance's nuclear deterrence policy' (NATO, 23).",
+   "reason": "Neither the Dec 2020 nor the 20 April 2026 NAC statement says 'incompatible'; 2020 says the TPNW is 'at odds with the existing non-proliferation and disarmament architecture' and 2026 says it 'does not change the legal obligations on our countries'. The 'inconsistent and incompatible' wording is the 2023 Vilnius communiqué (NATO, 23 card). Tag spelled as the card: North Atlantic Council, 26.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/04/20/north-atlantic-council-statement-on-the-occasion-of-the-11th-review-conference-of-the-treaty-on-the-non-proliferation-of-nuclear-weapons",
+    "https://www.globalsecurity.org/military/library/news/2020/12/mil-201215-nato01.htm",
+    "https://www.icanw.org/nato_fails_to_reduce_nuclear_risks_at_vilnius_summit"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[4].response",
+   "find": "Finland repealed its statutory nuclear-hosting ban 125-to-61 in June 2026 (Defense News, 26)",
+   "replace": "Finland's parliament voted 125-to-61 in June 2026 to lift its legal nuclear-hosting ban (Euronews, 26)",
+   "reason": "The 125-61 vote was on 17 June 2026; the Defense News card is a March 9, 2026 article about the government's proposal and cannot report the June vote. Euronews (17 June 2026) reports the vote and that it 'repeals the national ban on the import, production, possession and detonation of nuclear explosives'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.euronews.com/my-europe/2026/06/17/finlands-parliament-passes-bill-in-support-of-lifting-total-ban-on-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[5].response",
+   "find": "patrol undetected beneath the ocean—invulnerable to a preemptive strike and ready to retaliate in minutes—yet",
+   "replace": "patrol hidden beneath the ocean—highly likely to survive a first strike and still retaliate (van Hooft, 25)—yet",
+   "reason": "False/overstated: since the 1998 Strategic Defence Review Britain's patrolling submarine has its missiles de-targeted and is 'normally at several days notice to fire', not minutes. Van Hooft says the submarines are 'highly likely to survive a first strike', not invulnerable.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://nuke.fas.org/guide/uk/doctrine/sdr98/chapt04.htm",
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[7].response",
+   "find": "NPT Article VI requires good-faith negotiations among nuclear powers—a process",
+   "replace": "NPT Article VI requires every party to pursue good-faith negotiations on nuclear disarmament—a process",
+   "reason": "Article VI binds 'Each of the Parties to the Treaty', not only nuclear powers, to pursue negotiations in good faith.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.un.org/disarmament/wmd/nuclear/npt/text/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[11].response",
+   "find": "at fraction-of-the-cost purchasing power;",
+   "replace": "at fraction-of-the-cost purchasing power (IISS, 25);",
+   "reason": "The PPP point needs its source: IISS Military Balance 2025 put Russia's 2024 PPP-adjusted spending at about $462bn, ahead of all of Europe (recurring fix: 'PPP comes from IISS, 25').",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://breakingdefense.com/2025/02/russia-overtakes-all-of-europe-on-defense-spending-in-key-metric-iiss-military-balance/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[11].response",
+   "find": "still face multi-year industrial lags in short-range air defense, long-range indirect fires, heavy armored brigades, and precision-strike munitions.",
+   "replace": "still lack enough short-range air defense, long-range indirect fires, heavy ground forces, and long-range precision strike munitions.",
+   "reason": "Jones's 17 Nov 2025 Helsinki Commission testimony says European militaries still lack enough short-range air defense, long-range fires, heavy ground forces and long-range precision strike munitions; 'multi-year' shortfalls/lags were not found (same fix as earlier rounds, canonical JON-1). 'Heavy armored brigades' is restored to his 'heavy ground forces'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.csis.org/analysis/russian-nuclear-calibration-war-ukraine"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[12].response",
+   "find": "yet real-world allied statements prove the opposite:",
+   "replace": "yet real-world allied statements point the other way:",
+   "reason": "Overstated: Tusk spoke of 'capabilities related to nuclear weapons' and South Korea debated options; neither proves an ally will build bombs (Tusk card is a summary; NYT noted he did not propose a Polish arsenal).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.japantimes.co.jp/news/2025/03/08/world/politics/trump-poland-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[14].response",
+   "find": "That is why zero inches of nuclear-armed NATO have been invaded in 77 years, whereas Ukraine gave up the Soviet nukes on its soil in 1994 and was invaded twice.",
+   "replace": "That is why zero inches of NATO territory covered by Article 5 have been invaded in 77 years, whereas Ukraine agreed in 1994 to give up the Soviet nukes on its soil and was invaded twice.",
+   "reason": "'Nuclear-armed NATO territory' invites the 1982 Falklands rebuttal; canonical wording is 'NATO territory covered by Article 5' (MISC-3). Ukraine agreed in 1994 (Budapest Memorandum) to give up the Soviet warheads; the last left in June 1996 (canonical MISC-1).",
+   "severity": "major",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[15].response",
+   "find": "Because nuclear weapons make the cost of invading NATO infinite (NATO Strategic Concept, 22), Russia has never dared attack a single NATO ally in 77 years.",
+   "replace": "Because NATO's nuclear forces can impose costs 'that would be unacceptable to an adversary' (NATO Strategic Concept, 22), Russia has never dared invade a single NATO ally in 77 years.",
+   "reason": "NATO's text says it can impose costs 'that would be unacceptable to an adversary'; it never says 'infinite'. 'Never dared attack' contradicts the case's own Jones evidence of Russian sabotage attacks (and the Sept 2025 drone incursion into Poland); 'invade' is accurate.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[16].response",
+   "find": "emit zero radiation into European water, sinks, or food",
+   "replace": "leak no radiation into European water, sinks, or food",
+   "reason": "Kristensen, 15 says nothing about radiation; stored weapons do emit trace radiation, so 'emit zero radiation' is physically wrong, while 'leak no radiation into water/food' is defensible. AP: officials said the 2009 crash did not 'cause radiation to leak'. Lewis, 14 (a PRO card) treats the collision as a cause for concern and does not confirm no radiation, so it is removed.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.military.com/defensetech/2015/09/10/us-upgrades-nuclear-weapon-sites-in-europe-report"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[16].response",
+   "find": "the Royal Navy confirmed zero radiation was released (Band, 09; Lewis, 14).",
+   "replace": "officials confirmed no radiation leaked (Band, 09).",
+   "reason": "Kristensen, 15 says nothing about radiation; stored weapons do emit trace radiation, so 'emit zero radiation' is physically wrong, while 'leak no radiation into water/food' is defensible. AP: officials said the 2009 crash did not 'cause radiation to leak'. Lewis, 14 (a PRO card) treats the collision as a cause for concern and does not confirm no radiation, so it is removed.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.foxnews.com/story/french-british-nuclear-submarines-collide-in-atlantic",
+    "https://www.spokesman.com/stories/2009/feb/17/british-french-nuclear-subs-collide"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[17].response",
+   "find": "exactly as Ukraine discovered after giving up the Soviet nuclear weapons on its soil in 1994",
+   "replace": "exactly as Ukraine discovered after agreeing in 1994 to give up the Soviet nuclear weapons on its soil",
+   "reason": "Ukraine agreed in 1994 (Budapest Memorandum) to give up the Soviet warheads; the last left in June 1996 (canonical MISC-1).",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[17].response",
+   "find": "confirms Russia and China continue expanding and modernizing their arsenals regardless",
+   "replace": "confirms Russia keeps modernizing and China keeps rapidly expanding its arsenal regardless",
+   "reason": "SIPRI Yearbook 2026 says Russian and US stockpiles 'appear to have stayed relatively stable in 2025' while modernizing; it is China ('expanding its nuclear arsenal faster than any other country') and North Korea that are expanding.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[18].chipLabel",
+   "find": "19. 2025 CIA Video: Trump Doesn't Have NATO's Back",
+   "replace": "19. Ex-CIA Chief & Trump: US Guarantee in Doubt",
+   "reason": "No source was found for Brennan or Panetta saying Trump 'does not have NATO's back' in 2025 video interviews. Brennan's verified March 2025 remarks (Times Radio, reported by Ukrainska Pravda/UNN) were about the Ukraine intelligence pause, which he called a pressure tactic and extortion; Panetta's Article 5 remarks were a BILD print interview in Aug 2026; Bjorn Beam's Dec 2025 Agenda Pública print interview never mentions Article 5 or Trump having NATO's back. Replaced with Brennan's verified remark plus Trump's own March 6, 2025 words (AP).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/",
+    "https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[18].trigger",
+   "find": "the 2025 former CIA agent/director video showing Trump does not have NATO's back",
+   "replace": "the 2025 former CIA director evidence that the US guarantee is in doubt",
+   "reason": "No source was found for Brennan or Panetta saying Trump 'does not have NATO's back' in 2025 video interviews. Brennan's verified March 2025 remarks (Times Radio, reported by Ukrainska Pravda/UNN) were about the Ukraine intelligence pause, which he called a pressure tactic and extortion; Panetta's Article 5 remarks were a BILD print interview in Aug 2026; Bjorn Beam's Dec 2025 Agenda Pública print interview never mentions Article 5 or Trump having NATO's back. Replaced with Brennan's verified remark plus Trump's own March 6, 2025 words (AP).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/",
+    "https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[18].response",
+   "find": "In 2025 video interviews, former CIA officials—including former CIA Directors John Brennan and Leon Panetta (Brennan and Panetta, 25) and former CIA officer Bjorn Beam—warned that President Trump does not have NATO's back, pointing to Washington's March 2025 freeze on intelligence sharing and military aid to Ukraine and threats to treat Article 5 as conditional.",
+   "replace": "In a March 2025 Times Radio interview, former CIA Director John Brennan called Washington's freeze on intelligence sharing with Ukraine a pressure tactic and extortion (Brennan, 25), and that same week President Trump said of NATO allies, 'If they don't pay, I'm not going to defend them' (AP, 25)—treating Article 5 as conditional.",
+   "reason": "No source was found for Brennan or Panetta saying Trump 'does not have NATO's back' in 2025 video interviews. Brennan's verified March 2025 remarks (Times Radio, reported by Ukrainska Pravda/UNN) were about the Ukraine intelligence pause, which he called a pressure tactic and extortion; Panetta's Article 5 remarks were a BILD print interview in Aug 2026; Bjorn Beam's Dec 2025 Agenda Pública print interview never mentions Article 5 or Trump having NATO's back. Replaced with Brennan's verified remark plus Trump's own March 6, 2025 words (AP).",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/",
+    "https://unn.ua/en/news/threat-of-catastrophe-former-cia-chief-horrified-by-trumps-decision-to-stop-sharing-intelligence-with-ukraine",
+    "https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/",
+    "https://agendapublica.es/noticia/20507/former-cia-agent-explains-trump-logic-and-warns-that-europe-is-not-united",
+    "https://news.liga.net/en/war/news/former-us-secretary-of-defense-did-not-rule-out-russian-military-action-on-german-territory"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[18].response",
+   "find": "destroy all 515 of their sovereign submarine warheads (van Hooft, 25 at RAND; Horschig and Chevreuil, 25 at CSIS)",
+   "replace": "destroy all 515 of their sovereign warheads, most on submarines (van Hooft, 25 at RAND; Horschig, 25 at CSIS)",
+   "reason": "About 50 of France's 290 warheads are air-launched (ASMPA), so not all 515 are submarine warheads (canonical VH-4). Tag matches the existing card 'Horschig, 25'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[18].citation",
+   "find": "Brennan & Panetta, 25 (Former CIA), van Hooft, 25 (RAND) & Horschig, 25 (CSIS)",
+   "replace": "Brennan, 25, AP, 25, van Hooft, 25 (RAND) & Horschig, 25 (CSIS)",
+   "reason": "No source was found for Brennan or Panetta saying Trump 'does not have NATO's back' in 2025 video interviews. Brennan's verified March 2025 remarks (Times Radio, reported by Ukrainska Pravda/UNN) were about the Ukraine intelligence pause, which he called a pressure tactic and extortion; Panetta's Article 5 remarks were a BILD print interview in Aug 2026; Bjorn Beam's Dec 2025 Agenda Pública print interview never mentions Article 5 or Trump having NATO's back. Replaced with Brennan's verified remark plus Trump's own March 6, 2025 words (AP).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/",
+    "https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[19].response",
+   "find": "NATO's B61 warheads sit de-mated inside underground WS3 vaults behind coded Permissive Action Links (Kristensen, 15), and British and French submarines patrol with their missiles de-targeted in peacetime (Band, 09). Every false-alarm scare they cite happened inside Soviet or Russian radar networks",
+   "replace": "NATO's B61 warheads sit de-mated inside underground WS3 vaults (Kristensen, 15) behind coded Permissive Action Links, and Britain's patrolling submarine keeps its missiles de-targeted at several days' notice to fire (UK MoD, 98). The most famous false alarms—Petrov in 1983 and the 1995 Norwegian rocket—happened inside Soviet or Russian early-warning networks",
+   "reason": "Kristensen, 15 documents the underground vaults, not PALs (PALs are the standard sharing arrangement), so the tag moves. Band, 09 is the collision report and says nothing about de-targeting; the de-targeting/'several days notice to fire' posture is from the UK's 1998 Strategic Defence Review (French de-targeting not confirmed, so dropped). 'Every' false alarm being Soviet/Russian is false: the 1979 and 1980 NORAD false alarms were American.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.military.com/defensetech/2015/09/10/us-upgrades-nuclear-weapon-sites-in-europe-report",
+    "https://nuke.fas.org/guide/uk/doctrine/sdr98/chapt04.htm"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[19].citation",
+   "find": "Kristensen, 15 (FAS) & Band, 09",
+   "replace": "Kristensen, 15 (FAS) & UK MoD, 98",
+   "reason": "Matches the corrected response: de-targeting comes from the UK 1998 Strategic Defence Review, not Band, 09.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://nuke.fas.org/guide/uk/doctrine/sdr98/chapt04.htm"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[21].response",
+   "find": "NATO's nuclear posture costs less than 3 percent of NATO's total defense spending (SIPRI, 26), whereas replacing the US and Anglo-French nuclear shield with enough conventional divisions and missile-defense interceptors to match Russia would cost European taxpayers hundreds of billions of euros more every single year (van Hooft, 25 at RAND)—and as Jones, 25 at CSIS testified, those conventional factories take years to build.",
+   "replace": "the US, Britain, and France spent about 90 billion dollars on nuclear weapons in 2025 (ICAN, 26)—under 6 percent of NATO's 1.58 trillion dollars in military spending (SIPRI, 26)—whereas just replacing US conventional forces in Europe would cost about 250 billion euros more every single year (Bruegel, 25)—and Jones, 25 at CSIS testified Europe still lacks enough air defense and precision strike munitions, gaps that take years to close.",
+   "reason": "'Less than 3 percent' is false and SIPRI has no nuclear breakdown: ICAN 2026 gives US $69.2bn, UK $12.6bn, France $7.7bn (≈$89.5bn) vs SIPRI's $1,581bn NATO total (≈5.7%). Van Hooft gives no replacement cost; the citable estimate is Bruegel/Kiel (Feb 2025): about €250bn more a year to replace US forces (it excludes nuclear deterrence). Jones never said 'factories take years'; that is the debater's warrant (earlier CD 12 fix).",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://assets.nationbuilder.com/ican/pages/13703/attachments/original/1780950756/ICAN_Spending_Report_2026_web.pdf",
+    "https://www.icanw.org/global_spending_on_nuclear_weapons_increased_19_in_2025_to_reach_its_highest_recorded_level_at_118_8_billion",
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge",
+    "https://www.bruegel.org/analysis/defending-europe-without-us-first-estimates-what-needed",
+    "https://www.csis.org/analysis/russian-nuclear-calibration-war-ukraine"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[21].citation",
+   "find": "SIPRI, 26, van Hooft, 25 (RAND) & Jones, 25 (CSIS)",
+   "replace": "ICAN, 26, SIPRI, 26, Bruegel, 25 & Jones, 25 (CSIS)",
+   "reason": "Matches the corrected response's sources.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://assets.nationbuilder.com/ican/pages/13703/attachments/original/1780950756/ICAN_Spending_Report_2026_web.pdf",
+    "https://www.bruegel.org/analysis/defending-europe-without-us-first-estimates-what-needed"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[22].response",
+   "find": "Not a single one of the countries that ratified the TPNW shares a border with Vladimir Putin's 4,400 nuclear warheads (Kristensen, 26)",
+   "replace": "Not a single European country that borders Vladimir Putin's 4,400 nuclear warheads (Kristensen, 26) has ratified the TPNW",
+   "reason": "False: Kazakhstan shares Russia's longest land border and has been a TPNW state party since 2019 (same fix as earlier crossfire Q31). No European neighbour of Russia is a party.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.icanw.org/kazakhstan"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[22].response",
+   "find": "abandoned decades of neutrality",
+   "replace": "abandoned decades of military non-alignment",
+   "reason": "Since joining the EU both described themselves as militarily non-aligned rather than neutral.",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[22].response",
+   "find": "to repeal its legal ban on hosting nuclear weapons (Defense News, 26).",
+   "replace": "to repeal its legal ban on hosting nuclear weapons (Euronews, 26).",
+   "reason": "The 125-61 vote was on 17 June 2026; the Defense News card is a March 9, 2026 article about the government's proposal and cannot report the June vote. Euronews (17 June 2026) reports the vote and that it 'repeals the national ban on the import, production, possession and detonation of nuclear explosives'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.euronews.com/my-europe/2026/06/17/finlands-parliament-passes-bill-in-support-of-lifting-total-ban-on-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[22].citation",
+   "find": "North Atlantic Council, 26 & Defense News, 26",
+   "replace": "Kristensen, 26, North Atlantic Council, 26 & Euronews, 26",
+   "reason": "The 125-61 vote was on 17 June 2026; the Defense News card is a March 9, 2026 article about the government's proposal and cannot report the June vote. Euronews (17 June 2026) reports the vote and that it 'repeals the national ban on the import, production, possession and detonation of nuclear explosives'.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.euronews.com/my-europe/2026/06/17/finlands-parliament-passes-bill-in-support-of-lifting-total-ban-on-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[23].response",
+   "find": "when Ukraine gave up the Soviet nuclear warheads on its soil in 1994,",
+   "replace": "when Ukraine agreed in 1994 to give up the Soviet nuclear warheads on its soil,",
+   "reason": "Ukraine agreed in 1994 (Budapest Memorandum) to give up the Soviet warheads; the last left in June 1996 (canonical MISC-1).",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[23].response",
+   "find": "As the North Atlantic Council, 20 declared, a world where only ruthless dictatorships possess nuclear weapons is neither moral nor safe.",
+   "replace": "As the North Atlantic Council, 20 declared, a world where the states that challenge the international rules-based order have nuclear weapons, but NATO does not, is not a safer world.",
+   "reason": "Misquote: the NAC never said 'neither moral nor safe' or 'ruthless dictatorships'; exact wording restored (canonical NAC-2).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.globalsecurity.org/military/library/news/2020/12/mil-201215-nato01.htm"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[24].response",
+   "find": "NATO's nuclear command-and-control systems are hardware air-gapped from the internet and require physical dual-key human authorization inside underground WS3 vaults (Kristensen, 15).",
+   "replace": "NATO's B61s sit in underground WS3 vaults (Kristensen, 15), stay in US custody behind coded Permissive Action Links, and can only be used after a Nuclear Planning Group decision plus sign-off from the US President and the host government.",
+   "reason": "'Air-gapped' was removed in earlier rounds as unsourced, and Kristensen, 15 documents only the vaults, not command-and-control design. Release procedure restored to the verified wording (NPG decision plus US and host-nation sign-off).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.military.com/defensetech/2015/09/10/us-upgrades-nuclear-weapon-sites-in-europe-report",
+    "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[25].response",
+   "find": "Russian war plans already target major NATO conventional airfields, ports, and command hubs like Ramstein—which hosts zero nuclear weapons (Sweeney, 20). The only reason Russia has never fired a single missile at any NATO base in 77 years is the certainty of NATO nuclear retaliation (NATO Strategic Concept, 22);",
+   "replace": "Moscow already names non-nuclear NATO sites as priority targets—like the US missile-defense base at Redzikowo, Poland (Zakharova, 24)—and hubs like Ramstein hold no US nuclear bombs at all. Russia has never fired a missile at a NATO base in 77 years because NATO can impose costs 'that would be unacceptable to an adversary' (NATO Strategic Concept, 22);",
+   "reason": "Sweeney, 20 does not discuss Russian targeting of Ramstein; the citable fact is Zakharova's Nov 2024 naming of Redzikowo (no nukes) as a priority target. NATO's text does not say nuclear retaliation is 'the only reason'; its actual wording is quoted instead.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://pap.pl/en/news/russia-issues-warnings-us-missile-base-poland",
+    "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[25].citation",
+   "find": "NATO Strategic Concept, 22 & Sweeney, 20",
+   "replace": "NATO Strategic Concept, 22 & Zakharova, 24",
+   "reason": "Matches the corrected response.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://pap.pl/en/news/russia-issues-warnings-us-missile-base-poland"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[26].response",
+   "find": "NATO cut its European nuclear weapons by over 90 percent after the Cold War, and Ukraine gave up 100 percent of the Soviet nuclear weapons on its soil in 1994.",
+   "replace": "NATO cut its land-based nuclear stockpile by over 90 percent after the Cold War (NATO Strategic Concept, 22), and Ukraine agreed in 1994 to give up 100 percent of the Soviet nuclear weapons on its soil.",
+   "reason": "NATO's page says it 'has reduced the size of its land-based nuclear weapons stockpile by over 90 per cent' (now tagged to that card). Ukraine agreed in 1994 (Budapest Memorandum) to give up the Soviet warheads; the last left in June 1996 (canonical MISC-1).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[26].response",
+   "find": "and expanding Russia's nuclear arsenal (SIPRI Yearbook, 26).",
+   "replace": "and modernizing Russia's nuclear arsenal (SIPRI Yearbook, 26).",
+   "reason": "SIPRI Yearbook 2026 says Russian and US stockpiles 'appear to have stayed relatively stable in 2025' while modernizing; it is China ('expanding its nuclear arsenal faster than any other country') and North Korea that are expanding.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[26].citation",
+   "find": "SIPRI Yearbook, 26 & AP, 23",
+   "replace": "NATO Strategic Concept, 22, SIPRI Yearbook, 26 & AP, 23",
+   "reason": "Adds the source for the 90 percent reduction.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[27].response",
+   "find": "to repeal its ban on hosting nuclear weapons (Defense News, 26).",
+   "replace": "to repeal its ban on hosting nuclear weapons (Euronews, 26).",
+   "reason": "The 125-61 vote was on 17 June 2026; the Defense News card is a March 9, 2026 article about the government's proposal and cannot report the June vote. Euronews (17 June 2026) reports the vote and that it 'repeals the national ban on the import, production, possession and detonation of nuclear explosives'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.euronews.com/my-europe/2026/06/17/finlands-parliament-passes-bill-in-support-of-lifting-total-ban-on-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[27].citation",
+   "find": "North Atlantic Council, 26, Tusk, 25 & Defense News, 26",
+   "replace": "North Atlantic Council, 26, Tusk, 25 & Euronews, 26",
+   "reason": "The 125-61 vote was on 17 June 2026; the Defense News card is a March 9, 2026 article about the government's proposal and cannot report the June vote. Euronews (17 June 2026) reports the vote and that it 'repeals the national ban on the import, production, possession and detonation of nuclear explosives'.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.euronews.com/my-europe/2026/06/17/finlands-parliament-passes-bill-in-support-of-lifting-total-ban-on-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[28].response",
+   "find": "Article 17(2) requires a 12-month waiting period before withdrawal takes effect and explicitly forbids any country from withdrawing while engaged in an armed conflict! That means the moment Russia attacks a NATO ally, European states are legally locked into the TPNW and barred from restoring nuclear deterrence—and once Britain and France dismantle their nuclear submarines under Article 4, rebuilding them would take decades anyway.",
+   "replace": "Article 17(3) requires a 12-month wait before withdrawal takes effect—and if a country is in an armed conflict when that year ends, it stays legally bound until the war is over! That means if Russia attacks a NATO ally, European states stay legally locked into the TPNW and barred from restoring nuclear deterrence until the fighting stops—and once Britain and France destroy their warheads under Article 4, rebuilding a deterrent would take many years anyway.",
+   "reason": "Reintroduced error: Article 17(3) delays withdrawal (12 months, then bound until the armed conflict ends); it does not forbid withdrawing, and the rule is in 17(3), not 17(2) (canonical ART17). Article 4 covers warheads and weapons facilities, not submarines explicitly; 'decades' is unsourced.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://treaties.un.org/doc/Treaties/2017/07/20170707%2003-42%20PM/Ch_XXVI_9.pdf"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.rebuttals[28].citation",
+   "find": "Hill, 21 (Chatham House) & van Hooft, 25 (RAND Europe)",
+   "replace": "TPNW Art. 17 & Art. 4",
+   "reason": "The response rests only on the treaty text; neither Hill nor van Hooft makes these Article 17 points.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://treaties.un.org/doc/Treaties/2017/07/20170707%2003-42%20PM/Ch_XXVI_9.pdf"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[45].coreAnswer",
+   "find": "That is why zero inches of nuclear-armed NATO territory have been invaded in 77 years, whereas Ukraine gave up the Soviet nukes on its soil in 1994 and was invaded twice.",
+   "replace": "That is why zero inches of NATO territory covered by Article 5 have been invaded in 77 years, whereas Ukraine agreed in 1994 to give up the Soviet nukes on its soil and was invaded twice.",
+   "reason": "'Nuclear-armed NATO territory' invites the 1982 Falklands rebuttal; canonical wording is 'NATO territory covered by Article 5' (MISC-3). Ukraine agreed in 1994 (Budapest Memorandum) to give up the Soviet warheads; the last left in June 1996 (canonical MISC-1).",
+   "severity": "major",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[46].coreAnswer",
+   "find": "Because nuclear weapons make the cost of invading NATO infinite (NATO Strategic Concept, 22), Russia has never dared attack a single NATO ally in 77 years.",
+   "replace": "Because NATO's nuclear forces can impose costs 'that would be unacceptable to an adversary' (NATO Strategic Concept, 22), Russia has never dared invade a single NATO ally in 77 years.",
+   "reason": "NATO's text says 'unacceptable', never 'infinite'; 'never dared attack' contradicts the case's own sabotage evidence, 'invade' is accurate.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[47].coreAnswer",
+   "find": "emit zero radiation into European water, kitchen sinks, or food in fridges",
+   "replace": "leak no radiation into European water, kitchen sinks, or food in fridges",
+   "reason": "Kristensen, 15 says nothing about radiation; stored weapons do emit trace radiation, so 'emit zero radiation' is physically wrong, while 'leak no radiation into water/food' is defensible. AP: officials said the 2009 crash did not 'cause radiation to leak'. Lewis, 14 (a PRO card) treats the collision as a cause for concern and does not confirm no radiation, so it is removed.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.military.com/defensetech/2015/09/10/us-upgrades-nuclear-weapon-sites-in-europe-report"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[47].coreAnswer",
+   "find": "the Royal Navy confirmed zero radiation was released (Band, 09; Lewis, 14).",
+   "replace": "officials confirmed no radiation leaked (Band, 09).",
+   "reason": "Kristensen, 15 says nothing about radiation; stored weapons do emit trace radiation, so 'emit zero radiation' is physically wrong, while 'leak no radiation into water/food' is defensible. AP: officials said the 2009 crash did not 'cause radiation to leak'. Lewis, 14 (a PRO card) treats the collision as a cause for concern and does not confirm no radiation, so it is removed.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.foxnews.com/story/french-british-nuclear-submarines-collide-in-atlantic",
+    "https://www.spokesman.com/stories/2009/feb/17/british-french-nuclear-subs-collide"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[48].coreAnswer",
+   "find": "just like Ukraine after giving up the Soviet nuclear warheads on its soil in 1994.",
+   "replace": "just like Ukraine after agreeing in 1994 to give up the Soviet nuclear warheads on its soil.",
+   "reason": "Ukraine agreed in 1994 (Budapest Memorandum) to give up the Soviet warheads; the last left in June 1996 (canonical MISC-1).",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[48].coreAnswer",
+   "find": "confirms Russia and China continue expanding their nuclear arsenals regardless",
+   "replace": "confirms Russia keeps modernizing and China keeps expanding its nuclear arsenal regardless",
+   "reason": "SIPRI Yearbook 2026 says Russian and US stockpiles 'appear to have stayed relatively stable in 2025' while modernizing; it is China ('expanding its nuclear arsenal faster than any other country') and North Korea that are expanding.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[50].coreAnswer",
+   "find": "sit de-mated inside underground WS3 vaults behind coded Permissive Action Links (Kristensen, 15)",
+   "replace": "sit de-mated inside underground WS3 vaults (Kristensen, 15) behind coded Permissive Action Links",
+   "reason": "Kristensen, 15 documents the vaults, not PALs, so the tag moves next to what it supports.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.military.com/defensetech/2015/09/10/us-upgrades-nuclear-weapon-sites-in-europe-report"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[51].coreAnswer",
+   "find": "to Ukraine giving up the Soviet nuclear warheads on its soil in 1994",
+   "replace": "to Ukraine agreeing in 1994 to give up the Soviet nuclear warheads on its soil",
+   "reason": "Ukraine agreed in 1994 (Budapest Memorandum) to give up the Soviet warheads; the last left in June 1996 (canonical MISC-1).",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[51].coreAnswer",
+   "find": "As all 32 NATO allies declared in the North Atlantic Council, 20 statement, a world where revisionist autocracies keep nuclear weapons while NATO disarms is a recipe for aggression, not peace.",
+   "replace": "As all 30 NATO allies at the time declared (North Atlantic Council, 20), a world where the states that challenge the international rules-based order have nuclear weapons, but NATO does not, is not a safer world.",
+   "reason": "NATO had 30 members in Dec 2020 (canonical NAC-3), and the NAC never said 'a recipe for aggression'; exact wording restored (NAC-2).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.globalsecurity.org/military/library/news/2020/12/mil-201215-nato01.htm"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[52].coreAnswer",
+   "find": "On Kahn and Schelling's escalation ladder",
+   "replace": "On Herman Kahn's escalation ladder",
+   "reason": "The escalation ladder is Herman Kahn's (On Escalation, 1965); Schelling did not devise it.",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[53].coreAnswer",
+   "find": "confirms Russia, China, and North Korea are actively expanding and modernizing their nuclear arsenals five years after the TPNW entered into force, and even European states like Finland and Poland are moving away from the Ottawa Landmine Treaty on Russia's border",
+   "replace": "confirms Russia is modernizing while China and North Korea are actively expanding their nuclear arsenals five years after the TPNW entered into force, and Finland and Poland have already quit the Ottawa landmine ban on Russia's border (Abramson, 26)",
+   "reason": "SIPRI Yearbook 2026 says Russian and US stockpiles 'appear to have stayed relatively stable in 2025' while modernizing; it is China ('expanding its nuclear arsenal faster than any other country') and North Korea that are expanding. Ottawa: Finland's withdrawal took effect 10 Jan 2026 and Poland's in early 2026 (notices deposited June–Aug 2025), so they have left, not 'are moving away'; sourced to Arms Control Today.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now",
+    "https://www.armscontrol.org/node/15044",
+    "https://valtioneuvosto.fi/en/-/236553176/finland-s-withdrawal-from-ottawa-convention-to-take-effect"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[54].chip",
+   "find": "55. 2025 CIA Video: Trump & NATO",
+   "replace": "55. 2025 Ex-CIA Chief: Trump & NATO",
+   "reason": "No source was found for Brennan or Panetta saying Trump 'does not have NATO's back' in 2025 video interviews. Brennan's verified March 2025 remarks (Times Radio, reported by Ukrainska Pravda/UNN) were about the Ukraine intelligence pause, which he called a pressure tactic and extortion; Panetta's Article 5 remarks were a BILD print interview in Aug 2026; Bjorn Beam's Dec 2025 Agenda Pública print interview never mentions Article 5 or Trump having NATO's back. Replaced with Brennan's verified remark plus Trump's own March 6, 2025 words (AP).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[54].topicLabel",
+   "find": "2025 Former CIA Agent Video: Trump Does Not Have NATO's Back",
+   "replace": "2025 Former CIA Director & Trump: US Protection in Doubt",
+   "reason": "No source was found for Brennan or Panetta saying Trump 'does not have NATO's back' in 2025 video interviews. Brennan's verified March 2025 remarks (Times Radio, reported by Ukrainska Pravda/UNN) were about the Ukraine intelligence pause, which he called a pressure tactic and extortion; Panetta's Article 5 remarks were a BILD print interview in Aug 2026; Bjorn Beam's Dec 2025 Agenda Pública print interview never mentions Article 5 or Trump having NATO's back. Replaced with Brennan's verified remark plus Trump's own March 6, 2025 words (AP).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/",
+    "https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[54].coreAnswer",
+   "find": "In 2025 video interviews, former CIA officials—including former CIA Directors John Brennan and Leon Panetta (Brennan and Panetta, 25) and former CIA officer Bjorn Beam—warned that President Trump does not have NATO's back, pointing to Washington's March 2025 freeze on intelligence sharing and military aid to Ukraine and threats to treat Article 5 as conditional.",
+   "replace": "In a March 2025 Times Radio interview, former CIA Director John Brennan called Washington's freeze on intelligence sharing with Ukraine a pressure tactic and extortion (Brennan, 25), and that same week President Trump said of NATO allies, 'If they don't pay, I'm not going to defend them' (AP, 25)—treating Article 5 as conditional.",
+   "reason": "No source was found for Brennan or Panetta saying Trump 'does not have NATO's back' in 2025 video interviews. Brennan's verified March 2025 remarks (Times Radio, reported by Ukrainska Pravda/UNN) were about the Ukraine intelligence pause, which he called a pressure tactic and extortion; Panetta's Article 5 remarks were a BILD print interview in Aug 2026; Bjorn Beam's Dec 2025 Agenda Pública print interview never mentions Article 5 or Trump having NATO's back. Replaced with Brennan's verified remark plus Trump's own March 6, 2025 words (AP).",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/",
+    "https://unn.ua/en/news/threat-of-catastrophe-former-cia-chief-horrified-by-trumps-decision-to-stop-sharing-intelligence-with-ukraine",
+    "https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/",
+    "https://agendapublica.es/noticia/20507/former-cia-agent-explains-trump-logic-and-warns-that-europe-is-not-united",
+    "https://news.liga.net/en/war/news/former-us-secretary-of-defense-did-not-rule-out-russian-military-action-on-german-territory"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[54].coreAnswer",
+   "find": "destroy all 515 of their sovereign submarine warheads (van Hooft, 25 at RAND; Horschig and Chevreuil, 25 at CSIS)",
+   "replace": "destroy all 515 of their sovereign warheads, most on submarines (van Hooft, 25 at RAND; Horschig, 25 at CSIS)",
+   "reason": "About 50 of France's 290 warheads are air-launched (ASMPA), so not all 515 are submarine warheads (canonical VH-4). Tag matches the existing card 'Horschig, 25'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[55].coreAnswer",
+   "find": "To ratify means to formally enact a treaty into legally binding national and international law",
+   "replace": "To ratify means to formally consent to be legally bound by a treaty under international law",
+   "reason": "Ratification is a state's formal consent to be bound under international law; whether a treaty becomes national law depends on each country's constitution (dualist states like the UK need implementing legislation).",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[55].coreAnswer",
+   "find": "to eliminate all 515 of their sovereign submarine warheads (van Hooft, 25 at RAND)",
+   "replace": "to eliminate all 515 of their sovereign warheads, most on submarines (van Hooft, 25 at RAND)",
+   "reason": "About 50 of France's 290 warheads are air-launched (ASMPA), so not all 515 are submarine warheads (canonical VH-4).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[56].coreAnswer",
+   "find": "to destroy all 515 of their submarine warheads under Article 4",
+   "replace": "to destroy all 515 of their warheads, most on submarines, under Article 4",
+   "reason": "About 50 of France's 290 warheads are air-launched (ASMPA), so not all 515 are submarine warheads (canonical VH-4).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[56].coreAnswer",
+   "find": "including 1,800 tactical battlefield nukes",
+   "replace": "including roughly 1,800 tactical battlefield nukes",
+   "reason": "FAS 2026 estimate is about 1,800 (1,794), an estimate, not an exact count.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://thebulletin.org/premium/2026-05/russian-nuclear-weapons-2026/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[57].coreAnswer",
+   "find": "still face multi-year shortages in air defense and long-range precision munitions",
+   "replace": "still lack enough air defense and long-range precision strike munitions",
+   "reason": "Jones's 17 Nov 2025 Helsinki Commission testimony says European militaries still lack enough short-range air defense, long-range fires, heavy ground forces and long-range precision strike munitions; 'multi-year' shortfalls/lags were not found (same fix as earlier rounds, canonical JON-1).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.csis.org/analysis/russian-nuclear-calibration-war-ukraine"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.prefires[59].coreAnswer",
+   "find": "to destroy all 515 of their sovereign submarine warheads (van Hooft, 25 at RAND Europe)",
+   "replace": "to destroy all 515 of their sovereign warheads, most on submarines (van Hooft, 25 at RAND Europe)",
+   "reason": "About 50 of France's 290 warheads are air-launched (ASMPA), so not all 515 are submarine warheads (canonical VH-4).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.frontlines[1].response",
+   "find": "while hiding behind 1,700 US strategic warheads",
+   "replace": "while hiding behind roughly 1,700 US strategic warheads",
+   "reason": "FAS (Mar 2026) puts US deployed strategic warheads at about 1,670; 'roughly' as in the earlier PRO fix.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://thebulletin.org/premium/2026-05/russian-nuclear-weapons-2026/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.frontlines[7].response",
+   "find": "Using a 781 million euro uranium trade",
+   "replace": "Using a 781 million euro nuclear-fuel trade",
+   "reason": "RUSI's €781m covers enriched uranium (€312m+) and fuel assemblies (€465m), not just uranium (earlier fix).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.counterDefenses[5].response",
+   "find": "and cannot be targeted preemptively",
+   "replace": "and are extremely hard to target preemptively",
+   "reason": "Overstated: van Hooft says the submarines are 'highly likely to survive a first strike', not that they cannot be targeted.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.counterDefenses[13].response",
+   "find": "is physically impossible under NATO storage architecture:",
+   "replace": "is ruled out by NATO's storage and release rules:",
+   "reason": "'Physically impossible' was removed in earlier rounds as unsourced; the documented safeguards are the vaults plus NPG and US/host-nation release approval.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.military.com/defensetech/2015/09/10/us-upgrades-nuclear-weapon-sites-in-europe-report"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.CON.crossfireTraps[1].question",
+   "find": "emit a single drop of radiation",
+   "replace": "leak a single drop of radiation",
+   "reason": "Stored weapons emit trace radiation, so 'emit' invites a technical rebuttal; 'leak' is the defensible claim.",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.CON.crossfireTraps[2].question",
+   "find": "to make the cost of great-power war infinite",
+   "replace": "to make the cost of great-power war unacceptable",
+   "reason": "The trap's own source (NATO Strategic Concept, 22) says costs 'that would be unacceptable', not 'infinite'.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
+   ]
+  }
+ ],
+ "newSources": [
+  {
+   "tag": "Brennan, 25",
+   "title": "Former CIA Director accuses Trump of blackmailing Ukraine",
+   "authors": "Ukrainska Pravda / European Pravda (reporting John Brennan's Times Radio interview)",
+   "date": "2025-03-07",
+   "url": "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/",
+   "whatItSupports": "Brennan called the March 2025 US freeze on intelligence sharing with Ukraine a pressure tactic and extortion and said he had never seen anything like it in nearly 35 years. Also UNN (Mar 6, 2025): https://unn.ua/en/news/threat-of-catastrophe-former-cia-chief-horrified-by-trumps-decision-to-stop-sharing-intelligence-with-ukraine. Replaces the unverifiable 'Brennan & Panetta, 25' card: no 2025 Brennan/Panetta statement that Trump 'does not have NATO's back' was found; Panetta's Article 5 remarks are a BILD print interview (Aug 2026); Bjorn Beam's Agenda Pública interview (Dec 27, 2025, print) never mentions Article 5. The card's quote 'increased anxiety among NATO allies' is the article's framing, not clearly Brennan's words."
+  },
+  {
+   "tag": "AP, 25",
+   "title": "Trump casts doubt on NATO solidarity, despite it aiding the US after Sept. 11",
+   "authors": "Michelle L. Price, Associated Press",
+   "date": "2025-03-06",
+   "url": "https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/",
+   "whatItSupports": "Trump: 'If they don't pay, I'm not going to defend them. No, I'm not going to defend them.' and 'Do you think they're going to come and protect us? They're supposed to. I'm not so sure.'"
+  },
+  {
+   "tag": "Euronews, 26",
+   "title": "Finland's parliament passes bill in support of lifting total ban on nuclear weapons",
+   "authors": "Gavin Blackburn, Euronews",
+   "date": "2026-06-17",
+   "url": "https://www.euronews.com/my-europe/2026/06/17/finlands-parliament-passes-bill-in-support-of-lifting-total-ban-on-nuclear-weapons",
+   "whatItSupports": "125-61 vote (13 absent); the change 'repeals the national ban on the import, production, possession and detonation of nuclear explosives' and allows nuclear weapons to be brought into Finland for defence."
+  },
+  {
+   "tag": "UK MoD, 98",
+   "title": "Strategic Defence Review (Cm 3999), Chapter 4: Deterrence and Disarmament",
+   "authors": "UK Ministry of Defence",
+   "date": "1998-07",
+   "url": "https://nuke.fas.org/guide/uk/doctrine/sdr98/chapt04.htm",
+   "whatItSupports": "Para 68: 'The submarine's missiles will not be targeted and it will normally be at several days \"notice to fire\".'"
+  },
+  {
+   "tag": "Bruegel, 25",
+   "title": "Defending Europe without the US: first estimates of what is needed",
+   "authors": "Alexandr Burilkov and Guntram B. Wolff (Bruegel / Kiel Institute)",
+   "date": "2025-02-21",
+   "url": "https://www.bruegel.org/analysis/defending-europe-without-us-first-estimates-what-needed",
+   "whatItSupports": "'an increase by about €250 billion annually (to around 3.5 percent of GDP) is warranted in the short term' and capacity equal to 300,000 US troops; footnote: nuclear deterrence not discussed."
+  },
+  {
+   "tag": "IISS, 25",
+   "title": "Russia overtakes all of Europe on defense spending in key metric: IISS military balance",
+   "authors": "Tim Martin, Breaking Defense (reporting IISS Military Balance 2025)",
+   "date": "2025-02-12",
+   "url": "https://breakingdefense.com/2025/02/russia-overtakes-all-of-europe-on-defense-spending-in-key-metric-iiss-military-balance/",
+   "whatItSupports": "At purchasing power parity Russia spent nearly $462bn in 2024, 'effectively leapfrogging Europe's collective spending'."
+  },
+  {
+   "tag": "Abramson, 26",
+   "title": "Countries Leave Mine Ban Treaty",
+   "authors": "Jeff Abramson, Arms Control Today (Arms Control Association)",
+   "date": "2026-01/02",
+   "url": "https://www.armscontrol.org/node/15044",
+   "whatItSupports": "Estonia, Latvia, Lithuania, Finland and Poland deposited Ottawa Convention withdrawals June 27–Aug 20, 2025; Baltic exits took effect Dec 2025, Finland's and Poland's in early 2026 (Finland: 10 Jan 2026, per the Finnish government: https://valtioneuvosto.fi/en/-/236553176/finland-s-withdrawal-from-ottawa-convention-to-take-effect)."
+  }
+ ],
+ "done": 159,
+ "summary": "Checked all 159 CON items. Critical fixes: (1) the new 'Brennan and Panetta, 25' claim that ex-CIA directors said in 2025 videos that Trump 'does not have NATO's back' could not be verified (Brennan's March 2025 Times Radio remarks were about the Ukraine intel pause; Panetta's Article 5 remarks were a BILD print interview in Aug 2026; Bjorn Beam never says it), so constructive para 2, con_reb_19 and c_pf_55 now use Brennan's verified remark plus Trump's own 'If they don't pay, I'm not going to defend them' (AP, Mar 6 2025), and the chip/trigger/topic labels no longer promise such a video; the Brennan & Panetta card itself should be replaced (see newSources). (2) con_reb_23 said no TPNW party borders Russia: Kazakhstan does (fixed to European neighbours). (3) con_reb_29 reintroduced the Article 17 'forbids withdrawing in war' error. (4) con_reb_22 'nuclear posture under 3% of NATO spending' is false (ICAN 2026: US+UK+France about $89.5bn = about 5.7% of SIPRI's $1,581bn) and the van Hooft cost claim was misattributed (now Bruegel, 25). (5) con_reb_20 said every false alarm was Soviet/Russian (NORAD 1979/80) and pinned de-targeting on Band, 09 (now UK MoD, 98). Recurring fixes reapplied: Jones 'multi-year' (x3), 'conventional' 8-to-1, Ukraine 'agreed in 1994', 'nuclear-armed NATO' -> 'territory covered by Article 5', 515 'submarine' warheads (about 50 French are air-launched), NAC 2020 exact wording / 30 allies, no 'incompatible' in NAC 2020 or 2026 (that is NATO, 23), 'air-gapped' and 'physically impossible' removed, Lewis, 14 not a no-radiation source. SIPRI Yearbook 2026 says Russia's stockpile was stable (modernizing); only China and North Korea are expanding (5 items). Finland's June 2026 vote re-sourced from Defense News (a March article) to Euronews, 26. NATO Strategic Concept says 'unacceptable' costs, not 'infinite'. UK submarines are at 'several days notice to fire', not 'minutes'. Ottawa: Finland and Poland have already withdrawn. Kahn, not 'Kahn and Schelling'. NOT IN MY BATCH but now mismatched (please fix in the citation fields): con_reb_5 citation should add North Atlantic Council, 26, NATO, 23 & Euronews, 26; con_reb_6 cites Kristensen, 25, which the text no longer uses; con_reb_1 cites Kristensen, 26, but the text uses Kristensen, 15; con_reb_12 should add IISS, 25; CD 9 citation should add Zakharova, 24; con_reb_19's card (Brennan & Panetta, 25) needs replacing with Brennan, 25 and AP, 25. Watch-out: ICAN also has post-2022 polls (e.g., Europeans rejecting US nukes on their soil), so con_reb_28's 'outdated 2021 polls' line may draw a newer-poll response."
+}

@@ -1,0 +1,1173 @@
+{
+ "edits": [
+  {
+   "path": "DEBATE_DATA.PRO.constructiveParagraphs[1]",
+   "find": "to ratify means to formally approve a treaty so it becomes legally binding national and international law",
+   "replace": "to ratify means to formally consent to be bound by a treaty, so it becomes legally binding on that country",
+   "reason": "Ratification is the act by which a state consents to be bound internationally (Vienna Convention Art. 2(1)(b)); whether it also becomes national law depends on each country's system (dualist states need implementing laws).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://legal.un.org/ilc/texts/instruments/english/conventions/1_1_1969.pdf"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.constructiveParagraphs[2]",
+   "find": "where the Red Cross (ICRC, 20) and Rutgers modeling in Nature Food (Xia, Robock, and Toon, 22) prove a detonation would contaminate European water, soil, and food supplies for decades with zero medical remedy.",
+   "replace": "where the Red Cross (ICRC, 20) warns radioactive fallout 'cannot be contained within national borders' and no state could adequately respond, while Rutgers-led modeling in Nature Food (Xia, Robock, and Toon, 22) estimates a US-Russia war could kill over 5 billion people through famine.",
+   "reason": "Misattributed. The ICRC/IFRC 2020 report never mentions water or soil and says no state or international body could adequately respond; Xia et al. model famine from soot-driven climate cooling, not radioactive contamination of European water or food.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons",
+    "https://doi.org/10.1038/s43016-022-00573-0"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.constructiveParagraphs[3]",
+   "find": "Europe does not need nuclear weapons to defeat Russian aggression because modern warfare is won by precision, air dominance, and industrial depth.",
+   "replace": "Europe does not need nuclear weapons to defend itself against Russian aggression, because denial rests on precision strike, air power, and industrial depth.",
+   "reason": "'Defeat' was corrected earlier (van Hooft says denial raises costs, not that Europe defeats Russia), and 'modern warfare is won by' is an unsourced sweeping claim.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.constructiveParagraphs[3]",
+   "find": "with the 29 European NATO members alone spending 559 billion dollars after a 14 percent surge in 2025.",
+   "replace": "with the 29 European NATO members alone spending 559 billion dollars as Europe's military spending surged 14 percent in 2025.",
+   "reason": "Recurring fix: SIPRI's 14% rise is for Europe as a whole ($864bn), not European NATO.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.constructiveParagraphs[3]",
+   "find": "can blind Russian command bunkers, destroy mobile missile launchers, and sever Russian rail and fuel supply lines from the very first hours of a conflict—denying Moscow any territorial gain without ever risking mutual nuclear suicide.",
+   "replace": "could target Russian units attacking NATO territory, their reinforcements, and their logistics, while denying Russia's use of missiles—raising the costs of aggression from the early stages of a conflict without ever risking mutual nuclear suicide.",
+   "reason": "Overstates van Hooft, who says these weapons 'could target Russian military units attacking or operating within NATO territory, their reinforcements and their logistics, while denying Russia's use of missiles' and raise costs early; he never mentions command bunkers or rail and fuel lines, or claims Moscow is denied 'any territorial gain'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.constructiveParagraphs[3]",
+   "find": "confirms European allies keep 100 percent of NATO's Article 5 mutual-defense guarantee while opting out of nuclear strike planning",
+   "replace": "confirms European allies can stay in NATO's Article 5 conventional defense as long as they give up the nuclear umbrella and opt out of nuclear strike planning",
+   "reason": "Reintroduces an overstatement. Harvard IHRC (2018) says a TPNW state can stay in the alliance and its conventional operations only if it renounces reliance on the nuclear umbrella.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://humanrightsclinic.law.harvard.edu/publications/nuclear-umbrella-arrangements-and-the-treaty-on-the-prohibition-of-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.constructiveParagraphs[4]",
+   "find": "so European ratification puts binding legal pressure on Europe's banks.",
+   "replace": "so European ratification puts legal pressure on Europe's banks.",
+   "reason": "The treaty binds states, not banks, and never says 'financing'; national laws are needed to reach banks (recurring fix).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://ihl-databases.icrc.org/assets/treaties/640-TPNW-EN.pdf"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.constructiveParagraphs[4]",
+   "find": "employed about 38 percent of its 250,000 workers per SIPRI data.",
+   "replace": "employed about 38 percent of its 250,000 workers as of 2016, per SIPRI data.",
+   "reason": "The 38% is a 2016 SIPRI figure (RUSI); the date was dropped.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.constructiveParagraphs[4]",
+   "find": "Ratifying the TPNW gives European governments a binding legal mandate to cut off",
+   "replace": "Ratifying the TPNW gives European governments a powerful legal and moral argument to cut off",
+   "reason": "Reintroduces the Rosatom error: the TPNW does not ban buying civilian nuclear fuel (recurring fix: a legal and moral argument, not a legal mandate).",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such",
+    "https://banmonitor.org/news/is-kazakhstan-assisting-russias-nuclear-weapons-programme"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[2].response",
+   "find": "policies—which is why 56 former allied prime ministers, foreign ministers, defense ministers, and two former NATO Secretaries-General, Javier Solana and Willy Claes, signed an open letter urging NATO allies to ratify the TPNW (ICAN, 20).",
+   "replace": "policies—and 56 former leaders and foreign and defense ministers from NATO countries, Japan, and South Korea, including former NATO Secretaries-General Javier Solana and Willy Claes, signed an open letter urging their countries to join the TPNW (ICAN, 20).",
+   "reason": "The two Secretaries-General are among the 56 (not in addition), the signers include Japan and South Korea, and the letter urged their own countries to join. 'Which is why' invented a causal link.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.icanw.org/56_former_leaders"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[3].response",
+   "find": "can destroy Russian command nodes, air-defense radars, and rail supply lines in the opening hours of an invasion—denying Moscow any quick land-grab before nuclear coercion can even be attempted, while the United States still deploys roughly 1,700 strategic warheads on submarines and silos outside Europe (Kristensen, 26).",
+   "replace": "could target invading Russian units, their reinforcements, and their logistics while denying Russia's use of missiles—raising the costs of a land-grab from the early stages of a conflict, while the United States still deploys roughly 1,700 strategic warheads on submarines, missiles, and bombers outside Europe (Kristensen, 26).",
+   "reason": "Overstates van Hooft (he names units, reinforcements, logistics and missiles, not command nodes or radars, and does not promise to deny any land-grab). FAS's ~1,700 deployed strategic warheads include about 300 at bomber bases, not only submarines and silos.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html",
+    "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[4].response",
+   "find": "yet European utilities are directly subsidizing Moscow's warhead builder right now: Danylyuk, 26 at RUSI documents that Rosatom is not a normal civilian power company—it directly runs Russia's nuclear munitions directorate, where 38 percent of its 250,000 employees worked on warheads per SIPRI data, and uses hard-currency revenue from 781 million euros in EU uranium and fuel imports to cross-subsidize warhead engineering and dual-use electronics.",
+   "replace": "yet European purchases are paying Moscow's warhead builder right now: Danylyuk, 26 at RUSI documents that Rosatom is 'no longer just a civil nuclear giant'—it is responsible for developing and producing Russia's nuclear munitions, its weapons complex employed about 38 percent of its 250,000 staff as of 2016 per SIPRI data, and EU states imported about 781 million euros of its uranium and fuel in 2025.",
+   "reason": "RUSI says Rosatom is responsible for developing and producing Russia's nuclear munitions, but never says EU revenue 'cross-subsidizes warhead engineering and dual-use electronics' or that 38% 'worked on warheads' (2016 SIPRI share of staff at weapons-complex enterprises; recurring fix).",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[4].response",
+   "find": "Ratifying TPNW Article 1(1)(e) legally prohibits assisting nuclear weapons 'in any way,' cutting off that revenue stream while reinforcing",
+   "replace": "Ratifying TPNW Article 1(1)(e), which bans assisting nuclear weapons 'in any way,' gives Europe a legal and moral argument to cut off that revenue stream while reinforcing",
+   "reason": "Reintroduces the Rosatom error: the TPNW does not legally ban civilian fuel purchases.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://ihl-databases.icrc.org/assets/treaties/640-TPNW-EN.pdf",
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[5].response",
+   "find": "zero integrated air defense, and no mutual-defense treaty.",
+   "replace": "no allied integrated air defense, and no mutual-defense treaty.",
+   "reason": "Ukraine had its own (Soviet-legacy) air defenses; what it lacked was allied integrated air defense.",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[5].response",
+   "find": "permanent multinational forward land brigades, and integrated allied air policing across 32 nations—which is why Moscow has never attacked a single one",
+   "replace": "NATO's multinational forward land forces on the eastern flank, and integrated allied air and missile defense across 32 nations—which is why Moscow has never invaded a single one",
+   "reason": "Most of NATO's forward land forces are battalion-size battlegroups (only some are being scaled to brigades). 'Never attacked' is contradicted by the app's own Jones, 25 sabotage data; the verified wording was 'invaded'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.nato.int/cps/en/natohq/topics_136388.htm",
+    "https://www.csis.org/analysis/russias-shadow-war-against-west"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[6].response",
+   "find": "exposed as non-credible, because it may seem highly unlikely",
+   "replace": "warns has a credibility problem, because it may seem highly unlikely",
+   "reason": "Overstates RAND: Shlapak & Johnson say credibility is undermined, not that the umbrella is 'non-credible' (recurring fix).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/research_reports/RR1253.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[7].response",
+   "find": "when CSIS proves the opposite:",
+   "replace": "when CSIS finds otherwise:",
+   "reason": "Horschig's piece identifies obstacles; it doesn't 'prove'.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.csis.org/analysis/can-france-and-united-kingdom-replace-us-nuclear-umbrella"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[8].response",
+   "find": "SIPRI, 26 shows European NATO defense spending jumped to 559 billion dollars after a 14 percent surge in 2025—the fastest industrial expansion since 1953, led by Germany's 24 percent jump to 114 billion—financing new artillery shell lines and air-defense batteries.",
+   "replace": "SIPRI, 26 shows European military spending surged 14 percent in 2025, with European NATO jumping to 559 billion dollars—its fastest growth since 1953, led by Germany's 24 percent jump to 114 billion—money that can finance new artillery shell lines and air-defense batteries.",
+   "reason": "The 14% is Europe-wide; SIPRI's 'since 1953' line is about European NATO spending growth, not 'industrial expansion'; SIPRI doesn't say what the money buys.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[10].response",
+   "find": "Our opponents' Polish proliferation claim is physically and legally impossible for three reasons:",
+   "replace": "Our opponents' Polish proliferation claim fails, because Poland cannot and would not proliferate, for three reasons:",
+   "reason": "'Physically and legally impossible' overstates; the verified wording was that Poland cannot and would not proliferate (no enrichment, reprocessing or reactors today).",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[12].response",
+   "find": "Permissive Action Links only prevent unauthorized theft—they do nothing when a leader authorizes a launch in panic during a false alarm or cyber spoof inside a 10-minute decision window.",
+   "replace": "Permissive Action Links only prevent unauthorized use—they do nothing when a leader authorizes a launch in panic during a false alarm or cyber spoof inside a decision window of just minutes.",
+   "reason": "PALs block unauthorized arming and use, not just theft. The '10-minute' figure has no source here; verified wording is 'just minutes' (Lewis notes leaders may 'have to respond too quickly').",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[12].response",
+   "find": "flags modern NATO incidents—including",
+   "replace": "flags recent incidents—including",
+   "reason": "The 2013 USAF case concerned US ICBM forces, not NATO; Lewis calls them 'recent incidents'.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[14].response",
+   "find": "first, under the stability-instability paradox, nuclear weapons did not cancel out war—Russia used its nuclear threats as a shield to invade Ukraine and nearly triple sabotage bombings, arson, and cable cuts across Europe from 12 in 2023 to 34 in 2024 (Jones, 25 at CSIS); second, RAND's Baltic studies (Shlapak, 16; Davis, 19) prove M.A.D. is an empty suicide bluff for allies because Moscow knows no US President will sacrifice New York or Chicago for a Baltic border town; and third, Lewis, 14 at Chatham House documents 13 near-nuclear-use crises—like the 1983 Petrov false alarm and 2009 UK-French submarine collision—proving the world survived by sheer luck, not M.A.D.",
+   "replace": "first, under the stability-instability paradox, nuclear weapons did not cancel out war—Russia invaded Ukraine behind nuclear threats, and its sabotage bombings, arson, and cable cuts across Europe nearly tripled from 12 in 2023 to 34 in 2024 (Jones, 25 at CSIS); second, RAND warns extended deterrence has a credibility problem because it may seem highly unlikely to Moscow that the US would trade New York for Riga (Shlapak, 16), and its wargames found Russia keeps escalation dominance (Davis, 19); and third, Lewis, 14 at Chatham House documents 13 near-nuclear-use cases—like the 1983 Petrov false alarm—and concludes the world 'has, indeed, been lucky.'",
+   "reason": "Jones documents the sabotage numbers, not a 'nuclear shield'. RAND says credibility is in doubt, not that Moscow 'knows' the US would never act (recurring fix). Lewis says the world 'has, indeed, been lucky' and that deterrence 'is not the only plausible explanation' for avoiding nuclear war. It does not say survival was 'sheer luck, not deterrence'. Its 13 cases run 1962–2002, so the 2009 submarine collision is a separate 'recent incident' it flags.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.csis.org/analysis/russias-shadow-war-against-west",
+    "https://www.rand.org/pubs/research_reports/RR1253.html",
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states",
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[14].citation",
+   "find": "Lewis, 14 (Chatham House), Davis, 19 (RAND) & Jones, 25 (CSIS)",
+   "replace": "Lewis, 14 (Chatham House), Shlapak, 16 & Davis, 19 (RAND) & Jones, 25 (CSIS)",
+   "reason": "The response also cites Shlapak, 16.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/research_reports/RR1253.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[15].response",
+   "find": "is a 100 percent empty bluff that Moscow knows NATO will never detonate (Sweeney, 20 at Defense Priorities; Davis, 19 at RAND)!",
+   "replace": "is a bluff with a credibility problem: Sweeney, 20 at Defense Priorities argues the jets carrying B61s could not reliably get through Russian air defenses, and RAND's wargames found Russia keeps escalation dominance (Davis, 19)!",
+   "reason": "Overstated and misattributed: neither Sweeney nor Davis says Moscow 'knows NATO will never detonate'. Sweeney's point is about the delivery jets; Davis's is escalation dominance.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.defensepriorities.org/reports/reconsidering-us-nuclear-weapons-in-europe/",
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[16].response",
+   "find": "Radioactive contamination of European homes, municipal tap water flowing into kitchen sinks, and food stored in family fridges is the exact humanitarian catastrophe the TPNW prevents: as the International Committee of the Red Cross (ICRC, 20) documents, ionizing radiation from a nuclear detonation at European B61 bases like Büchel, Kleine Brogel, Volkel, or Aviano would poison municipal water supplies, agricultural soil, milk, and household food across Europe for decades with zero possible medical response—while Rutgers climate-fallout modeling in Nature Food (Xia, Robock, and Toon, 22) proves a US-Russia nuclear exchange would trigger global famine killing over 5 billion people. Ratifying the TPNW removes the roughly 100 B61 nuclear targets (Kristensen, 26) sitting inside European communities.",
+   "replace": "Radioactive contamination of European homes, tap water, and garden food is the exact humanitarian catastrophe the TPNW aims to prevent: the International Committee of the Red Cross (ICRC, 20) warns that fallout from a nuclear detonation 'cannot be contained within national borders,' that recovery would take 'several decades,' and that no state or international body could adequately respond; after a strike near B61 bases like Büchel, Kleine Brogel, Volkel, or Aviano, US health officials say only bottled water is known to be free of contamination until supplies are tested, and garden food should not be eaten until officials clear it (CDC, 24). Rutgers-led climate modeling in Nature Food (Xia, Robock, and Toon, 22) estimates a US-Russia nuclear war could kill over 5 billion people through famine. Ratifying the TPNW removes the roughly 100 B61 bombs (Kristensen, 26) that make those communities targets.",
+   "reason": "Misattributed. The ICRC report never mentions water, milk, soil or European bases. Xia et al. model soot-driven famine, not fallout, and say 'could die'. CDC guidance says unspoiled food in a refrigerator or freezer, and food in sealed containers, is SAFE to eat, so 'poisoned food in fridges' is false. Tap water may be contaminated until tested (CDC), and garden food is unsafe until cleared. The bombs make bases targets; they aren't 'targets' themselves.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons",
+    "https://doi.org/10.1038/s43016-022-00573-0",
+    "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[16].citation",
+   "find": "ICRC, 20 (Red Cross), Xia, Robock & Toon, 22 (Nature Food) & Kristensen, 26 (FAS)",
+   "replace": "ICRC, 20 (Red Cross), CDC, 24, Xia, Robock & Toon, 22 (Nature Food) & Kristensen, 26 (FAS)",
+   "reason": "Adds the new CDC source now cited for tap water and garden food.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[17].response",
+   "find": "RAND's Baltic wargames (Davis, 19) proved that NATO tactical nuclear weapons do not create escalation dominance—they leave Russia with escalation dominance while turning European B61 bases into preemptive targets (Sweeney, 20).",
+   "replace": "RAND's Baltic wargames (Davis, 19) found that NATO tactical nuclear weapons do not create escalation dominance—they leave Russia with escalation dominance—while the jets carrying B61s could not reliably get through Russian air defenses (Sweeney, 20).",
+   "reason": "Sweeney does not say the bases are 'preemptive targets' (his RAND excursion has Russian retaliatory strikes); his point is that the delivery jets can't penetrate. 'Proved' overstates a wargame finding.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states",
+    "https://www.defensepriorities.org/reports/reconsidering-us-nuclear-weapons-in-europe/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[17].response",
+   "find": "while keeping NATO's 1.58 trillion dollar conventional military (SIPRI, 26) 100 percent intact.",
+   "replace": "while leaving NATO's conventional forces, backed by 1.58 trillion dollars in overall military spending (SIPRI, 26), 100 percent intact.",
+   "reason": "Recurring fix: SIPRI's $1.58T is all NATO military spending, nuclear included. It is not a 'conventional military'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[18].response",
+   "find": "When our opponents cite the 2025 video warning from former CIA officials (Brennan and Panetta, 25) that President Trump does not have NATO's back,",
+   "replace": "When our opponents cite former CIA chiefs' 2025 warnings that President Trump does not have NATO's back—Panetta said a 'very nervous Europe believes that The United States would not stand behind Article Five' (Brennan and Panetta, 25)—",
+   "reason": "No confirmed source has a former CIA official saying 'Trump does not have NATO's back' in those words. The confirmed line is Panetta's (One Decision, Mar 6, 2025), so the card now quotes it.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://onedecision.com/ex-cia-director-on-ukraines-options",
+    "https://au.news.yahoo.com/former-cia-director-accuses-trump-084302266.html",
+    "https://www.eurointegration.com.ua/eng/news/2025/03/7/7206625/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[18].response",
+   "find": "every single B61 bomb in Germany, Belgium, Italy, the Netherlands, and Türkiye is locked behind US Permissive Action Links and cannot be armed or fired without the US President's personal launch codes (Sweeney, 20; Kristensen, 26 at FAS)!",
+   "replace": "every single B61 bomb in Germany, Belgium, Italy, the Netherlands, and Türkiye is wholly US-owned, and using one requires 'release authorization from the U.S. president' (Sweeney, 20; Kristensen, 26 at FAS)!",
+   "reason": "No 'personal launch codes' exist for B61s, and Sweeney doesn't mention PALs. Sweeney says the B61s are 'wholly owned by the United States, with their employment requiring release authorization from the U.S. president.'",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.defensepriorities.org/reports/reconsidering-us-nuclear-weapons-in-europe/",
+    "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[18].response",
+   "find": "—a nearly three-to-one standalone European conventional advantage that protects Europe without relying on Washington!",
+   "replace": "—a nearly three-to-one standalone European spending advantage that can protect Europe without relying on Washington!",
+   "reason": "Recurring fix: SIPRI figures are total military spending (UK and French nuclear forces included), not conventional, and aren't PPP-adjusted.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[19].response",
+   "find": "Russia's conventional army has been bogged down for four straight years trying to conquer a single non-NATO neighbor in Ukraine, losing hundreds of thousands of soldiers and thousands of tanks. Against the 29 European NATO democracies—which field over two million active-duty troops, fifth-generation stealth air forces, and a 559 billion dollar standalone European defense budget (SIPRI, 26; van Hooft, 25 at RAND Europe)—Moscow physically lacks the soldiers, armor, or supply lines to invade NATO Europe.",
+   "replace": "Russia's conventional army has been bogged down for more than four years trying to conquer a single non-NATO neighbor in Ukraine, suffering over 950,000 casualties and losing about 1,865 tanks since January 2024 alone (Jones & McCabe, 25 at CSIS). Against the 29 European NATO members—which field over two million troops (NATO, 25), fifth-generation stealth air forces, and a combined 559 billion dollars in military spending (SIPRI, 26; van Hooft, 25 at RAND Europe)—Moscow is in no shape to win a conventional war against NATO Europe.",
+   "reason": "The loss figures were unsourced: CSIS (June 2025) gives over 950,000 Russian casualties, up to 250,000 killed, and 1,865 tanks lost since Jan 2024. The troop figure is NATO's (2024 estimate: about 2.04 million for European allies), not SIPRI's or van Hooft's. Not all 29 are rated democracies (Freedom House rates Türkiye 'Not Free'). The 559bn is combined national spending, not one budget. 'Physically lacks the soldiers' is unsourced and overstated, since several intelligence services warn Russia is rebuilding.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.csis.org/analysis/russias-battlefield-woes-ukraine",
+    "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2025-06/250603_Jones_Battlefield_Woes_0.pdf",
+    "https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2025-en.pdf",
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[19].citation",
+   "find": "SIPRI, 26 & van Hooft, 25 (RAND Europe)",
+   "replace": "SIPRI, 26, NATO, 25, Jones & McCabe, 25 (CSIS) & van Hooft, 25 (RAND Europe)",
+   "reason": "Adds the new sources for the troop and Russian-loss figures.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2025-en.pdf",
+    "https://www.csis.org/analysis/russias-battlefield-woes-ukraine",
+    "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2025-06/250603_Jones_Battlefield_Woes_0.pdf"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[20].response",
+   "find": "ratifying TPNW Article 1(1)(e) legally binds European governments to stop assisting nuclear weapons 'in any way,' cutting off the 781 million euros European utilities still pay to Russia's state warhead builder Rosatom (Danylyuk, 26 at RUSI) and removing 100 first-strike nuclear targets from European soil (Kristensen, 26). Putin cannot veto or cheat on a European uranium cutoff enforced inside European law.",
+   "replace": "ratifying TPNW Article 1(1)(e) legally binds European governments to stop assisting nuclear weapons 'in any way,' gives Europe a legal and moral argument to cut off the roughly 781 million euros EU states paid in 2025 to Russia's warhead builder Rosatom (Danylyuk, 26 at RUSI), and removes about 100 B61 bombs that make European bases first-strike targets (Kristensen, 26). Putin cannot veto a European decision to stop buying his uranium.",
+   "reason": "Reintroduces the Rosatom error: the TPNW does not ban buying civilian fuel, so it gives no 'uranium cutoff enforced inside European law'. The €781m was 2025 EU imports (RUSI). The bombs are not themselves 'targets'.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such",
+    "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[21].response",
+   "find": "Harvard Law's clinic (Harvard Law Clinic, 18) confirms TPNW members keep 100 percent of NATO's Article 5 conventional collective defense—which is why 23 out of 30 European NATO nations already have zero nuclear weapons on their soil today and remain completely secure.",
+   "replace": "Harvard Law's clinic (Harvard Law Clinic, 18) confirms TPNW members can stay in NATO's Article 5 conventional collective defense as long as they give up the nuclear umbrella—and 23 out of 30 European NATO nations already have zero nuclear weapons on their soil today and have never been invaded.",
+   "reason": "Harvard's condition (renounce the umbrella) was dropped (recurring fix). 'Completely secure' is contradicted by Russian sabotage in Europe (Jones, 25), and the 'which is why' link was invented.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://humanrightsclinic.law.harvard.edu/publications/nuclear-umbrella-arrangements-and-the-treaty-on-the-prohibition-of-nuclear-weapons",
+    "https://www.csis.org/analysis/russias-shadow-war-against-west"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[22].response",
+   "find": "first, Chatham House (Lewis, 14) proves that periods of high military alert and crisis are when false alarms and radar miscalculations are most likely to trigger an accidental nuclear exchange; second, four years into the Ukraine war, EU countries are still sending 781 million euros a year to Russia's nuclear warhead builder Rosatom (Danylyuk, 26 at RUSI), and ratifying TPNW Article 1(1)(e) is the fastest legal mechanism to cut off Moscow's nuclear revenue right now.",
+   "replace": "first, Chatham House (Lewis, 14) finds near-use decisions were made 'in situations of escalating tensions resulting from misunderstanding or lack of communication' and urges restraint in times of heightened tension; second, four years into the Ukraine war, EU countries still imported about 781 million euros of Russian nuclear goods from Rosatom, Russia's nuclear warhead builder, in 2025 (Danylyuk, 26 at RUSI), and ratifying gives Europe a legal and moral argument to cut off Moscow's nuclear revenue right now.",
+   "reason": "Lewis does not 'prove' crises are when accidents are 'most likely'. The confirmed wording is quoted instead. 'Fastest legal mechanism' reintroduces the Rosatom legal-ban error and is unsupported, since sanctions act faster than treaty ratification.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy",
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[23].response",
+   "find": "Ending nuclear programs redirects those billions",
+   "replace": "Ending nuclear programs could redirect those billions",
+   "reason": "An unsourced prediction, so it is stated as possible.",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[24].response",
+   "find": "Kristensen, 08 at FAS reported that a US Air Force Blue Ribbon Review found most European nuclear storage sites failed to meet Pentagon security standards.",
+   "replace": "Kristensen, 08 at FAS reported that a 2008 US Air Force Blue Ribbon Review found most European nuclear storage sites failed to meet Pentagon security standards.",
+   "reason": "The finding is from 2008, and sites were upgraded later (Kristensen, 15). Adding the date keeps it accurate.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://fas.org/publication/usaf-report-most-nuclear-weapon-sites-in-europe-do-not-meet-us-security-requirements/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[25].response",
+   "find": "Permanent membership and veto power on the UN Security Council are written into Article 23 of the 1945 UN Charter—which names France and the United Kingdom explicitly",
+   "replace": "Permanent membership and veto power on the UN Security Council are written into Articles 23 and 27 of the 1945 UN Charter—which name France and the United Kingdom explicitly",
+   "reason": "Article 23 names the permanent members; the veto comes from Article 27(3). The Charter entered into force in Oct 1945, before the UK (1952) and French (1960) tests.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.un.org/en/about-us/un-charter/full-text"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[25].response",
+   "find": "(Docherty, 21 at Harvard Law) strengthens European diplomatic leadership across the Global South.",
+   "replace": "(Docherty, 21 at Harvard Law) could strengthen European diplomatic leadership across the Global South.",
+   "reason": "An unsourced prediction, so it is stated as possible.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://humanrightsclinic.law.harvard.edu/banning-nuclear-weapons-milestones-and-memories/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[25].citation",
+   "find": "Docherty, 21 (Harvard Law) & Hill, 21 (Chatham House)",
+   "replace": "Docherty, 21 (Harvard Law), UN Charter, 45 & Hill, 21 (Chatham House)",
+   "reason": "Adds a source card for the Charter articles cited.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.un.org/en/about-us/un-charter/full-text"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[26].response",
+   "find": "while Article 1(1)(e) requires each ratifying state to outlaw nuclear assistance in its own domestic courts—cutting off European contracts with Rosatom (Danylyuk, 26) and backing",
+   "replace": "while Article 5 requires each ratifying state to adopt national measures, including penal sanctions, against prohibited assistance—building the legal and moral case against European contracts with Rosatom (Danylyuk, 26) and backing",
+   "reason": "Domestic implementation is TPNW Article 5, not 1(1)(e). The TPNW doesn't legally cut off civilian Rosatom contracts (recurring fix).",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://ihl-databases.icrc.org/assets/treaties/640-TPNW-EN.pdf",
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[27].response",
+   "find": "Removing obsolete B61 gravity bombs from European airfields is not doing Vladimir Putin a favor—it removes a preemptive nuclear bullseye from five European nations (Sweeney, 20; Kristensen, 26) and cuts off 781 million euros a year in European nuclear-fuel payments that currently subsidize Russia's Rosatom warhead complex (Danylyuk, 26 at RUSI).",
+   "replace": "Removing B61 gravity bombs from European airfields is not doing Vladimir Putin a favor—it removes a preemptive nuclear bullseye from five European nations (Sweeney, 20; Kristensen, 26), and ratifying builds the case to cut off the roughly 781 million euros EU states paid in 2025 to Rosatom, steward of Russia's warhead complex (Danylyuk, 26 at RUSI).",
+   "reason": "Recurring fixes: the bombs are modernized B61-12s, not 'obsolete', and the TPNW doesn't itself cut off fuel payments. No source says the payments 'subsidize' the warhead complex.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/",
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[27].response",
+   "find": "they negotiate a binding, internationally verified 10-to-15-year elimination plan",
+   "replace": "they negotiate a binding, internationally verified elimination plan of up to ten years, extendable by up to five,",
+   "reason": "The 1st Meeting of States Parties set a deadline of no more than 10 years, with up to 5 more. '10-to-15-year' wrongly implies at least 10.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://ihl-databases.icrc.org/assets/treaties/640-TPNW-EN.pdf"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[28].response",
+   "find": "Declassified Cold War archives prove nuclear weapons nearly ended civilization repeatedly: Lewis, 14 at Chatham House documented 13 near-nuclear-use crises—from the 1962 Cuban Missile Crisis submarine standoff to the 1983 Petrov false alarm—concluding the world survived by sheer luck and officers disobeying launch protocol, not because deterrence worked.",
+   "replace": "Declassified Cold War archives show the world came close to nuclear use again and again: Lewis, 14 at Chatham House documented 13 near-nuclear-use cases—from the 1962 Cuban Missile Crisis submarine standoff to the 1983 Petrov false alarm—concluding the world 'has, indeed, been lucky,' with individuals acting 'often in disobedience of protocol and political guidance.'",
+   "reason": "Lewis explicitly says deterrence 'is not the only plausible explanation', so it does not deny deterrence played a role. Petrov broke reporting protocol, not 'launch protocol' (recurring fix).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[28].response",
+   "find": "when NATO's conventional forces can deter Russia by denial today (van Hooft, 25).",
+   "replace": "when advanced conventional forces could deter Russia by denial instead (van Hooft, 25).",
+   "reason": "Van Hooft says Europe's solution 'may lie' in conventional denial capabilities still being built ('in little or no time at all'), not that they deter Russia today.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[45].coreAnswer",
+   "find": "first, nuclear weapons did not cancel out conflict—Russia used its nuclear threats as cover to invade Ukraine and nearly triple sabotage bombings and arson across Europe from 2023 to 2024 (Jones, 25 at CSIS); second, RAND's Baltic study (Shlapak, 16) and wargames (Davis, 19) show M.A.D. is non-credible for allies because Moscow knows no US President will commit national suicide—sacrificing New York—for a Baltic town; and third, Lewis, 14 at Chatham House documented 13 near-nuclear-use crises, proving we survived by sheer luck, not M.A.D.",
+   "replace": "first, nuclear weapons did not cancel out conflict—Russia invaded Ukraine behind nuclear threats, and its sabotage bombings and arson across Europe nearly tripled from 2023 to 2024 (Jones, 25 at CSIS); second, RAND warns it may seem highly unlikely to Moscow that the US would trade New York for Riga (Shlapak, 16), and its wargames found Russia keeps escalation dominance (Davis, 19); and third, Lewis, 14 at Chatham House documented 13 near-nuclear-use cases and concluded the world 'has, indeed, been lucky.'",
+   "reason": "Jones supports the sabotage numbers only. RAND says credibility is doubtful, not that Moscow 'knows' (recurring fix). Lewis says 'lucky' and that deterrence is 'not the only plausible explanation', not 'sheer luck, not M.A.D.'",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.csis.org/analysis/russias-shadow-war-against-west",
+    "https://www.rand.org/pubs/research_reports/RR1253.html",
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states",
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[46].coreAnswer",
+   "find": "is an empty bluff that Moscow knows NATO will never use (Sweeney, 20 at Defense Priorities; Davis, 19 at RAND).",
+   "replace": "is a bluff with a credibility problem: its jets could not reliably get through Russian air defenses (Sweeney, 20 at Defense Priorities), and Russia keeps escalation dominance (Davis, 19 at RAND).",
+   "reason": "Neither source says Moscow 'knows NATO will never use' them.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.defensepriorities.org/reports/reconsidering-us-nuclear-weapons-in-europe/",
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[47].coreAnswer",
+   "find": "Radiation contaminating European homes, tap water in kitchen sinks, and food in family fridges is the exact humanitarian catastrophe the TPNW prevents: the International Committee of the Red Cross (ICRC, 20) documents that ionizing radiation from a nuclear strike on European B61 bases like Büchel, Kleine Brogel, Volkel, or Aviano would poison municipal water supplies, dairy, and household food for decades with zero medical remedy, while Rutgers modeling in Nature Food (Xia, Robock, and Toon, 22) shows a US-Russia nuclear war would cause mass famine killing over 5 billion people.",
+   "replace": "Radiation contaminating European homes, tap water, and garden food is the exact humanitarian catastrophe the TPNW aims to prevent: the International Committee of the Red Cross (ICRC, 20) warns fallout 'cannot be contained within national borders,' recovery would take 'several decades,' and no state could adequately respond; after a strike near B61 bases like Büchel, Kleine Brogel, Volkel, or Aviano, only bottled water is known to be free of contamination until tap supplies are tested (CDC, 24), while Rutgers modeling in Nature Food (Xia, Robock, and Toon, 22) estimates a US-Russia nuclear war could kill over 5 billion people through famine.",
+   "reason": "Misattributed. ICRC never mentions water, dairy or European bases; Xia models soot-driven famine and says 'could'. CDC says unspoiled food in fridges or freezers and sealed food is SAFE, so the fridge claim is false.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons",
+    "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html",
+    "https://doi.org/10.1038/s43016-022-00573-0"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[48].coreAnswer",
+   "find": "while keeping NATO's 1.58 trillion dollar conventional superiority (SIPRI, 26) 100 percent intact.",
+   "replace": "while leaving NATO's conventional forces, backed by 1.58 trillion dollars in overall military spending (SIPRI, 26), 100 percent intact.",
+   "reason": "Recurring fix: SIPRI's total is overall spending, not 'conventional superiority'. 'Proved' is also softened below.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[48].coreAnswer",
+   "find": "RAND's Baltic wargames (Davis, 19) proved NATO tactical nukes do not create escalation dominance—they leave Russia with escalation dominance while turning European B61 airbases into first-strike targets (Sweeney, 20).",
+   "replace": "RAND's Baltic wargames (Davis, 19) found NATO tactical nukes do not create escalation dominance—they leave Russia with escalation dominance—while the jets carrying B61s could not reliably get through Russian air defenses (Sweeney, 20).",
+   "reason": "Sweeney does not call the bases first-strike targets; his point is about the delivery jets.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states",
+    "https://www.defensepriorities.org/reports/reconsidering-us-nuclear-weapons-in-europe/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[49].coreAnswer",
+   "find": "That is why Russia's nuclear arsenal emboldened Moscow to launch the largest land invasion in Europe since 1945 in Ukraine and nearly triple sabotage bombings, arson, and cable cuts inside NATO Europe from 12 in 2023 to 34 in 2024 (Jones, 25 at CSIS).",
+   "replace": "That is why Moscow could launch the largest land invasion in Europe since 1945 in Ukraine under the cover of its nuclear arsenal, while Russian sabotage bombings, arson, and cable cuts across Europe nearly tripled from 12 in 2023 to 34 in 2024 (Jones, 25 at CSIS).",
+   "reason": "Jones documents the sabotage counts 'in Europe', not the nuclear-emboldening claim (which is the debater's argument), so the claim is reworded to avoid misattribution.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.csis.org/analysis/russias-shadow-war-against-west"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[50].coreAnswer",
+   "find": "Normal Accidents Theory proves that in any complex, tightly coupled system operating under compressed time, catastrophic failure is statistically inevitable over a long enough timeline. Lewis, 14 at Chatham House confirms this empirically across 13 near-nuclear-use crises—from the 1983 Petrov satellite false alarm to the 2009 underwater collision of British and French nuclear submarines and the 2010 hardware outage that severed launch-control links to 50 US Minuteman III ICBMs (AP, 10).",
+   "replace": "Normal Accidents Theory (Perrow, 84), applied to nuclear weapons by Sagan, 93, holds that in complex, tightly coupled systems, serious accidents are eventually inevitable. Lewis, 14 at Chatham House documents 13 near-nuclear-use cases like the 1983 Petrov satellite false alarm and flags the 2009 underwater collision of British and French nuclear submarines, while a 2010 hardware outage severed launch-control links to 50 US Minuteman III ICBMs (AP, 10).",
+   "reason": "The theory had no source and 'proves… statistically' overstates it; Perrow (1984) and Sagan (1993) are the real sources. The 2009 collision is not one of Lewis's 13 cases (1962–2002), and the 2010 outage is from AP, not Lewis.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://press.princeton.edu/books/paperback/9780691021010/the-limits-of-safety",
+    "https://press.princeton.edu/books/paperback/9780691004129/normal-accidents",
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[51].coreAnswer",
+   "find": "appeasement means surrendering territory and disarming conventional armies, whereas TPNW members keep 100 percent of NATO's Article 5 collective defense (Harvard Law Clinic, 18) and an 8.3-to-1 conventional military overmatch (SIPRI, 26).",
+   "replace": "appeasement meant handing territory to an aggressor, whereas TPNW members can stay in NATO's Article 5 conventional defense if they give up the nuclear umbrella (Harvard Law Clinic, 18), backed by NATO's 8.3-to-1 overall spending edge (SIPRI, 26).",
+   "reason": "Munich 1938 was a territorial concession; Britain was rearming, not disarming. Harvard's condition dropped (recurring fix); SIPRI's ratio is overall spending, not 'conventional overmatch'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://humanrightsclinic.law.harvard.edu/publications/nuclear-umbrella-arrangements-and-the-treaty-on-the-prohibition-of-nuclear-weapons",
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[52].coreAnswer",
+   "find": "RAND's Baltic wargames (Davis, 19) proved that in a tactical nuclear brinkmanship contest over Eastern Europe, Russia—not NATO—holds escalation dominance because Moscow cares more about its immediate border than Washington cares about trading New York for Riga (Shlapak, 16). Refusing to play nuclear chicken and defeating Russian forces with conventional precision deep-strike (van Hooft, 25) is how NATO wins.",
+   "replace": "RAND's Baltic wargames (Davis, 19) found that in a tactical nuclear contest over the Baltics, Russia—not NATO—would hold escalation dominance, leaving NATO the stronger pressure to back down, and RAND warns it may seem highly unlikely to Moscow that the US would trade New York for Riga (Shlapak, 16). Refusing to play nuclear chicken and raising Russia's costs with conventional precision deep-strike (van Hooft, 25) is how NATO wins.",
+   "reason": "The 'Moscow cares more about its border' reason isn't in Davis's finding. Van Hooft says denial raises costs, not that it 'defeats' Russian forces (recurring fix).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states",
+    "https://www.rand.org/pubs/research_reports/RR1253.html",
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[53].coreAnswer",
+   "find": "International Relations norm-cascade theory shows that treaties outlawing indiscriminate weapons—like the Chemical Weapons Convention, Biological Weapons Convention, and Ottawa Landmine Treaty—work even before every superpower signs by stigmatizing the weapon and choking off its financing.",
+   "replace": "International Relations norm-cascade theory (Finnemore and Sikkink, 98) holds that treaties outlawing indiscriminate weapons—like the Ottawa Landmine Treaty, which the US, Russia, and China never joined—can still stigmatize a weapon and choke off its financing without every superpower.",
+   "reason": "The US, Russia and China all joined the Chemical and Biological Weapons Conventions, so those don't show treaties working without superpowers; only Ottawa fits. Beware that Poland, Finland and the three Baltic states withdrew from Ottawa in 2025–26. 'Shows' overstated a theory, and it had no source.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://doi.org/10.1162/002081898550789"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[53].coreAnswer",
+   "find": "explicitly cited the TPNW as their reason to divest (PAX/ICAN, 22).",
+   "replace": "named the TPNW as a reason to exclude nuclear producers (PAX/ICAN, 22).",
+   "reason": "Recurring fix: the $3.9T is assets held by institutions naming the TPNW as a reason in their exclusion policies, not money divested.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.dontbankonthebomb.com/wp-content/uploads/2022/01/RejectingRisk-web.pdf"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[54].coreAnswer",
+   "find": "If the 2025 video from former CIA officials (Brennan and Panetta, 25) is right that President Trump does not have NATO's back,",
+   "replace": "If former CIA chiefs are right in 2025 that Europe can't count on Trump to stand behind Article 5 (Brennan and Panetta, 25),",
+   "reason": "No confirmed source has the words 'does not have NATO's back'. Panetta (Mar 6, 2025) said a 'very nervous Europe believes that The United States would not stand behind Article Five.'",
+   "severity": "major",
+   "sourceUrls": [
+    "https://onedecision.com/ex-cia-director-on-ukraines-options"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[54].coreAnswer",
+   "find": "every B61 bomb in Europe sits locked behind US Permissive Action Links and cannot be fired without the US President's personal launch codes (Sweeney, 20; Kristensen, 26)!",
+   "replace": "every B61 bomb in Europe is wholly US-owned and needs 'release authorization from the U.S. president' to be used (Sweeney, 20; Kristensen, 26)!",
+   "reason": "No 'personal launch codes'. Sweeney says employment requires 'release authorization from the U.S. president' and never mentions PALs.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.defensepriorities.org/reports/reconsidering-us-nuclear-weapons-in-europe/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[54].coreAnswer",
+   "find": "—nearly a 3-to-1 standalone European conventional edge!",
+   "replace": "—nearly a 3-to-1 standalone European spending edge!",
+   "reason": "Recurring fix: SIPRI figures are overall spending, not conventional.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[55].coreAnswer",
+   "find": "To ratify means to formally approve a treaty through national parliament so it becomes legally binding domestic and international law—unlike merely signing, which is non-binding.",
+   "replace": "To ratify means to formally consent to be bound by a treaty—usually after parliament approves—so it becomes legally binding on that country, unlike merely signing, which does not bind a state to the treaty's terms.",
+   "reason": "Ratification is the international act of consenting to be bound (VCLT Art. 2(1)(b)); domestic-law effect varies by country. Signing isn't fully 'non-binding', since VCLT Art. 18 bars a signatory from defeating the treaty's object and purpose.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://legal.un.org/ilc/texts/instruments/english/conventions/1_1_1969.pdf"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[55].coreAnswer",
+   "find": "while keeping 100 percent of NATO's Article 5 conventional mutual-defense alliance (Harvard Law Clinic, 18).",
+   "replace": "while staying in NATO's Article 5 conventional mutual-defense alliance as long as they give up the nuclear umbrella (Harvard Law Clinic, 18).",
+   "reason": "Recurring fix: the Harvard clinic's condition was dropped.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://humanrightsclinic.law.harvard.edu/publications/nuclear-umbrella-arrangements-and-the-treaty-on-the-prohibition-of-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[56].coreAnswer",
+   "find": "keeps roughly 1,700 strategic nuclear warheads on submarines and intercontinental missiles outside Europe",
+   "replace": "keeps roughly 1,700 deployed strategic nuclear warheads on submarines, intercontinental missiles, and bombers outside Europe",
+   "reason": "FAS's ~1,700 figure includes about 300 warheads at bomber bases.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[56].coreAnswer",
+   "find": "keeping 100 obsolete B61 gravity bombs",
+   "replace": "keeping about 100 B61 gravity bombs",
+   "reason": "Recurring fix: they are modernized B61-12s, not 'obsolete' (Kristensen, 25).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[56].coreAnswer",
+   "find": "and can destroy Russian invasion forces and supply lines in the first hours of a conflict (van Hooft, 25 at RAND Europe). Third, RAND's Baltic wargames (Davis, 19) proved that even if Russia used a tactical nuke, firing a European B61 bomb back does not stop the Russian army—it only triggers mutual destruction—whereas NATO's conventional precision deep-strike defeats the invasion force directly.",
+   "replace": "and could target Russian invasion forces, reinforcements, and logistics from the early stages of a conflict (van Hooft, 25 at RAND Europe). Third, RAND's Baltic wargames (Davis, 19) found that even modernized NATO tactical nukes would leave Russia with escalation dominance, so firing a B61 back would not stop the Russian army, whereas conventional precision deep-strike targets the invasion force directly.",
+   "reason": "Overstates van Hooft ('could target', 'raise the costs', not 'destroy'). Davis found Russia keeps escalation dominance, not that a B61 reply 'only triggers mutual destruction'; 'defeats the invasion force' is unsourced.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html",
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[57].coreAnswer",
+   "find": "gives Europe a binding legal mandate right now to cut off the 781 million euros a year EU states still pay Russia's nuclear warhead builder Rosatom",
+   "replace": "gives Europe a legal and moral argument right now to cut off the roughly 781 million euros EU states paid in 2025 to Russia's nuclear warhead builder Rosatom",
+   "reason": "Reintroduces the Rosatom legal-ban error (recurring fix). The €781m is the 2025 import total.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[58].coreAnswer",
+   "find": "because the treaty was adopted by 122 nations in the UN General Assembly (Docherty, 21 at Harvard Law)—where no country has a veto—",
+   "replace": "because the treaty was adopted by 122 nations at a UN negotiating conference (Docherty, 21 at Harvard Law)—where no country has a veto—",
+   "reason": "The TPNW was adopted on July 7, 2017 by a UN conference convened by the General Assembly, not by a vote of the General Assembly itself (Docherty: '122 lights… on the UN conference room's voting board').",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://humanrightsclinic.law.harvard.edu/banning-nuclear-weapons-milestones-and-memories/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[58].coreAnswer",
+   "find": "while Article 1(1)(e) is enforced by each European nation's own domestic courts and parliament—cutting off the 781 million euros a year Europe pays Russia's Rosatom (Danylyuk, 26 at RUSI)",
+   "replace": "while Article 5 requires each European nation to enforce the ban through its own laws, including penal sanctions—building the legal and moral case to cut off the roughly 781 million euros EU states paid Russia's Rosatom in 2025 (Danylyuk, 26 at RUSI)",
+   "reason": "National implementation is Article 5, not 1(1)(e). The TPNW doesn't legally cut off civilian fuel purchases (recurring fix).",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://ihl-databases.icrc.org/assets/treaties/640-TPNW-EN.pdf",
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[59].coreAnswer",
+   "find": "Second, removing the 100 obsolete US B61 gravity bombs sitting at six European airbases (Sweeney, 20 at Defense Priorities)",
+   "replace": "Second, removing the roughly 100 US B61 gravity bombs sitting at six European airbases (Kristensen, 26; Sweeney, 20 at Defense Priorities)",
+   "reason": "The ~100 count is FAS 2026; Sweeney (2020) gave 150. The bombs are modernized B61-12s, not obsolete (recurring fixes).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.prefires[59].coreAnswer",
+   "find": "while NATO's 1.58 trillion dollar conventional military (SIPRI, 26) defeats any ground invasion.",
+   "replace": "while NATO's conventional forces, backed by 1.58 trillion dollars in overall military spending (SIPRI, 26), resist any ground invasion.",
+   "reason": "Recurring fix: $1.58T is overall spending, not a 'conventional military'; 'defeats any invasion' is unsourced.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[0].response",
+   "find": "Permissive Action Links only block unauthorized tampering,",
+   "replace": "Permissive Action Links only block unauthorized use,",
+   "reason": "PALs prevent unauthorized arming and use.",
+   "severity": "minor",
+   "sourceUrls": []
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[0].response",
+   "find": "Digital modernization actually worsens that vulnerability by exposing command-and-control networks to cyber spoofing and AI sensor errors inside a launch-decision window of under ten minutes.",
+   "replace": "Digital modernization can worsen that vulnerability by exposing command-and-control networks to cyber spoofing and sensor errors inside a launch-decision window of just minutes.",
+   "reason": "'Under ten minutes' has no source here; the verified wording is 'just minutes' (Lewis: leaders 'have to respond too quickly'). 'Actually worsens' was stated as fact.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[3].response",
+   "find": "Purchasing power only lowers Russian labor costs for basic shells—it cannot buy fifth-generation stealth avionics, satellite target-acquisition networks, or precision-guided seekers, where NATO's 8.3-to-1 resource edge (SIPRI, 26) gives Europe a decisive technological overmatch. Furthermore, Europe is actively closing its munition gaps through a 14 percent defense spending surge—reaching 559 billion dollars across European NATO—while ending B61 nuclear sharing redirects billions of euros from dual-capable nuclear jets (Breaking Defense, 22) directly into air-defense interceptors and artillery production.",
+   "replace": "Purchasing power mostly stretches Russian rubles on labor and basic shells—it cannot easily buy fifth-generation stealth avionics, satellite target-acquisition networks, or precision-guided seekers, where NATO's 8.3-to-1 overall spending edge (SIPRI, 26) buys a technological lead. Furthermore, Europe is actively closing its munition gaps through a spending surge—up 14 percent Europe-wide in 2025, with European NATO reaching 559 billion dollars—while ending B61 nuclear sharing could free money tied to the nuclear-jet mission (Breaking Defense, 22) for air-defense interceptors and artillery.",
+   "reason": "'Only lowers labor costs' overstates; PPP reflects lower prices generally, and at PPP Russia roughly matches Europe (IISS, 25). The 8.3:1 ratio is NATO-wide (US included) overall spending, so it isn't a 'European overmatch'. The 14% is Europe-wide (recurring fix). The F-35s are bought anyway, so savings 'could' come only from the nuclear role.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge",
+    "https://breakingdefense.com/2022/12/germany-seals-entry-to-f-35-club-with-8-8b-35-fighter-plan/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[4].response",
+   "find": "Tactical nuclear warheads cannot defeat a dispersed, precision-strike alliance: unlike Cold War tank columns, modern NATO forces operate in dispersed, mobile formations backed by stand-off cruise missiles and fifth-generation stealth aircraft that can destroy Russian launch platforms, bridges, and command hubs from hundreds of miles away (van Hooft, 25 at RAND Europe). Conversely, RAND's Baltic wargames proved that answering a Russian tactical nuke with a European B61 bomb leaves Russia with escalation dominance (Davis, 19), whereas conventional deep-strike punishes Russian forces severely without triggering global nuclear annihilation.",
+   "replace": "Tactical nuclear warheads are a poor answer to a precision-strike alliance: unlike Cold War tank columns, modern NATO forces rely on stand-off cruise missiles and fifth-generation stealth aircraft that could target Russian units, reinforcements, and logistics while denying Russia's use of missiles (van Hooft, 25 at RAND Europe). Conversely, RAND's Baltic wargames found that even modernized NATO tactical nukes would leave Russia with escalation dominance (Davis, 19), whereas conventional deep-strike raises Russia's costs without NATO crossing the nuclear threshold.",
+   "reason": "Overstates van Hooft (he says 'could target … units …, reinforcements and … logistics, while denying Russia's use of missiles', and never mentions bridges or command hubs). Davis is a wargame finding, not proof. 'Without triggering annihilation' is unsourced and contested by Russia's 2024 doctrine.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html",
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[5].response",
+   "find": "ignores why Russia invaded Ukraine but never touched the Baltics: Ukraine had no mutual-defense treaty and zero allied soldiers on its territory, whereas attacking any European NATO member automatically triggers war with all 32 allies, forward-deployed multinational combat brigades, and integrated allied air forces.",
+   "replace": "ignores why Russia invaded Ukraine but never invaded the Baltics: Ukraine had no mutual-defense treaty and zero allied soldiers on its territory, whereas attacking any European NATO member invokes Article 5 collective defense with all 32 allies, multinational forward land forces, and integrated allied air forces.",
+   "reason": "Russia has hit the Baltics with sabotage, airspace violations and GPS jamming, so 'never touched' is false. Article 5 is not automatic: each ally takes 'such action as it deems necessary'. Most forward forces are battlegroups, not brigades.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.nato.int/cps/en/natolive/official_texts_17120.htm",
+    "https://www.nato.int/cps/en/natohq/topics_136388.htm",
+    "https://www.csis.org/analysis/russias-shadow-war-against-west"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[5].response",
+   "find": "confirms TPNW states keep 100 percent of that Article 5 conventional shield while opting out",
+   "replace": "confirms TPNW states can keep that Article 5 conventional shield if they give up the nuclear umbrella, opting out",
+   "reason": "Recurring fix: Harvard's condition was dropped.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://humanrightsclinic.law.harvard.edu/publications/nuclear-umbrella-arrangements-and-the-treaty-on-the-prohibition-of-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[8].response",
+   "find": "Muñoz, 26 shows that when European pension funds and banks restrict the 25 companies involved in nuclear weapons, contractors like BAE Systems and Leonardo face higher borrowing costs only because of their small nuclear-component divisions, giving corporate boards a direct financial incentive to drop nuclear-weapons work and focus 100 percent of their engineers on high-margin conventional fighter jets, radar, and artillery.",
+   "replace": "Muñoz, 26 lists BAE Systems and Leonardo among the 25 nuclear weapons producers that ethical investors shun, giving corporate boards a financial incentive to drop nuclear-weapons work and focus their engineers on conventional fighter jets, radar, and artillery.",
+   "reason": "No source says these firms face 'higher borrowing costs only because of' nuclear divisions; Muñoz lists them among 25 producers. This restores the verified claim.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.icanw.org/new_don_t_bank_on_the_bomb_report_shows_increase_in_number_of_financial_institutions_investing_in_nuclear_weapons_manufacturers"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[9].response",
+   "find": "they concede our first contention: a weapon too suicidal to ever detonate is an empty political bluff that cannot stop Russian aggression—which is why Russian sabotage attacks across Europe nearly tripled from 2023 to 2024 (Jones, 25 at CSIS) and RAND's Baltic wargames found NATO tactical nukes leave Russia with escalation dominance (Davis, 19), while Lewis, 14 at Chatham House proves we only survived the 1983 Petrov false alarm and 2009 submarine collision by sheer luck.",
+   "replace": "they concede our first contention: a weapon too suicidal to ever detonate is a bluff that did not stop Russian aggression—Russian sabotage attacks across Europe nearly tripled from 2023 to 2024 (Jones, 25 at CSIS), RAND's Baltic wargames found even modernized NATO tactical nukes leave Russia with escalation dominance (Davis, 19), and Lewis, 14 at Chatham House concludes the world 'has, indeed, been lucky' in near misses like the 1983 Petrov false alarm.",
+   "reason": "Lewis says 'lucky' and that deterrence is not the only explanation, not 'only… by sheer luck'. The 2009 collision is a flagged recent incident, not a luck-survived near miss. 'Which is why' implied a causal link the sources don't make.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy",
+    "https://www.csis.org/analysis/russias-shadow-war-against-west",
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[9].finalFocusSnippet",
+   "find": "Lewis, 14 proves survival was sheer luck during the 1983 Petrov glitch and 2009 submarine collision, while Davis, 19 at RAND proves NATO tactical nukes are an empty bluff that leaves Russia with escalation dominance.",
+   "replace": "Lewis, 14 shows the world 'has, indeed, been lucky' in near misses like the 1983 Petrov false alarm, while Davis, 19 at RAND found even modernized NATO tactical nukes leave Russia with escalation dominance.",
+   "reason": "Same overstatement of Lewis and Davis.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy",
+    "https://shop.rand.org/products/exploring-the-role-nuclear-weapons-could-play-in-deterring-russian-threats-to-the-baltic-states"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[10].response",
+   "find": "the International Committee of the Red Cross (ICRC, 20) documents that ionizing radiation from a nuclear strike on European B61 bases like Büchel, Kleine Brogel, Volkel, or Aviano would contaminate municipal tap water flowing into kitchen sinks and poison milk, crops, and food stored in family fridges across Europe for decades with zero medical remedy—while Xia, Robock, and Toon, 22 in Nature Food prove a US-Russia nuclear war would starve over 5 billion people.",
+   "replace": "the International Committee of the Red Cross (ICRC, 20) warns fallout 'cannot be contained within national borders,' recovery would take 'several decades,' and no state could adequately respond; after a strike near B61 bases like Büchel, Kleine Brogel, Volkel, or Aviano, only bottled water is known to be safe until tap supplies are tested and garden crops must not be eaten until cleared (CDC, 24)—while Xia, Robock, and Toon, 22 in Nature Food estimate a US-Russia nuclear war could starve over 5 billion people.",
+   "reason": "Misattributed. The ICRC never mentions tap water, milk or European bases. CDC says food in fridges and freezers stays SAFE, so that claim is false. Xia says 'could die', which is an estimate, not proof.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons",
+    "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html",
+    "https://doi.org/10.1038/s43016-022-00573-0"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[10].citation",
+   "find": "ICRC, 20 (Red Cross), Xia, Robock & Toon, 22 (Nature Food) & Kristensen, 26 (FAS)",
+   "replace": "ICRC, 20 (Red Cross), CDC, 24, Xia, Robock & Toon, 22 (Nature Food) & Kristensen, 26 (FAS)",
+   "reason": "Adds the CDC source now cited.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.frontlines[10].finalFocusSnippet",
+   "find": "ICRC, 20 and Xia, Robock, and Toon, 22 in Nature Food prove a nuclear exchange at European B61 bases would contaminate municipal water in kitchen sinks, poison food in fridges, and starve over 5 billion people.",
+   "replace": "ICRC, 20 warns nuclear fallout cannot be contained within borders, CDC, 24 says tap water is unsafe until tested, and Xia, Robock, and Toon, 22 in Nature Food estimate a US-Russia war could starve over 5 billion people.",
+   "reason": "Same misattribution; the fridge claim is contradicted by CDC.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons",
+    "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html",
+    "https://doi.org/10.1038/s43016-022-00573-0"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.counterDefenses[3].response",
+   "find": "so the United States retains its ~1,700 deployed strategic warheads on submarines and ICBMs outside Europe (Kristensen, 26); and second, van Hooft, 25 at RAND Europe shows that NATO's conventional long-range precision missiles and stealth airpower can neutralize Russian offensive staging bases and command bunkers in the first hours of a crisis, denying Moscow the battlefield leverage needed to issue an ultimatum.",
+   "replace": "so the United States retains its ~1,700 deployed strategic warheads on submarines, ICBMs, and bombers outside Europe (Kristensen, 26); and second, van Hooft, 25 at RAND Europe shows that conventional long-range precision missiles and stealth airpower could target Russian units, reinforcements, and logistics early in a conflict, raising the costs of any ultimatum Moscow tries to back with force.",
+   "reason": "~1,700 includes ~300 bomber warheads. Overstates van Hooft (no 'neutralize staging bases and command bunkers').",
+   "severity": "major",
+   "sourceUrls": [
+    "https://thebulletin.org/premium/2026-03/united-states-nuclear-weapons-2026/",
+    "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.counterDefenses[4].response",
+   "find": "Our opponents promise EU energy sanctions that Europe has failed to pass for four straight years:",
+   "replace": "Our opponents promise EU nuclear sanctions that Europe has failed to pass for four straight years:",
+   "reason": "The EU has passed many energy sanctions (oil embargo, coal ban, LNG phase-out); what it hasn't sanctioned is Russia's nuclear sector (RUSI).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.counterDefenses[5].response",
+   "find": "as RAND's Baltic study (Shlapak, 16) noted, Moscow knows an American president is unlikely to trade New York or Chicago for Riga or Tallinn.",
+   "replace": "as RAND's Baltic study (Shlapak, 16) noted, it may seem highly unlikely to Moscow that an American president would trade New York for Riga.",
+   "reason": "Restores RAND's actual wording; 'Moscow knows' and 'Chicago/Tallinn' aren't in it (recurring fix).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/research_reports/RR1253.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.counterDefenses[5].response",
+   "find": "immediately engages permanently stationed allied combat brigades",
+   "replace": "immediately engages forward-stationed allied combat forces",
+   "reason": "Most NATO forward forces are rotational battlegroups, not permanent brigades (only Germany's Lithuania brigade is permanent, still forming).",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.nato.int/cps/en/natohq/topics_136388.htm"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.counterDefenses[6].response",
+   "find": "A threat that Moscow knows NATO cannot execute",
+   "replace": "A threat that Moscow doubts NATO would execute",
+   "reason": "'Knows… cannot' is unsupported; sources show doubtful credibility.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.rand.org/pubs/research_reports/RR1253.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.counterDefenses[11].response",
+   "find": "matching him with obsolete European gravity bombs",
+   "replace": "matching him with B61 gravity bombs",
+   "reason": "Recurring fix: the bombs are modernized B61-12s, not obsolete.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.crossfireTraps[0].question",
+   "find": "nearly triple sabotage bombings and arson inside NATO Europe from 12 in 2023 to 34 in 2024—and how is M.A.D. anything more than a desperate bluff when Chatham House proved we only survived the 1983 Petrov false alarm by sheer luck?",
+   "replace": "nearly triple sabotage bombings and arson across Europe from 12 in 2023 to 34 in 2024—and how is M.A.D. a reliable shield when Chatham House concluded the world 'has, indeed, been lucky' in near misses like the 1983 Petrov false alarm?",
+   "reason": "Jones counts attacks 'in Europe'. Lewis says 'lucky' and that deterrence isn't the only explanation, not 'only survived by sheer luck'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.csis.org/analysis/russias-shadow-war-against-west",
+    "https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.crossfireTraps[1].question",
+   "find": "why should Germany lock 8.3 billion euros into F-35A jets to carry 100 unusable B61 bombs that Moscow knows NATO can never detonate?",
+   "replace": "why should Germany lock 8.3 billion euros into F-35A jets to carry US B61 bombs whose jets can't reliably get through Russian air defenses?",
+   "reason": "Germany's jets carry only its share of the ~100 bombs, not all 100. 'Moscow knows NATO can never detonate' is unsourced; Sweeney's point is the jets.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.defensepriorities.org/reports/reconsidering-us-nuclear-weapons-in-europe/",
+    "https://breakingdefense.com/2022/12/germany-seals-entry-to-f-35-club-with-8-8b-35-fighter-plan/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.crossfireTraps[2].question",
+   "find": "When the Red Cross and Nature Food document that detonating warheads at European B61 bases would send lethal radioactive fallout into municipal tap water in kitchen sinks, poison food in family fridges, and starve billions, why keep 100 first-strike nuclear targets inside five European countries?",
+   "replace": "When the Red Cross warns nuclear fallout cannot be contained within national borders, the CDC says tap water is unsafe until tested, and Nature Food estimates a US-Russia war could starve over 5 billion people, why keep about 100 B61 bombs that make five European countries first-strike targets?",
+   "reason": "Misattributed: neither ICRC nor Xia discusses tap water or fridges at B61 bases, and CDC says food in fridges is safe.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons",
+    "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html",
+    "https://doi.org/10.1038/s43016-022-00573-0"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.PRO.crossfireTraps[2].source",
+   "find": "ICRC, 20 (Red Cross), Xia, Robock & Toon, 22 (Nature Food) & Kristensen, 26 (FAS)",
+   "replace": "ICRC, 20 (Red Cross), CDC, 24, Xia, Robock & Toon, 22 (Nature Food) & Kristensen, 26 (FAS)",
+   "reason": "Adds the CDC source now cited.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[0].title",
+   "find": "2025 Video Interviews: Former CIA Directors & Officers Warn Trump Does Not Have NATO's or Europe's Back",
+   "replace": "Ex-CIA Director on Ukraine’s Options (One Decision podcast) & Former CIA Director Accuses Trump Of 'Extortion' Over Withdrawal Of Intelligence To Ukraine",
+   "reason": "That was an invented title. These are the real titles of the One Decision episode (Panetta) and the HuffPost UK report (Brennan).",
+   "severity": "major",
+   "sourceUrls": [
+    "https://onedecision.com/ex-cia-director-on-ukraines-options",
+    "https://au.news.yahoo.com/former-cia-director-accuses-trump-084302266.html",
+    "https://www.eurointegration.com.ua/eng/news/2025/03/7/7206625/"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[0].url",
+   "find": "https://www.pravda.com.ua/eng/news/2025/03/07/7501732/",
+   "replace": "https://onedecision.com/ex-cia-director-on-ukraines-options",
+   "reason": "The One Decision page has the full transcript of Panetta's Article 5 remark, the card's NATO-relevant quote. The Pravda link is a secondhand Brennan report.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://onedecision.com/ex-cia-director-on-ukraines-options"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[0].citation",
+   "find": "Former CIA Director John Brennan (Times Radio / Express video interview, Feb 18, 2025 & MSNBC interview, March 7, 2025); Former CIA Director & Defense Secretary Leon Panetta (One Decision video podcast, March 6, 2025); Former CIA Officer Bjorn Beam (Agenda Pública, Dec 2025).",
+   "replace": "Former CIA Director & Defense Secretary Leon Panetta (One Decision podcast, co-host, March 6, 2025); Former CIA Director John Brennan (Times Radio interview, reported by Kevin Schofield, HuffPost UK, March 6, 2025); Former CIA officer Bjorn Beam (interview with J. P. Carroll, Agenda Pública, Dec 27, 2025).",
+   "reason": "No 'Express, Feb 18, 2025' or MSNBC interview was found. Brennan's 'extortion' remark was on Times Radio (HuffPost UK, Mar 6, 2025). Beam's piece is a Dec 27, 2025 written interview.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://onedecision.com/ex-cia-director-on-ukraines-options",
+    "https://au.news.yahoo.com/former-cia-director-accuses-trump-084302266.html",
+    "https://www.eurointegration.com.ua/eng/news/2025/03/7/7206625/",
+    "https://agendapublica.es/noticia/20507/former-cia-agent-explains-trump-logic-and-warns-that-europe-is-not-united"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[0].takeaway",
+   "find": "CON: Former CIA officials warned on video in 2025 that Trump does not have NATO's back—freezing intelligence and aid to coerce allies and treating Article 5 as conditional—so Europe cannot abolish Britain and France's 515 sovereign warheads. PRO: If Trump does not have NATO's back, the 100 US B61 bombs in Europe (which require the US President's personal launch codes) are 100% useless bluffs that only paint a Russian target on Europe, while European NATO alone outspends Russia nearly 3-to-1 ($559B vs. $190B) to defend itself conventionally.",
+   "replace": "CON: Former CIA chiefs warned in 2025 that US credibility is in doubt—Panetta said a nervous Europe believes the US would not stand behind Article 5, and Brennan called the pause in intelligence for Ukraine 'a pressure tactic and extortion'—so Europe cannot abolish Britain and France's 515 warheads. PRO: If Washington won't stand behind Article 5, the roughly 100 US B61 bombs in Europe, which need US presidential release authorization (Sweeney, 20), protect little and make host bases targets, while European NATO alone outspends Russia nearly 3-to-1 overall ($559B vs. $190B).",
+   "reason": "No confirmed source says 'Trump does not have NATO's back' in those words. The coercion target was Ukraine, a partner, not 'allies'. There are no 'personal launch codes'. The 559 vs 190 comparison is overall, not conventional, spending.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://onedecision.com/ex-cia-director-on-ukraines-options",
+    "https://au.news.yahoo.com/former-cia-director-accuses-trump-084302266.html",
+    "https://www.eurointegration.com.ua/eng/news/2025/03/7/7206625/",
+    "https://www.defensepriorities.org/reports/reconsidering-us-nuclear-weapons-in-europe/",
+    "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[0].verbatim",
+   "find": "In March 2025 video interviews after Washington paused military aid and intelligence sharing with Ukraine, former CIA Director John Brennan called the move “a pressure tactic and extortion,” warning that “this move by Washington has increased anxiety among NATO allies about whether the United States can continue to be trusted,” after stating in February 2025 that Trump “likes to deal with strongmen” like Putin rather than backing NATO allies. Former CIA Director and Defense Secretary Leon Panetta (One Decision video podcast, March 6, 2025) and former CIA Officer Bjorn Beam similarly warned that Europe can no longer assume automatic U.S. protection.",
+   "replace": "Panetta (One Decision, March 6, 2025): “the message that went out both to our allies and to our adversaries is that The United States credibility is not to be relied on. I think what you're seeing is a very nervous Europe believes that The United States would not stand behind Article Five, and that's why Europe is trying to pull together in order to try to build up their own defenses…” Brennan (Times Radio, via HuffPost UK, March 6, 2025), on the pause in US intelligence sharing with Ukraine: “I see it more as a pressure tactic and extortion.” Beam (Agenda Pública, Dec 27, 2025) said the new US strategy marks a “shift from a partnership, to more of a variable, to a liability” for US partnerships in Europe. Summary (not a quote): none of them is confirmed saying, in those words, that Trump does not have NATO's back.",
+   "reason": "The 'increased anxiety among NATO allies… trusted' line is European Pravda's own narration, not Brennan's words. The 'likes to deal with strongmen' quote could not be found anywhere. The Panetta and Beam lines are now exact quotes from the transcript and interview.",
+   "severity": "critical",
+   "sourceUrls": [
+    "https://onedecision.com/ex-cia-director-on-ukraines-options",
+    "https://au.news.yahoo.com/former-cia-director-accuses-trump-084302266.html",
+    "https://www.eurointegration.com.ua/eng/news/2025/03/7/7206625/",
+    "https://agendapublica.es/noticia/20507/former-cia-agent-explains-trump-logic-and-warns-that-europe-is-not-united"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[1].citation",
+   "find": "International Committee of the Red Cross (ICRC) Position Paper, August 29, 2020.",
+   "replace": "International Committee of the Red Cross (ICRC) and International Federation of Red Cross and Red Crescent Societies (IFRC), report summarizing a March 2, 2020 expert meeting, August 29, 2020.",
+   "reason": "The page labels it a Report, published jointly by the ICRC and IFRC, that summarizes a March 2, 2020 expert meeting.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[1].takeaway",
+   "find": "PRO: A nuclear detonation in or near a populated area causes decades-long radioactive contamination of water, food, homes, and infrastructure with zero adequate medical or humanitarian response possible; the only guarantee against use is prohibition and elimination.",
+   "replace": "PRO: Fallout from a nuclear detonation cannot be contained within national borders, recovery in or near a populated area would take several decades, and no state or international body could adequately respond; the only way to guarantee nuclear weapons are never used again is to prohibit and eliminate them.",
+   "reason": "The report never mentions contamination of water or food. The other points match its text.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[1].verbatim",
+   "find": "“The scale of destruction",
+   "replace": "“The effects of a nuclear weapon detonation, notably the radioactive fallout carried downwind, cannot be contained within national borders. The scale of destruction",
+   "reason": "Adds the confirmed sentence that the corrected PRO text quotes (it directly precedes the existing quote). The existing quote was confirmed word for word, with footnote numbers dropped.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[1].verbatim",
+   "find": "disproportionally affect women and children.”",
+   "replace": "disproportionally affect women and children… The only way to guarantee that nuclear weapons are never used again is by prohibiting and eliminating them.”",
+   "reason": "Adds the confirmed para. 16 sentence that backs the takeaway.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[2].url",
+   "find": "https://www.researchgate.net/publication/362706005_Global_food_insecurity_and_famine_from_reduced_crop_marine_fishery_and_livestock_production_due_to_climate_disruption_from_nuclear_war_soot_injection",
+   "replace": "https://www.nature.com/articles/s43016-022-00573-0",
+   "reason": "Uses the publisher's DOI page (doi.org/10.1038/s43016-022-00573-0) instead of a ResearchGate copy.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://doi.org/10.1038/s43016-022-00573-0"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[2].citation",
+   "find": "Dr. Lili Xia, Prof. Alan Robock, Kim Scherrer, Prof. Owen B. Toon et al. (Rutgers University), Nature Food, Vol. 3, Issue 8, pp. 586–596, August 15, 2022.",
+   "replace": "Lili Xia, Alan Robock, Kim Scherrer, Cheryl S. Harrison, Benjamin Leon Bodirsky, Isabelle Weindl, Jonas Jägermeyr, Charles G. Bardeen, Owen B. Toon and Ryan Heneghan (Rutgers-led team; Toon is at the University of Colorado), Nature Food, Vol. 3, Issue 8, pp. 586–596, August 15, 2022.",
+   "reason": "Lists the authors in Crossref order. Toon is 9th of 10, not 4th, and not at Rutgers.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://doi.org/10.1038/s43016-022-00573-0"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[2].takeaway",
+   "find": "PRO: Nuclear war soot and radioactive fallout disrupt water, agriculture, crops, livestock, and household food supplies across Europe and the world—starving over 2 billion people in a regional war and over 5 billion people in a US-Russia nuclear war.",
+   "replace": "PRO: Soot from nuclear-war fires would disrupt the climate and cut crop, livestock and fishery output in almost all countries—so more than 2 billion people could die from an India-Pakistan war and more than 5 billion from a US-Russia war.",
+   "reason": "The study models soot-driven climate effects on food production. It does not model radioactive fallout or water, and it says 'could die'.",
+   "severity": "major",
+   "sourceUrls": [
+    "https://doi.org/10.1038/s43016-022-00573-0"
+   ]
+  },
+  {
+   "path": "DEBATE_DATA.SOURCE_CARDS[2].verbatim",
+   "find": "Earth's climate",
+   "replace": "Earth’s climate",
+   "reason": "Matches the abstract's exact punctuation. All three quoted fragments are confirmed word for word against the Crossref abstract.",
+   "severity": "minor",
+   "sourceUrls": [
+    "https://doi.org/10.1038/s43016-022-00573-0"
+   ]
+  }
+ ],
+ "newSources": [
+  {
+   "tag": "CDC, 24",
+   "title": "Food, Drinking Water, and Medicine Safety in a Radiation Emergency",
+   "authors": "US Centers for Disease Control and Prevention",
+   "date": "April 15, 2024 (page date)",
+   "url": "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html",
+   "whatItSupports": "Confirmed quotes: 'Bottled water is the only water that is free of contamination until emergency officials say that other water sources are safe'; 'Do not pick or eat food from your garden until emergency officials determine it is safe to do so.' WARNING: it also says 'Unspoiled food in your refrigerator or freezer is also safe to eat' and sealed food is safe, so never claim fridge food is poisoned."
+  },
+  {
+   "tag": "NATO, 25",
+   "title": "Defence Expenditure of NATO Countries (2014-2025)",
+   "authors": "NATO Public Diplomacy Division",
+   "date": "August 2025 (data cut-off June 3, 2025)",
+   "url": "https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2025-en.pdf",
+   "whatItSupports": "Table 7 (military personnel): NATO Europe and Canada about 2,114,000 in 2024 (estimate), minus Canada's 77,100, which leaves about 2.04 million for European allies. Use 'over two million troops' with the 2024 estimate."
+  },
+  {
+   "tag": "Jones & McCabe, 25",
+   "title": "Russia's Battlefield Woes in Ukraine",
+   "authors": "Seth G. Jones and Riley McCabe, CSIS",
+   "date": "June 3, 2025",
+   "url": "https://www.csis.org/analysis/russias-battlefield-woes-ukraine",
+   "whatItSupports": "Confirmed: 'a high of 250,000 Russian soldiers have died in Ukraine, with over 950,000 total Russian casualties'; 'Since January 2024 … Russia has lost roughly … 1,865 tanks.' Update: CSIS (Jones & McCabe, Jan 27, 2026, 'Russia's Grinding War in Ukraine') gives about 1.2 million casualties and 275,000–325,000 killed through Dec 2025."
+  },
+  {
+   "tag": "Perrow, 84",
+   "title": "Normal Accidents: Living with High-Risk Technologies",
+   "authors": "Charles Perrow",
+   "date": "1984 (Basic Books; Princeton University Press edition 1999)",
+   "url": "https://press.princeton.edu/books/paperback/9780691004129/normal-accidents",
+   "whatItSupports": "Origin of Normal Accidents Theory: in systems with interactive complexity and tight coupling, serious accidents are inevitable ('normal')."
+  },
+  {
+   "tag": "Sagan, 93",
+   "title": "The Limits of Safety: Organizations, Accidents, and Nuclear Weapons",
+   "authors": "Scott D. Sagan",
+   "date": "1993 (Princeton University Press)",
+   "url": "https://press.princeton.edu/books/paperback/9780691021010/the-limits-of-safety",
+   "whatItSupports": "Applies normal-accidents theory to US nuclear command and control, documenting Cold War near-accidents (Lewis, 14 also cites it)."
+  },
+  {
+   "tag": "Finnemore and Sikkink, 98",
+   "title": "International Norm Dynamics and Political Change",
+   "authors": "Martha Finnemore and Kathryn Sikkink",
+   "date": "1998 (International Organization 52(4): 887–917)",
+   "url": "https://doi.org/10.1162/002081898550789",
+   "whatItSupports": "Defines the 'norm cascade' stage of the norm life cycle. It is theory only, with no TPNW data, so pair it with PAX/ICAN, 22 and 23."
+  },
+  {
+   "tag": "UN Charter, 45",
+   "title": "Charter of the United Nations",
+   "authors": "United Nations",
+   "date": "Signed June 26, 1945; in force October 24, 1945",
+   "url": "https://www.un.org/en/about-us/un-charter/full-text",
+   "whatItSupports": "Article 23(1) names France and the UK as permanent members; Article 27(3) gives the permanent members' concurring-vote (veto) rule. UK first test 1952, France 1960."
+  }
+ ],
+ "done": 174,
+ "summary": "Checked all 171 PRO items (41 changed, 130 new) plus the 3 new source cards: 105 edits (15 critical, 51 major, 39 minor) and 7 new sources. Reintroduced errors fixed: Rosatom described as a 'binding legal mandate' or legal ban (should be a legal and moral argument); 14% applied to European NATO; SIPRI totals labeled 'conventional'; Harvard's umbrella condition dropped; van Hooft, Lewis, Shlapak and Davis overstated; 'obsolete' B61s; 38% of 250,000 missing 'as of 2016'. New errors fixed: ICRC and Xia et al. misattributed for water, milk and 'fridge' contamination (CDC says refrigerated and sealed food is SAFE); invented B61 'personal launch codes' (Sweeney: US presidential release authorization); UN veto is Art. 27, not 23; national enforcement is TPNW Art. 5, not 1(1)(e); Article 5 is not 'automatic'; EU has passed energy sanctions (it is the nuclear sector that is unsanctioned); 1,700 US warheads include bombers; CWC and BWC were joined by the superpowers. Brennan & Panetta card: fake title; the 'NATO allies anxiety' line was European Pravda narration, not Brennan; the 'strongmen' quote was not found; replaced with Panetta's confirmed One Decision Article 5 quote and Brennan's confirmed Times Radio quote. No source has 'Trump does not have NATO's back' verbatim. Side note: Sweeney's report does cite a RAND excursion with 5,000 deaths per base at Aviano and Ramstein, so earlier rounds' 'no source has it' was wrong. No edit needed here."
+}

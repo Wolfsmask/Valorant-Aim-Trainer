@@ -1,0 +1,77 @@
+[
+ {
+  "title": "Timers: each step keeps its own clock; switching steps never stops or resets it",
+  "find": "      if (state.clockStepIndex !== state.currentStepIndex) {\n        state.clockStepIndex = state.currentStepIndex;\n        pauseMainTimer();\n        state.mainTimerSec = step.duration;\n      }",
+  "replace": "      if (state.clockStepIndex !== state.currentStepIndex) {\n        stashStepClock(state.clockStepIndex);\n        state.clockStepIndex = state.currentStepIndex;\n        restoreStepClock(state.currentStepIndex, step.duration);\n      }"
+ },
+ {
+  "title": "Timers: per-step clock helpers + background time-up alert",
+  "find": "    let mainTimerEndTimeMs = 0;\n    let mainWarned30 = false;\n",
+  "replace": "    let mainTimerEndTimeMs = 0;\n    let mainWarned30 = false;\n\n    // Each step has its own clock. Leaving a step (or the browser tab) never stops or resets it;\n    // a running clock keeps counting by the real wall clock. Only the \u21ba Reset button resets it.\n    function stashStepClock(idx) {\n      if (typeof idx !== \"number\") return;\n      if (!state.stepClocks) state.stepClocks = {};\n      const running = !!state.mainTimerRunning && mainTimerEndTimeMs > 0;\n      state.stepClocks[idx] = { running, endWall: running ? mainTimerEndTimeMs : 0, sec: state.mainTimerSec, warned: mainWarned30 };\n      clearInterval(state.mainTimerInterval);\n      state.mainTimerRunning = false;\n      mainTimerEndTimeMs = 0;\n    }\n    function restoreStepClock(idx, duration) {\n      const c = state.stepClocks && state.stepClocks[idx];\n      if (c && c.running) {\n        const rem = c.endWall - Date.now();\n        if (rem > 0) {\n          state.mainTimerSec = Math.ceil(rem / 1000);\n          toggleMainTimer();\n          mainTimerEndTimeMs = c.endWall;\n          mainWarned30 = c.warned;\n          return;\n        }\n        state.mainTimerSec = 0;\n      } else {\n        state.mainTimerSec = c ? c.sec : duration;\n      }\n      pauseMainTimer();\n    }\n    setInterval(() => {\n      if (!state.stepClocks) return;\n      const now = Date.now();\n      Object.keys(state.stepClocks).forEach(k => {\n        const c = state.stepClocks[k];\n        if (c && c.running && c.endWall <= now && Number(k) !== state.currentStepIndex) {\n          c.running = false; c.sec = 0; c.endWall = 0;\n          try {\n            const st = getRoundSteps()[Number(k)];\n            playTimerChime(\"expiry\");\n            flashSaveToast(`\u23f0 Time up: ${st ? st.short : \"step \" + (Number(k) + 1)}`);\n          } catch (e) {}\n        }\n      });\n    }, 1000);\n"
+ },
+ {
+  "title": "Timers: count by the real clock (keeps time through tab switches and laptop sleep)",
+  "find": "mainTimerEndTimeMs = performance.now() + state.mainTimerSec * 1000;",
+  "replace": "mainTimerEndTimeMs = Date.now() + state.mainTimerSec * 1000;"
+ },
+ {
+  "title": "Timers: count by the real clock (keeps time through tab switches and laptop sleep)",
+  "find": "const remainingMs = Math.max(0, mainTimerEndTimeMs - performance.now());\n          const nextSec",
+  "replace": "const remainingMs = Math.max(0, mainTimerEndTimeMs - Date.now());\n          const nextSec"
+ },
+ {
+  "title": "Timers: count by the real clock (keeps time through tab switches and laptop sleep)",
+  "find": "const remainingMs = Math.max(0, mainTimerEndTimeMs - performance.now());\n        state.mainTimerSec",
+  "replace": "const remainingMs = Math.max(0, mainTimerEndTimeMs - Date.now());\n        state.mainTimerSec"
+ },
+ {
+  "title": "Timers: count by the real clock (keeps time through tab switches and laptop sleep)",
+  "find": "t.sec = Math.ceil(Math.max(0, t.endTimeMs - performance.now()) / 1000);",
+  "replace": "t.sec = Math.ceil(Math.max(0, t.endTimeMs - Date.now()) / 1000);"
+ },
+ {
+  "title": "Timers: count by the real clock (keeps time through tab switches and laptop sleep)",
+  "find": "t.endTimeMs = performance.now() + t.sec * 1000;",
+  "replace": "t.endTimeMs = Date.now() + t.sec * 1000;"
+ },
+ {
+  "title": "Timers: count by the real clock (keeps time through tab switches and laptop sleep)",
+  "find": "const remMs = Math.max(0, t.endTimeMs - performance.now());",
+  "replace": "const remMs = Math.max(0, t.endTimeMs - Date.now());"
+ },
+ {
+  "title": "Round reset: clear every step clock and unsaved drafts",
+  "find": "      state.editingSpeechBoxIds = {};\n      state.composerOpen = { constructive: false, rebuttal: false, summary: false, finalFocus: false };\n      state.donePrefires = { PRO: {}, CON: {} };",
+  "replace": "      state.editingSpeechBoxIds = {};\n      state.composerOpen = { constructive: false, rebuttal: false, summary: false, finalFocus: false };\n      state.stepClocks = {};\n      state.clockStepIndex = state.currentStepIndex;\n      try { clearAllDrafts(); } catch (e) {}\n      state.donePrefires = { PRO: {}, CON: {} };"
+ },
+ {
+  "title": "Drafts: anything typed in a box editor or the custom-box composer is kept when you switch steps or reload",
+  "find": "    function flashSaveToast(label) {",
+  "replace": "    // DRAFT KEEPER: text typed into a custom-box composer or a box you are editing is saved as you type\n    // and put back whenever the screen is redrawn (switching steps, panels or tabs) or the page reloads.\n    const PF_DRAFT_KEY = \"pf_unsaved_drafts_v1\";\n    let PF_DRAFTS = {};\n    try { PF_DRAFTS = JSON.parse(localStorage.getItem(PF_DRAFT_KEY) || \"{}\") || {}; } catch (e) { PF_DRAFTS = {}; }\n    let pfDraftSaveTimer = null;\n    function pfDraftKey(el) {\n      if (!el || !el.id) return null;\n      if (/^(editBody_|editLabel_)/.test(el.id) || /CustomBoxTextarea$/.test(el.id)) return (state.side || \"\") + \":\" + el.id;\n      return null;\n    }\n    function pfSaveDraftsSoon() {\n      clearTimeout(pfDraftSaveTimer);\n      pfDraftSaveTimer = setTimeout(() => { try { localStorage.setItem(PF_DRAFT_KEY, JSON.stringify(PF_DRAFTS)); } catch (e) {} }, 250);\n    }\n    function clearDraftFor(id) {\n      delete PF_DRAFTS[(state.side || \"\") + \":\" + id];\n      pfSaveDraftsSoon();\n    }\n    function clearAllDrafts() { PF_DRAFTS = {}; pfSaveDraftsSoon(); }\n    function restoreDrafts() {\n      document.querySelectorAll(\"textarea[id], input[id]\").forEach(el => {\n        const k = pfDraftKey(el);\n        if (k && typeof PF_DRAFTS[k] === \"string\" && el.value !== PF_DRAFTS[k] && document.activeElement !== el) el.value = PF_DRAFTS[k];\n      });\n    }\n    document.addEventListener(\"input\", ev => {\n      const k = pfDraftKey(ev.target);\n      if (!k) return;\n      PF_DRAFTS[k] = ev.target.value;\n      pfSaveDraftsSoon();\n    }, true);\n    let pfDraftRaf = 0;\n    try {\n      new MutationObserver(() => { if (pfDraftRaf) return; pfDraftRaf = requestAnimationFrame(() => { pfDraftRaf = 0; restoreDrafts(); }); })\n        .observe(document.documentElement, { childList: true, subtree: true });\n    } catch (e) {}\n\n    function flashSaveToast(label) {"
+ },
+ {
+  "title": "Drafts: saving a box clears its draft",
+  "find": "      state.editingSpeechBoxIds[itemId] = false;\n      autoSynchronizeAllSpeeches();\n      persistLiveEdits(\"\u2713 Box Saved\");",
+  "replace": "      state.editingSpeechBoxIds[itemId] = false;\n      clearDraftFor(\"editBody_\" + itemId); clearDraftFor(\"editLabel_\" + itemId);\n      autoSynchronizeAllSpeeches();\n      persistLiveEdits(\"\u2713 Box Saved\");"
+ },
+ {
+  "title": "Drafts: resetting a box clears its draft",
+  "find": "      state.editingSpeechBoxIds[itemId] = false;\n      autoSynchronizeAllSpeeches();\n      persistLiveEdits(\"\u21ba Box Restored\");",
+  "replace": "      state.editingSpeechBoxIds[itemId] = false;\n      clearDraftFor(\"editBody_\" + itemId); clearDraftFor(\"editLabel_\" + itemId);\n      autoSynchronizeAllSpeeches();\n      persistLiveEdits(\"\u21ba Box Restored\");"
+ },
+ {
+  "title": "Drafts: adding the custom box clears the composer draft",
+  "find": "      state.composerOpen[speechType] = false;\n      persistLiveEdits(\"\u2713 Custom Box Added & Auto-Adjusted\");",
+  "replace": "      state.composerOpen[speechType] = false;\n      clearDraftFor(speechType + \"CustomBoxTextarea\");\n      persistLiveEdits(\"\u2713 Custom Box Added & Auto-Adjusted\");"
+ },
+ {
+  "title": "Saved edits: custom boxes, box edits, box order and team notes now survive a reload",
+  "find": "          liveOpponentText: state.liveOpponentText,\n          loggedQuotes: state.loggedQuotes\n        }));",
+  "replace": "          liveOpponentText: state.liveOpponentText,\n          loggedQuotes: state.loggedQuotes,\n          customSpeechBoxes: state.customSpeechBoxes,\n          customBoxEdits: state.customBoxEdits,\n          paragraphOrder: state.paragraphOrder,\n          teamNotesText: state.teamNotesText\n        }));"
+ },
+ {
+  "title": "Saved edits: load them back on start",
+  "find": "        if (Array.isArray(parsedEdits.loggedQuotes)) {\n          state.loggedQuotes = parsedEdits.loggedQuotes;\n        }",
+  "replace": "        if (Array.isArray(parsedEdits.loggedQuotes)) {\n          state.loggedQuotes = parsedEdits.loggedQuotes;\n        }\n        const isObj = o => o && typeof o === \"object\" && !Array.isArray(o);\n        [\"PRO\", \"CON\"].forEach(sd => {\n          if (isObj(parsedEdits.customSpeechBoxes) && isObj(parsedEdits.customSpeechBoxes[sd]) && state.customSpeechBoxes && state.customSpeechBoxes[sd]) {\n            [\"constructive\", \"rebuttal\", \"summary\", \"finalFocus\"].forEach(k => { const arr = parsedEdits.customSpeechBoxes[sd][k]; if (Array.isArray(arr)) state.customSpeechBoxes[sd][k] = arr.filter(b => b && typeof b.id === \"string\" && typeof b.text === \"string\"); });\n          }\n          if (isObj(parsedEdits.customBoxEdits) && isObj(parsedEdits.customBoxEdits[sd]) && state.customBoxEdits) {\n            const clean = {}; Object.keys(parsedEdits.customBoxEdits[sd]).forEach(k => { if (typeof parsedEdits.customBoxEdits[sd][k] === \"string\") clean[k] = parsedEdits.customBoxEdits[sd][k]; });\n            state.customBoxEdits[sd] = clean;\n          }\n          if (isObj(parsedEdits.paragraphOrder) && isObj(parsedEdits.paragraphOrder[sd]) && state.paragraphOrder && state.paragraphOrder[sd]) {\n            [\"constructive\", \"rebuttal\", \"summary\", \"finalFocus\"].forEach(k => { const arr = parsedEdits.paragraphOrder[sd][k]; if (Array.isArray(arr) && arr.every(x => typeof x === \"string\")) state.paragraphOrder[sd][k] = arr; });\n          }\n          if (isObj(parsedEdits.teamNotesText) && typeof parsedEdits.teamNotesText[sd] === \"string\" && state.teamNotesText) state.teamNotesText[sd] = parsedEdits.teamNotesText[sd];\n        });"
+ }
+]
