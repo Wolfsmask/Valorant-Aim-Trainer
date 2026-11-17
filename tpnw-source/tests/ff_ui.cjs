@@ -1,0 +1,12 @@
+const { chromium } = require('/opt/node-tools/node_modules/playwright');
+(async () => { const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' }); const p = await (await b.newContext({ offline: true })).newPage();
+const errs = []; p.on('pageerror', e => errs.push(e.message));
+await p.goto('file://' + require('path').resolve(process.argv[2])); await p.waitForTimeout(400);
+await p.click('#btnSideCon'); await p.click('#btnOrderSecond'); await p.click('#btnConsentNo').catch(() => {}); await p.click('#btnLaunchRound'); await p.waitForTimeout(200);
+const idx = await p.evaluate(() => getRoundSteps().findIndex(s => s.panel === 'opponentSiphon')); await p.evaluate(i => jumpToStep(i), idx); await p.waitForTimeout(200);
+await p.fill('#opponentTranscriptInput', 'Our opponents forget that Russia and China are part of NATO, so they would veto everything.'); await p.dispatchEvent('#opponentTranscriptInput', 'input'); await p.waitForTimeout(600);
+console.log('alert visible:', await p.isVisible('#falseFactAlertBox'), '|', (await p.textContent('#falseFactAlertBox').catch(() => '')).replace(/\s+/g, ' ').slice(0, 260));
+await p.screenshot({ path: 'v7/ff_alert.png' });
+await p.fill('#opponentTranscriptInput', 'Russia is not in NATO and keeps threatening NATO allies.'); await p.dispatchEvent('#opponentTranscriptInput', 'input'); await p.waitForTimeout(600);
+console.log('alert after true statement visible:', await p.isVisible('#falseFactAlertBox'));
+console.log('errors', errs); await b.close(); })();

@@ -1,36 +1,208 @@
 {
  "PRO": [
-  ["isnt giving up nukes while russia keeps theirs suicidal", ["p_pf_43","p_pf_2","p_pf_42"]],
-  ["what would stop putin from marching into the baltics", ["p_pf_3","p_pf_44"]],
-  ["so germany would have to end nuclear sharing?", ["p_pf_11","p_pf_6"]],
-  ["has any nuclear power ever joined the TPNW", ["p_pf_19","p_pf_30"]],
-  ["didnt ukraine get invaded because it had no nukes", ["p_pf_1"]],
-  ["how does the treaty catch a country cheating", ["p_pf_8"]],
-  ["wouldnt the u.s. stop defending europe", ["p_pf_3","p_pf_23"]],
-  ["isnt the B61 being modernized right now", ["p_pf_40","p_pf_11"]],
-  ["would france have to dismantle its arsenal", ["p_pf_4"]],
-  ["what do you do about russian hybrid attacks", ["p_pf_44","p_pf_42"]],
-  ["isnt the NPT the real disarmament treaty", ["p_pf_7"]],
-  ["doesnt russia threaten nukes every week", ["p_pf_2"]],
-  ["can conventional forces really stop russia", ["p_pf_42","p_pf_14"]],
-  ["what if iran gets a bomb", ["p_pf_25"]],
-  ["arent you just helping putin", ["p_pf_2","p_pf_44","p_pf_43"]]
+  [
+   "isnt giving up nukes while russia keeps theirs suicidal",
+   [
+    "p_pf_43",
+    "p_pf_2",
+    "p_pf_42"
+   ]
+  ],
+  [
+   "what would stop putin from marching into the baltics",
+   [
+    "p_pf_3",
+    "p_pf_44"
+   ]
+  ],
+  [
+   "so germany would have to end nuclear sharing?",
+   [
+    "p_pf_11",
+    "p_pf_6"
+   ]
+  ],
+  [
+   "has any nuclear power ever joined the TPNW",
+   [
+    "p_pf_19",
+    "p_pf_30"
+   ]
+  ],
+  [
+   "didnt ukraine get invaded because it had no nukes",
+   [
+    "p_pf_1"
+   ]
+  ],
+  [
+   "how does the treaty catch a country cheating",
+   [
+    "p_pf_8"
+   ]
+  ],
+  [
+   "wouldnt the u.s. stop defending europe",
+   [
+    "p_pf_3",
+    "p_pf_23"
+   ]
+  ],
+  [
+   "isnt the B61 being modernized right now",
+   [
+    "p_pf_40",
+    "p_pf_11"
+   ]
+  ],
+  [
+   "would france have to dismantle its arsenal",
+   [
+    "p_pf_4"
+   ]
+  ],
+  [
+   "what do you do about russian hybrid attacks",
+   [
+    "p_pf_44",
+    "p_pf_42"
+   ]
+  ],
+  [
+   "isnt the NPT the real disarmament treaty",
+   [
+    "p_pf_7"
+   ]
+  ],
+  [
+   "doesnt russia threaten nukes every week",
+   [
+    "p_pf_2"
+   ]
+  ],
+  [
+   "can conventional forces really stop russia",
+   [
+    "p_pf_42",
+    "p_pf_14"
+   ]
+  ],
+  [
+   "what if iran gets a bomb",
+   [
+    "p_pf_25"
+   ]
+  ],
+  [
+   "arent you just helping putin",
+   [
+    "p_pf_2",
+    "p_pf_44",
+    "p_pf_43"
+   ]
+  ]
  ],
  "CON": [
-  ["how many near misses do we need before we act", ["c_pf_16","c_pf_1"]],
-  ["why buy fuel from the country threatening you", ["c_pf_7","c_pf_34"]],
-  ["would you press the button", ["c_pf_2","c_pf_12"]],
-  ["doesnt the treaty make nuclear weapons illegal like chemical weapons", ["c_pf_39","c_pf_44"]],
-  ["isnt hosting american bombs dangerous for belgium", ["c_pf_13"]],
-  ["didnt putin put nukes in belarus because of nato", ["c_pf_19"]],
-  ["why do 24 nato countries live fine without nukes", ["c_pf_36","c_pf_41"]],
-  ["cant europe defend itself conventionally", ["c_pf_42","c_pf_6","c_pf_21"]],
-  ["what about the risk of nuclear terrorism", ["c_pf_15"]],
-  ["isnt the treaty verification as good as the NPT", ["c_pf_11","c_pf_33"]],
-  ["why hasnt nuclear deterrence stopped the drones over european airports", ["c_pf_25"]],
-  ["doesnt the US have enough submarines to protect europe", ["c_pf_31","c_pf_4"]],
-  ["isnt nuclear war the end of humanity", ["c_pf_22","c_pf_44"]],
-  ["didnt former leaders support the ban", ["c_pf_40"]],
-  ["what about global south countries", ["c_pf_26"]]
+  [
+   "how many near misses do we need before we act",
+   [
+    "c_pf_16",
+    "c_pf_1"
+   ]
+  ],
+  [
+   "why buy fuel from the country threatening you",
+   [
+    "c_pf_7",
+    "c_pf_34"
+   ]
+  ],
+  [
+   "would you press the button",
+   [
+    "c_pf_2",
+    "c_pf_12"
+   ]
+  ],
+  [
+   "doesnt the treaty make nuclear weapons illegal like chemical weapons",
+   [
+    "c_pf_39",
+    "c_pf_44"
+   ]
+  ],
+  [
+   "isnt hosting american bombs dangerous for belgium",
+   [
+    "c_pf_13"
+   ]
+  ],
+  [
+   "didnt putin put nukes in belarus because of nato",
+   [
+    "c_pf_19"
+   ]
+  ],
+  [
+   "why do 24 nato countries live fine without nukes",
+   [
+    "c_pf_36",
+    "c_pf_41"
+   ]
+  ],
+  [
+   "cant europe defend itself conventionally",
+   [
+    "c_pf_42",
+    "c_pf_6",
+    "c_pf_21",
+    "c_pf_s5"
+   ]
+  ],
+  [
+   "what about the risk of nuclear terrorism",
+   [
+    "c_pf_15"
+   ]
+  ],
+  [
+   "isnt the treaty verification as good as the NPT",
+   [
+    "c_pf_11",
+    "c_pf_33"
+   ]
+  ],
+  [
+   "why hasnt nuclear deterrence stopped the drones over european airports",
+   [
+    "c_pf_25"
+   ]
+  ],
+  [
+   "doesnt the US have enough submarines to protect europe",
+   [
+    "c_pf_31",
+    "c_pf_4"
+   ]
+  ],
+  [
+   "isnt nuclear war the end of humanity",
+   [
+    "c_pf_22",
+    "c_pf_44"
+   ]
+  ],
+  [
+   "didnt former leaders support the ban",
+   [
+    "c_pf_40"
+   ]
+  ],
+  [
+   "what about global south countries",
+   [
+    "c_pf_26"
+   ]
+  ]
  ]
 }

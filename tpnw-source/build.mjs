@@ -81,15 +81,22 @@ execSync(`npx tailwindcss -i .in.css --content .content.html -o .tw.css --minify
 const tw = fs.readFileSync(path.join(TW, '.tw.css'), 'utf8');
 for (const f of ['.content.html', '.in.css', '.tw.css']) fs.unlinkSync(path.join(TW, f));
 const cdn = '<script src="https://cdn.tailwindcss.com/3.4.17"></script>';
-if (!html.includes(cdn)) throw new Error('tailwind CDN tag not found');
-html = html.replace(cdn, () => '<style id="tw-offline">' + tw + '</style>');
+const twRe = /<style id="tw-offline">[\s\S]*?<\/style>/;
+const alreadyOffline = !html.includes(cdn) && twRe.test(html);
+if (alreadyOffline) {
+  // base is already an offline build: recompile its styles so classes added since are included
+  html = html.replace(twRe, () => '<style id="tw-offline">' + tw + '</style>');
+} else {
+  if (!html.includes(cdn)) throw new Error('tailwind CDN tag not found');
+  html = html.replace(cdn, () => '<style id="tw-offline">' + tw + '</style>');
+}
 const F = path.join(TW, 'node_modules/@fontsource');
 const face = (fam, file, w, st) => `@font-face{font-family:'${fam}';font-style:${st};font-weight:${w};font-display:swap;src:url(data:font/woff2;base64,${fs.readFileSync(path.join(F, file)).toString('base64')}) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}`;
 const fonts = [400, 500, 600, 700].map(w => face('Inter', `inter/files/inter-latin-${w}-normal.woff2`, w, 'normal')).join('') +
   [500, 600, 700].map(w => face('Lora', `lora/files/lora-latin-${w}-normal.woff2`, w, 'normal')).join('') + face('Lora', 'lora/files/lora-latin-400-italic.woff2', 400, 'italic');
 const linkRe = /\s*<link rel="preconnect" href="https:\/\/fonts\.googleapis\.com">\s*<link rel="preconnect" href="https:\/\/fonts\.gstatic\.com" crossorigin>\s*<link href="https:\/\/fonts\.googleapis\.com\/css2[^"]*" rel="stylesheet">/;
-if (!linkRe.test(html)) throw new Error('google fonts links not found');
-html = html.replace(linkRe, () => '\n  <style id="fonts-offline">' + fonts + '</style>');
+if (!linkRe.test(html)) { if (!html.includes('<style id="fonts-offline">')) throw new Error('google fonts links not found'); }
+else html = html.replace(linkRe, () => '\n  <style id="fonts-offline">' + fonts + '</style>');
 if (/https:\/\/(cdn\.tailwindcss|fonts\.g)/.test(html)) throw new Error('online dependency left');
 
 fs.writeFileSync(OUT, html);

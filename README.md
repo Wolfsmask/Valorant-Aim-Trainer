@@ -4,8 +4,26 @@ Offline apps for **Public Forum** debate. Each one is a single `.html` file: no 
 
 | File | Topic | Notes |
 |---|---|---|
-| **`tpnw.html`** | **Nov/Dec 2026**: *Resolved: European members of NATO should ratify the Treaty on the Prohibition of Nuclear Weapons.* | Gemini's v3 design, kept exactly. Every fact on PRO and CON was checked and corrected; it works offline. |
+| **`PF.html`** / **`PF.txt`** | **Nov/Dec 2026**: *Resolved: European members of NATO should ratify the Treaty on the Prohibition of Nuclear Weapons.* | **Newest.** Gemini's v7 design, with every fact checked, more prefires and attacks, typo-proof search, a false-fact alarm, timers that never reset, and a Wi-Fi partner link. `PF.txt` is the same file; rename it to `PF.html` to open it. |
+| `tpnw.html` | Nov/Dec 2026 (same topic) | Older version, built from Gemini's v3. |
 | `index.html` | Sept/Oct 2026: *Resolved: The United States federal government should enact a moratorium on hyperscale data center construction.* | Step-by-step round guide (PRO). |
+
+## What's new in `PF.html`
+
+- **False-fact alarm.** If the opponent's speech says something flatly false (for example, that Russia or China is in NATO), a red box appears under it with the sourced correction. In crossfire, the correction is the first answer. If they say it in the last speech, use a **Last-Speech Shield** line from the closing snippets: it quotes the NSDA ballot rule that bans new arguments in Final Focus.
+- **More ammunition, PRO first.**
+  - PRO gets 7 special attacks on what Russia, the US, Britain, France and NATO have actually done, plus 18 new prefires and 10 myth-busters.
+  - CON gets the US-reliability argument, built on Trump's own words and on former CIA Director Leon Panetta (March 2025): "a very nervous Europe believes that The United States would not stand behind Article Five".
+  - Both sides get answers to the other side's version of it.
+- **Search finds it even if you misspell it.** It handles typos, sound-alike spelling and different wording in every search box: AI search, crossfire, Source Cards and list filters.
+- **Timers.** Each step has its own clock. Switching steps or browser tabs never stops or resets a clock; only ↺ resets it.
+- **Custom boxes are kept.** Text you're typing into a custom box or box editor stays when you switch steps or reload.
+- **Partner link over Wi-Fi.**
+  1. Open 📡 **Partner Sync**.
+  2. One partner clicks **New Code** and tells the other the code.
+  3. Both type the same code and click **Link Laptops**.
+
+  Everything syncs live. It needs Wi-Fi with internet; the offline options are still there.
 
 ## How to open either app
 
@@ -55,7 +73,9 @@ NSDA rules ban getting outside help during a round, and some state associations 
 
 | Path | What it is |
 |---|---|
-| `tpnw.html` | The Nov/Dec app. |
+| `PF.html`, `PF.txt` | The Nov/Dec app, newest. |
+| `tpnw.html` | The Nov/Dec app, older v3-based version. |
+| `tpnw-source/v7work/` | Builds `PF.html` from Gemini's v7 (`incoming/PF-gemini-v7-upload.html`): `cd tpnw-source/v7work && sh make_base.sh`, then the `node build.mjs …` line it prints. Tests are in `tpnw-source/tests/`. |
 | `index.html` | The Sept/Oct app. |
 | `tpnw-source/` | Builds `tpnw.html` from Gemini's original (`gemini-original.html`) using the corrected data (`fact-data.json`), code fixes and offline fonts/styles. Run `cd tpnw-source && npm install && node build.mjs`. |
 | `source/` | Builds `index.html`. Run `cd source && node build.mjs --out=../index.html`. |

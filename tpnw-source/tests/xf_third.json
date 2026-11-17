@@ -1,36 +1,204 @@
 {
  "PRO": [
-  ["so you'd trust putin to follow a treaty?", ["p_pf_44","p_pf_19"]],
-  ["isnt it naive to think russia will stop building nukes", ["p_pf_19","p_pf_43","p_pf_44"]],
-  ["wont the alliance fall apart", ["p_pf_5"]],
-  ["how do you stop a country secretly building a bomb", ["p_pf_8"]],
-  ["didnt the cold war stay cold because of nukes", ["p_pf_13","p_pf_45"]],
-  ["what about the threat from beijing", ["p_pf_21"]],
-  ["isnt russia's army bigger than you think", ["p_pf_14","p_pf_42"]],
-  ["what does europe do if russia threatens a nuclear strike", ["p_pf_2","p_pf_12"]],
-  ["isnt nato's nuclear sharing legal under the NPT", ["p_pf_7","p_pf_11"]],
-  ["wouldnt the UK lose its seat on the security council", ["p_pf_32"]],
-  ["how many jobs depend on trident", ["p_pf_39"]],
-  ["what about turkey and incirlik", ["p_pf_33"]],
-  ["why did sweden and finland want the nato umbrella", ["p_pf_31"]],
-  ["doesnt the tpnw ban planning with nato allies", ["p_pf_6"]],
-  ["if deterrence fails what then", ["p_pf_45","p_pf_12","p_pf_13"]]
+  [
+   "so you'd trust putin to follow a treaty?",
+   [
+    "p_pf_44",
+    "p_pf_19"
+   ]
+  ],
+  [
+   "isnt it naive to think russia will stop building nukes",
+   [
+    "p_pf_19",
+    "p_pf_43",
+    "p_pf_44"
+   ]
+  ],
+  [
+   "wont the alliance fall apart",
+   [
+    "p_pf_5"
+   ]
+  ],
+  [
+   "how do you stop a country secretly building a bomb",
+   [
+    "p_pf_8"
+   ]
+  ],
+  [
+   "didnt the cold war stay cold because of nukes",
+   [
+    "p_pf_13",
+    "p_pf_45"
+   ]
+  ],
+  [
+   "what about the threat from beijing",
+   [
+    "p_pf_21"
+   ]
+  ],
+  [
+   "isnt russia's army bigger than you think",
+   [
+    "p_pf_14",
+    "p_pf_42"
+   ]
+  ],
+  [
+   "what does europe do if russia threatens a nuclear strike",
+   [
+    "p_pf_2",
+    "p_pf_12"
+   ]
+  ],
+  [
+   "isnt nato's nuclear sharing legal under the NPT",
+   [
+    "p_pf_7",
+    "p_pf_11"
+   ]
+  ],
+  [
+   "wouldnt the UK lose its seat on the security council",
+   [
+    "p_pf_32"
+   ]
+  ],
+  [
+   "how many jobs depend on trident",
+   [
+    "p_pf_39"
+   ]
+  ],
+  [
+   "what about turkey and incirlik",
+   [
+    "p_pf_33"
+   ]
+  ],
+  [
+   "why did sweden and finland want the nato umbrella",
+   [
+    "p_pf_31"
+   ]
+  ],
+  [
+   "doesnt the tpnw ban planning with nato allies",
+   [
+    "p_pf_6"
+   ]
+  ],
+  [
+   "if deterrence fails what then",
+   [
+    "p_pf_45",
+    "p_pf_12",
+    "p_pf_13"
+   ]
+  ]
  ],
  "CON": [
-  ["how is gambling with nuclear war responsible", ["c_pf_16","c_pf_1"]],
-  ["why keep weapons that would kill millions of civilians", ["c_pf_2","c_pf_44"]],
-  ["isnt it hypocritical to tell iran not to get nukes", ["c_pf_3","c_pf_15"]],
-  ["would the us really risk its own cities for latvia", ["c_pf_4"]],
-  ["didnt the soviets and americans fight in vietnam anyway", ["c_pf_5"]],
-  ["nato already has a huge conventional advantage right", ["c_pf_6","c_pf_21","c_pf_42"]],
-  ["why does germany still let rosatom operate", ["c_pf_34","c_pf_7"]],
-  ["isnt the TPNW the only path to article six", ["c_pf_9"]],
-  ["what if poland goes nuclear", ["c_pf_10"]],
-  ["arent us bombs in europe just targets", ["c_pf_13","c_pf_17"]],
-  ["how many banks have dropped nuclear investments", ["c_pf_14"]],
-  ["doesnt sharing nukes provoke russia", ["c_pf_19"]],
-  ["wouldnt a nuclear war starve billions", ["c_pf_22"]],
-  ["couldnt ai trigger a false launch", ["c_pf_24","c_pf_1"]],
-  ["didnt mattis say there is no such thing as a tactical nuke", ["c_pf_29"]]
+  [
+   "how is gambling with nuclear war responsible",
+   [
+    "c_pf_16",
+    "c_pf_1"
+   ]
+  ],
+  [
+   "why keep weapons that would kill millions of civilians",
+   [
+    "c_pf_2",
+    "c_pf_44"
+   ]
+  ],
+  [
+   "isnt it hypocritical to tell iran not to get nukes",
+   [
+    "c_pf_3",
+    "c_pf_15"
+   ]
+  ],
+  [
+   "would the us really risk its own cities for latvia",
+   [
+    "c_pf_4",
+    "c_pf_s3"
+   ]
+  ],
+  [
+   "didnt the soviets and americans fight in vietnam anyway",
+   [
+    "c_pf_5"
+   ]
+  ],
+  [
+   "nato already has a huge conventional advantage right",
+   [
+    "c_pf_6",
+    "c_pf_21",
+    "c_pf_42"
+   ]
+  ],
+  [
+   "why does germany still let rosatom operate",
+   [
+    "c_pf_34",
+    "c_pf_7"
+   ]
+  ],
+  [
+   "isnt the TPNW the only path to article six",
+   [
+    "c_pf_9"
+   ]
+  ],
+  [
+   "what if poland goes nuclear",
+   [
+    "c_pf_10"
+   ]
+  ],
+  [
+   "arent us bombs in europe just targets",
+   [
+    "c_pf_13",
+    "c_pf_17"
+   ]
+  ],
+  [
+   "how many banks have dropped nuclear investments",
+   [
+    "c_pf_14"
+   ]
+  ],
+  [
+   "doesnt sharing nukes provoke russia",
+   [
+    "c_pf_19"
+   ]
+  ],
+  [
+   "wouldnt a nuclear war starve billions",
+   [
+    "c_pf_22"
+   ]
+  ],
+  [
+   "couldnt ai trigger a false launch",
+   [
+    "c_pf_24",
+    "c_pf_1"
+   ]
+  ],
+  [
+   "didnt mattis say there is no such thing as a tactical nuke",
+   [
+    "c_pf_29"
+   ]
+  ]
  ]
 }

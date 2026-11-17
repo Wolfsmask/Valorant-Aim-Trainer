@@ -1,0 +1,576 @@
+{
+ "edits": [
+  {
+   "path": "DEBATE_DATA.CON.constructiveParagraphs[2]",
+   "find": "That is especially dangerous when former CIA Director John Brennan branded Washington's March 2025 intelligence freeze on Ukraine extortion (Brennan, 25) and President Trump said of NATO allies, 'If they don't pay, I'm not going to defend them' (AP, 25)",
+   "replace": "That is especially dangerous when President Trump said of NATO allies, 'If they don't pay, I'm not going to defend them' (AP, 25), and former CIA Director Leon Panetta warned that 'a very nervous Europe believes that The United States would not stand behind Article Five' (Panetta, 25)"
+  },
+  {
+   "path": "DEBATE_DATA.PRO.rebuttals[18].response",
+   "find": "(Brennan and Panetta, 25)",
+   "replace": "(Panetta, 25)"
+  }
+ ],
+ "replaceCon": {
+  "con_reb_19": {
+   "chipLabel": "19. Ex-CIA Chief & Trump: US Guarantee in Doubt",
+   "response": "This isn't about liking or disliking any president; it's the public record. Former CIA Director Leon Panetta said in March 2025 that 'a very nervous Europe believes that The United States would not stand behind Article Five' (Panetta, 25). President Trump said, 'If they don't pay, I'm not going to defend them,' and called Article 5 a matter that 'depends on your definition' (AP, 25). Small frontline states feel it first: US troops in Estonia fell from about 500 to fewer than 100 (Burchell, 26 at CSIS). So the only nuclear guarantee Europe controls is British and French, and the TPNW legally forces both to destroy all 515 warheads (van Hooft, 25). Pro throws away Europe's own insurance exactly when America's is in doubt.",
+   "citation": "Panetta, 25, AP, 25, Burchell, 26 (CSIS) & van Hooft, 25 (RAND)",
+   "cardKeys": [
+    "Brennan & Panetta, 25 (Former CIA Directors)",
+    "AP, 25 (If They Dont Pay)",
+    "Burchell, 26 (CSIS)",
+    "van Hooft, 25 (RAND Europe)"
+   ]
+  }
+ },
+ "replaceConPrefire": {
+  "c_pf_55": {
+   "coreAnswer": "Former CIA Director Leon Panetta said in March 2025 that 'a very nervous Europe believes that The United States would not stand behind Article Five' (Panetta, 25), and President Trump said, 'If they don't pay, I'm not going to defend them' (AP, 25). That is exactly why Europe can't throw away its own deterrent: the TPNW forces Britain and France to destroy all 515 of their warheads (van Hooft, 25), leaving Europe with no nuclear guarantee it controls, right when the American one is in doubt.",
+   "citation": "Panetta, 25 & AP, 25"
+  }
+ },
+ "rebuttals": [
+  {
+   "id": "con_reb_s1",
+   "chipLabel": "S1. Small Border States: Trump's Own Conditions",
+   "trigger": "If they say Article 5 and the US will defend Estonia, Latvia, Lithuania or other small frontline allies:",
+   "keywords": [
+    "estonia",
+    "latvia",
+    "lithuania",
+    "baltics",
+    "baltic",
+    "small country",
+    "small countries",
+    "border country",
+    "frontline",
+    "montenegro",
+    "us will defend",
+    "america will defend",
+    "article 5 protects",
+    "ironclad"
+   ],
+   "response": "Listen to the man who would make the call. In 2016 Trump said he'd defend the Baltic states only after checking whether they 'have fulfilled their obligations to us' (AP, 16). In 2018 he said defending tiny Montenegro could mean 'you're in World War III' (Washington Post, 18). In 2024 he said he told an ally, 'No I would not protect you' (AP, 24). And the troops match the words: about 1,000 US soldiers left Lithuania with the next rotation 'currently under review' (Stars and Stripes, 26). Small border countries are the least protected by a conditional American promise, so Europe needs the British and French deterrent the TPNW abolishes.",
+   "citation": "AP, 16, Washington Post, 18, AP, 24 & Stars and Stripes, 26",
+   "cardKeys": [
+    "AP, 16 (Baltics Obligations)",
+    "Washington Post, 18 (Montenegro)",
+    "AP, 24 (Would Not Protect You)",
+    "Stars and Stripes, 26 (Lithuania Rotation)"
+   ]
+  },
+  {
+   "id": "con_reb_s2",
+   "chipLabel": "S2. Not Just Trump: The US Drift Is Bipartisan",
+   "trigger": "If they say Trump is temporary, it's just one president, or the next president will restore the US guarantee:",
+   "keywords": [
+    "temporary",
+    "next president",
+    "just one president",
+    "trump will leave",
+    "after trump",
+    "2028",
+    "only trump",
+    "just trump",
+    "bias",
+    "partisan",
+    "anti-trump",
+    "democrat"
+   ],
+   "response": "This isn't one president. In 2011, Defense Secretary Robert Gates, who served both Bush and Obama, warned of 'a dim, if not dismal future for the trans-Atlantic alliance' (AP, 11). The Biden administration named China the 'pacing challenge' (Al Jazeera, 22), and the Pentagon's 2026 strategy tells Europe to expect 'critical but more limited U.S. support' (Military Times, 26). Trump's own former National Security Adviser John Bolton predicted, 'In a second Trump term, we'd almost certainly withdraw from NATO' (Fox News, 23). The direction is clear across both parties, so Europe cannot destroy the only nuclear forces it controls.",
+   "citation": "AP, 11 (Gates), Al Jazeera, 22, Military Times, 26 & Fox News, 23",
+   "cardKeys": [
+    "AP, 11 (Gates)",
+    "Al Jazeera, 22 (Pacing Challenge)",
+    "Military Times, 26 (Defense Strategy)",
+    "Fox News, 23 (Bolton)"
+   ]
+  },
+  {
+   "id": "con_reb_s3",
+   "chipLabel": "S3. 'Ironclad' Words, Departing Troops",
+   "trigger": "If they say the US just reaffirmed an 'ironclad' Article 5 commitment, or that Trump is only talk:",
+   "keywords": [
+    "ironclad",
+    "ankara",
+    "summit",
+    "reaffirmed",
+    "just talk",
+    "only talk",
+    "rhetoric",
+    "he didn't mean",
+    "still in nato",
+    "never left",
+    "words"
+   ],
+   "response": "Judge, watch what they do, not just what they sign. The July 2026 Ankara summit did reaffirm Article 5 (France 24, 26), but in May 2026 the Pentagon announced about 5,000 troops would leave Germany (CNBC, 26), a 4,000-soldier tank brigade bound for Poland was put on hold (Stars and Stripes, 26), and Defense Secretary Hegseth warned, 'Where other allies do not spend with urgency, our dues contributions will go down' (Stars and Stripes, 26). Months earlier Trump called NATO a 'paper tiger' (Fox News, 26). A promise that shrinks every month is not a reason to destroy Europe's own deterrent.",
+   "citation": "France 24, 26, CNBC, 26, Stars and Stripes, 26 & Fox News, 26",
+   "cardKeys": [
+    "France 24, 26 (Ankara Summit)",
+    "CNBC, 26 (Germany Troops)",
+    "Stars and Stripes, 26 (Poland Brigade)",
+    "Fox News, 26 (Paper Tiger)"
+   ]
+  }
+ ],
+ "prefires": [
+  {
+   "id": "c_pf_s1",
+   "chip": "S1. Isn't This Anti-Trump Bias?",
+   "topicLabel": "Isn't your Trump argument just political bias?",
+   "phrases": [
+    "anti trump",
+    "anti-trump",
+    "political bias",
+    "you're biased",
+    "you are biased",
+    "just politics",
+    "you just hate trump",
+    "partisan",
+    "trump derangement",
+    "bias against trump"
+   ],
+   "keywords": [
+    "bias",
+    "biased",
+    "partisan",
+    "politics",
+    "political",
+    "hate trump",
+    "anti trump"
+   ],
+   "coreAnswer": "No. We're quoting the President's own words, not our opinions: 'If they don't pay, I'm not going to defend them' (AP, 25). And it's bipartisan: Defense Secretary Robert Gates, who served both Bush and Obama, warned back in 2011 of 'a dim, if not dismal future for the trans-Atlantic alliance' (AP, 11). Whoever is president, Europe shouldn't destroy the only nuclear deterrent it controls.",
+   "extraClauses": [],
+   "mustContainAny": [
+    "bias",
+    "biased",
+    "partisan",
+    "anti trump",
+    "anti-trump",
+    "politics",
+    "political",
+    "hate trump"
+   ],
+   "citation": "AP, 25 & AP, 11 (Gates)"
+  },
+  {
+   "id": "c_pf_s2",
+   "chip": "S2. Didn't Ankara Reaffirm Article 5?",
+   "topicLabel": "Didn't NATO's 2026 Ankara summit reaffirm an ironclad Article 5 commitment?",
+   "phrases": [
+    "ankara summit",
+    "ironclad commitment",
+    "reaffirmed article 5",
+    "reaffirm article 5",
+    "still committed",
+    "nato summit",
+    "summit declaration"
+   ],
+   "keywords": [
+    "ankara",
+    "ironclad",
+    "reaffirmed",
+    "summit",
+    "declaration",
+    "committed"
+   ],
+   "coreAnswer": "Yes, on paper (France 24, 26), but troops are leaving: in May 2026 the Pentagon announced about 5,000 troops would leave Germany (CNBC, 26), and a 4,000-soldier brigade for Poland was put on hold (Stars and Stripes, 26). Trump also called NATO a 'paper tiger' (Fox News, 26). Words on paper are exactly why Europe needs a deterrent it controls, and the TPNW destroys it.",
+   "extraClauses": [],
+   "mustContainAny": [
+    "ankara",
+    "ironclad",
+    "reaffirm",
+    "summit",
+    "declaration"
+   ],
+   "citation": "France 24, 26, CNBC, 26, Stars and Stripes, 26 & Fox News, 26"
+  },
+  {
+   "id": "c_pf_s3",
+   "chip": "S3. Would the US Abandon Estonia?",
+   "topicLabel": "Do you really think the US would abandon a small ally like Estonia or Lithuania?",
+   "phrases": [
+    "abandon estonia",
+    "abandon the baltics",
+    "abandon lithuania",
+    "abandon a small",
+    "small ally",
+    "small country",
+    "small border country",
+    "defend estonia",
+    "defend lithuania",
+    "defend the baltics"
+   ],
+   "keywords": [
+    "estonia",
+    "lithuania",
+    "latvia",
+    "baltics",
+    "small",
+    "abandon",
+    "border"
+   ],
+   "coreAnswer": "We don't have to guess; look at the record. Trump said he'd defend the Baltics only if they 'have fulfilled their obligations to us' (AP, 16), US troops in Estonia fell to fewer than 100 (Burchell, 26 at CSIS), and Lithuania's next rotation is 'currently under review' (Stars and Stripes, 26). Can you guarantee America defends them? If you can't, Europe needs British and French deterrence, which the TPNW abolishes.",
+   "extraClauses": [],
+   "mustContainAny": [
+    "estonia",
+    "lithuania",
+    "latvia",
+    "baltic",
+    "baltics",
+    "small ally",
+    "small country",
+    "border country"
+   ],
+   "citation": "AP, 16, Burchell, 26 (CSIS) & Stars and Stripes, 26"
+  },
+  {
+   "id": "c_pf_s4",
+   "chip": "S4. Who Is Your CIA Source?",
+   "topicLabel": "Who exactly is your CIA source, and where did they say it?",
+   "phrases": [
+    "who is your cia",
+    "which cia",
+    "cia source",
+    "what video",
+    "which video",
+    "who said that",
+    "cia officer",
+    "cia agent",
+    "former cia"
+   ],
+   "keywords": [
+    "cia",
+    "source",
+    "video",
+    "panetta",
+    "who said"
+   ],
+   "coreAnswer": "Leon Panetta, CIA Director from 2009 to 2011 and later Secretary of Defense, on the One Decision podcast, March 6, 2025: 'a very nervous Europe believes that The United States would not stand behind Article Five' (Panetta, 25). The transcript is on onedecision.com, and we can show you the card.",
+   "extraClauses": [],
+   "mustContainAny": [
+    "cia",
+    "panetta",
+    "which video",
+    "what video",
+    "your source",
+    "who said"
+   ],
+   "citation": "Panetta, 25"
+  },
+  {
+   "id": "c_pf_s5",
+   "chip": "S5. If the US Is Unreliable, Why Not Go Conventional?",
+   "topicLabel": "If the US is unreliable, why doesn't Europe just rely on conventional forces and ratify?",
+   "phrases": [
+    "rely on conventional",
+    "conventional forces instead",
+    "just use conventional",
+    "why not conventional",
+    "europe can defend itself conventionally",
+    "559 billion"
+   ],
+   "keywords": [
+    "conventional",
+    "unreliable",
+    "army",
+    "tanks",
+    "559"
+   ],
+   "coreAnswer": "Because a conventional army can't answer a nuclear ultimatum. Russia keeps about 4,400 warheads (Kristensen, 26), and Europeans already doubt US help: majorities in every country ECFR polled 'think that the US would not support them if they came under attack' (ECFR, 26). With America uncertain, British and French warheads are Europe's last nuclear guarantee, and the TPNW makes them destroy all 515 (van Hooft, 25).",
+   "extraClauses": [],
+   "mustContainAny": [
+    "conventional",
+    "559",
+    "tanks",
+    "army"
+   ],
+   "citation": "Kristensen, 26, ECFR, 26 & van Hooft, 25"
+  },
+  {
+   "id": "c_pf_m1",
+   "chip": "M1. MYTH: Russia/China in NATO",
+   "topicLabel": "Aren't Russia and China NATO members?",
+   "phrases": [
+    "russia is in nato",
+    "china is in nato",
+    "russia and china are nato",
+    "russia is a nato member",
+    "china is a nato member",
+    "nato includes russia",
+    "nato includes china",
+    "russia joined nato"
+   ],
+   "keywords": [
+    "russia",
+    "china",
+    "nato member",
+    "member of nato",
+    "in nato",
+    "joined nato",
+    "32",
+    "nato.int"
+   ],
+   "coreAnswer": "That's simply not true: Russia and China are not NATO members. NATO's own website says 'At present, NATO has 32 member countries,' and neither Russia nor China is on the list (NATO Member Countries, 24). In April 2014 NATO foreign ministers 'decided to suspend all practical civilian and military cooperation between NATO and Russia' (NATO Foreign Ministers, 14). Judge, you can check the 32 names yourself on nato.int.",
+   "extraClauses": [],
+   "mustContainAny": [
+    "russia is in nato",
+    "china is in nato",
+    "russia and china are in nato",
+    "russia is a member",
+    "china is a member",
+    "nato member russia",
+    "nato member china",
+    "nato includes russia",
+    "nato includes china",
+    "russia joined nato",
+    "china joined nato"
+   ],
+   "citation": "NATO Member Countries, 24 & NATO Foreign Ministers, 14"
+  },
+  {
+   "id": "c_pf_m2",
+   "chip": "M2. MYTH: Only US Bombs Are Affected",
+   "topicLabel": "Doesn't ratifying only remove the US bombs, not Britain's and France's?",
+   "phrases": [
+    "only the us bombs",
+    "only us bombs",
+    "only removes b61",
+    "just the b61",
+    "only affects hosted",
+    "uk and france keep",
+    "britain keeps",
+    "france keeps",
+    "doesn't affect france",
+    "doesn't affect britain"
+   ],
+   "keywords": [
+    "only",
+    "b61",
+    "hosted",
+    "france",
+    "britain",
+    "uk",
+    "keep"
+   ],
+   "coreAnswer": "That's simply not true: the resolution is all European members of NATO, which includes Britain and France, and TPNW Article 1 bans every party from possessing nuclear weapons at all (TPNW Text, 17). So ratifying forces both to give up all 515 of their warheads (van Hooft, 25), not just remove US bombs.",
+   "extraClauses": [],
+   "mustContainAny": [
+    "only the us",
+    "only us bombs",
+    "only removes",
+    "just the b61",
+    "only affects",
+    "uk and france keep",
+    "britain keeps",
+    "france keeps",
+    "doesn't affect france",
+    "doesn't affect britain"
+   ],
+   "citation": "TPNW Text, 17 & van Hooft, 25"
+  },
+  {
+   "id": "c_pf_m3",
+   "chip": "M3. MYTH: Ukraine Is in NATO",
+   "topicLabel": "Isn't Ukraine a NATO member?",
+   "phrases": [
+    "ukraine is in nato",
+    "ukraine is a nato member",
+    "ukraine joined nato",
+    "nato member ukraine",
+    "ukraine is part of nato"
+   ],
+   "keywords": [
+    "ukraine",
+    "member",
+    "joined",
+    "nato member"
+   ],
+   "coreAnswer": "That's simply not true: Ukraine is not a NATO member. NATO's own website says 'At present, NATO has 32 member countries,' and Ukraine is not one of them (NATO Member Countries, 24). That's why Article 5 never covered Ukraine.",
+   "extraClauses": [],
+   "mustContainAny": [
+    "ukraine is in nato",
+    "ukraine is a nato member",
+    "ukraine joined nato",
+    "nato member ukraine",
+    "ukraine is part of nato",
+    "ukraine is a member"
+   ],
+   "citation": "NATO Member Countries, 24"
+  }
+ ],
+ "proPrefires": [
+  {
+   "id": "p_pf_m11",
+   "chip": "M11. MYTH: Ukraine Is in NATO",
+   "topicLabel": "Isn't Ukraine a NATO member?",
+   "phrases": [
+    "ukraine is in nato",
+    "ukraine is a nato member",
+    "ukraine joined nato",
+    "nato member ukraine",
+    "ukraine is part of nato"
+   ],
+   "keywords": [
+    "ukraine",
+    "member",
+    "joined",
+    "nato member"
+   ],
+   "coreAnswer": "That's simply not true: Ukraine is not a NATO member. NATO's own website says 'At present, NATO has 32 member countries,' and Ukraine is not one of them (NATO Member Countries, 24). That's why Article 5 never covered Ukraine, and why Ukraine's 1994 disarmament tells us nothing about NATO allies.",
+   "extraClauses": [],
+   "mustContainAny": [
+    "ukraine is in nato",
+    "ukraine is a nato member",
+    "ukraine joined nato",
+    "nato member ukraine",
+    "ukraine is part of nato",
+    "ukraine is a member"
+   ],
+   "citation": "NATO Member Countries, 24"
+  }
+ ],
+ "traps": [
+  {
+   "trigger": "They say the US nuclear umbrella will still protect Europe.",
+   "question": "President Trump said, 'If they don't pay, I'm not going to defend them,' and that Article 5 'depends on your definition.' Can you guarantee the US would defend Estonia, where US troops fell to fewer than 100?",
+   "source": "AP, 25 & Burchell, 26 (CSIS)"
+  },
+  {
+   "trigger": "They say Trump's NATO comments are just talk.",
+   "question": "If it's just talk, why did the Pentagon announce about 5,000 troops leaving Germany in May 2026 and put a 4,000-soldier tank brigade for Poland on hold?",
+   "source": "CNBC, 26 & Stars and Stripes, 26"
+  },
+  {
+   "trigger": "They say Europe can rely on France and Britain after ratifying.",
+   "question": "TPNW Article 1 bans every party from possessing nuclear weapons. If Britain and France ratify, what nuclear deterrent does Europe have left?",
+   "source": "TPNW Text, 17 & van Hooft, 25"
+  }
+ ],
+ "conSnippets": [
+  {
+   "label": "+ US Guarantee in Doubt (Trump & Ex-CIA Chief)",
+   "text": "Judge, extend the US-reliability evidence. President Trump said, 'If they don't pay, I'm not going to defend them' (AP, 25), and former CIA Director Leon Panetta warned that 'a very nervous Europe believes that The United States would not stand behind Article Five' (Panetta, 25). When America's promise is in doubt, the British and French deterrent is Europe's only guarantee, and the Pro world forces both to destroy all 515 warheads."
+  }
+ ],
+ "sourceCards": [
+  {
+   "short": "AP, 16 (Baltics Obligations)",
+   "side": "CON",
+   "title": "Donald Trump Might Not Defend NATO Allies if Russia Attacks Them",
+   "url": "https://fortune.com/2016/07/21/donald-trump-nato-russia/",
+   "citation": "Associated Press via Fortune, July 21, 2016 (reporting Trump's July 20, 2016 New York Times interview).",
+   "takeaway": "CON: As a candidate, Trump said he would decide whether to defend the Baltic states against Russia only after checking whether they 'have fulfilled their obligations to us.'",
+   "verbatim": "Trump on defending the Baltics: only if they “have fulfilled their obligations to us.”"
+  },
+  {
+   "short": "Washington Post, 18 (Montenegro)",
+   "side": "CON",
+   "title": "Trump says defending NATO ally Montenegro could lead to World War III",
+   "url": "https://www.bangordailynews.com/2018/07/18/news/trump-says-defending-nato-ally-montenegro-could-lead-to-world-war-iii/",
+   "citation": "Washington Post (republished by Bangor Daily News), July 18, 2018, reporting a Fox News interview aired July 17, 2018.",
+   "takeaway": "CON: Trump questioned defending tiny NATO member Montenegro, saying it could start World War III.",
+   "verbatim": "“Montenegro is a tiny country with very strong people. ... they may get aggressive, and congratulations, you're in World War III.”"
+  },
+  {
+   "short": "AP, 24 (Would Not Protect You)",
+   "side": "CON",
+   "title": "Trump says he told NATO ally to spend more on defense or he would 'encourage' Russia to do 'whatever the hell they want'",
+   "url": "https://www.pbs.org/newshour/politics/trump-says-he-told-nato-ally-to-spend-more-on-defense-or-he-would-encourage-russia-to-do-whatever-the-hell-they-want",
+   "citation": "Associated Press (Jill Colvin) via PBS NewsHour, February 11, 2024 (rally in Conway, South Carolina, February 10, 2024).",
+   "takeaway": "CON: Trump told a story in which he said he would not protect a 'delinquent' NATO ally from Russia.",
+   "verbatim": "“No I would not protect you. In fact, I would encourage them to do whatever the hell they want. You gotta pay. You gotta pay your bills.”"
+  },
+  {
+   "short": "Burchell, 26 (CSIS)",
+   "side": "CON",
+   "title": "Europe Force Posture Review and the Transition to NATO 3.0",
+   "url": "https://www.csis.org/analysis/europe-force-posture-review-and-transition-nato-30",
+   "citation": "CSIS (Center for Strategic and International Studies), 2026.",
+   "takeaway": "CON: By summer 2026 the US troop presence in Estonia had fallen from about 500–700 to fewer than 100, pending the Pentagon's Europe force-posture review. Summary (not a quote).",
+   "verbatim": ""
+  },
+  {
+   "short": "Stars and Stripes, 26 (Lithuania Rotation)",
+   "side": "CON",
+   "title": "US soldiers leave Lithuania as Pentagon reviews next rotation",
+   "url": "https://www.stripes.com/branches/army/2026-06-03/lithuania-us-troops-21860346.html",
+   "citation": "Stars and Stripes (John Vandiver), June 3, 2026.",
+   "takeaway": "CON: About 1,000 US soldiers left Lithuania, and Lithuania's defense minister said the next rotation was under review.",
+   "verbatim": "“The next rotation is currently under review,”"
+  },
+  {
+   "short": "Stars and Stripes, 26 (Poland Brigade)",
+   "side": "CON",
+   "title": "Deployment of 4,000 soldiers from Army tank brigade to Poland put on hold",
+   "url": "https://www.stripes.com/branches/army/2026-05-13/tank-brigade-deployment-to-poland-on-hold-21662087.html",
+   "citation": "Stars and Stripes (John Vandiver), May 13, 2026.",
+   "takeaway": "CON: The deployment of nearly 4,000 soldiers of an Army armored brigade to Poland was put on hold.",
+   "verbatim": "“Nearly 4,000 soldiers from the “Black Jack” brigade were slated to take up positions in Poland”"
+  },
+  {
+   "short": "Stars and Stripes, 26 (Hegseth Force Review)",
+   "side": "CON",
+   "title": "Hegseth puts allies on notice as Pentagon eyes new Europe force posture",
+   "url": "https://www.stripes.com/theaters/europe/2026-06-18/hegseth-nato-force-review-22003995.html",
+   "citation": "Stars and Stripes (John Vandiver), June 18, 2026.",
+   "takeaway": "CON: Defense Secretary Hegseth launched a review of US forces in Europe and warned contributions will fall for allies that don't spend enough.",
+   "verbatim": "“Where other allies do not spend with urgency, our dues contributions will go down.”"
+  },
+  {
+   "short": "AP, 11 (Gates)",
+   "side": "CON",
+   "title": "Gates Says NATO Alliance Faces 'Dim' Future",
+   "url": "https://www.kpbs.org/news/2011/06/10/gates-says-nato-alliance-faces-dim-future",
+   "citation": "Associated Press via KPBS, June 10, 2011.",
+   "takeaway": "CON: Robert Gates, Defense Secretary under both Bush and Obama, warned that future US leaders may not see defending Europe as worth the cost.",
+   "verbatim": "“What I've sketched out is the real possibility for a dim, if not dismal future for the trans-Atlantic alliance,”"
+  },
+  {
+   "short": "Al Jazeera, 22 (Pacing Challenge)",
+   "side": "CON",
+   "title": "'Pacing challenge': US defence strategy focuses on China",
+   "url": "https://www.aljazeera.com/news/2022/10/27/pacing-challenge-us-defence-strategy-focuses-on-china",
+   "citation": "Al Jazeera, October 27, 2022.",
+   "takeaway": "CON: The Biden administration's 2022 National Defense Strategy called China the 'pacing challenge,' showing the US shift away from Europe is bipartisan. Summary (not a quote).",
+   "verbatim": ""
+  },
+  {
+   "short": "Military Times, 26 (Defense Strategy)",
+   "side": "CON",
+   "title": "Trump's new national defense strategy downgrades China threat",
+   "url": "https://www.militarytimes.com/news/pentagon-congress/2026/01/26/trumps-new-national-defense-strategy-downgrades-china-threat/",
+   "citation": "Military Times (Tanya Noury), January 26, 2026.",
+   "takeaway": "CON: The Pentagon's January 2026 National Defense Strategy put homeland and Western Hemisphere defense first and told European allies to expect less US support.",
+   "verbatim": "“critical but more limited U.S. support”"
+  },
+  {
+   "short": "Fox News, 23 (Bolton)",
+   "side": "CON",
+   "title": "John Bolton predicts Trump would withdraw from NATO in second term",
+   "url": "https://www.foxnews.com/politics/john-bolton-predicts-trump-withdraw-nato-second-term",
+   "citation": "Fox News (Chris Pandolfo), August 4, 2023.",
+   "takeaway": "CON: Trump's former National Security Adviser predicted a second Trump term would almost certainly mean US withdrawal from NATO.",
+   "verbatim": "“In a second Trump term, we'd almost certainly withdraw from NATO,”"
+  },
+  {
+   "short": "Fox News, 26 (Paper Tiger)",
+   "side": "CON",
+   "title": "Trump says he's considering pulling US out of NATO over Iran war stance",
+   "url": "https://www.foxnews.com/politics/trump-nato-withdrawal-iran-war-allies",
+   "citation": "Fox News (Bradford Betz), April 1, 2026, reporting Trump's Daily Telegraph interview; also reported by Reuters.",
+   "takeaway": "CON: Trump said he was strongly considering pulling the US out of NATO and called the alliance a paper tiger.",
+   "verbatim": "“I was never swayed by NATO. I always knew they were a paper tiger, and Putin knows that too, by the way.”"
+  },
+  {
+   "short": "France 24, 26 (Ankara Summit)",
+   "side": "BOTH",
+   "title": "Trump tempers fury at NATO summit after lashing out at key allies in Ankara",
+   "url": "https://www.france24.com/en/europe/20260708-trump-lashes-nato-allies-during-key-summit-ankara",
+   "citation": "France 24 (AFP), July 8, 2026.",
+   "takeaway": "BOTH: At the July 2026 Ankara summit Trump attacked allies, then softened his tone, and the declaration reaffirmed an 'ironclad commitment' to Article 5.",
+   "verbatim": "“I'm very upset with NATO... because of what they did with Greenland”"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+[
+ {
+  "title": "Partner Sync window: heading no longer says 'without internet' only",
+  "find": "<span id=\"partnerModalBadge\" class=\"inline-block text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-[#E9F2EE] text-[#3D6B58] mb-1\">\ud83d\udce1 100% Offline Partner Sync</span>",
+  "replace": "<span id=\"partnerModalBadge\" class=\"inline-block text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-[#E9F2EE] text-[#3D6B58] mb-1\">\ud83d\udce1 Partner Sync</span>"
+ },
+ {
+  "title": "Partner Sync window: heading no longer says 'without internet' only",
+  "find": "<h3 class=\"text-lg font-bold text-[#2A2421]\">See Each Other's Work Without Internet</h3>",
+  "replace": "<h3 class=\"text-lg font-bold text-[#2A2421]\">See Each Other's Work Live</h3>"
+ },
+ {
+  "title": "Partner Sync window: heading no longer says 'without internet' only",
+  "find": "<p class=\"text-xs text-[#6E6259] mt-0.5\">Sync live keystrokes, clicked ~5-word contention buttons, and speech edits between two laptops with zero internet.</p>",
+  "replace": "<p class=\"text-xs text-[#6E6259] mt-0.5\">Sync live keystrokes, clicked ~5-word contention buttons, and speech edits between two laptops: over tournament Wi-Fi with a room code, or with zero internet using the options below.</p>"
+ }
+]

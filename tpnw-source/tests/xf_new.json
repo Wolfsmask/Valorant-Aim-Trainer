@@ -1,0 +1,193 @@
+{
+ "PRO": [
+  [
+   "russia and china are part of nato right",
+   [
+    "p_pf_m1"
+   ]
+  ],
+  [
+   "isnt china in nato",
+   [
+    "p_pf_m1"
+   ]
+  ],
+  [
+   "doesnt the tpnw ban nuclear energy",
+   [
+    "p_pf_m2"
+   ]
+  ],
+  [
+   "wouldnt britain have to get rid of all its nukes overnight",
+   [
+    "p_pf_m3"
+   ]
+  ],
+  [
+   "ukraine was in nato when russia invaded",
+   [
+    "p_pf_m5"
+   ]
+  ],
+  [
+   "if you ratify dont you have to leave nato",
+   [
+    "p_pf_m6",
+    "p_pf_3",
+    "p_pf_23"
+   ]
+  ],
+  [
+   "if trump wont protect europe shouldnt europe get its own nukes",
+   [
+    "p_pf_s1",
+    "p_pf_s15"
+   ]
+  ],
+  [
+   "trump is just talking hes still in nato",
+   [
+    "p_pf_s2"
+   ]
+  ],
+  [
+   "why would russia respect article 5 without nukes",
+   [
+    "p_pf_s3"
+   ]
+  ],
+  [
+   "poland wants more nuclear protection",
+   [
+    "p_pf_s4",
+    "p_pf_s16"
+   ]
+  ],
+  [
+   "wont germany build nukes merz",
+   [
+    "p_pf_s5"
+   ]
+  ],
+  [
+   "what about the oreshnik missile",
+   [
+    "p_pf_s6"
+   ]
+  ],
+  [
+   "china is building more nukes",
+   [
+    "p_pf_s7",
+    "p_pf_21"
+   ]
+  ],
+  [
+   "new start expired so arms control is dead",
+   [
+    "p_pf_s8"
+   ]
+  ],
+  [
+   "russia lowered its nuclear threshold in 2024",
+   [
+    "p_pf_s10"
+   ]
+  ],
+  [
+   "wont this give trump an excuse to leave nato",
+   [
+    "p_pf_s11"
+   ]
+  ],
+  [
+   "macron offered forward deterrence",
+   [
+    "p_pf_s12"
+   ]
+  ],
+  [
+   "us troops are leaving europe",
+   [
+    "p_pf_s13"
+   ]
+  ],
+  [
+   "the us is resuming nuclear testing",
+   [
+    "p_pf_s14"
+   ]
+  ],
+  [
+   "why not an eu bomb",
+   [
+    "p_pf_s15"
+   ]
+  ],
+  [
+   "isnt the tpnw what putin wants",
+   [
+    "p_pf_s18"
+   ]
+  ]
+ ],
+ "CON": [
+  [
+   "arent russia and china nato members",
+   [
+    "c_pf_m1"
+   ]
+  ],
+  [
+   "isnt ukraine in nato",
+   [
+    "c_pf_m3"
+   ]
+  ],
+  [
+   "ratifying only removes the us bombs not frances",
+   [
+    "c_pf_m2"
+   ]
+  ],
+  [
+   "youre just biased against trump",
+   [
+    "c_pf_s1"
+   ]
+  ],
+  [
+   "didnt nato reaffirm an ironclad commitment at ankara",
+   [
+    "c_pf_s2"
+   ]
+  ],
+  [
+   "would america really abandon estonia",
+   [
+    "c_pf_s3"
+   ]
+  ],
+  [
+   "who is your cia source",
+   [
+    "c_pf_s4",
+    "c_pf_55"
+   ]
+  ],
+  [
+   "which video are you talking about",
+   [
+    "c_pf_s4",
+    "c_pf_55"
+   ]
+  ],
+  [
+   "why not just rely on conventional forces",
+   [
+    "c_pf_s5"
+   ]
+  ]
+ ]
+}

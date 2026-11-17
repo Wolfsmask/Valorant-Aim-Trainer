@@ -1,66 +1,381 @@
 {
  "PRO": [
-  ["so you admit deterrence prevented a third world war?", ["p_pf_13","p_pf_45"]],
-  ["how can anyone check that countries actually disarmed", ["p_pf_8","p_pf_9"]],
-  ["what stops china from taking advantage", ["p_pf_21","p_pf_44"]],
-  ["if belgium gives up the bombs does putin give up his", ["p_pf_19","p_pf_43","p_pf_11"]],
-  ["are there really american nuclear bombs in italy", ["p_pf_11"]],
-  ["what if russia rolls tanks into estonia", ["p_pf_3","p_pf_44"]],
-  ["isnt signing a treaty russia ignores pointless", ["p_pf_19","p_pf_44"]],
-  ["without nukes how does europe defend itself", ["p_pf_42"]],
-  ["ukraine gave up its weapons and got invaded right", ["p_pf_1"]],
-  ["would britain have to scrap trident", ["p_pf_4"]],
-  ["would germany get kicked out of nato", ["p_pf_5"]],
-  ["isnt the nuclear planning group banned by the treaty", ["p_pf_6"]],
-  ["does the treaty weaken the non-proliferation treaty", ["p_pf_7"]],
-  ["how would nato respond to a russian nuke in ukraine", ["p_pf_12"]],
-  ["modern safety systems prevent false alarms now right", ["p_pf_10"]],
-  ["wont germany and poland just build their own bombs", ["p_pf_20"]],
-  ["what about terrorists getting a bomb", ["p_pf_25"]],
-  ["isnt this treaty virtue signaling", ["p_pf_19"]],
-  ["if its so great why has no nato member joined", ["p_pf_30"]],
-  ["what about the nukes putin put in belarus", ["p_pf_22"]],
-  ["wouldnt the americans leave europe", ["p_pf_23","p_pf_3"]],
-  ["can europe afford a bigger conventional army", ["p_pf_27"]],
-  ["isnt there a dangerous window while europe disarms", ["p_pf_26"]],
-  ["what about the iskander missiles next to poland", ["p_pf_35","p_pf_20"]],
-  ["isnt europe locked in once it ratifies", ["p_pf_34"]],
-  ["russia has thousands of warheads doesnt it", ["p_pf_2"]],
-  ["why should europe go first", ["p_pf_43"]],
-  ["isnt nuclear blackmail the real danger", ["p_pf_2"]],
-  ["what about chemical weapons attacks", ["p_pf_36"]],
-  ["nobody has used a nuke since hiroshima isnt that proof", ["p_pf_45"]]
+  [
+   "so you admit deterrence prevented a third world war?",
+   [
+    "p_pf_13",
+    "p_pf_45"
+   ]
+  ],
+  [
+   "how can anyone check that countries actually disarmed",
+   [
+    "p_pf_8",
+    "p_pf_9"
+   ]
+  ],
+  [
+   "what stops china from taking advantage",
+   [
+    "p_pf_21",
+    "p_pf_44"
+   ]
+  ],
+  [
+   "if belgium gives up the bombs does putin give up his",
+   [
+    "p_pf_19",
+    "p_pf_43",
+    "p_pf_11"
+   ]
+  ],
+  [
+   "are there really american nuclear bombs in italy",
+   [
+    "p_pf_11"
+   ]
+  ],
+  [
+   "what if russia rolls tanks into estonia",
+   [
+    "p_pf_3",
+    "p_pf_44"
+   ]
+  ],
+  [
+   "isnt signing a treaty russia ignores pointless",
+   [
+    "p_pf_19",
+    "p_pf_44"
+   ]
+  ],
+  [
+   "without nukes how does europe defend itself",
+   [
+    "p_pf_42"
+   ]
+  ],
+  [
+   "ukraine gave up its weapons and got invaded right",
+   [
+    "p_pf_1"
+   ]
+  ],
+  [
+   "would britain have to scrap trident",
+   [
+    "p_pf_4"
+   ]
+  ],
+  [
+   "would germany get kicked out of nato",
+   [
+    "p_pf_5"
+   ]
+  ],
+  [
+   "isnt the nuclear planning group banned by the treaty",
+   [
+    "p_pf_6"
+   ]
+  ],
+  [
+   "does the treaty weaken the non-proliferation treaty",
+   [
+    "p_pf_7"
+   ]
+  ],
+  [
+   "how would nato respond to a russian nuke in ukraine",
+   [
+    "p_pf_12"
+   ]
+  ],
+  [
+   "modern safety systems prevent false alarms now right",
+   [
+    "p_pf_10"
+   ]
+  ],
+  [
+   "wont germany and poland just build their own bombs",
+   [
+    "p_pf_20"
+   ]
+  ],
+  [
+   "what about terrorists getting a bomb",
+   [
+    "p_pf_25"
+   ]
+  ],
+  [
+   "isnt this treaty virtue signaling",
+   [
+    "p_pf_19"
+   ]
+  ],
+  [
+   "if its so great why has no nato member joined",
+   [
+    "p_pf_30"
+   ]
+  ],
+  [
+   "what about the nukes putin put in belarus",
+   [
+    "p_pf_22"
+   ]
+  ],
+  [
+   "wouldnt the americans leave europe",
+   [
+    "p_pf_23",
+    "p_pf_3"
+   ]
+  ],
+  [
+   "can europe afford a bigger conventional army",
+   [
+    "p_pf_27"
+   ]
+  ],
+  [
+   "isnt there a dangerous window while europe disarms",
+   [
+    "p_pf_26"
+   ]
+  ],
+  [
+   "what about the iskander missiles next to poland",
+   [
+    "p_pf_35",
+    "p_pf_20"
+   ]
+  ],
+  [
+   "isnt europe locked in once it ratifies",
+   [
+    "p_pf_34"
+   ]
+  ],
+  [
+   "russia has thousands of warheads doesnt it",
+   [
+    "p_pf_2"
+   ]
+  ],
+  [
+   "why should europe go first",
+   [
+    "p_pf_43"
+   ]
+  ],
+  [
+   "isnt nuclear blackmail the real danger",
+   [
+    "p_pf_2"
+   ]
+  ],
+  [
+   "what about chemical weapons attacks",
+   [
+    "p_pf_36"
+   ]
+  ],
+  [
+   "nobody has used a nuke since hiroshima isnt that proof",
+   [
+    "p_pf_45"
+   ]
+  ]
  ],
  "CON": [
-  ["isnt it true we nearly had nuclear war many times", ["c_pf_16","c_pf_1"]],
-  ["why does europe keep buying russian uranium", ["c_pf_7","c_pf_34"]],
-  ["arent gravity bombs obsolete", ["c_pf_17"]],
-  ["nato spends way more than russia right", ["c_pf_6","c_pf_21"]],
-  ["can deterrence fail by accident", ["c_pf_1","c_pf_16"]],
-  ["would you kill millions of innocent people", ["c_pf_2"]],
-  ["if nukes create peace why stop others from getting them", ["c_pf_3","c_pf_10"]],
-  ["doesnt the NPT require disarmament", ["c_pf_9"]],
-  ["what inspections does the treaty lack", ["c_pf_11"]],
-  ["would nato nuke russia back", ["c_pf_12"]],
-  ["doesnt hosting bombs make belgium a target", ["c_pf_13"]],
-  ["why are banks divesting from nuclear weapons", ["c_pf_14"]],
-  ["can nukes stop isis", ["c_pf_15"]],
-  ["wasnt belarus a response to nato sharing", ["c_pf_19"]],
-  ["denmark doesnt allow nukes so why should others", ["c_pf_20"]],
-  ["wouldnt it cause a nuclear winter and famine", ["c_pf_22"]],
-  ["could hackers launch a nuke", ["c_pf_24"]],
-  ["why hasnt deterrence stopped the cable cutting in the baltic", ["c_pf_25"]],
-  ["most of the world joined the ban so why not europe", ["c_pf_26","c_pf_41"]],
-  ["didnt nuclear submarines crash into each other", ["c_pf_28"]],
-  ["didnt mattis say tactical nukes always escalate", ["c_pf_29"]],
-  ["dont most europeans support the ban", ["c_pf_30"]],
-  ["wont america still protect europe with its own nukes", ["c_pf_31"]],
-  ["france isnt in the planning group right", ["c_pf_32"]],
-  ["can a country leave the treaty", ["c_pf_35"]],
-  ["cant long range missiles replace nukes", ["c_pf_37"]],
-  ["isnt turkey an unsafe place for nukes", ["c_pf_38"]],
-  ["we banned landmines why not nukes", ["c_pf_39"]],
-  ["arent nukes evil", ["c_pf_44"]],
-  ["kazakhstan gave up its nukes so why cant europe", ["c_pf_45"]]
+  [
+   "isnt it true we nearly had nuclear war many times",
+   [
+    "c_pf_16",
+    "c_pf_1"
+   ]
+  ],
+  [
+   "why does europe keep buying russian uranium",
+   [
+    "c_pf_7",
+    "c_pf_34"
+   ]
+  ],
+  [
+   "arent gravity bombs obsolete",
+   [
+    "c_pf_17"
+   ]
+  ],
+  [
+   "nato spends way more than russia right",
+   [
+    "c_pf_6",
+    "c_pf_21"
+   ]
+  ],
+  [
+   "can deterrence fail by accident",
+   [
+    "c_pf_1",
+    "c_pf_16"
+   ]
+  ],
+  [
+   "would you kill millions of innocent people",
+   [
+    "c_pf_2"
+   ]
+  ],
+  [
+   "if nukes create peace why stop others from getting them",
+   [
+    "c_pf_3",
+    "c_pf_10"
+   ]
+  ],
+  [
+   "doesnt the NPT require disarmament",
+   [
+    "c_pf_9"
+   ]
+  ],
+  [
+   "what inspections does the treaty lack",
+   [
+    "c_pf_11"
+   ]
+  ],
+  [
+   "would nato nuke russia back",
+   [
+    "c_pf_12"
+   ]
+  ],
+  [
+   "doesnt hosting bombs make belgium a target",
+   [
+    "c_pf_13"
+   ]
+  ],
+  [
+   "why are banks divesting from nuclear weapons",
+   [
+    "c_pf_14"
+   ]
+  ],
+  [
+   "can nukes stop isis",
+   [
+    "c_pf_15"
+   ]
+  ],
+  [
+   "wasnt belarus a response to nato sharing",
+   [
+    "c_pf_19"
+   ]
+  ],
+  [
+   "denmark doesnt allow nukes so why should others",
+   [
+    "c_pf_20"
+   ]
+  ],
+  [
+   "wouldnt it cause a nuclear winter and famine",
+   [
+    "c_pf_22"
+   ]
+  ],
+  [
+   "could hackers launch a nuke",
+   [
+    "c_pf_24"
+   ]
+  ],
+  [
+   "why hasnt deterrence stopped the cable cutting in the baltic",
+   [
+    "c_pf_25"
+   ]
+  ],
+  [
+   "most of the world joined the ban so why not europe",
+   [
+    "c_pf_26",
+    "c_pf_41"
+   ]
+  ],
+  [
+   "didnt nuclear submarines crash into each other",
+   [
+    "c_pf_28"
+   ]
+  ],
+  [
+   "didnt mattis say tactical nukes always escalate",
+   [
+    "c_pf_29"
+   ]
+  ],
+  [
+   "dont most europeans support the ban",
+   [
+    "c_pf_30"
+   ]
+  ],
+  [
+   "wont america still protect europe with its own nukes",
+   [
+    "c_pf_31"
+   ]
+  ],
+  [
+   "france isnt in the planning group right",
+   [
+    "c_pf_32"
+   ]
+  ],
+  [
+   "can a country leave the treaty",
+   [
+    "c_pf_35"
+   ]
+  ],
+  [
+   "cant long range missiles replace nukes",
+   [
+    "c_pf_37"
+   ]
+  ],
+  [
+   "isnt turkey an unsafe place for nukes",
+   [
+    "c_pf_38"
+   ]
+  ],
+  [
+   "we banned landmines why not nukes",
+   [
+    "c_pf_39"
+   ]
+  ],
+  [
+   "arent nukes evil",
+   [
+    "c_pf_44"
+   ]
+  ],
+  [
+   "kazakhstan gave up its nukes so why cant europe",
+   [
+    "c_pf_45"
+   ]
+  ]
  ]
 }

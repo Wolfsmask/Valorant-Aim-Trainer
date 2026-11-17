@@ -18,5 +18,25 @@
   "title": "Crossfire: stop the broad 'concept' bonus from overriding the specific answer (v7 dropped 202\u2192176 of 209 test questions)",
   "find": "score += (idx === 0 ? 280 : 90) - pos * 65;",
   "replace": "score += 0; // concept bonus disabled: it overrode the specific prefire match"
+ },
+ {
+  "title": "Siphon: 'vote for our side' no longer fires the polls counter (the concept word 'voters' matched every 'vote')",
+  "find": "tokens: [\"122\", \"morality\", \"immoral\", \"inhumane\", \"yougov\", \"polls\", \"voters\", \"docherty\"],",
+  "replace": "tokens: [\"122\", \"morality\", \"immoral\", \"inhumane\", \"yougov\", \"polls\", \"docherty\"],"
+ },
+ {
+  "title": "Crossfire: spell-fix the typed question first",
+  "find": "      const rawQuery = inputEl.value.trim();\n      const qNorm = normalizeForMatch(rawQuery);\n      const sideData = DEBATE_DATA[state.side];\n      const pfPriority",
+  "replace": "      const rawQuery = fzCorrectQuery(inputEl.value.trim());\n      const qNorm = normalizeForMatch(rawQuery);\n      const sideData = DEBATE_DATA[state.side];\n      const pfPriority"
+ },
+ {
+  "title": "Grand Crossfire: spell-fix the typed question first",
+  "find": "      const out = document.getElementById(\"grandCxQuickOutput\");\n      if (!out) return;\n      const qNorm = normalizeForMatch(val);",
+  "replace": "      const out = document.getElementById(\"grandCxQuickOutput\");\n      if (!out) return;\n      val = fzCorrectQuery(val);\n      const qNorm = normalizeForMatch(val);"
+ },
+ {
+  "title": "Siphon: spell-fix the opponent's typed speech first",
+  "find": "    function siphonRebuttalsFromText(liveText, loggedText) {\n      const combinedRaw = ((liveText || \"\") + \" \" + (loggedText || \"\")).trim();",
+  "replace": "    function siphonRebuttalsFromText(liveText, loggedText) {\n      const combinedRaw = fzCorrectQuery(((liveText || \"\") + \" \" + (loggedText || \"\")).trim());"
  }
 ]
