@@ -1,0 +1,24 @@
+{
+ "PRO": [
+  ["The Petrov glitch is 43 years old and modern locks prevent accidents now.", ["pro_fl_1"]],
+  ["Stealth F-35A jets carrying guided B61-12 bombs make the deterrent credible.", ["pro_fl_2"]],
+  ["Russia will target European airbases anyway even if the B61s are removed.", ["pro_fl_3"]],
+  ["Russian purchasing power means SIPRI's 8-to-1 ratio is misleading.", ["pro_fl_4"]],
+  ["A conventional army is helpless against Russia's tactical nuclear warheads.", ["pro_fl_5"]],
+  ["Conventional forces didn't save Ukraine after it gave up its nukes in 1994.", ["pro_fl_6"]],
+  ["Europe can sanction Rosatom's uranium trade without ratifying the TPNW.", ["pro_fl_7"]],
+  ["301 banks still invest in nuclear weapons producers, up 15 percent.", ["pro_fl_8"]],
+  ["Divestment defunds BAE and Leonardo, which build conventional weapons for NATO.", ["pro_fl_9"]]
+ ],
+ "CON": [
+  ["NATO's 1.58 trillion dollar conventional budget stops Russian blackmail.", ["con_fl_1"]],
+  ["The US still keeps 1,700 strategic warheads outside Europe to deter Russia.", ["con_fl_2"]],
+  ["B61 bombs are obsolete and the US wouldn't trade New York for Tallinn anyway.", ["con_fl_3"]],
+  ["Russian sabotage across Europe proves deterrence has already failed.", ["con_fl_4"]],
+  ["Poland and Germany can't proliferate once they ratify the TPNW.", ["con_fl_5"]],
+  ["The 1983 Petrov false alarm proves accidental nuclear war is a real risk.", ["con_fl_6"]],
+  ["109 banks divesting starves the global nuclear arms race.", ["con_fl_7"]],
+  ["Ratifying the TPNW is the only way to stop 781 million euros going to Rosatom.", ["con_fl_8"]],
+  ["The TPNW fulfills NPT Article VI and relies on Euratom IAEA safeguards.", ["con_fl_9"]]
+ ]
+}

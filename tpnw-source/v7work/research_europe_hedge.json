@@ -1,0 +1,777 @@
+{
+  "facts": [
+    {
+      "id": "FR1",
+      "claim": "In a televised address on 5 March 2025, Macron announced a strategic debate on using France's nuclear deterrent to protect European allies, explicitly in response to Merz's call.",
+      "exactQuote": "However, in response to the historic call sounded by the future Chancellor of Germany, I decided to launch a strategic debate on using our deterrence to protect our allies on the European continent. Whatever happens, that decision has always been, and will always be, up to the President and Commander in Chief of France.",
+      "who": "Emmanuel Macron, President of France",
+      "date": "2025-03-05",
+      "sourceTitle": "Address to the French people",
+      "sourceOutlet": "Elysee (official English translation)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/03/05/address-to-the-french-people",
+      "confidence": "confirmed",
+      "notes": "Verbatim from the raw text of the Elysee English page (an official translation of a speech given in French). Same speech: 'Our nuclear deterrence protects us. It is thorough, sovereign and French from start to finish.'"
+    },
+    {
+      "id": "FR2",
+      "claim": "In the same address Macron tied the debate to doubts about US reliability and to Russia as a long-term threat.",
+      "exactQuote": "I want to believe that the United States will stand with us, but we must be ready if that’s not the case.",
+      "who": "Emmanuel Macron",
+      "date": "2025-03-05",
+      "sourceTitle": "Address to the French people",
+      "sourceOutlet": "Elysee (official English translation)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2025/03/05/address-to-the-french-people",
+      "confidence": "confirmed",
+      "notes": "Other verbatim lines in the same text: 'The United States of America, our ally, has changed its position on this war, lessening its support for Ukraine and raising doubts about what is to come.' / 'Russia has become a threat to France and Europe now and for years to come.' / 'Europe’s future cannot be decided in Washington or Moscow.'"
+    },
+    {
+      "id": "FR3",
+      "claim": "On 2 March 2026 at the Ile Longue submarine base Macron announced 'forward deterrence': allies can join French nuclear exercises, and elements of France's nuclear-capable air forces can be temporarily deployed to allied countries.",
+      "exactQuote": "It may also involve signalling, including beyond our strict borders, or conventional participation of allies’ forces in our nuclear activities. It will finally involve the temporary deployment of elements of our strategic air forces to allied countries.",
+      "who": "Emmanuel Macron",
+      "date": "2026-03-02",
+      "sourceTitle": "Visit to the Île Longue Operational Base",
+      "sourceOutlet": "Elysee (official English text)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/03/02/visit-to-the-ile-longue-operational-base",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'We are entering the path of what I will call “forward deterrence”. I prefer to be clear from the start, there will be no sharing of the ultimate decision, nor of its planification, nor of its conduct.' CAVEAT for honesty: Macron also said 'there will be no guarantee in the strict sense of the term' and that the effort 'will come as an addition to NATO’s nuclear mission'. Frame it as a new European layer/insurance, not a replacement for the US umbrella."
+    },
+    {
+      "id": "FR4",
+      "claim": "In the same speech Macron named the countries that had agreed to the forward-deterrence dialogue: the UK, Germany, Poland, the Netherlands, Belgium, Greece, Sweden and Denmark.",
+      "exactQuote": "Other countries have already agreed to this dialogue, in addition to our British and German partners and friends, whom I have already mentioned: Poland, the Netherlands, Belgium, Greece, Sweden and Denmark will join it.",
+      "who": "Emmanuel Macron",
+      "date": "2026-03-02",
+      "sourceTitle": "Visit to the Île Longue Operational Base",
+      "sourceOutlet": "Elysee (official English text)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/03/02/visit-to-the-ile-longue-operational-base",
+      "confidence": "confirmed",
+      "notes": "Six of these eight (Germany, Poland, Netherlands, Belgium, Greece, Denmark, plus Sweden) are non-nuclear NATO states that would be bound by TPNW Article 1 if they ratified. Norway joined later (ETH CSS, June 2026) and Finland on 14 Sept 2026 (FR8)."
+    },
+    {
+      "id": "FR5",
+      "claim": "Macron announced the first increase in France's warhead count since the Cold War and an end to publishing the figure.",
+      "exactQuote": "As a consequence, I have decided to increase the number of warheads of our arsenal. To put an end to any speculation, we will no longer release figures on our nuclear arsenal, as we have done in the past.",
+      "who": "Emmanuel Macron",
+      "date": "2026-03-02",
+      "sourceTitle": "Visit to the Île Longue Operational Base",
+      "sourceOutlet": "Elysee (official English text)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/03/02/visit-to-the-ile-longue-operational-base",
+      "confidence": "confirmed",
+      "notes": "Same speech on Russia (verbatim): 'The same Russia asserts brutal imperialism and revisionism and, despite already having a vast nuclear arsenal, is constantly developing new weapons.'"
+    },
+    {
+      "id": "FR6",
+      "claim": "France and Germany set up a high-ranking bilateral nuclear steering group, with German conventional forces to take part in French nuclear exercises starting in 2026.",
+      "exactQuote": "France and Germany have established a high-ranking nuclear steering group that will act as a bilateral framework for doctrinal dialogue and the coordination of strategic cooperation, including consultations regarding the appropriate mix of conventional, missile defence and French nuclear capabilities.",
+      "who": "President Macron and Chancellor Merz (joint declaration)",
+      "date": "2026-03-02",
+      "sourceTitle": "Joint declaration of President Macron and Chancellor Merz",
+      "sourceOutlet": "Elysee (also published by the German government)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/03/02/joint-declaration-of-president-macron-and-chancellor-merz",
+      "confidence": "confirmed",
+      "notes": "Next sentence, verbatim: 'France and Germany have agreed to take first concrete steps beginning this year, including German conventional participation in French nuclear exercises and joint visits to strategic sites...' CAVEAT: the declaration says the cooperation 'will add to, not substitute for, NATO’s nuclear deterrence and NATO’s nuclear sharing arrangements' and stresses NPT compliance. German government version: https://www.bundesregierung.de/breg-en/news/joint-declaration-merz-macron-2409276"
+    },
+    {
+      "id": "FR7",
+      "claim": "After meeting Macron at Norvenich Air Base in July 2026, Merz said German conventional forces would join a French nuclear exercise (reported name 'Poker') before the end of 2026.",
+      "exactQuote": "",
+      "who": "Friedrich Merz, German Chancellor",
+      "date": "2026-07 (press conference); article 2026-09-24",
+      "sourceTitle": "Germany To Join France For Nuclear Exercise",
+      "sourceOutlet": "Eurasia Review",
+      "url": "https://www.eurasiareview.com/24092026-germany-to-join-france-for-nuclear-exercise/",
+      "confidence": "likely",
+      "notes": "Article quotes Merz: 'We will have German conventional forces participate in a nuclear exercise conducted by the French armed forces before the end of this year.' This is a second-tier outlet; find a Reuters/AP/DW version before quoting directly. I did not confirm the exact July date or whether the exercise has already happened."
+    },
+    {
+      "id": "FR8",
+      "claim": "Finland joined French forward deterrence on 14 September 2026, the tenth European partner. Its joint statement with France promises strategic signalling and a Nuclear Steering Group.",
+      "exactQuote": "Today, Finland has decided to join Forward Deterrence. This decision, in conformity with the two countries’ respective international obligations, is an important step for European security, and for bilateral cooperation.",
+      "who": "Governments of Finland and France (joint statement)",
+      "date": "2026-09-14",
+      "sourceTitle": "Joint Statement on Finland’s Participation in French Forward Deterrence",
+      "sourceOutlet": "Office of the President of the Republic of Finland",
+      "url": "https://www.presidentti.fi/en/joint-statement-on-finlands-participation-in-french-forward-deterrence/",
+      "confidence": "confirmed",
+      "notes": "Next sentence, verbatim: 'It will strengthen their partnership, and offer opportunities for strategic signalling, as well as the ability to manage escalation below the nuclear threshold.' Al Jazeera headline that day: 'Finland shelters under French nuclear umbrella amid Russian, US uncertainty' (https://www.aljazeera.com/news/2026/9/14/finland-shelters-under-french-nuclear-umbrella-amid-russian-us-uncertainty). Reports describe Finland as the 10th partner."
+    },
+    {
+      "id": "FR9",
+      "claim": "France and Finland held their first Nuclear Steering Group meeting in Paris on 27 October 2026.",
+      "exactQuote": "France and Finland held their first nuclear steering group meeting in Paris on Tuesday, 27th October, involving representatives of the Élysée and the Finnish President’s and Prime Minister’s offices, officials from Defence and Foreign Ministries and senior military personnel.",
+      "who": "Elysee",
+      "date": "2026-10-29",
+      "sourceTitle": "France and Finland held their first Nuclear Steering Group meeting in Paris on Tuesday, 27th October.",
+      "sourceOutlet": "Elysee",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/10/29/france-and-finland-held-their-first-nuclear-steering-group-meeting-in-paris-on-tuesday-27th-october",
+      "confidence": "confirmed",
+      "notes": "Shows that forward deterrence now has working institutions, not only speeches."
+    },
+    {
+      "id": "FR10",
+      "claim": "France and Poland held the first meeting of their Steering Group for Nuclear Cooperation in Paris on 10 July 2026 and agreed a joint roadmap.",
+      "exactQuote": "",
+      "who": "Polish Ministry of Foreign Affairs / Elysee",
+      "date": "2026-07-10",
+      "sourceTitle": "First meeting of Polish-French Steering Group for Nuclear Cooperation",
+      "sourceOutlet": "Polish MFA (mirrored by GlobalSecurity.org)",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260710-pl-mfa01.htm",
+      "confidence": "likely",
+      "notes": "Confirmed only through search snippets of the Polish MFA release and an X post (https://x.com/PolandMFA/status/2075626106917450225). The GlobalSecurity mirror did not load for me. Builds on the Franco-Polish Treaty of Nancy (May 2025), which has a mutual-defence clause. Check gov.pl before quoting."
+    },
+    {
+      "id": "FR11",
+      "claim": "France and Sweden held a meeting of their nuclear steering group in Paris in April 2026.",
+      "exactQuote": "",
+      "who": "Elysee",
+      "date": "2026-04-27 (Elysee posting)",
+      "sourceTitle": "France and Sweden held a meeting in the Nuclear Steering Group in Paris",
+      "sourceOutlet": "Elysee",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/04/27/france-and-sweden-held-a-meeting-in-the-nuclear-steering-group-in-paris",
+      "confidence": "likely",
+      "notes": "Title and URL come from search results only; I did not read the page. One secondary source dates the meeting to 23 April 2026. Sweden is a former TPNW-curious state (it studied accession in 2019) that is now inside France's nuclear dialogue."
+    },
+    {
+      "id": "UK1",
+      "claim": "In the Northwood Declaration of 10 July 2025, Britain and France said for the first time that their independent deterrents can be coordinated, and that any extreme threat to Europe would prompt a response from both.",
+      "exactQuote": "Our nuclear forces are independent, but can be coordinated and contribute significantly to the overall security of the Alliance, and to the peace and stability of the Euro Atlantic area.",
+      "who": "PM Keir Starmer and President Emmanuel Macron",
+      "date": "2025-07-10",
+      "sourceTitle": "Northwood Declaration: 10 July 2025 (UK-France joint nuclear statement)",
+      "sourceOutlet": "GOV.UK (Prime Minister's Office, 10 Downing Street)",
+      "url": "https://www.gov.uk/government/news/northwood-declaration-10-july-2025-uk-france-joint-nuclear-statement",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'France and the United Kingdom agree that there is no extreme threat to Europe that would not prompt a response by our two nations.' / 'A UK-France Nuclear Steering Group will be established to provide political direction for this work. It will be led by the Presidency of the French Republic and the Cabinet Office and will coordinate across nuclear policy, capabilities and operations.'"
+    },
+    {
+      "id": "UK2",
+      "claim": "On 24 June 2025 the UK announced it would buy 12 F-35A jets and join NATO's nuclear dual-capable aircraft mission. The government called it the biggest strengthening of the UK's nuclear posture in a generation.",
+      "exactQuote": "The UK will purchase 12 new F-35A fighter jets and join NATO’s dual capable aircraft nuclear mission in a major boost for national security.",
+      "who": "UK Government / PM Keir Starmer",
+      "date": "2025-06-24 (announced at NATO summit 2025-06-25)",
+      "sourceTitle": "UK to purchase F-35As and join NATO nuclear mission as Government steps up national security and delivers defence dividend",
+      "sourceOutlet": "GOV.UK",
+      "url": "https://www.gov.uk/government/news/uk-to-purchase-f-35as-and-join-nato-nuclear-mission-as-government-steps-up-national-security-and-delivers-defence-dividend",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'The purchase represents the biggest strengthening of the UK’s nuclear posture in a generation.' Starmer: 'In an era of radical uncertainty we can no longer take peace for granted...' TPNW link: the jets carry US B61 bombs, a NATO role that TPNW Art. 1(1)(e) assistance and 1(1)(g) stationing would rule out for any European state party."
+    },
+    {
+      "id": "UK3",
+      "claim": "In October 2026, RAF Typhoons took part in a French nuclear air exercise ('Rummy') for the first time, escorting Rafales on a simulated nuclear strike mission.",
+      "exactQuote": "Having independent nuclear forces does not exclude coordination.",
+      "who": "Catherine Vautrin, French Minister of the Armed Forces (quoted by UK MoD)",
+      "date": "2026-10-23 (exercise 20–21 Oct 2026)",
+      "sourceTitle": "UK-France deepen nuclear defence ties in first joint exercise",
+      "sourceOutlet": "GOV.UK",
+      "url": "https://www.gov.uk/government/news/uk-france-deepen-nuclear-defence-ties-in-first-joint-exercise",
+      "confidence": "confirmed",
+      "notes": "Release text, verbatim: 'For the first time, RAF Typhoon fighters have taken part in a French nuclear air exercise, flying alongside French Rafale in a show of allied strength.' The release names the UK Defence Secretary as Wes Streeting. That is what the page says; check it if anyone challenges the name. No nuclear weapons were involved."
+    },
+    {
+      "id": "UK4",
+      "claim": "On 10 November 2026 the UK-France Nuclear Steering Group met in London. It said adversaries would face the combined strength of both forces, and it praised France's forward deterrence.",
+      "exactQuote": "The NSG noted the importance of any adversary which would consider threatening the vital interests of either nation knowing that they would be confronted by the combined strength of both forces.",
+      "who": "UK-France Nuclear Steering Group (UK Cabinet Office and French Presidency)",
+      "date": "2026-11-10",
+      "sourceTitle": "UK-France Nuclear Steering Group Advances Progress Under Northwood Declaration.",
+      "sourceOutlet": "Elysee",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/10/uk-france-nuclear-steering-group-advances-progress-under-northwood-declaration",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'The NSG emphasised the significant value that “Forward Deterrence” provided to European security and deterrence in the Euro-Atlantic and the degree to which it further complicated the calculus of potential adversaries in addition to NATO.' This is the most recent item, two days before today."
+    },
+    {
+      "id": "DE1",
+      "claim": "On 20 February 2025, before the German election, Merz called for talks with Britain and France on nuclear sharing or nuclear protection for Germany, warning that Trump would no longer unconditionally honor NATO's defense commitment.",
+      "exactQuote": "We need to have discussions with both the British and the French—the two European nuclear powers—about whether nuclear sharing, or at least nuclear security from the UK and France, could also apply to us.",
+      "who": "Friedrich Merz (then CDU leader), as quoted and translated by CSIS",
+      "date": "2025-02-20",
+      "sourceTitle": "Can France and the United Kingdom Replace the U.S. Nuclear Umbrella?",
+      "sourceOutlet": "CSIS (Astrid Chevreuil and Doreen Horschig), published 2025-03-04",
+      "url": "https://www.csis.org/analysis/can-france-and-united-kingdom-replace-us-nuclear-umbrella",
+      "confidence": "confirmed",
+      "notes": "The quote is verbatim as CSIS prints it, but it is CSIS's English translation of German remarks. Cite it as 'Merz, quoted by CSIS'. CSIS also quotes Merz: 'Donald Trump will no longer unconditionally honor NATO’s mutual defense commitment' and that Europe must 'now make every effort to at least be able to defend the European continent on its own.' CAVEAT: Merz framed it as a supplement to the US umbrella, not a replacement."
+    },
+    {
+      "id": "DE2",
+      "claim": "As chancellor, Merz told the Munich Security Conference on 13 February 2026 that he had held talks with Macron on European nuclear deterrence, and that a deep rift had opened between Europe and the US.",
+      "exactQuote": "I have held preliminary talks on European nuclear deterrence with French President Emmanuel Macron.",
+      "who": "Friedrich Merz, Federal Chancellor",
+      "date": "2026-02-13",
+      "sourceTitle": "Speech by the Federal Chancellor at the Munich Security Conference on 13. February 2026 in Munich",
+      "sourceOutlet": "Bundeskanzler.de (official English transcript)",
+      "url": "https://www.bundeskanzler.de/bk-en/news/speech-munich-security-conference-2407298",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'Allow me to start with an uncomfortable truth: a chasm, a deep rift, has opened between Europe and the United States.' / 'It is right for the case that the United States distances itself further.' Media (AFP) translated the talks as 'confidential'. The official transcript says 'preliminary', so use that. CAVEAT, same speech: 'We are thinking of nuclear deterrence strictly embedded in our nuclear sharing within NATO.'"
+    },
+    {
+      "id": "PL1",
+      "claim": "On 6 March 2025, Poland's PM Tusk said Macron's offer to extend French nuclear protection should be taken seriously.",
+      "exactQuote": "we must seriously consider this proposal.",
+      "who": "Donald Tusk, Prime Minister of Poland",
+      "date": "2025-03-06",
+      "sourceTitle": "Poland and Baltic nations welcome Macron's nuclear deterrent proposal",
+      "sourceOutlet": "Associated Press (via News4Jax)",
+      "url": "https://www.news4jax.com/news/world/2025/03/06/poland-and-baltic-nations-welcome-macrons-nuclear-deterrent-proposal/",
+      "confidence": "confirmed",
+      "notes": "Quoted verbatim in the AP article. The same article: Moscow called Macron's proposal 'extremely confrontational.'"
+    },
+    {
+      "id": "PL2",
+      "claim": "In his 7 March 2025 speech to the Sejm, Tusk said Poland must pursue nuclear-related capabilities and was 'talking seriously' with France about extending the French nuclear umbrella, because of a 'profound change of American geopolitics'.",
+      "exactQuote": "",
+      "who": "Donald Tusk",
+      "date": "2025-03-07",
+      "sourceTitle": "Prime Minister in Parliament: Hope Cannot Replace Strategy (gov.pl); 'Alarmed by Trump, Poland must look at nuclear options, premier says' (NYT, Andrew Higgins, via Japan Times)",
+      "sourceOutlet": "Chancellery of the Prime Minister of Poland; The New York Times / Japan Times",
+      "url": "https://www.gov.pl/web/primeminister/prime-minister-in-parliament-hope-cannot-replace-strategy",
+      "confidence": "confirmed",
+      "notes": "RE-CONFIRMED, but translations vary, so do not quote one version as if it were Tusk's exact words. The official gov.pl summary paraphrases: 'Poland must leverage the most advanced technologies, including nuclear and unconventional weapons.' The NYT (https://www.japantimes.co.jp/news/2025/03/08/world/politics/trump-poland-nuclear-weapons) quotes, in translation: 'profound change of American geopolitics', 'reach for opportunities related to nuclear weapons', 'it is time for us to look boldly at our possibilities of having the most modern weapons', and that Poland was 'talking seriously' with France. The NYT notes he did not explicitly propose a Polish arsenal."
+    },
+    {
+      "id": "BL1",
+      "claim": "Lithuania's President Nauseda welcomed Macron's March 2025 offer and said a nuclear umbrella would seriously deter Russia. Latvia's PM Silina called it 'an opportunity to discuss.'",
+      "exactQuote": "We have high expectations because a nuclear umbrella would serve as really very serious deterrence towards Russia,",
+      "who": "Gitanas Nauseda, President of Lithuania",
+      "date": "2025-03-06",
+      "sourceTitle": "Poland and Baltic nations welcome Macron's nuclear deterrent proposal",
+      "sourceOutlet": "Associated Press (via News4Jax)",
+      "url": "https://www.news4jax.com/news/world/2025/03/06/poland-and-baltic-nations-welcome-macrons-nuclear-deterrent-proposal/",
+      "confidence": "confirmed",
+      "notes": "Verbatim from the AP text. Nauseda also praised a 'very interesting idea.' Silina: 'an opportunity to discuss.'"
+    },
+    {
+      "id": "BL2",
+      "claim": "By autumn 2026 the border states were moving toward French or NATO nuclear protection. Latvia's President Rinkevics (30 Sept 2026) said Latvia could host nuclear weapons if NATO deemed it necessary. Lithuania's parliament voted in October 2026, at first reading, to lift its constitutional ban on hosting WMD (second reading set for 12 Jan 2027). Estonia's PM Michal said in September that Estonia was in talks to join French forward deterrence.",
+      "exactQuote": "Doubts over whether the United States can be relied on to defend Europe, along with Moscow’s nuclear threats, have breathed new life into the idea of a system of deterrence based on Europe’s own capabilities.",
+      "who": "Sergejs Potapkins (Latvian Institute of International Affairs), Carnegie Politika",
+      "date": "2026-11-03",
+      "sourceTitle": "Could Nuclear Warheads Really Be Deployed to the Baltic States?",
+      "sourceOutlet": "Carnegie Endowment for International Peace (Carnegie Politika)",
+      "url": "https://carnegieendowment.org/russia-eurasia/politika/2026/10/baltics-nuclear-weapon-deployment",
+      "confidence": "confirmed",
+      "notes": "Verbatim from the raw page text. The same article says 'Lithuania and Latvia were among the first to announce their intention to take part' in forward deterrence, and that 'Finland and Sweden have already joined the French program.' CAVEAT: it also says there is 'little chance' of nuclear weapons being deployed to the Baltics soon."
+    },
+    {
+      "id": "BL3",
+      "claim": "On 22 September 2026, Latvian PM Andris Kulbergs said Macron had agreed to open talks on Latvia joining France's nuclear deterrence initiative.",
+      "exactQuote": "",
+      "who": "Andris Kulbergs, Prime Minister of Latvia (Reuters report)",
+      "date": "2026-09-22",
+      "sourceTitle": "France Agreed to Open Talks on Latvia Joining Nuclear Deterrence Initiative, Latvian Leader Says",
+      "sourceOutlet": "Reuters via U.S. News & World Report",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-22/france-agreed-to-open-talks-on-latvia-joining-nuclear-deterrence-initiative-latvian-leader-says",
+      "confidence": "likely",
+      "notes": "Confirmed by several search snippets (Reuters syndication and a Latvian government statement), but I did not read the full article. Kulbergs became PM on 14 May 2026, per search results."
+    },
+    {
+      "id": "NO1",
+      "claim": "On 17 June 2026, Finland's parliament voted 125 to 61 to amend the Nuclear Energy Act and Criminal Code. The change removes the total ban on bringing nuclear weapons into Finland for national defence, NATO collective defence or other defence cooperation.",
+      "exactQuote": "The amendments were approved by 125 votes to 61. No lawmakers cast blank votes, while 13 were absent.",
+      "who": "Parliament of Finland (Eduskunta)",
+      "date": "2026-06-17",
+      "sourceTitle": "Finnish parliament removes total legal ban on nuclear weapons entering country",
+      "sourceOutlet": "Xinhua (wire); corroborated by Euronews/AFP and the Eduskunta press release",
+      "url": "https://english.news.cn/20260618/00131e519bc14c4f90e3e8d08b77e0f8/c.html",
+      "confidence": "confirmed",
+      "notes": "RE-CONFIRMED: date 17 June 2026 and vote 125-61. Quote verbatim from the Xinhua text. Since Xinhua is Chinese state media, cite a Western outlet in round: Euronews, 17 June 2026 (https://www.euronews.com/my-europe/2026/06/17/finlands-parliament-passes-bill-in-support-of-lifting-total-ban-on-nuclear-weapons). Official Eduskunta release (JS page, date confirmed via search): https://www.eduskunta.fi/en/press-releases/parliament-approved-amendments-to-the-nuclear-energy-act-and-the-criminal-code. Manufacture, acquisition and detonation stay criminal. Officials say this is not a plan for permanent peacetime hosting. Several outlets report President Stubb signed on 26 June 2026, effective 1 July 2026 (likely, not verified on Finlex). Some outlets say the 13 were abstentions rather than absences."
+    },
+    {
+      "id": "NO2",
+      "claim": "As of June 2026, nine European states were in structured bilateral talks under French forward deterrence, including the Nordic states Sweden, Denmark and Norway. Finland joined in September 2026.",
+      "exactQuote": "As of June 2026, nine European states have agreed to engage with France in structured bilateral discussions within this framework: the UK, Germany, Belgium, the Netherlands, Denmark, Poland, Sweden, Greece, and Norway.",
+      "who": "Névine Schepers, Center for Security Studies, ETH Zurich",
+      "date": "2026-07-01",
+      "sourceTitle": "Europe’s Changing Nuclear Landscape: French Forward Deterrence (CSS Policy Brief)",
+      "sourceOutlet": "ETH Zurich Center for Security Studies",
+      "url": "https://css.ethz.ch/en/center/CSS-news/2026/07/europes-changing-nuclear-landscape-french-forward-deterrence.html",
+      "confidence": "confirmed",
+      "notes": "Also verbatim, on the Nordics: 'While all three still maintain peacetime prohibitions against the permanent stationing of nuclear weapons on their territories, this does not necessarily preclude the temporary deployment of nuclear-capable aircraft, with or without a nuclear weapon, in a crisis.' TPNW Art. 1(1)(g) bans 'any stationing, installation or deployment' with no peacetime or crisis exception, so the TPNW would close this crisis option."
+    },
+    {
+      "id": "CAV1",
+      "claim": "COUNTER-EVIDENCE TO PREPARE FOR: the Baltic states were not on Macron's March 2026 list, and some non-nuclear NATO states initially declined France's invitation.",
+      "exactQuote": "The current absence of any of the three Baltic states from forward deterrence partnerships is a notable omission, though it may simply be a matter of when rather than if they join.",
+      "who": "Névine Schepers (ETH CSS); also Oliver Meier (Bulletin, 2026-07-21) and Héloïse Fayet (ICDS, 2026-05-25)",
+      "date": "2026-07-01",
+      "sourceTitle": "Europe’s Changing Nuclear Landscape: French Forward Deterrence",
+      "sourceOutlet": "ETH Zurich CSS",
+      "url": "https://css.ethz.ch/en/center/CSS-news/2026/07/europes-changing-nuclear-landscape-french-forward-deterrence.html",
+      "confidence": "confirmed",
+      "notes": "The Bulletin (Meier, 'Forward deterrence: What’s (not) in it for France’s partners', https://thebulletin.org/2026/07/forward-deterrence-whats-not-in-it-for-frances-partners/) reports that some states, including the Baltics, 'kindly but firmly declined' the invitation before the speech (read through the fetch tool, so likely). Answer with BL2/BL3: by Sept to Nov 2026 Latvia, Estonia and Lithuania were all moving toward it. ICDS (Fayet, https://icds.ee/en/french-forward-deterrence-what-is-in-it-for-the-baltic-states/) also says 'French forward deterrence is not a nuclear umbrella extended to specific Allies.'"
+    },
+    {
+      "id": "TP1",
+      "claim": "TPNW Article 1(1) bars every state party from possessing nuclear weapons (a), threatening to use them (d), assisting, encouraging or inducing anyone to do a prohibited act (e), and allowing any stationing, installation or deployment on its territory (g).",
+      "exactQuote": "Each State Party undertakes never under any circumstances to: (a) Develop, test, produce, manufacture, otherwise acquire, possess or stockpile nuclear weapons or other nuclear explosive devices; ... (d) Use or threaten to use nuclear weapons or other nuclear explosive devices; (e) Assist, encourage or induce, in any way, anyone to engage in any activity prohibited to a State Party under this Treaty; ... (g) Allow any stationing, installation or deployment of any nuclear weapons or other nuclear explosive devices in its territory or at any place under its jurisdiction or control.",
+      "who": "Treaty on the Prohibition of Nuclear Weapons (adopted 7 July 2017; in force 22 Jan 2021)",
+      "date": "2017-07-07",
+      "sourceTitle": "Treaty on the Prohibition of Nuclear Weapons, certified true copy (Ch. XXVI-9)",
+      "sourceOutlet": "United Nations Treaty Collection",
+      "url": "https://treaties.un.org/doc/Treaties/2017/07/20170707%2003-42%20PM/Ch_XXVI_9.pdf",
+      "confidence": "confirmed",
+      "notes": "Verbatim from the UN certified text. The ellipses mark the omitted subparagraphs (b), (c) and (f). Art. 1(1)(f) also bans seeking or receiving assistance with a prohibited act. 'Never under any circumstances' leaves no wartime exception."
+    },
+    {
+      "id": "TP2",
+      "claim": "TPNW Article 4(2): a state party that has nuclear weapons must immediately take them off operational status and destroy them under a legally binding, time-bound plan. So France or the UK could not join and keep a deterrent.",
+      "exactQuote": "Notwithstanding Article 1 (a), each State Party that owns, possesses or controls nuclear weapons or other nuclear explosive devices shall immediately remove them from operational status, and destroy them as soon as possible but not later than a deadline to be determined by the first meeting of States Parties, in accordance with a legally binding, time-bound plan for the verified and irreversible elimination of that State Party’s nuclear-weapon programme",
+      "who": "TPNW text",
+      "date": "2017-07-07",
+      "sourceTitle": "Treaty on the Prohibition of Nuclear Weapons, Article 4(2)",
+      "sourceOutlet": "United Nations Treaty Collection",
+      "url": "https://treaties.un.org/doc/Treaties/2017/07/20170707%2003-42%20PM/Ch_XXVI_9.pdf",
+      "confidence": "confirmed",
+      "notes": "Verbatim, with the sentence cut before 'including the elimination or irreversible conversion of all nuclear-weapons-related facilities.' Art. 4(4) separately requires a host state to 'ensure the prompt removal' of another state's weapons from its territory."
+    },
+    {
+      "id": "TP3",
+      "claim": "At their first meeting (Vienna, June 2022), TPNW states parties set a 10-year deadline (extendable) for a joining nuclear-armed state to dismantle its weapons, and 90 days for a host state to remove foreign weapons.",
+      "exactQuote": "Subsequently, states-parties agreed to a 10-year window for nuclear weapons dismantlement, but allowed for possible extensions. They also decided that states that host forward-deployed nuclear weapons must remove them within 90 days after their accession to the TPNW.",
+      "who": "Rebecca Davis Gibbons and Stephen Herzog",
+      "date": "2022-09",
+      "sourceTitle": "The First TPNW Meeting and the Future of the Nuclear Ban Treaty",
+      "sourceOutlet": "Arms Control Today (Arms Control Association)",
+      "url": "https://www.armscontrol.org/act/2022-09/features/first-tpnw-meeting-and-future-nuclear-ban-treaty",
+      "confidence": "confirmed",
+      "notes": "Verbatim from the ACA text. Primary source: TPNW/MSP/2022 decisions (Vienna, 21–23 June 2022). Impact: a ratifying European host state (for example Germany, Belgium, the Netherlands or Italy) would have 90 days to expel US B61s, and a Finland or Poland could never accept even a temporary French deployment."
+    },
+    {
+      "id": "TP4",
+      "claim": "TPNW Article 17: withdrawal takes 12 months, and a state that is in an armed conflict when the 12 months end stays bound until the conflict ends. Europe could not quickly 'un-ratify' and get a nuclear umbrella back in a crisis.",
+      "exactQuote": "Such withdrawal shall only take effect 12 months after the date of the receipt of the notification of withdrawal by the Depositary. If, however, on the expiry of that 12-month period, the withdrawing State Party is a party to an armed conflict, the State Party shall continue to be bound by the obligations of this Treaty and of any additional protocols until it is no longer party to an armed conflict.",
+      "who": "TPNW text",
+      "date": "2017-07-07",
+      "sourceTitle": "Treaty on the Prohibition of Nuclear Weapons, Article 17(3)",
+      "sourceOutlet": "United Nations Treaty Collection",
+      "url": "https://treaties.un.org/doc/Treaties/2017/07/20170707%2003-42%20PM/Ch_XXVI_9.pdf",
+      "confidence": "confirmed",
+      "notes": "Verbatim. Useful against PRO's likely answer that a state 'can always withdraw if things get bad.'"
+    },
+    {
+      "id": "TP5",
+      "claim": "Harvard Law School's International Human Rights Clinic, a pro-TPNW source, concluded in June 2018 that a TPNW state party may not rely on an ally's nuclear weapons and must leave any nuclear umbrella.",
+      "exactQuote": "The treaty makes it unlawful for a state party to rely on an ally’s nuclear weapons for defense; as a result, a state must withdraw from the protection of a nuclear umbrella if it chooses to sign and ratify the TPNW.",
+      "who": "International Human Rights Clinic, Harvard Law School",
+      "date": "2018-06",
+      "sourceTitle": "Nuclear Umbrella Arrangements and the Treaty on the Prohibition of Nuclear Weapons",
+      "sourceOutlet": "Harvard Law School International Human Rights Clinic",
+      "url": "https://humanrightsclinic.law.harvard.edu/publications/nuclear-umbrella-arrangements-and-the-treaty-on-the-prohibition-of-nuclear-weapons",
+      "confidence": "confirmed",
+      "notes": "Verbatim from the PDF, which the URL serves directly. Also verbatim: 'Thus, a state may not be both a party to the TPNW and a beneficiary of a nuclear umbrella.' The paper ties this to Art. 1(1)(e), (d) and (f). Strategic value: the clinic supports the TPNW and worked with ICAN, so this is a concession by the treaty's own advocates. CAVEAT: the same paper says a state party may stay in NATO and in joint operations 'as long as it does not assist with prohibited acts.' The CON claim should be 'no nuclear umbrella', not 'no alliance'."
+    },
+    {
+      "id": "TP6",
+      "claim": "Combining TP1 to TP5: a European state that ratified could not rely on, host (even temporarily), exercise with or otherwise help a French or British umbrella, or the US one. A ratifying France or UK would have to remove its weapons from operational status at once and destroy them. Russia is not a party and would keep about 4,400 stockpiled warheads (RU1).",
+      "exactQuote": "",
+      "who": "Analytic conclusion drawn from the treaty text and the Harvard IHRC reading",
+      "date": "2026-11-12",
+      "sourceTitle": "Derived from TPNW Arts. 1, 4 and 17 and the HLS IHRC June 2018 paper",
+      "sourceOutlet": "n/a (the debaters' own analysis)",
+      "url": "https://treaties.un.org/doc/Treaties/2017/07/20170707%2003-42%20PM/Ch_XXVI_9.pdf",
+      "confidence": "likely",
+      "notes": "This is a legal inference, not a quote, so present it as the team's analysis. Strong parts: Art. 1(1)(g) clearly bars the temporary Rafale deployments that forward deterrence envisages (FR3), and Art. 4(2) clearly requires a possessor state party to disarm. Contestable part: whether bare conventional participation in a French exercise is 'assistance' under 1(1)(e). Harvard IHRC says umbrella reliance itself violates 1(1)(e) and (d). Note that every forward-deterrence statement (FR6, FR8) stresses compliance with 'international obligations' including the NPT. None is compatible with TPNW Art. 1."
+    },
+    {
+      "id": "AN1",
+      "claim": "Carnegie (April 2025): the Trump administration has raised serious doubts among European allies about US commitment, leading Europeans to worry whether the US nuclear umbrella will continue.",
+      "exactQuote": "The administration of U.S. President Donald Trump, after only a few weeks in office, has raised serious doubts among its European allies about America’s commitment to their security and the NATO alliance.",
+      "who": "Sophia Besch and Anna Bartoux",
+      "date": "2025-04-03",
+      "sourceTitle": "Can Europe Build Its Own Nuclear Umbrella?",
+      "sourceOutlet": "Carnegie Endowment for International Peace (Emissary)",
+      "url": "https://carnegieendowment.org/emissary/2025/04/can-europe-build-its-own-nuclear-umbrella",
+      "confidence": "confirmed",
+      "notes": "Next sentence, verbatim: 'This has led Europeans to seriously worry about whether Washington will continue to extend nuclear deterrence—sometimes referred to as a nuclear “umbrella”—to the continent.' CAVEAT: the authors stress that conventional forces matter most."
+    },
+    {
+      "id": "AN2",
+      "claim": "Carnegie Europe expert panel (April 2025): Europe should develop its own deterrent based on the French and British arsenals because of Trump's wavering commitment.",
+      "exactQuote": "The Trump administration’s wavering commitment to Europe’s security means that the continent should develop its own nuclear deterrent based on the arsenals of France and the United Kingdom.",
+      "who": "James Cameron (University of Oslo), in a panel edited by Rym Momtaz",
+      "date": "2025-04-03",
+      "sourceTitle": "Taking the Pulse: Can Europeans Build Their Independent Extended Nuclear Deterrent?",
+      "sourceOutlet": "Carnegie Europe (Strategic Europe)",
+      "url": "https://carnegieendowment.org/europe/strategic-europe/2025/04/taking-the-pulse-can-europeans-build-their-independent-extended-nuclear-deterrent",
+      "confidence": "confirmed",
+      "notes": "Same panel, verbatim. Héloïse Fayet (Ifri): 'The real question is how to better leverage the existing arsenals of France and the UK in a Europe where Washington’s commitment is no longer a given.' Paul van Hooft (RAND Europe): 'The French and British deterrents, backed with serious conventional weapons to blunt Russian aggression, is the most sensible avenue for now.' CAVEAT: some panelists (Bollfrass of IISS, Kühn) argue that conventional forces come first. Cite it as 'Cameron in Carnegie Europe', not as Carnegie's institutional view."
+    },
+    {
+      "id": "AN3",
+      "claim": "RAND (March 2025): France's and Britain's submarine-based arsenals are credible deterrents against existential threats, and Europe has material and political answers if the US is preoccupied with Asia.",
+      "exactQuote": "These weapons should be considered credible deterrents for existential threats to either France or the United Kingdom.",
+      "who": "Paul van Hooft (RAND Europe)",
+      "date": "2025-03-19 (first published in The Conversation, 2025-03-18)",
+      "sourceTitle": "Nuclear Deterrence: Can Britain and France Take on America's Role in Defending Europe Against Russian Aggression?",
+      "sourceOutlet": "RAND Corporation (Commentary)",
+      "url": "https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'Simply put, there are material and political solutions to European deterrence problems if the United States turns out to be preoccupied by events in Asia.' The piece gives France 290 and the UK 225 warheads ('515 in total'). CAVEAT: he says the two would struggle to deter limited Russian pressure on a Baltic state, and stresses conventional strike."
+    },
+    {
+      "id": "AN4",
+      "claim": "Brookings (May 2025): because of Trump's erratic decisions and ambivalence, Europeans are reluctantly concluding they cannot count on US nuclear guarantees.",
+      "exactQuote": "Given the Trump administration’s erratic decisionmaking and President Donald Trump’s ambivalence about the U.S. commitment to defend Europe, Europeans are reluctantly concluding that they cannot count on U.S. nuclear guarantees.",
+      "who": "Pavel K. Baev (Nonresident Senior Fellow, Brookings)",
+      "date": "2025-05-29",
+      "sourceTitle": "‘Reasonable sufficiency’ should guide Europe’s search for nuclear deterrence",
+      "sourceOutlet": "Brookings Institution (Order from Chaos)",
+      "url": "https://www.brookings.edu/articles/reasonable-sufficiency-should-guide-europes-search-for-nuclear-deterrence/",
+      "confidence": "confirmed",
+      "notes": "Verbatim from the raw text."
+    },
+    {
+      "id": "AN5",
+      "claim": "Even skeptics at Brookings (June 2025), who think a fully independent European bomb is unrealistic, recommend strengthening the French and British deterrents as a complementary pillar and warn of a possible 'deterrence gap'.",
+      "exactQuote": "Third, Europeans should consider strengthening the nuclear deterrent role of France and the U.K.—not as a substitute for U.S. capabilities, but as a strengthened complementary pillar of collective defense.",
+      "who": "Liviu Horovitz (SWP) and Claudia Major (GMF)",
+      "date": "2025-06-17",
+      "sourceTitle": "Should Europeans develop an independent nuclear deterrent?",
+      "sourceOutlet": "Brookings Institution",
+      "url": "https://www.brookings.edu/articles/should-europeans-develop-an-independent-nuclear-deterrent/",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'Despite their efforts, Europeans may one day find themselves in a situation where the United States is no longer willing to provide nuclear deterrence.' / '...the biggest challenge today is shaping current developments so that Europe does not fall into a “deterrence gap” as a result of U.S. repositioning.' Strong for CON because even the cautious view wants the French/UK pillar that the TPNW would ban."
+    },
+    {
+      "id": "AN6",
+      "claim": "CSIS (March 2025): growing uncertainty over Washington's commitments has sparked a debate on French and British protection. CSIS judges the French and British forces a complement to the US umbrella, not a full replacement.",
+      "exactQuote": "While Germany has long relied on U.S. extended nuclear deterrence, growing uncertainty over Washington’s commitments has sparked debate over whether France and the United Kingdom could provide a viable alternative.",
+      "who": "Astrid Chevreuil and Doreen Horschig",
+      "date": "2025-03-04",
+      "sourceTitle": "Can France and the United Kingdom Replace the U.S. Nuclear Umbrella?",
+      "sourceOutlet": "CSIS (Critical Questions)",
+      "url": "https://www.csis.org/analysis/can-france-and-united-kingdom-replace-us-nuclear-umbrella",
+      "confidence": "confirmed",
+      "notes": "CAVEAT, verbatim: 'the French and British nuclear forces are a complement to U.S. extended deterrence, but they would not constitute a viable solution in the event of an abrupt withdrawal of U.S. nuclear forces.' Use it to show the hedge is a mainstream topic. Do not claim CSIS says the hedge is sufficient."
+    },
+    {
+      "id": "AN7",
+      "claim": "Carnegie Europe (December 2025): Trump's signals of reduced commitment 'continue unabated', and structural shifts will strain US credibility even under friendlier US leadership.",
+      "exactQuote": "Signals from U.S. President Donald Trump that Washington may reduce its commitment to Europe continue unabated.",
+      "who": "Sophia Besch and Jamie Kwong",
+      "date": "2025-12-11",
+      "sourceTitle": "Unpacking Europe’s Deterrence Dilemmas",
+      "sourceOutlet": "Carnegie Europe (Strategic Europe)",
+      "url": "https://carnegieendowment.org/europe/strategic-europe/2025/12/unpacking-europes-deterrence-dilemmas",
+      "confidence": "confirmed",
+      "notes": "Verbatim. Next sentence: 'The new U.S. National Security Strategy, urging Europe to “stand on its own feet,” is only the latest indication of a break with the traditional American approach to defense on the continent.' The 'structural shifts' point helps against a judge who thinks this is only about Trump."
+    },
+    {
+      "id": "AN8",
+      "claim": "ETH Zurich CSS (July 2026): Trump's second term deepened doubts about US commitments, and since May 2026 the US has announced cuts to forces in Europe, including about 5,000 troops from Germany.",
+      "exactQuote": "US President Donald Trump’s scepticism towards NATO and his transactional approach to alliances were already evident during his first term, creating doubts about the reliability of US security commitments to European allies in a crisis.",
+      "who": "Névine Schepers",
+      "date": "2026-07-01",
+      "sourceTitle": "Europe’s Changing Nuclear Landscape: French Forward Deterrence",
+      "sourceOutlet": "ETH Zurich Center for Security Studies (Policy Brief)",
+      "url": "https://css.ethz.ch/en/center/CSS-news/2026/07/europes-changing-nuclear-landscape-french-forward-deterrence.html",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'since May 2026, US officials have announced several measures intended to limit US personnel and capabilities in Europe. These include the withdrawal of approximately 5,000 US troops stationed in Germany over the next 6 to 12 months...' CAVEAT: it says forward deterrence 'does not provide concrete alternatives in case of a severe weakening or collapse of US extended nuclear deterrence', and that the US still emphasises NATO's nuclear mission."
+    },
+    {
+      "id": "AN9",
+      "claim": "ECFR (June 2026) recommends that Europeans build an integrated strategic deterrence posture that complements the US umbrella but could, in the worst case, replace it, with France and Britain at the centre.",
+      "exactQuote": "",
+      "who": "Rafael Loss and Katrine Westgaard (preface by Camille Grand)",
+      "date": "2026-06-17",
+      "sourceTitle": "The bear with the bomb: Russian nuclear coercion and the future of European deterrence",
+      "sourceOutlet": "European Council on Foreign Relations (ECFR)",
+      "url": "https://ecfr.eu/publication/the-bear-with-the-bomb-russian-nuclear-coercion-and-the-future-of-european-deterrence/",
+      "confidence": "likely",
+      "notes": "ECFR blocks direct download, so the wording came only through a summarising fetch tool. Do not read these as exact until checked on the page. Reported wording: 'The overall goal is for Europeans to form an integrated strategic deterrence posture for themselves. This approach needs to complement the US nuclear umbrella and contribute to burden-shifting in NATO. If the worst came to pass, it should function in lieu of them both.' Also reported: 'Europe’s two nuclear-armed powers, France and Britain, are central to any such effort' and 'Russia is ready to fight and win a limited nuclear war.' It also says 'The US nuclear umbrella is irreplaceable for the foreseeable future'."
+    },
+    {
+      "id": "AN10",
+      "claim": "Bulletin of the Atomic Scientists (March 2026): uncertainty about the long-term path of US security guarantees has grown, and European allies have turned to Paris to fill a perceived deterrence gap.",
+      "exactQuote": "",
+      "who": "Héloïse Fayet (Ifri)",
+      "date": "2026-03-05",
+      "sourceTitle": "France has a new nuclear doctrine of ‘forward deterrence’ for Europe. What does it mean?",
+      "sourceOutlet": "Bulletin of the Atomic Scientists",
+      "url": "https://thebulletin.org/2026/03/france-has-a-new-nuclear-doctrine-of-forward-deterrence-for-europe-what-does-it-mean/",
+      "confidence": "likely",
+      "notes": "The Bulletin blocks direct download, so these phrases came through the fetch tool. Reported wording: 'Uncertainty about the long-term trajectory of US security guarantees to allies has intensified' and 'European allies have looked to Paris with renewed interest to bridge a perceived deterrence gap'. Verify before reading. Related Bulletin piece: Etienne Marcuz (FRS), 'How France’s new nuclear doctrine strengthens NATO', 2026-06-09 (https://thebulletin.org/2026/06/how-frances-new-nuclear-doctrine-strengthens-nato/). It argues the French offer 'could also prove invaluable in the event of a major US commitment in the Indo-Pacific' (reported wording, likely)."
+    },
+    {
+      "id": "AN11",
+      "claim": "IISS published two Strategic Comments on the new European nuclear layer: one on Northwood as 'a new European strategic backstop' (August 2025), and 'The French nuclear deterrent expands eastward' (March 2026).",
+      "exactQuote": "",
+      "who": "IISS (Strategic Comments, unsigned)",
+      "date": "2025-08 / 2026-03",
+      "sourceTitle": "The Northwood Declaration: UK–France nuclear cooperation and a new European strategic backstop; The French nuclear deterrent expands eastward",
+      "sourceOutlet": "International Institute for Strategic Studies",
+      "url": "https://www.iiss.org/globalassets/media-library---content--migration/files/publications/strategic-comments-delta/2025/08/sc-31-20_the-northwood-declaration_uk_france-nuclear-cooperation-and-a-new-european-strategic-backstop.pdf",
+      "confidence": "likely",
+      "notes": "IISS returned 403 to every download attempt, so titles and dates come from search results only. Second URL: https://www.iiss.org/publications/strategic-comments/2026/03/the-french-nuclear-deterrent-expands-eastward/ . Search snippets say the 2025 piece frames Northwood as a possible backstop if US nuclear commitments to Europe weaken. Unverified, so cite the titles only."
+    },
+    {
+      "id": "AN12",
+      "claim": "Chatham House (March 2025) argued that recent US rhetoric suggests Washington might not back Europe in a crisis, and recommended that France join NATO's nuclear arrangements to strengthen European deterrence.",
+      "exactQuote": "",
+      "who": "Chatham House (authors not verified)",
+      "date": "2025-03",
+      "sourceTitle": "France should join NATO’s nuclear sharing arrangements to strengthen European deterrence",
+      "sourceOutlet": "Chatham House",
+      "url": "https://www.chathamhouse.org/2025/03/france-should-join-natos-nuclear-sharing-arrangements-strengthen-european-deterrence",
+      "confidence": "unconfirmed",
+      "notes": "Chatham House blocked access (Cloudflare). The summary comes only from search snippets. Do not quote it until verified. It also says French and British forces cannot simply replace US weapons."
+    },
+    {
+      "id": "RU1",
+      "claim": "SIPRI Yearbook 2026: in January 2026 Russia had an estimated 4,400 warheads in its military stockpile (5,420 in total, 1,796 deployed), against about 290 for France and 225 for the UK.",
+      "exactQuote": "",
+      "who": "Stockholm International Peace Research Institute",
+      "date": "2026-06 (data as of January 2026)",
+      "sourceTitle": "SIPRI Yearbook 2026: Armaments, Disarmament and International Security – Summary (World nuclear forces)",
+      "sourceOutlet": "SIPRI",
+      "url": "https://www.sipri.org/sites/default/files/2026-06/yb26_summary_en_1.pdf",
+      "confidence": "confirmed",
+      "notes": "Read from the summary table: Russia, deployed 1,796, military stockpile 4,400, total inventory 5,420. USA: 1,770 / 3,700 / 5,042. UK: 120 / 225 / 225. France: 280 / 290 / 370. World: 12,187 total and 9,745 in stockpiles. 'About 4,400' in the CON case is exactly SIPRI's 2026 military-stockpile figure. FAS gives about the same."
+    },
+    {
+      "id": "RU2",
+      "claim": "Russia put its nuclear-capable Oreshnik intermediate-range ballistic missile on combat duty in Belarus in December 2025. Moscow released footage on 30 December 2025, and its range of up to 5,500 km reaches most of Europe.",
+      "exactQuote": "The Russian Oreshnik missile systems entered combat duty in [Belarus]. This step is a clear confirmation of the effectiveness of the bilateral interstate treaty on security guarantees within the Union State, which entered into force in March",
+      "who": "Boris Gryzlov, Russian Ambassador to Belarus (via TASS, quoted by Al Jazeera)",
+      "date": "2025-12-31 (article); MoD video 2025-12-30; Lukashenko claim 2025-12-18",
+      "sourceTitle": "Russia deploys hypersonic Oreshnik missiles in Belarus amid Europe tensions",
+      "sourceOutlet": "Al Jazeera (David D. Lee and Reuters)",
+      "url": "https://www.aljazeera.com/news/2025/12/31/russia-deploys-hypersonic-oreshnik-missiles-in-belarus-amid-europe-tensions",
+      "confidence": "confirmed",
+      "notes": "Verbatim as printed by Al Jazeera. The bracketed [Belarus] is in the original. Also verbatim: 'Analysts note that stationing the Oreshnik missiles in Belarus could shorten the time for Russian nuclear weapons to reach European targets.' Range 'up to 5,500km', as reported."
+    },
+    {
+      "id": "RU3",
+      "claim": "On 19–21 May 2026 Russia held an unannounced nuclear exercise with Belarus. It was the first joint Russia–Belarus training on managing strategic and tactical nuclear forces, and Moscow cited European nuclear-sharing debates and Lithuanian statements as justification.",
+      "exactQuote": "Today, as part of the exercises, we are conducting the first joint training of the armies of Russia and Belarus on managing strategic and tactical nuclear forces,",
+      "who": "Vladimir Putin",
+      "date": "2026-05-21",
+      "sourceTitle": "Putin and Lukashenko monitor joint Russia-Belarus nuclear exercises",
+      "sourceOutlet": "Al Jazeera (Al Jazeera Staff, AFP and Anadolu)",
+      "url": "https://www.aljazeera.com/news/2026/5/21/putin-and-lukashenko-monitor-joint-russia-belarus-nuclear-exercises",
+      "confidence": "confirmed",
+      "notes": "Verbatim. Defense News (Linus Höller, 2026-05-20, https://www.defensenews.com/global/europe/2026/05/20/russia-launches-unannounced-nuclear-exercise-including-belarusian-launch-sites/): the MoD framed it as rehearsing 'the preparation and use of nuclear forces in the event of a threat of aggression', and 'Moscow has pointed to statements by Lithuania’s foreign minister about a potential strike on Kaliningrad, as well as broader European rearmament and debates surrounding nuclear sharing, as justifications for the drills.' Belarusian units practised delivering nuclear munitions 'from unprepared positions on Belarusian territory.'"
+    },
+    {
+      "id": "RU4",
+      "claim": "Moscow called Macron's March 2025 offer of nuclear protection for Europe 'extremely confrontational'.",
+      "exactQuote": "extremely confrontational.",
+      "who": "Kremlin (spokesman Dmitry Peskov), reported by AP",
+      "date": "2025-03-06",
+      "sourceTitle": "Poland and Baltic nations welcome Macron's nuclear deterrent proposal",
+      "sourceOutlet": "Associated Press (via News4Jax)",
+      "url": "https://www.news4jax.com/news/world/2025/03/06/poland-and-baltic-nations-welcome-macrons-nuclear-deterrent-proposal/",
+      "confidence": "confirmed",
+      "notes": "AP phrase: 'a move Moscow quickly dismissed as “extremely confrontational.”' Other outlets (Moscow Times, Newsweek) attribute it to Peskov, and report that Lavrov called Macron's comments a 'threat' (likely, not separately verified). Use it to show Russia targets these debates. That is a reason to keep the hedge credible, not to drop it."
+    },
+    {
+      "id": "RU5",
+      "claim": "Macron's 2026 speech (an official French source) described Russia as constantly building new nuclear weapons despite already holding a vast arsenal.",
+      "exactQuote": "These include hypersonic nuclear missiles, nuclear-powered missiles said to have unlimited range, nuclear torpedoes, and even a project that is particularly dangerous for humanity: nuclear weapons sent into space.",
+      "who": "Emmanuel Macron",
+      "date": "2026-03-02",
+      "sourceTitle": "Visit to the Île Longue Operational Base",
+      "sourceOutlet": "Elysee (official English text)",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/03/02/visit-to-the-ile-longue-operational-base",
+      "confidence": "confirmed",
+      "notes": "The preceding sentence (verbatim) is in FR5 notes. Arms control context: New START expired in February 2026 (SIPRI Yearbook 2026 notes the 'degradation of arms control agreements', and the exact expiry date of 5 Feb 2026 comes from secondary search results, so it is likely)."
+    }
+  ],
+  "suggestedTags": [
+    {
+      "tag": "Macron, 25",
+      "factIds": [
+        "FR1",
+        "FR2"
+      ]
+    },
+    {
+      "tag": "Macron, 26",
+      "factIds": [
+        "FR3",
+        "FR4",
+        "FR5",
+        "RU5"
+      ]
+    },
+    {
+      "tag": "Macron & Merz, 26",
+      "factIds": [
+        "FR6"
+      ]
+    },
+    {
+      "tag": "Finland-France Joint Statement, 26",
+      "factIds": [
+        "FR8"
+      ]
+    },
+    {
+      "tag": "Elysee, 26",
+      "factIds": [
+        "FR9",
+        "FR11",
+        "UK4"
+      ]
+    },
+    {
+      "tag": "Northwood Declaration, 25",
+      "factIds": [
+        "UK1"
+      ]
+    },
+    {
+      "tag": "UK Gov, 25",
+      "factIds": [
+        "UK2"
+      ]
+    },
+    {
+      "tag": "UK MoD, 26",
+      "factIds": [
+        "UK3"
+      ]
+    },
+    {
+      "tag": "Chevreuil & Horschig/CSIS, 25",
+      "factIds": [
+        "DE1",
+        "AN6"
+      ]
+    },
+    {
+      "tag": "Merz, 26",
+      "factIds": [
+        "DE2",
+        "FR7"
+      ]
+    },
+    {
+      "tag": "AP, 25",
+      "factIds": [
+        "PL1",
+        "BL1",
+        "RU4"
+      ]
+    },
+    {
+      "tag": "Higgins/NYT, 25",
+      "factIds": [
+        "PL2"
+      ]
+    },
+    {
+      "tag": "Potapkins/Carnegie, 26",
+      "factIds": [
+        "BL2"
+      ]
+    },
+    {
+      "tag": "Reuters, 26",
+      "factIds": [
+        "BL3"
+      ]
+    },
+    {
+      "tag": "Xinhua/Euronews, 26",
+      "factIds": [
+        "NO1"
+      ]
+    },
+    {
+      "tag": "Schepers/ETH CSS, 26",
+      "factIds": [
+        "NO2",
+        "AN8",
+        "CAV1"
+      ]
+    },
+    {
+      "tag": "TPNW Text, 17",
+      "factIds": [
+        "TP1",
+        "TP2",
+        "TP4"
+      ]
+    },
+    {
+      "tag": "Gibbons & Herzog/ACA, 22",
+      "factIds": [
+        "TP3"
+      ]
+    },
+    {
+      "tag": "Harvard IHRC, 18",
+      "factIds": [
+        "TP5"
+      ]
+    },
+    {
+      "tag": "Besch & Bartoux/Carnegie, 25",
+      "factIds": [
+        "AN1"
+      ]
+    },
+    {
+      "tag": "Cameron/Carnegie Europe, 25",
+      "factIds": [
+        "AN2"
+      ]
+    },
+    {
+      "tag": "van Hooft/RAND, 25",
+      "factIds": [
+        "AN3"
+      ]
+    },
+    {
+      "tag": "Baev/Brookings, 25",
+      "factIds": [
+        "AN4"
+      ]
+    },
+    {
+      "tag": "Horovitz & Major/Brookings, 25",
+      "factIds": [
+        "AN5"
+      ]
+    },
+    {
+      "tag": "Besch & Kwong/Carnegie Europe, 25",
+      "factIds": [
+        "AN7"
+      ]
+    },
+    {
+      "tag": "Loss & Westgaard/ECFR, 26",
+      "factIds": [
+        "AN9"
+      ]
+    },
+    {
+      "tag": "Fayet/Bulletin, 26",
+      "factIds": [
+        "AN10"
+      ]
+    },
+    {
+      "tag": "SIPRI, 26",
+      "factIds": [
+        "RU1"
+      ]
+    },
+    {
+      "tag": "Al Jazeera, 25",
+      "factIds": [
+        "RU2"
+      ]
+    },
+    {
+      "tag": "Al Jazeera, 26",
+      "factIds": [
+        "RU3"
+      ]
+    }
+  ],
+  "summary": "All core claims of the CON 'European nuclear insurance' contention are supported by primary or mainstream sources. Most were checked by downloading the raw page text with curl, so the exactQuote fields are word-for-word. (1) Plan B exists and is growing. Macron opened the debate on 5 Mar 2025 in response to Merz ('I want to believe that the United States will stand with us, but we must be ready if that's not the case'). He launched 'forward deterrence' on 2 Mar 2026, with temporary deployments of French nuclear-capable air forces to allies, 8 named partners, a warhead increase and a Franco-German nuclear steering group. The UK and France signed the Northwood Declaration (10 Jul 2025), RAF Typhoons joined a French nuclear exercise for the first time (Rummy, 20-21 Oct 2026), and the UK-France steering group met on 10 Nov 2026. Finland joined forward deterrence on 14 Sep 2026 (10th partner) and held its first steering group on 27 Oct 2026. Poland's first steering group met on 10 Jul 2026. Latvia and Estonia were in talks by Sept 2026. Finland's parliament lifted its nuclear-weapons ban on 17 Jun 2026 by 125-61 (re-confirmed). (2) US doubts: Merz said at MSC on 13 Feb 2026 that 'a chasm, a deep rift, has opened between Europe and the United States'. Brookings, Carnegie, RAND, CSIS, ETH CSS, ECFR and the Bulletin all document eroding confidence in the US umbrella in 2025-26. (3) TPNW legal effect (verbatim treaty text): Art 1(1)(a),(d),(e),(g) ban possession, threats, assistance and ANY stationing or deployment. Art 4(2) forces possessors to de-alert immediately and destroy their weapons (10-year deadline set in 2022), and hosts must expel foreign weapons within 90 days. Art 17 withdrawal takes 12 months and is frozen during armed conflict. The pro-TPNW Harvard IHRC (June 2018) concedes a party 'must withdraw from the protection of a nuclear umbrella'. (4) Russia: SIPRI 2026 puts Russia's military stockpile at 4,400 warheads (France 290, UK 225). Oreshnik went on combat duty in Belarus in Dec 2025, and Russia ran an unannounced joint strategic and tactical nuclear drill with Belarus on 19-21 May 2026. CAVEATS for honest debating: every official text frames the French and UK effort as a COMPLEMENT to NATO and the US umbrella, not a replacement. CSIS and ETH say it cannot fully replace a collapsed US umbrella. The Baltics were not on Macron's March 2026 list (they moved toward it from Sept 2026). Harvard says TPNW parties can stay in NATO. So argue 'TPNW forbids the insurance policy, and the US umbrella too, leaving zero nuclear options'. Do not argue that France or the UK can replace the US. Several items (ECFR, Bulletin, IISS, Chatham House) could not be downloaded, so they are marked likely or unconfirmed and carry no exactQuote."
+}

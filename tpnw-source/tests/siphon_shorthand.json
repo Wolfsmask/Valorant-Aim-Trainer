@@ -1,0 +1,34 @@
+{
+ "PRO": [
+  ["deterrence 80 yrs peace", ["pro_reb_1"]],
+  ["tpnw weakens npt no add protocol", ["pro_reb_2"]],
+  ["breaks nato art 5", ["pro_reb_3"]],
+  ["russia monopoly blackmail", ["pro_reb_4"]],
+  ["divest only hurts bae leonardo, russia state budget", ["pro_reb_5"]],
+  ["ukraine 1994 budapest invaded", ["pro_reb_6"]],
+  ["us umbrella baltics", ["pro_reb_7"]],
+  ["uk france 515 subs", ["pro_reb_8"]],
+  ["ppp russia ammo shortage", ["pro_reb_9"]],
+  ["symbolic russia china wont sign", ["pro_reb_10"]],
+  ["poland builds own nukes", ["pro_reb_11"]],
+  ["belarus tactical nukes need b61", ["pro_reb_12"]],
+  ["petrov outdated pals", ["pro_reb_13"]],
+  ["just sanction rosatom no tpnw", ["pro_reb_14"]]
+ ],
+ "CON": [
+  ["petrov 1983 luck", ["con_reb_1"]],
+  ["8 to 1 nato outspends", ["con_reb_2"]],
+  ["banks divest 4 trillion", ["con_reb_3"]],
+  ["rosatom 781m uranium", ["con_reb_4"]],
+  ["1949 treaty no nukes norway denmark", ["con_reb_5"]],
+  ["b61 useless 60 hrs", ["con_reb_6"]],
+  ["wont trade ny for tallinn", ["con_reb_7"]],
+  ["fulfills npt art 6", ["con_reb_8"]],
+  ["rand wargames ramstein", ["con_reb_9"]],
+  ["putin belarus excuse", ["con_reb_10"]],
+  ["deterrence failed ukraine sabotage", ["con_reb_11"]],
+  ["europe 559b alone", ["con_reb_12"]],
+  ["tpnw stops poland prolif", ["con_reb_13"]],
+  ["2009 sub collision cyber", ["con_reb_14"]]
+ ]
+}

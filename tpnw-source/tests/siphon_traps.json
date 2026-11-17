@@ -1,0 +1,18 @@
+{
+ "PRO": [
+  ["Deterrence keeps the peace because Belarus now hosts Russian tactical nukes under Lukashenko.", ["pro_reb_12"]],
+  ["Deterrence and peace in Europe depend on the 515 British and French submarine warheads.", ["pro_reb_8"]],
+  ["Peace depends on deterrence, and the Petrov incident in 1983 is ancient history with modern PALs.", ["pro_reb_13"]],
+  ["Deterrence works, and if the umbrella goes, Poland and Duda will build their own bomb.", ["pro_reb_11"]],
+  ["The NPT and IAEA protocol work fine, but the real issue is that Russia gets a nuclear monopoly and can blackmail Warsaw.", ["pro_reb_4"]],
+  ["Sabotage and peace aside, Rosatom can be sanctioned without ratifying, just like the Lingen debate shows.", ["pro_reb_14"]]
+ ],
+ "CON": [
+  ["Petrov in 1983 was luck, but the bigger danger is the 2009 collision of British and French submarines.", ["con_reb_14"]],
+  ["The B61 at Büchel is useless, and Putin cited it as the legal justification for stationing nukes in Belarus in March 2023.", ["con_reb_10"]],
+  ["Rosatom is paid 781 million euros, and the 109 financial institutions in Don't Bank on the Bomb show divestment works.", ["con_reb_3", "con_reb_4"]],
+  ["Sabotage proves deterrence failed, and RAND wargames show Ramstein and Aviano would be hit.", ["con_reb_9", "con_reb_11"]],
+  ["NATO's 559 billion dollars from Europe alone, nearly three-to-one, means Europe can stand without the US.", ["con_reb_12"]],
+  ["Luck saved us in 1983, and B61s are relics that take 60 hours and can't survive air defenses.", ["con_reb_6", "con_reb_1"]]
+ ]
+}

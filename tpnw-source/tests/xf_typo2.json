@@ -1,0 +1,381 @@
+{
+ "PRO": [
+  [
+   "so you admit detrrance prevnteed a third world war?",
+   [
+    "p_pf_13",
+    "p_pf_45"
+   ]
+  ],
+  [
+   "how can aynone check that countries actaally disarmed",
+   [
+    "p_pf_8",
+    "p_pf_9"
+   ]
+  ],
+  [
+   "what stops china from taking advanntaeg",
+   [
+    "p_pf_21",
+    "p_pf_44"
+   ]
+  ],
+  [
+   "if beglium gives up the bombs does putin give up his",
+   [
+    "p_pf_19",
+    "p_pf_43",
+    "p_pf_11"
+   ]
+  ],
+  [
+   "are there realy amerikan nuclear bombs in italy",
+   [
+    "p_pf_11"
+   ]
+  ],
+  [
+   "what if ruussia rolls tanks into estania",
+   [
+    "p_pf_3",
+    "p_pf_44"
+   ]
+  ],
+  [
+   "isnt sgning a treaty rusia ignores pointles",
+   [
+    "p_pf_19",
+    "p_pf_44"
+   ]
+  ],
+  [
+   "without nukes how does europe defend itself",
+   [
+    "p_pf_42"
+   ]
+  ],
+  [
+   "ukraine gave up its weapons and got inavded right",
+   [
+    "p_pf_1"
+   ]
+  ],
+  [
+   "would birtain have to scrap tident",
+   [
+    "p_pf_4"
+   ]
+  ],
+  [
+   "would germayn get kickked out of nato",
+   [
+    "p_pf_5"
+   ]
+  ],
+  [
+   "isnt the nucleer planing group bannd by the teaty",
+   [
+    "p_pf_6"
+   ]
+  ],
+  [
+   "does the trety weakne the non-proliferation trety",
+   [
+    "p_pf_7"
+   ]
+  ],
+  [
+   "how would nato respond to a russian nuke in ukroine",
+   [
+    "p_pf_12"
+   ]
+  ],
+  [
+   "medern safety systems pruvent false alarms now right",
+   [
+    "p_pf_10"
+   ]
+  ],
+  [
+   "wont germanie and poland just build their own bombs",
+   [
+    "p_pf_20"
+   ]
+  ],
+  [
+   "what about trorists getting a bomb",
+   [
+    "p_pf_25"
+   ]
+  ],
+  [
+   "isnt this teaty vrtue sagnaling",
+   [
+    "p_pf_19"
+   ]
+  ],
+  [
+   "if its so great why has no nato membir jonied",
+   [
+    "p_pf_30"
+   ]
+  ],
+  [
+   "what about the nukes putin put in belarus",
+   [
+    "p_pf_22"
+   ]
+  ],
+  [
+   "wouuldnt the amorians leave euope",
+   [
+    "p_pf_23",
+    "p_pf_3"
+   ]
+  ],
+  [
+   "can euroe aford a bgger conventional army",
+   [
+    "p_pf_27"
+   ]
+  ],
+  [
+   "isnt there a dangerous winodw while europe disarms",
+   [
+    "p_pf_26"
+   ]
+  ],
+  [
+   "what about the iskonder missiles next to pooland",
+   [
+    "p_pf_35",
+    "p_pf_20"
+   ]
+  ],
+  [
+   "isnt euroe loked in once it ratifies",
+   [
+    "p_pf_34"
+   ]
+  ],
+  [
+   "russia has thhusands of warheads doesnnt it",
+   [
+    "p_pf_2"
+   ]
+  ],
+  [
+   "why shoud euroep go first",
+   [
+    "p_pf_43"
+   ]
+  ],
+  [
+   "isnt nucleer blackmail the real danger",
+   [
+    "p_pf_2"
+   ]
+  ],
+  [
+   "what about cheemical weapons attacks",
+   [
+    "p_pf_36"
+   ]
+  ],
+  [
+   "noboddy has used a nuke since horoshima isnt that proof",
+   [
+    "p_pf_45"
+   ]
+  ]
+ ],
+ "CON": [
+  [
+   "isnt it true we nearrly had nuclear war many times",
+   [
+    "c_pf_16",
+    "c_pf_1"
+   ]
+  ],
+  [
+   "why does eruope keep buyign rsusian uranium",
+   [
+    "c_pf_7",
+    "c_pf_34"
+   ]
+  ],
+  [
+   "arent garvity bombs obsolete",
+   [
+    "c_pf_17"
+   ]
+  ],
+  [
+   "nato spends way more than russia right",
+   [
+    "c_pf_6",
+    "c_pf_21"
+   ]
+  ],
+  [
+   "can deterrence fail by accident",
+   [
+    "c_pf_1",
+    "c_pf_16"
+   ]
+  ],
+  [
+   "would you kill milions of innocent people",
+   [
+    "c_pf_2"
+   ]
+  ],
+  [
+   "if nukes ceate peace why stop others from getting them",
+   [
+    "c_pf_3",
+    "c_pf_10"
+   ]
+  ],
+  [
+   "deesnt the NPT require disarmaent",
+   [
+    "c_pf_9"
+   ]
+  ],
+  [
+   "what ispectinos does the treaty lack",
+   [
+    "c_pf_11"
+   ]
+  ],
+  [
+   "would nato nuke russia back",
+   [
+    "c_pf_12"
+   ]
+  ],
+  [
+   "doest hossting bombs make blgium a target",
+   [
+    "c_pf_13"
+   ]
+  ],
+  [
+   "why are banks divsseting from nuclear weaons",
+   [
+    "c_pf_14"
+   ]
+  ],
+  [
+   "can nukes stop isis",
+   [
+    "c_pf_15"
+   ]
+  ],
+  [
+   "wasnt belaruus a response to nato sharing",
+   [
+    "c_pf_19"
+   ]
+  ],
+  [
+   "denmark doesnt allow nukes so why should oters",
+   [
+    "c_pf_20"
+   ]
+  ],
+  [
+   "woldnt it cause a nucler winter and famine",
+   [
+    "c_pf_22"
+   ]
+  ],
+  [
+   "could hackers launch a nuke",
+   [
+    "c_pf_24"
+   ]
+  ],
+  [
+   "why hasnt deterense stoppud the cable cutting in the bltic",
+   [
+    "c_pf_25"
+   ]
+  ],
+  [
+   "most of the world joened the ban so why not eruope",
+   [
+    "c_pf_26",
+    "c_pf_41"
+   ]
+  ],
+  [
+   "didnt nucleer sumbarrines crash into each other",
+   [
+    "c_pf_28"
+   ]
+  ],
+  [
+   "didnt mattis say tactical nukes alwasy escalatte",
+   [
+    "c_pf_29"
+   ]
+  ],
+  [
+   "dont most europeans suppotr the ban",
+   [
+    "c_pf_30"
+   ]
+  ],
+  [
+   "wont ameirca still protect eurpe with its own nukes",
+   [
+    "c_pf_31"
+   ]
+  ],
+  [
+   "frnace isnt in the planning group right",
+   [
+    "c_pf_32"
+   ]
+  ],
+  [
+   "can a counntry leave the treatie",
+   [
+    "c_pf_35"
+   ]
+  ],
+  [
+   "cant long range missilse replace nukes",
+   [
+    "c_pf_37"
+   ]
+  ],
+  [
+   "isnt turkkey an unsafe place for nukes",
+   [
+    "c_pf_38"
+   ]
+  ],
+  [
+   "we banned landmoes why not nukes",
+   [
+    "c_pf_39"
+   ]
+  ],
+  [
+   "arent nukes evil",
+   [
+    "c_pf_44"
+   ]
+  ],
+  [
+   "kazakhstan gave up its nukes so why cant eurupe",
+   [
+    "c_pf_45"
+   ]
+  ]
+ ]
+}

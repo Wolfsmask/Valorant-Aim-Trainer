@@ -1,0 +1,22 @@
+[
+ {
+  "title": "Crossfire: no confident match \u2192 honest \"no prefired answer\" box instead of a random card; closest matches only when clear",
+  "find": "      scoredList.sort((a, b) => b.score - a.score || a.priorityRank - b.priorityRank);\n      let isSoftMatch = false;\n\n      // Merge in universal fallback matches so we ALWAYS have rich results and alternatives\n      const universalMatches = universalRankAllPrefiresAndBlocks(rawQuery, qNorm, true);\n      if (scoredList.length === 0) {\n        isSoftMatch = true;\n      }\n      universalMatches.forEach(u => {",
+  "replace": "      scoredList.sort((a, b) => b.score - a.score || a.priorityRank - b.priorityRank);\n      let isSoftMatch = false;\n\n      // No trigger word matched: only offer an answer when one clearly stands out, and label it honestly\n      if (scoredList.length === 0) {\n        softRankPrefires(sideData.prefires, qNorm).forEach(r => {\n          const pIdx = pfPriority.indexOf(r.pf.id);\n          scoredList.push({ pf: r.pf, score: r.score, priorityRank: pIdx === -1 ? 99 : pIdx + 1 });\n        });\n        isSoftMatch = scoredList.length > 0;\n      }\n      if (scoredList.length === 0) {\n        resultBox.className = \"flex-1 flex flex-col justify-center rounded-2xl border-2 border-[#C86D3B] bg-[#FDF6F2] p-6 text-center shadow-sm\";\n        resultBox.innerHTML = `\n          <div class=\"text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#C86D3B] text-white mx-auto mb-2\">\n            \u26a0 NO PREFIRED ANSWER \u2014 YOU ARE ON YOUR OWN\n          </div>\n          <h4 class=\"text-base font-bold text-[#2A2421] mb-1\">No prefire matched \"${escapeHtml(rawQuery)}\"</h4>\n          <p class=\"text-xs text-[#6E6259]\">Answer their specific question directly in one sentence, then pivot back to your core contention.</p>\n        `;\n        return;\n      }\n\n      // Merge in universal matches as extra alternatives\n      const universalMatches = universalRankAllPrefiresAndBlocks(rawQuery, qNorm, true);\n      universalMatches.forEach(u => {"
+ },
+ {
+  "title": "Crossfire: label closest answers honestly",
+  "find": "${isSoftMatch ? \"\u2605 Best Match\" : \"\u2605 #\" + pRank + \" Priority Match\"}",
+  "replace": "${isSoftMatch ? \"Closest Answer \u2014 check it fits\" : \"\u2605 #\" + pRank + \" Priority Match\"}"
+ },
+ {
+  "title": "Grand Crossfire: closest answer only when clear, labeled; clear the box when nothing matches",
+  "find": "      if (scored.length === 0) {\n        universalRankAllPrefiresAndBlocks(val, qNorm, true).forEach(r => scored.push({ pf: r.pf, sc: r.score }));\n      }\n      if (scored.length > 0) {\n        const ans = buildTailoredSpokenAnswer(scored[0].pf, val);\n        out.innerHTML = `<div class=\"serif-podium",
+  "replace": "      let gxSoft = false;\n      if (scored.length === 0) {\n        softRankPrefires(sideData.prefires, qNorm).forEach(r => scored.push({ pf: r.pf, sc: r.score }));\n        gxSoft = scored.length > 0;\n      }\n      if (scored.length === 0) {\n        out.innerHTML = `<span class=\"text-xs font-semibold text-[#C86D3B]\">No prefire match \u2014 answer in one sentence and pivot to your weighing.</span>`;\n        return;\n      }\n      if (scored.length > 0) {\n        const ans = buildTailoredSpokenAnswer(scored[0].pf, val);\n        out.innerHTML = `${gxSoft ? '<div class=\"text-[11px] font-bold uppercase tracking-wider text-[#C86D3B] mb-1\">Closest answer \u2014 check it fits</div>' : ''}<div class=\"serif-podium"
+ },
+ {
+  "title": "Crossfire: stop the broad 'concept' bonus from overriding the specific answer (v7 dropped 202\u2192176 of 209 test questions)",
+  "find": "score += (idx === 0 ? 280 : 90) - pos * 65;",
+  "replace": "score += 0; // concept bonus disabled: it overrode the specific prefire match"
+ }
+]

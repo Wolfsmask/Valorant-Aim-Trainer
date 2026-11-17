@@ -1,0 +1,678 @@
+{
+  "facts": [
+    {
+      "id": "T1",
+      "claim": "In a July 2016 New York Times interview, candidate Trump said he would decide whether to defend the Baltic states against Russia only after checking whether they had met their obligations to the US.",
+      "exactQuote": "have fulfilled their obligations to us",
+      "who": "Donald Trump (as candidate), interviewed by David Sanger and Maggie Haberman, NYT",
+      "date": "Interview July 20, 2016; AP report July 21, 2016",
+      "sourceTitle": "Donald Trump Might Not Defend NATO Allies if Russia Attacks Them",
+      "sourceOutlet": "Associated Press via Fortune",
+      "url": "https://fortune.com/2016/07/21/donald-trump-nato-russia/",
+      "confidence": "confirmed",
+      "notes": "The fuller line 'If they fulfill their obligations to us, the answer is yes' appears in search snippets of the NYT transcript, but I could not fetch nytimes.com, so only the short fragment is marked verbatim. Paul Manafort claimed a misquote; the NYT's posted transcript showed the quotes were accurate. Opponents may say it's conditional ('yes' if they pay). Answer: the Baltics already met the 2% target, and the guarantee is supposed to be unconditional."
+    },
+    {
+      "id": "T2",
+      "claim": "In a July 2018 Fox News interview, Tucker Carlson asked why his son should defend Montenegro. Trump agreed he'd asked the same question and said defending tiny 'aggressive' Montenegro could start World War III.",
+      "exactQuote": "Montenegro is a tiny country with very strong people. ... they may get aggressive, and congratulations, you're in World War III.",
+      "who": "Donald Trump (President); question from Tucker Carlson, 'Tucker Carlson Tonight', Fox News",
+      "date": "Interview recorded in Helsinki and aired July 17, 2018; Washington Post report July 18, 2018",
+      "sourceTitle": "Trump says defending NATO ally Montenegro could lead to World War III",
+      "sourceOutlet": "Washington Post (republished by Bangor Daily News)",
+      "url": "https://www.bangordailynews.com/2018/07/18/news/trump-says-defending-nato-ally-montenegro-could-lead-to-world-war-iii/",
+      "confidence": "confirmed",
+      "notes": "Carlson's question, verbatim: 'Why should my son go to Montenegro to defend it from attack?' Trump began: 'I understand what you're saying, I've asked the same question.' AP (Global News, July 19, 2018) has the same wording. NPR headline (July 19, 2018): 'In Interview, Trump Appears To Question NATO's Collective Defense Clause'. Strong for the 'small frontline ally' framing."
+    },
+    {
+      "id": "T3",
+      "claim": "At a Feb 10, 2024 rally in Conway, South Carolina, Trump told a story in which he said he would not protect a 'delinquent' NATO ally from Russia and would encourage Russia to do 'whatever the hell they want'.",
+      "exactQuote": "No I would not protect you. In fact, I would encourage them to do whatever the hell they want. You gotta pay. You gotta pay your bills.",
+      "who": "Donald Trump (candidate), rally at Coastal Carolina University, Conway, SC",
+      "date": "Rally Feb 10, 2024; AP story Feb 11, 2024",
+      "sourceTitle": "Trump says he told NATO ally to spend more on defense or he would 'encourage' Russia to 'do whatever the hell they want'",
+      "sourceOutlet": "Associated Press (Jill Colvin) via PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/politics/trump-says-he-told-nato-ally-to-spend-more-on-defense-or-he-would-encourage-russia-to-do-whatever-the-hell-they-want",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'You didn't pay? You're delinquent?' The White House called it 'unhinged', and NATO SG Stoltenberg said any suggestion allies won't defend each other 'undermines all of our security'. NPR also covered it (Feb 11, 2024)."
+    },
+    {
+      "id": "T4",
+      "claim": "As president, in the Oval Office on March 6, 2025, Trump said he would not defend NATO allies that don't pay. He also doubted that allies like France would defend the US.",
+      "exactQuote": "If they don't pay, I'm not going to defend them.",
+      "who": "President Donald Trump, Oval Office remarks",
+      "date": "March 6, 2025",
+      "sourceTitle": "Trump casts doubt on NATO solidarity, despite it aiding the US after Sept. 11",
+      "sourceOutlet": "Associated Press (Michelle L. Price)",
+      "url": "https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/",
+      "confidence": "confirmed",
+      "notes": "Also verbatim in the same AP piece: 'Do you think they're going to come and protect us? They're supposed to. I'm not so sure.' Gulf News and The Star reported that he repeated 'No, I'm not going to defend them' (not fetched). Useful because he said this as sitting president, not as a candidate."
+    },
+    {
+      "id": "T5",
+      "claim": "Flying to the June 2025 NATO summit in The Hague, Trump was asked whether he was committed to Article 5 and said it 'depends on your definition'.",
+      "exactQuote": "depends on your definition",
+      "who": "President Donald Trump, to reporters aboard Air Force One",
+      "date": "June 24, 2025",
+      "sourceTitle": "Trump says whether he'll commit to NATO mutual defense guarantee 'depends on your definition'",
+      "sourceOutlet": "Associated Press (Molly Quell, Lorne Cook, Mike Corder) via ABC7",
+      "url": "https://abc7news.com/post/nato-leaders-including-president-donald-trump-gather-historic-summit-unity-line/16834786/",
+      "confidence": "confirmed",
+      "notes": "The AP headline confirms the phrase verbatim. Asked to clarify, he said he was 'committed to saving lives' and 'committed to life and safety' (both verbatim). Search snippets also give 'There's numerous definitions of Article 5... But I'm committed to being their friends' (likely, but not fetched). Counter: at the summit he later said 'We're with them all the way' (Breaking Defense headline), and Rutte said he had 'no doubt'."
+    },
+    {
+      "id": "T6",
+      "claim": "On March 20, 2026, during the US-Israel war with Iran, Trump posted on Truth Social calling NATO allies 'COWARDS' for not helping reopen the Strait of Hormuz, and said NATO without the US is a 'PAPER TIGER'.",
+      "exactQuote": "Without the U.S.A., NATO IS A PAPER TIGER! ... So easy for them to do, with so little risk. COWARDS, and we will REMEMBER!",
+      "who": "President Donald Trump, Truth Social posts",
+      "date": "March 20, 2026",
+      "sourceTitle": "Trump rules out Iran truce as more Marines head to Middle East",
+      "sourceOutlet": "AFP (Danny Kemp) via Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/03/trump-calls-nato-allies-cowards-over-iran",
+      "confidence": "confirmed",
+      "notes": "These are two separate posts, quoted in the AFP story. Mediaite, The Hill and others carried them too. On April 17, 2026, Business Today reported he repeated that NATO was 'useless when needed, a Paper Tiger!' (not fetched). This shows the commitment is transactional: help in unrelated wars, or be punished."
+    },
+    {
+      "id": "T7",
+      "claim": "In a Daily Telegraph interview (reported April 1, 2026), Trump said he was 'strongly considering' pulling the US out of NATO. Asked whether he would reconsider membership after the Iran conflict, he said it was 'beyond reconsideration'.",
+      "exactQuote": "I was never swayed by NATO. I always knew they were a paper tiger, and Putin knows that too, by the way.",
+      "who": "President Donald Trump, interview with The Daily Telegraph",
+      "date": "Reported April 1, 2026 (Telegraph interview published ~March 31/April 1, 2026)",
+      "sourceTitle": "Trump says he's considering pulling US out of NATO over Iran war stance",
+      "sourceOutlet": "Fox News (Bradford Betz); also Reuters (Sam Tabahriti)",
+      "url": "https://www.foxnews.com/politics/trump-nato-withdrawal-iran-war-allies",
+      "confidence": "confirmed",
+      "notes": "Reuters, verbatim: 'Oh yes, I would say [it's] beyond reconsideration' (https://www.aol.com/articles/trump-says-u-strongly-considering-091421711.html). Fox, verbatim: 'Ukraine wasn't our problem. It was a test, and we were there for them.' Citing Fox News helps with right-leaning judges. Legal note: a 2023 law (NDAA FY2024) bars a president from leaving NATO without Senate approval or an Act of Congress (background knowledge; verify before citing). Ex-CIA officer Dannenberg also doubts Trump can withdraw unilaterally (see C3)."
+    },
+    {
+      "id": "T8",
+      "claim": "At the July 2026 Ankara NATO summit, Trump attacked allies over Greenland and Iran before the closed-door session. Then he softened his tone, and the summit declaration reaffirmed an 'ironclad commitment' to Article 5. COUNTER-EVIDENCE: be ready for it.",
+      "exactQuote": "I'm very upset with NATO... because of what they did with Greenland",
+      "who": "President Donald Trump, Ankara NATO summit",
+      "date": "July 7-8, 2026 (France 24 article July 8, 2026)",
+      "sourceTitle": "Trump tempers fury at NATO summit after lashing out at key allies in Ankara",
+      "sourceOutlet": "France 24 (AFP)",
+      "url": "https://www.france24.com/en/europe/20260708-trump-lashes-nato-allies-during-key-summit-ankara",
+      "confidence": "confirmed",
+      "notes": "PRO side will cite this. Afterward Trump said 'This was a tremendously successful summit', and per an AFP source he told allies privately 'We want to remain with you.' The declaration reaffirmed an 'ironclad commitment' to Article 5 (NATO: https://www.nato.int/en/news-and-events/events/2026/07/overview---2026-nato-summit-in-ankara-). CON response: paper reaffirmations came after months of threats and troop cuts, and they swing with his mood. Allies' own publics don't believe them (ECFR June 2026, P1)."
+    },
+    {
+      "id": "A1",
+      "claim": "Oct 29, 2025: the Pentagon announced that the 2nd Infantry Brigade Combat Team, 101st Airborne, rotating in Romania and on NATO's eastern flank would return to Kentucky 'without replacement'. About 1,000 US troops would remain in Romania.",
+      "exactQuote": "We strongly oppose the decision not to maintain the rotational U.S. brigade in Romania.",
+      "who": "US Army Europe and Africa (announcement); quote from Sen. Roger Wicker (R-MS) and Rep. Mike Rogers (R-AL), Armed Services chairmen",
+      "date": "October 29, 2025",
+      "sourceTitle": "Pentagon scales back troops from NATO eastern flank, denies American withdrawal from Europe",
+      "sourceOutlet": "Fox News (Rachel Wolf, Jennifer Griffin)",
+      "url": "https://www.foxnews.com/politics/pentagon-scales-back-troops-from-nato-eastern-flank-denies-american-withdrawal-from-europe",
+      "confidence": "confirmed",
+      "notes": "Wicker/Rogers also, verbatim: 'The Pentagon's decision appears uncoordinated and directly at odds with the President's strategy.' The Army said, verbatim: 'This is not an American withdrawal from Europe or a signal of lessened commitment to NATO and Article 5.' Romania's MoD, verbatim: 'approximately 1,000 U.S. troops would continue to be stationed in the country.' Before the cut, about 1,700 were there (search snippet). CNN (Natasha Bertrand) carried the same story. Both chairmen are Republicans, which helps with conservative judges. Primary source: https://www.wicker.senate.gov/2025/10/chairmen-of-senate-and-house-armed-services-committees-we-strongly-oppose-the-pentagon-s-decision-to-scale-back-the-u-s-troop-presence-in-romania"
+    },
+    {
+      "id": "A2",
+      "claim": "A former US Ambassador to Romania and to the EU called the Romania troop cut a 'terrible mistake' that would make allies ask 'who's next?'",
+      "exactQuote": "And I think that's a terrible mistake,",
+      "who": "Mark Gitenstein, former US Ambassador to Romania and to the EU",
+      "date": "October 30, 2025",
+      "sourceTitle": "'Terrible Mistake' – Former US Envoy Slams Troop Cut in Romania, Warns of Russian Exploitation",
+      "sourceOutlet": "Kyiv Post (Alex Raufoglu)",
+      "url": "https://www.kyivpost.com/post/63250",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'will send a chill up their spine' and 'who's next?' The article does not say who appointed him. From background knowledge (verify): he was an Obama appointee to Romania and a Biden appointee to the EU, so right-leaning judges may discount him. Retired Gen. Ben Hodges (former US Army Europe commander) also said the cut 'makes no sense' (Spotmedia, Nov 2025; paraphrased from Romanian coverage)."
+    },
+    {
+      "id": "A3",
+      "claim": "The December 2025 US National Security Strategy said it is 'far from obvious' whether some European countries will remain 'reliable allies', told Europe to take 'primary responsibility for its own defense', and declared that the US propping up world order 'like Atlas' is over.",
+      "exactQuote": "it is far from obvious whether certain European countries will have economies and militaries strong enough to remain reliable allies.",
+      "who": "The White House (Trump administration), National Security Strategy of the United States of America",
+      "date": "Released Dec 4, 2025 (cover dated 'November 2025'; Breaking Defense reported it Dec 5, 2025)",
+      "sourceTitle": "National Security Strategy of the United States of America (November 2025)",
+      "sourceOutlet": "The White House",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf",
+      "confidence": "confirmed",
+      "notes": "I extracted these verbatim from the official PDF: 'The days of the United States propping up the entire world order like Atlas are over.' / 'Enabling Europe to stand on its own feet and operate as a group of aligned sovereign nations, including by taking primary responsibility for its own defense' / 'Ending the perception, and preventing the reality, of NATO as a perpetually expanding alliance' / 'the real and more stark prospect of civilizational erasure' / 'Cultivating resistance to Europe's current trajectory within European nations'. The phrase 'Article 5' does not appear anywhere in the NSS (I checked the full text), which is a strong analytic point. Regions are listed in order Western Hemisphere, Asia, Europe. COUNTER: the NSS does say 'We want the world's most robust, credible, and modern nuclear deterrent... to protect the American people, American assets overseas, and American allies.'"
+    },
+    {
+      "id": "A4",
+      "claim": "A CSIS Europe director concluded that following through on the 2025 NSS could bring the end of NATO.",
+      "exactQuote": "Following through on the NSS, therefore, could trigger a major collision and potentially the end of the alliance.",
+      "who": "Max Bergmann, Director, Europe, Russia, and Eurasia Program, CSIS",
+      "date": "December 5, 2025",
+      "sourceTitle": "The NSS That Could Destroy the NATO Alliance",
+      "sourceOutlet": "Center for Strategic and International Studies (CSIS)",
+      "url": "https://www.csis.org/analysis/nss-could-destroy-nato-alliance",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'The strategy effectively declares war on European politics, Europe's political leaders, and the European Union.' Bergmann served in the Obama State Department, so this is expert analysis, not a neutral source. Use it as a warrant after A3."
+    },
+    {
+      "id": "A5",
+      "claim": "January 2026 Greenland crisis: on Jan 17, 2026 Trump announced a 10% tariff, rising to 25% on June 1, on eight NATO allies (Denmark, Norway, Sweden, France, Germany, UK, Netherlands, Finland) until the US could buy Greenland. He tied it to their small troop deployments to Greenland.",
+      "exactQuote": "until such time as a Deal is reached for the Complete and Total purchase of Greenland.",
+      "who": "President Donald Trump, Truth Social post",
+      "date": "January 17, 2026",
+      "sourceTitle": "Trump says 8 European nations face tariffs rising to 25% if Greenland isn't sold to the U.S.",
+      "sourceOutlet": "CNBC (Kevin Breuninger, Luke Fountain)",
+      "url": "https://www.cnbc.com/2026/01/17/trump-greenland-tariffs-nato.html",
+      "confidence": "confirmed",
+      "notes": "Also verbatim from the post: the countries 'have journeyed to Greenland, for purposes unknown.' On Jan 21, 2026 at Davos he dropped the tariffs after agreeing a 'framework' with NATO SG Rutte, and said: 'People thought I would use force. I don't have to use force. I don't want to use force. I won't use force.' (Al Jazeera, Jan 21, 2026: https://www.aljazeera.com/news/2026/1/21/trump-nixes-european-tariff-threats-over-greenland-after-nato-chief-talks). Key point: the US coerced a NATO ally (Denmark) over its own territory."
+    },
+    {
+      "id": "A6",
+      "claim": "Danish PM Mette Frederiksen warned in January 2026 that a US military attack on another NATO country would end NATO.",
+      "exactQuote": "If the United States chooses to attack another NATO country militarily, then everything stops.",
+      "who": "Mette Frederiksen, Prime Minister of Denmark (interview with Danish broadcaster TV2)",
+      "date": "Said Jan 5, 2026; AP story Jan 6, 2026",
+      "sourceTitle": "A U.S. takeover of Greenland would mark the end of NATO, Danish prime minister says",
+      "sourceOutlet": "Associated Press (Anders Kongshaug, Claudia Ciobanu, Stefanie Dazio) via PBS",
+      "url": "https://www.pbs.org/newshour/world/a-u-s-takeover-of-greenland-would-mark-the-end-of-nato-danish-prime-minister-says",
+      "confidence": "confirmed",
+      "notes": "Trump in the same AP piece, verbatim: 'We need Greenland from the standpoint of national security, and Denmark is not going to be able to do it.' Bloomberg (Jan 5, 2026) also covered it. When the guarantor threatens an ally, the 'umbrella' is not reliable."
+    },
+    {
+      "id": "A7",
+      "claim": "In March 2025 the Trump administration paused all military aid to Ukraine (around March 3) and then paused intelligence sharing. CIA Director Ratcliffe confirmed the pause. Both resumed March 11, 2025 after Ukraine accepted a US 30-day ceasefire proposal in Jeddah.",
+      "exactQuote": "On the military front and the intelligence front, the pause that allowed that to happen will go away.",
+      "who": "CIA Director John Ratcliffe (Fox Business interview); Trump administration",
+      "date": "Aid pause ~March 3, 2025; intel pause confirmed March 5, 2025; both lifted March 11, 2025",
+      "sourceTitle": "Trump administration pauses flow of intelligence to Ukraine that helps on battlefield",
+      "sourceOutlet": "Associated Press (David Klepper, Darlene Superville)",
+      "url": "https://www.news4jax.com/news/world/2025/03/05/trump-administration-also-pauses-flow-of-intelligence-to-ukraine/",
+      "confidence": "confirmed",
+      "notes": "Resumption: AP, March 11, 2025, 'US resumes military aid and intelligence sharing as Ukraine says it is open to a 30-day ceasefire' (https://www.boston.com/news/politics/2025/03/11/us-resumes-military-aid-and-intelligence-sharing-as-ukraine-says-it-is-open-to-a-30-day-ceasefire). Ukraine is not a NATO member, so frame it as evidence that US security support can be switched off overnight as leverage. Don't claim it shows Article 5 would fail."
+    },
+    {
+      "id": "A8",
+      "claim": "In the leaked 'Signal chat' (March 2025), Vice President Vance wrote that he hated 'bailing Europe out again', and Defense Secretary Hegseth replied that European free-loading was 'PATHETIC'.",
+      "exactQuote": "I just hate bailing Europe out again. ... VP: I fully share your loathing of European free-loading. It's PATHETIC.",
+      "who": "JD Vance (Vice President) and Pete Hegseth (Secretary of Defense), Signal group chat published by Jeffrey Goldberg, The Atlantic",
+      "date": "Messages ~March 14, 2025; published by The Atlantic March 24, 2025",
+      "sourceTitle": "Leaked texts: The Atlantic / Trump administration's Europe-bashing",
+      "sourceOutlet": "Fortune (Europe), reporting The Atlantic",
+      "url": "https://fortune.com/europe/2025/03/25/leaked-texts-the-atlantic-trump-administrations-military-europe-bashing/",
+      "confidence": "likely",
+      "notes": "Fortune, TheWrap, BNN Bloomberg, TVP World and others reproduce the same wording, and the NSC confirmed the chat was authentic. I did not fetch The Atlantic itself. Original: Jeffrey Goldberg, 'The Trump Administration Accidentally Texted Me Its War Plans,' The Atlantic, March 24, 2025. Shows contempt for Europe in private, not just public rhetoric."
+    },
+    {
+      "id": "A9",
+      "claim": "Feb 12, 2025: at NATO HQ in Brussels, Defense Secretary Hegseth told European allies that 'stark strategic realities' stop the US from being primarily focused on Europe's security, and that Europe must provide the overwhelming share of aid to Ukraine.",
+      "exactQuote": "",
+      "who": "Pete Hegseth, US Secretary of Defense, Ukraine Defense Contact Group",
+      "date": "February 12, 2025",
+      "sourceTitle": "Hegseth Places Onus of Ukraine's Security on Europe",
+      "sourceOutlet": "Foreign Policy; FDD policy brief Feb 14, 2025",
+      "url": "https://www.fdd.org/analysis/policy_briefs/2025/02/14/stark-strategic-realities-hegseth-tells-nato-u-s-must-prioritize-pacific-deterrence/",
+      "confidence": "likely",
+      "notes": "Outlets quote the wording differently, so exactQuote is left blank. The Bulwark version: 'directly and unambiguously express that stark strategic realities prevent the United States from being primarily focused on the security of Europe.' Before quoting, get the official transcript (war.gov / defense.gov 'Opening Remarks by Secretary of Defense Pete Hegseth at Ukraine Defense Contact Group', Feb 12, 2025). The FDD brief says he tied this to prioritizing deterrence in the Indo-Pacific."
+    },
+    {
+      "id": "A10",
+      "claim": "Jan 23, 2026: the Pentagon's new National Defense Strategy put defense of the homeland and Western Hemisphere first and China second. It said European allies should take 'primary responsibility' for Europe's conventional defense with 'critical but more limited U.S. support', and called Russia a 'persistent but manageable threat'.",
+      "exactQuote": "critical but more limited U.S. support",
+      "who": "US Department of Defense/War, 2026 National Defense Strategy",
+      "date": "Released Jan 23, 2026; Military Times article Jan 26, 2026",
+      "sourceTitle": "Trump's new national defense strategy downgrades China threat",
+      "sourceOutlet": "Military Times (Tanya Noury)",
+      "url": "https://www.militarytimes.com/news/pentagon-congress/2026/01/26/trumps-new-national-defense-strategy-downgrades-china-threat/",
+      "confidence": "confirmed",
+      "notes": "The fragments 'primary responsibility', 'critical but more limited U.S. support' and 'persistent but manageable threat' are quoted from the NDS in the Military Times article. I did not open the 34-page NDS PDF, so check exact sentences there before quoting a full sentence. The European Parliament (EPRS) also published a briefing on it."
+    },
+    {
+      "id": "A11",
+      "claim": "May 1, 2026: the Pentagon announced it would withdraw about 5,000 troops from Germany over 6 to 12 months, after a dispute with German Chancellor Merz over the Iran war. The next day Trump said cuts would go 'a lot further than 5,000'.",
+      "exactQuote": "We're going to cut way down. And we're cutting a lot further than 5,000,",
+      "who": "President Donald Trump (to reporters in Florida); Pentagon spokesman Sean Parnell",
+      "date": "Announcement May 1, 2026; Trump remark May 2, 2026",
+      "sourceTitle": "Trump says the U.S. will reduce number of troops in Germany 'a lot further' than withdrawal of 5,000",
+      "sourceOutlet": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/trump-says-us-will-withdraw-troops-in-germany-a-lot-more-than-5000.html",
+      "confidence": "confirmed",
+      "notes": "Parnell, verbatim (Stars and Stripes, May 1, 2026, John Vandiver): 'This decision follows a thorough review of the Department's force posture in Europe' (https://www.stripes.com/theaters/europe/2026-05-01/trump-withdraw-5000-troops-germany-21550153.html). On Italy and Spain, Trump said, verbatim: 'Italy has not been of any help. Spain has been horrible.' Shows troop presence used as punishment for allies' policy choices."
+    },
+    {
+      "id": "A12",
+      "claim": "May 2026: deployment of nearly 4,000 soldiers of an Army armored brigade (2nd ABCT, 1st Cavalry Division) to Poland was put on hold, even though most of its gear had already shipped to Europe. Trump later said the US would send 5,000 additional troops to Poland. Mixed signals.",
+      "exactQuote": "Nearly 4,000 soldiers from the “Black Jack” brigade were slated to take up positions in Poland",
+      "who": "US defense official (confirmation); Stars and Stripes reporting",
+      "date": "May 13, 2026",
+      "sourceTitle": "Deployment of 4,000 soldiers from Army tank brigade to Poland put on hold",
+      "sourceOutlet": "Stars and Stripes (John Vandiver)",
+      "url": "https://www.stripes.com/branches/army/2026-05-13/tank-brigade-deployment-to-poland-on-hold-21662087.html",
+      "confidence": "confirmed",
+      "notes": "COUNTER: ABC News reported Trump later said he was sending 5,000 troops to Poland ('In apparent reversal, Trump says he's sending 5,000 troops to Poland', https://abcnews.com/Politics/apparent-reversal-trump-sending-5000-troops-poland/story?id=133203231; not fetched). Daily Caller (Nov 11, 2026) reports Poland offering ~$4B for a permanent base as the Pentagon weighs drawdowns (not fetched). Frame it as: even Poland's US presence depends on presidential whim and payment."
+    },
+    {
+      "id": "A13",
+      "claim": "June 3, 2026: about 1,000 US soldiers left Lithuania, and Lithuania's defense minister said the next rotation was 'currently under review'.",
+      "exactQuote": "The next rotation is currently under review,",
+      "who": "Robertas Kaunas, Lithuanian Minister of Defence",
+      "date": "June 3, 2026",
+      "sourceTitle": "US soldiers leave Lithuania as Pentagon reviews next rotation",
+      "sourceOutlet": "Stars and Stripes (John Vandiver)",
+      "url": "https://www.stripes.com/branches/army/2026-06-03/lithuania-us-troops-21860346.html",
+      "confidence": "confirmed",
+      "notes": "Verbatim: 'About 1,000 U.S. soldiers began their planned redeployment from Lithuania to the United States this week'. COUNTER: Stars and Stripes reported Oct 15, 2026 that a new US rotation had arrived in Lithuania (headline only, not fetched: https://www.stripes.com/branches/army/2026-10-15/lithuania-us-troop-deployment-23160843.html). Lithuania has had rotational US battalions since 2019 and spends about 5.4% of GDP on defense, so even a 'model ally' faced gaps."
+    },
+    {
+      "id": "A14",
+      "claim": "By summer 2026 the US troop presence in Estonia had fallen from about 500-700 to fewer than 100, pending the Pentagon's Europe force-posture review.",
+      "exactQuote": "from approximately 500–700 troops to fewer than 100",
+      "who": "Jonathan Burchell, Visiting Fellow, CSIS (figures attributed to Estonian Defence Minister Hanno Pevkur in other reports)",
+      "date": "CSIS article Aug 25, 2026; drop reported early July 2026",
+      "sourceTitle": "The Europe Force Posture Review and the Transition to NATO 3.0",
+      "sourceOutlet": "Center for Strategic and International Studies (CSIS)",
+      "url": "https://www.csis.org/analysis/europe-force-posture-review-and-transition-nato-30",
+      "confidence": "confirmed",
+      "notes": "Same CSIS piece: the posture review is 'expected to take approximately six months' and lists a reduction 'of 700 personnel from Romania'. COUNTER (single source, unconfirmed): Defence Today reported Sept 24, 2026 that a new US rotational unit would deploy to Estonia in November 2026. Debaters should not claim Estonia has 'no' US troops now."
+    },
+    {
+      "id": "A15",
+      "claim": "June 18, 2026: at the NATO Defense Ministerial, Hegseth launched a roughly six-month review of US forces in Europe and warned that allies who don't spend enough will see US contributions fall.",
+      "exactQuote": "Where other allies do not spend with urgency, our dues contributions will go down.",
+      "who": "Pete Hegseth, Secretary of War/Defense, NATO Defense Ministerial, Brussels",
+      "date": "June 18, 2026",
+      "sourceTitle": "Hegseth puts allies on notice as Pentagon eyes new Europe force posture",
+      "sourceOutlet": "Stars and Stripes (John Vandiver)",
+      "url": "https://www.stripes.com/theaters/europe/2026-06-18/hegseth-nato-force-review-22003995.html",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'It's a review that some countries will fail and others will pass with flying colors,' and NATO 'stepping up to take primary responsibility for the defense of Europe.' Euronews reported he called allies' refusal of base access for Iran strikes 'shameful'. Official transcript: war.gov (returned 403 to me). Per Boell Foundation (Oct 30, 2026), review results are expected in December 2026, so check for news before rounds."
+    },
+    {
+      "id": "A16",
+      "claim": "Late August 2026: CIA Director Ratcliffe made an unannounced trip to Moscow and reportedly warned Russia against escalation toward the Baltic NATO states. Trump called the trip 'semi-routine' and said he was not concerned about a Russian attack on NATO. COUNTER-EVIDENCE plus a CON angle.",
+      "exactQuote": "",
+      "who": "John Ratcliffe, CIA Director (per Politico's anonymous sources); Donald Trump",
+      "date": "Trip ~Aug 25, 2026; reports Aug 27, 2026",
+      "sourceTitle": "CIA chief warned Moscow against escalation toward Baltic NATO states, Politico reports",
+      "sourceOutlet": "Kyiv Independent (citing Politico)",
+      "url": "https://kyivindependent.com/cia-chief-warned-moscow-against-escalation-toward-baltic-nato-states-politico-reports/",
+      "confidence": "likely",
+      "notes": "PRO may say this shows the US still protects the Baltics. CON response: former Estonian President Toomas Hendrik Ilves told Euronews the trip was about Iran, not the Baltics (https://www.euronews.com/my-europe/2026/08/27/cia-boss-moscow-trip-was-about-iran-not-the-baltics-ex-estonian-president-tells-euronews). Ex-CIA officer Sean Wiswesser said warnings need 'consequences' (RFE/RL, see C4)."
+    },
+    {
+      "id": "C1",
+      "claim": "John Bolton, Trump's former National Security Adviser, predicted in 2023 that a second Trump term would 'almost certainly' mean US withdrawal from NATO.",
+      "exactQuote": "In a second Trump term, we'd almost certainly withdraw from NATO,",
+      "who": "John Bolton, former US National Security Adviser (2018-2019) and UN Ambassador; NewsNation interview",
+      "date": "Interview Aug 3, 2023; Fox News article Aug 4, 2023",
+      "sourceTitle": "John Bolton predicts Trump would withdraw from NATO in second term",
+      "sourceOutlet": "Fox News (Chris Pandolfo)",
+      "url": "https://www.foxnews.com/politics/john-bolton-predicts-trump-withdraw-nato-second-term",
+      "confidence": "confirmed",
+      "notes": "The Hill (Nick Robertson, Aug 3, 2023) has identical wording: https://digital-release.thehill.com/?p=4136979. Bolton is a Republican hawk who served Trump, a useful 'insider' source for right-leaning judges. Later: CNN, Oct 2024: 'The odds that he will withdraw from NATO are very high' (AOL/CNN snippet; likely). The Hill, ~Jan 2026: 'Bolton: Trump endangers NATO alliance with every Greenland remark' (https://thehill.com/policy/international/5674313-john-bolton-donald-trump-nato-greenland/; headline only). Bolton has said Trump came close to withdrawing at the July 2018 Brussels summit. Note: Bolton was indicted in Oct 2025 over classified-information charges (background; opponents may raise it). The prediction hasn't come true (US still in NATO), so frame it as an insider warning, not a fact."
+    },
+    {
+      "id": "C2",
+      "claim": "Former CIA Director John Brennan said in an April 2024 RTBF interview that Trump has little regard for NATO. Asked whether Trump would respond if Russia attacked the Baltic states, he reportedly said 'Well, I don't know.'",
+      "exactQuote": "He has little recognition for the transatlantic relationship, for NATO.",
+      "who": "John Brennan, former CIA Director (2013-2017), interview with Belgian broadcaster RTBF",
+      "date": "RTBF interview published ~April 7, 2024; The Hill article April 10, 2024",
+      "sourceTitle": "Former CIA chief: Trump 'was not qualified at the time, and he is not qualified today'",
+      "sourceOutlet": "The Hill (Tara Suter)",
+      "url": "https://digital-release.thehill.com/?p=4585134",
+      "confidence": "confirmed",
+      "notes": "The Baltics line ('Well, I don't know') comes from Finland's MTV Uutiset (April 12, 2024), translated from Finnish, so treat it as a paraphrase: https://www.mtvuutiset.fi/artikkeli/cia-n-ex-pomolta-hyinen-varoitus-trumpista-nato-ukraina-ja-eurooppa-vaarassa/8916292. CAUTION: Brennan is a well-known Trump critic, and right-leaning judges may discount him. Pair him with Bolton or Fox News sources."
+    },
+    {
+      "id": "C3",
+      "claim": "Former senior CIA officer Robert Dannenberg (ex-head of CIA's Central Eurasia Division) said in April 2026 that Trump 'holds grudges' after failing to build a NATO coalition against Iran, and that Europe must recognize its relationship with the US is damaged for at least the next two and a half years.",
+      "exactQuote": "Europa muss erkennen, dass die Beziehung zu den USA zumindest für die nächsten zweieinhalb Jahre beschädigt ist.",
+      "who": "Robert Dannenberg, former CIA officer (left CIA 2007; former chief of Central Eurasia Division)",
+      "date": "April 13, 2026",
+      "sourceTitle": "„Trump ist sehr nachtragend“: Ex-CIA-Agent warnt vor NATO-Strafe – und hat Appell an Europa",
+      "sourceOutlet": "IPPEN.MEDIA (leinetal24.de), Kristina Thomas",
+      "url": "https://www.leinetal24.de/welt/appell-an-europa-trump-ist-sehr-nachtragend-ex-cia-agent-warnt-vor-nato-strafe-und-hat-zr-94257671.html",
+      "confidence": "confirmed",
+      "notes": "exactQuote is the published German text. English translation (mine): 'Europe must recognize that its relationship with the US is damaged at least for the next two and a half years.' Also: 'Trump ist sehr nachtragend' ('Trump holds grudges'). COUNTER in the same interview: he does not believe Trump can unilaterally pull the US out of NATO; at most he can move troops around. Read the card as a translation and say so."
+    },
+    {
+      "id": "C4",
+      "claim": "Former CIA Chief of Station Sean Wiswesser warned in 2026 that NATO deterrence is weak and that the Baltics could be Russia's next target.",
+      "exactQuote": "I believe the Baltics are next, unfortunately.",
+      "who": "Sean Wiswesser, former CIA Chief of Station, interviewed by Jason Jay Smart",
+      "date": "September 9, 2026 (Kyiv Post video)",
+      "sourceTitle": "Ex-CIA Chief: NATO Is Weak and the Baltics Are Next",
+      "sourceOutlet": "Kyiv Post (video interview)",
+      "url": "https://www.kyivpost.com/videos/84135",
+      "confidence": "confirmed",
+      "notes": "Possible match for the debater's 'former CIA officer video', but in the text I could read he does NOT talk about Trump personally, so don't say he said 'Trump doesn't have NATO's back.' Narativ (Aug 5, 2026), verbatim: 'Right now we have an empty deterrent.' (about drones probing Romania and Baltic cable cuts) https://www.narativ.org/p/special-report-former-cia-station. RFE/RL (Sept 1, 2026), verbatim: 'for any warning to be effective, it needs to come with consequences for Russia if they fail to heed the warning.' https://www.rferl.org/a/ratcliffe-cia-moscow-visit-week-later/33844588.html"
+    },
+    {
+      "id": "C5",
+      "claim": "Ralph Goff, retired CIA chief of operations for Europe and Eurasia (six-time station chief), said in October 2025 that 'America may no longer be the undisputed leader' and that Trump's moves give Europe 'an opportunity to regain its footing'.",
+      "exactQuote": "",
+      "who": "Ralph Goff, former CIA Chief of Operations, Europe & Eurasia (ret.)",
+      "date": "October 3, 2025",
+      "sourceTitle": "Trump's moves can be seen as \"gift\" to Europe, former CIA officer Goff",
+      "sourceOutlet": "Espreso Global (Ukraine)",
+      "url": "https://global.espreso.tv/russia-ukraine-war-trumps-moves-can-be-seen-as-gift-to-europe-former-cia-officer-goff",
+      "confidence": "likely",
+      "notes": "Mostly paraphrased, and only short fragments are quoted. Not a strong 'Trump won't defend you' card. Best use: even ex-CIA Europe hands tell Europe to prepare to stand on its own. Note that Goff has elsewhere praised Trump's new approach to Russia (Cipher Brief)."
+    },
+    {
+      "id": "C6",
+      "claim": "A conservative columnist at PJ Media wrote in September 2026 that Trump would not send Americans to die for Estonia, so even pro-Trump commentators doubt the guarantee for small frontline allies.",
+      "exactQuote": "Donald Trump is not going to ask American boys to die for Estonia, no more than he asked American boys to die for Ukraine.",
+      "who": "Rick Moran, PJ Media (conservative opinion column)",
+      "date": "September 22, 2026",
+      "sourceTitle": "Will the U.S. Send Troops to Die for Estonia? Putin Doesn't Think So.",
+      "sourceOutlet": "PJ Media",
+      "url": "https://pjmedia.com/rick-moran/2026/09/22/will-the-us-send-troops-to-die-for-estonia-putin-doesnt-think-so-n4957504",
+      "confidence": "confirmed",
+      "notes": "This is an OPINION column, not reporting. Useful with right-leaning judges because the claim comes from a pro-Trump outlet, but present it as commentary. Some of its claims (e.g. Russian troop numbers on Estonia's border) have no named source."
+    },
+    {
+      "id": "C7",
+      "claim": "IDENTIFICATION ATTEMPT for the debater's 'former CIA officer' video: I could not confirm any video where a former CIA officer says, in those words, that Trump 'doesn't have NATO's back.'",
+      "exactQuote": "",
+      "who": "n/a",
+      "date": "n/a",
+      "sourceTitle": "n/a",
+      "sourceOutlet": "n/a",
+      "url": "",
+      "confidence": "unconfirmed",
+      "notes": "Candidates found: (1) Sean Wiswesser, Kyiv Post video, Sept 9, 2026 ('Ex-CIA Chief: NATO Is Weak and the Baltics Are Next'): about weak deterrence, not Trump personally. (2) Larry C. Johnson (ex-CIA analyst) on Dialogue Works, video titled 'Trump's New NSS: This is the End of NATO' (Dec 2025). CAUTION: Johnson often echoes Kremlin talking points, and citing him invites a credibility attack. (3) Robert Dannenberg, German print interview, Apr 2026 (C3). (4) John Brennan, RTBF 2024 (C2). Advice: unless the debater can show the exact video, title and date, don't cite it. Use C1-C3 instead."
+    },
+    {
+      "id": "P1",
+      "claim": "ECFR's 15-country poll (May 2026; 19,481 respondents; includes frontline Poland and Estonia): only 11% of Europeans see the US as an 'ally', down from 22% in November 2024. 25% see it as a rival or adversary. In every country polled, majorities think the US would NOT support them if attacked.",
+      "exactQuote": "majorities in every European country polled think that the US would not support them if they came under attack—whereas they do trust their European neighbours to do so.",
+      "who": "European Council on Foreign Relations (Jana Kobzová, Paweł Zerka); fieldwork by Mandate Research and YouGov (online); Mandate Research and Turu-uuringute in Estonia (online + CATI)",
+      "date": "Published June 10, 2026; fieldwork ~April 30 - May 19, 2026",
+      "sourceTitle": "Home alone: Europeans are ready to defend themselves",
+      "sourceOutlet": "European Council on Foreign Relations (ECFR)",
+      "url": "https://ecfr.eu/publication/home-alone-europeans-are-ready-to-defend-themselves/",
+      "confidence": "confirmed",
+      "notes": "Verified from the ECFR PDF text. Also verbatim: 'Only 11% of respondents now consider it an ally, down from 16% half a year ago and 22% in November 2024. Meanwhile fully 25% see it as either a rival or an adversary.' DIRECTLY ON TOPIC: Europeans 'generally favour higher defence spending, an independent European nuclear deterrent' and there is 'new openness to a European nuclear deterrent; with Danes and Italians warming to the idea and Brits, once firmly opposed to sharing their nuclear arsenal, now evenly split on the issue.' Countries: Austria, Bulgaria, Denmark, Estonia, France, Germany, Hungary, Italy, Netherlands, Poland, Portugal, Spain, Sweden, Switzerland, UK. Caveat: only 29% support replacing NATO with a Europe-only organisation (28% oppose). PiS and Reform UK voters still mostly see the US as an ally. PDF: https://ecfr.eu/wp-content/uploads/2026/06/Home-alone-Europeans-are-ready-to-defend-themselves-v3.pdf"
+    },
+    {
+      "id": "P2",
+      "claim": "Pew (spring 2026, 10 European countries): the share calling the US a 'reliable partner' fell steeply from 2022. Germany 83% to 39%, Netherlands 88% to 41%, Sweden 83% to 31%, France 62% to 27%, UK 82% to 49%, Italy 73% to 34%, Spain 68% to 31%, Poland 85% to 57%.",
+      "exactQuote": "Hungary and Poland are the only countries where a majority say the U.S. is a reliable partner",
+      "who": "Pew Research Center, Spring 2026 Global Attitudes Survey",
+      "date": "Published June 23, 2026; fieldwork Feb 8 - May 13, 2026",
+      "sourceTitle": "Trump Gets Negative Reviews Internationally as Fewer Say U.S. Is a Reliable Partner",
+      "sourceOutlet": "Pew Research Center",
+      "url": "https://www.pewresearch.org/global/2026/06/23/trump-gets-negative-reviews-internationally-as-fewer-say-u-s-is-a-reliable-partner/",
+      "confidence": "confirmed",
+      "notes": "Figures extracted from the report PDF (Appendix A): https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/pg_2026.06.23_us-image-2026_report.pdf. Pew notes it changed survey mode in Hungary and Poland, so treat those trends cautiously. CAUTION: Poland is still 57% 'reliable' and Hungary went UP (59% to 65%), so don't claim every frontline ally has lost faith. Pew's July 6, 2026 NATO report: 78% of Poles view NATO favorably."
+    },
+    {
+      "id": "P3",
+      "claim": "A Polish poll reported by TVP World in April 2026: most Poles doubt the US would defend Poland in a global conflict, and just over 40% see the US as a reliable ally.",
+      "exactQuote": "Just over 40% view the United States as a reliable ally.",
+      "who": "Unnamed pollster (not identified on the page I could access)",
+      "date": "April 6, 2026",
+      "sourceTitle": "Most Poles doubt US would defend their country in global conflict",
+      "sourceOutlet": "TVP World (Polish public broadcaster)",
+      "url": "https://tvpworld.com/92488331/survey-most-poles-do-not-trust-us-as-security-guarantor",
+      "confidence": "likely",
+      "notes": "Pollster, sample and question wording were not visible, so get them before reading this card. CONFLICTING DATA: search snippets report a CBOS poll for Dziennik Gazeta Prawna (~late 2025) in which 63.8% of Poles expected US troops to defend Poland, and an IBRiS poll (~mid-2025) at 57%. I couldn't verify either. Polish opinion is mixed, so don't overclaim."
+    },
+    {
+      "id": "P4",
+      "claim": "Chicago Council analysis (2026): transatlantic publics are losing confidence that allies will help each other if attacked. The share of Americans who expect European allies to help defend the US fell from 62% to 47%.",
+      "exactQuote": "",
+      "who": "Dina Smeltz, Chicago Council on Global Affairs",
+      "date": "2026 (exact date not confirmed)",
+      "sourceTitle": "Transatlantic Publics Lose Confidence That Allies Will Help in Event of Attack",
+      "sourceOutlet": "Chicago Council on Global Affairs",
+      "url": "https://globalaffairs.org/commentary/blogs/transatlantic-publics-lose-confidence-allies-will-help-event-attack",
+      "confidence": "likely",
+      "notes": "Numbers come from search snippets (not fetched in full). Useful because trust is eroding on BOTH sides of the Atlantic."
+    },
+    {
+      "id": "S1",
+      "claim": "Robert Gates, Defense Secretary under both Bush (R) and Obama (D), warned NATO in 2011 that future US leaders might not think defending Europe is worth the cost, and of a 'dim, if not dismal' future for the alliance.",
+      "exactQuote": "What I've sketched out is the real possibility for a dim, if not dismal future for the trans-Atlantic alliance,",
+      "who": "Robert Gates, US Secretary of Defense (2006-2011), final policy speech, Brussels",
+      "date": "June 10, 2011",
+      "sourceTitle": "Gates Says NATO Alliance Faces 'Dim' Future",
+      "sourceOutlet": "Associated Press via KPBS",
+      "url": "https://www.kpbs.org/news/2011/06/10/gates-says-nato-alliance-faces-dim-future",
+      "confidence": "confirmed",
+      "notes": "Fragments verified verbatim from the Atlantic Council speech text: 'Future U.S. political leaders– those for whom the Cold War was not the formative experience that it was for me – ... may not consider the return on America's investment in NATO worth the cost.' and 'The blunt reality is that there will be dwindling appetite and patience in the U.S. Congress'. Text: https://www.atlanticcouncil.org/blogs/natosource/text-of-speech-by-robert-gates-on-the-future-of-nato/. Best card for showing the doubt is not just about Trump."
+    },
+    {
+      "id": "S2",
+      "claim": "President Obama (D) announced the 'pivot' to Asia in 2011, calling it a 'deliberate and strategic decision' and promising that US defense cuts would not come at Asia's expense.",
+      "exactQuote": "As President, I have therefore made a deliberate and strategic decision:",
+      "who": "President Barack Obama, address to the Australian Parliament, Canberra",
+      "date": "November 17, 2011",
+      "sourceTitle": "Remarks to the Parliament in Canberra, Australia",
+      "sourceOutlet": "The American Presidency Project (UC Santa Barbara)",
+      "url": "https://www.presidency.ucsb.edu/documents/remarks-the-parliament-canberra",
+      "confidence": "confirmed",
+      "notes": "Also verbatim: 'As a result, reductions in U.S. defense spending will not--I repeat, will not--come at the expense of the Asia-Pacific.' The implication is that cuts fall elsewhere, including Europe. Shows a Democratic administration shifting focus away from Europe 14 years before Trump's second term."
+    },
+    {
+      "id": "S3",
+      "claim": "Obama also complained about European 'free riders' in a 2016 interview with The Atlantic.",
+      "exactQuote": "Free riders aggravate me,",
+      "who": "President Barack Obama, interviewed by Jeffrey Goldberg, 'The Obama Doctrine', The Atlantic (April 2016 issue)",
+      "date": "Published online ~March 10, 2016",
+      "sourceTitle": "Obama Unhappy with Allies, Upset at Free Riders",
+      "sourceOutlet": "Atlantic Council (NATOSource, excerpting The Atlantic)",
+      "url": "https://www.atlanticcouncil.org/blogs/natosource/obama-unhappy-with-allies-upset-at-free-riders/",
+      "confidence": "likely",
+      "notes": "Wording confirmed in search snippets of the Atlantic Council repost; I didn't fetch the original Atlantic essay. Context: Libya, where he called France and Britain free riders. Bipartisan burden-sharing frustration."
+    },
+    {
+      "id": "S4",
+      "claim": "The Biden (D) 2022 National Security Strategy named China, not Russia, as the US's main long-term competitor, and the 2022 National Defense Strategy called China the 'pacing challenge'. The pull toward the Indo-Pacific is bipartisan.",
+      "exactQuote": "",
+      "who": "Biden administration, National Security Strategy (Oct 12, 2022) and National Defense Strategy (Oct 27, 2022)",
+      "date": "October 12, 2022 (NSS); October 27, 2022 (NDS)",
+      "sourceTitle": "'Pacing challenge': US defence strategy focuses on China",
+      "sourceOutlet": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2022/10/27/pacing-challenge-us-defence-strategy-focuses-on-china",
+      "confidence": "likely",
+      "notes": "Widely reported NSS wording (verify in the official PDF before quoting): the PRC is 'the only competitor with both the intent to reshape the international order and, increasingly, the economic, diplomatic, military, and technological power to do it.' Then the Trump 2025 NSS and 2026 NDS (A3, A10) put Europe lower still, behind the Western Hemisphere and China. So 'Europe is a declining US priority' holds across three administrations, whoever is president in 2029."
+    }
+  ],
+  "suggestedTags": [
+    {
+      "tag": "AP, 16 (via Fortune)",
+      "factIds": [
+        "T1"
+      ]
+    },
+    {
+      "tag": "Washington Post, 18 / Fox News interview, 18",
+      "factIds": [
+        "T2"
+      ]
+    },
+    {
+      "tag": "AP, 24",
+      "factIds": [
+        "T3"
+      ]
+    },
+    {
+      "tag": "AP, 25",
+      "factIds": [
+        "T4",
+        "T5",
+        "A7"
+      ]
+    },
+    {
+      "tag": "AFP, 26",
+      "factIds": [
+        "T6"
+      ]
+    },
+    {
+      "tag": "Fox News, 26 / Reuters, 26",
+      "factIds": [
+        "T7"
+      ]
+    },
+    {
+      "tag": "France 24, 26",
+      "factIds": [
+        "T8"
+      ]
+    },
+    {
+      "tag": "Fox News, 25",
+      "factIds": [
+        "A1"
+      ]
+    },
+    {
+      "tag": "Kyiv Post, 25",
+      "factIds": [
+        "A2"
+      ]
+    },
+    {
+      "tag": "White House NSS, 25",
+      "factIds": [
+        "A3"
+      ]
+    },
+    {
+      "tag": "Bergmann/CSIS, 25",
+      "factIds": [
+        "A4"
+      ]
+    },
+    {
+      "tag": "CNBC, 26",
+      "factIds": [
+        "A5",
+        "A11"
+      ]
+    },
+    {
+      "tag": "AP, 26",
+      "factIds": [
+        "A6"
+      ]
+    },
+    {
+      "tag": "Fortune, 25 (The Atlantic, 25)",
+      "factIds": [
+        "A8"
+      ]
+    },
+    {
+      "tag": "FDD, 25",
+      "factIds": [
+        "A9"
+      ]
+    },
+    {
+      "tag": "Military Times, 26",
+      "factIds": [
+        "A10"
+      ]
+    },
+    {
+      "tag": "Stars and Stripes, 26",
+      "factIds": [
+        "A12",
+        "A13",
+        "A15"
+      ]
+    },
+    {
+      "tag": "Burchell/CSIS, 26",
+      "factIds": [
+        "A14"
+      ]
+    },
+    {
+      "tag": "Kyiv Independent, 26",
+      "factIds": [
+        "A16"
+      ]
+    },
+    {
+      "tag": "Fox News, 23",
+      "factIds": [
+        "C1"
+      ]
+    },
+    {
+      "tag": "The Hill, 24",
+      "factIds": [
+        "C2"
+      ]
+    },
+    {
+      "tag": "Dannenberg/IPPEN.MEDIA, 26",
+      "factIds": [
+        "C3"
+      ]
+    },
+    {
+      "tag": "Kyiv Post, 26",
+      "factIds": [
+        "C4"
+      ]
+    },
+    {
+      "tag": "Espreso, 25",
+      "factIds": [
+        "C5"
+      ]
+    },
+    {
+      "tag": "Moran/PJ Media, 26",
+      "factIds": [
+        "C6"
+      ]
+    },
+    {
+      "tag": "ECFR, 26",
+      "factIds": [
+        "P1"
+      ]
+    },
+    {
+      "tag": "Pew, 26",
+      "factIds": [
+        "P2"
+      ]
+    },
+    {
+      "tag": "TVP World, 26",
+      "factIds": [
+        "P3"
+      ]
+    },
+    {
+      "tag": "Chicago Council, 26",
+      "factIds": [
+        "P4"
+      ]
+    },
+    {
+      "tag": "AP, 11 (Gates)",
+      "factIds": [
+        "S1"
+      ]
+    },
+    {
+      "tag": "Obama, 11",
+      "factIds": [
+        "S2"
+      ]
+    },
+    {
+      "tag": "Atlantic Council, 16",
+      "factIds": [
+        "S3"
+      ]
+    },
+    {
+      "tag": "Al Jazeera, 22",
+      "factIds": [
+        "S4"
+      ]
+    }
+  ],
+  "summary": "Strong, citable evidence that the US guarantee to Europe has become conditional and unpredictable. (1) Trump's own words over ten years, as candidate and as president: Baltics only if they 'have fulfilled their obligations' (2016); Montenegro could start 'World War III' (Fox, 2018); 'encourage them to do whatever the hell they want' (2024); 'If they don't pay, I'm not going to defend them' (Oval Office, Mar 6, 2025); Article 5 'depends on your definition' (Jun 24, 2025); NATO 'PAPER TIGER'/'COWARDS' (Mar 20, 2026); 'strongly considering' leaving NATO, 'beyond reconsideration' (Telegraph/Reuters/Fox, Apr 1, 2026). (2) Actions: Romania brigade cut without replacement (Oct 29, 2025, opposed by GOP Armed Services chairs); NSS (Dec 2025) says it is 'far from obvious' some European countries will 'remain reliable allies' and never mentions Article 5; 2026 NDS ranks Europe below homeland/hemisphere and China, with 'critical but more limited U.S. support'; Greenland tariffs on 8 NATO allies (Jan 17, 2026); 5,000-troop Germany cut 'and a lot further' (May 2026); Poland brigade put on hold; Estonia presence cut to under 100; Lithuania rotation under review; Hegseth review (Jun 18, 2026): 'some countries will fail'. (3) Insiders: Bolton (2023, Fox News/NewsNation): 'we'd almost certainly withdraw from NATO'. Ex-CIA voices: Brennan (2024), Dannenberg (Apr 2026, German interview), Wiswesser (2026: Baltics 'next', 'empty deterrent'). I could NOT identify the specific video of a former CIA officer saying 'Trump doesn't have NATO's back', so don't cite it unless the debater can produce the exact video. (4) Polls: ECFR June 2026: 11% of Europeans see the US as an ally; majorities in all 15 countries (incl. Poland and Estonia) think the US would not help them if attacked; Europeans favour an independent European nuclear deterrent. Pew June 2026: 'reliable partner' fell 28-52 points in 8 European countries. (5) Bipartisan: Gates (2011) warned future US leaders may not find NATO 'worth the cost'; Obama's 2011 Asia pivot and 'free riders'; Biden's 2022 China-first strategy. COUNTER-EVIDENCE to prepare for: the Ankara summit (Jul 2026) reaffirmed an 'ironclad commitment' to Article 5 and Trump said 'We want to remain with you'; Ratcliffe warned Moscow off the Baltics (Aug 2026); new US rotations reached Lithuania (Oct 2026) and reportedly Estonia (Nov 2026); Trump pledged 5,000 more troops to Poland; Poles still mostly rate the US reliable (Pew 57%); US leaving NATO is legally constrained by Congress. Best CON framing: a guarantee that 'depends on your definition', is conditioned on payments, and is pulled in to punish allies over Iran and Greenland is not 'insurance'. That is why Europe needs the British/French deterrent the TPNW would outlaw."
+}

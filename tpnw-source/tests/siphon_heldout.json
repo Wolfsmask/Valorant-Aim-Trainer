@@ -1,0 +1,36 @@
+{
+ "PRO": [
+  ["For eighty years the balance of terror has stopped great power war in Europe.", ["pro_reb_1"]],
+  ["Without the Additional Protocol, the TPNW's safeguards are weaker than the NPT's.", ["pro_reb_2"]],
+  ["The North Atlantic Council itself said NATO will remain a nuclear alliance, so this treaty is incompatible with membership.", ["pro_reb_3"]],
+  ["If only Russia has nukes in Europe, Moscow can threaten Warsaw and force a surrender.", ["pro_reb_4"]],
+  ["Kremlin weapons programs are paid for by the Russian state, so Western divestment just hurts our own defense companies.", ["pro_reb_5"]],
+  ["Remember Budapest: Ukraine trusted guarantees instead of nukes and lost Crimea.", ["pro_reb_6"]],
+  ["Estonia, Latvia and Lithuania depend on American extended deterrence to survive.", ["pro_reb_7"]],
+  ["British Trident submarines are the backbone of European security and can't be scrapped.", ["pro_reb_8"]],
+  ["Measured in purchasing power parity, Russia's military budget is as large as all of Europe's.", ["pro_reb_9"]],
+  ["A treaty no nuclear power will join is just virtue signaling.", ["pro_reb_10"]],
+  ["Strip away the umbrella and Germany and Poland will start their own bomb programs.", ["pro_reb_11"]],
+  ["Lukashenko now hosts Russian tactical warheads, so NATO needs its own battlefield nukes.", ["pro_reb_12"]],
+  ["Today's warheads have permissive action links, so the 1983 false alarm couldn't happen again.", ["pro_reb_13"]],
+  ["Brussels could simply add Rosatom to the sanctions list tomorrow; no treaty needed.", ["pro_reb_14"]],
+  ["Our opponents are ignoring the deterrent effect, the same deterrence that protects Poland and the Baltics from invasion.", ["pro_reb_1", "pro_reb_7"]]
+ ],
+ "CON": [
+  ["Near misses like Stanislav Petrov's false alarm show the world has just been lucky.", ["con_reb_1"]],
+  ["With 1.58 trillion dollars in spending, NATO can win any conventional fight against Russia.", ["con_reb_2"]],
+  ["The Don't Bank on the Bomb report shows the treaty is driving banks away from nuclear producers.", ["con_reb_3"]],
+  ["European utilities still send hundreds of millions of euros to Rosatom for enriched uranium.", ["con_reb_4"]],
+  ["Norway and Denmark have refused nukes in peacetime for decades and remain full NATO members.", ["con_reb_5"]],
+  ["Old free-fall gravity bombs would be shot down long before reaching Russia.", ["con_reb_6"]],
+  ["Would Washington really risk an American city to save a Baltic capital?", ["con_reb_7"]],
+  ["The ban treaty finally delivers on the disarmament promise in Article VI of the NPT.", ["con_reb_8"]],
+  ["RAND's Baltic wargames found that using tactical nuclear weapons just escalates.", ["con_reb_9"]],
+  ["Moscow pointed to American bombs in Europe to justify its Belarus deployment.", ["con_reb_10"]],
+  ["Nuclear weapons didn't stop Russia's invasion of Ukraine or its arson attacks in Europe.", ["con_reb_11"]],
+  ["Germany alone spends 114 billion and European NATO spends 559 billion, far more than Russia.", ["con_reb_12"]],
+  ["Ratifying keeps Poland from going nuclear because Article 1 bans acquiring the bomb.", ["con_reb_13"]],
+  ["Cyber attacks and AI spoofing make nuclear command systems more dangerous than ever.", ["con_reb_14"]],
+  ["We were lucky in 1983, and the bombs at Büchel make Germany a target.", ["con_reb_1"]]
+ ]
+}
