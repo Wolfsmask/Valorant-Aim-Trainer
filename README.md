@@ -4,7 +4,8 @@ Offline apps for **Public Forum** debate. Each one is a single `.html` file: no 
 
 | File | Topic | Notes |
 |---|---|---|
-| **`PF.html`** / **`PF.txt`** | **Nov/Dec 2026**: *Resolved: European members of NATO should ratify the Treaty on the Prohibition of Nuclear Weapons.* | **Newest.** Gemini's v7 design, with every fact checked, more prefires and attacks, typo-proof search, a false-fact alarm, timers that never reset, and a Wi-Fi partner link. `PF.txt` is the same file; rename it to `PF.html` to open it. |
+| **`PF.html`** / **`PF.txt`** | **Nov/Dec 2026**: *Resolved: European members of NATO should ratify the Treaty on the Prohibition of Nuclear Weapons.* | **Newest, with a real offline AI** (about 60 MB). Gemini's v7 design, with every fact checked, more prefires and attacks, AI + typo-proof search, a false-fact alarm, timers that never reset, and a Wi-Fi partner link. `PF.txt` is the same file; rename it to `PF.html` to open it. |
+| `PF-lite.html` | Same topic | The same app without the AI model (1.5 MB), for slow or old laptops. Search still handles typos. |
 | `tpnw.html` | Nov/Dec 2026 (same topic) | Older version, built from Gemini's v3. |
 | `index.html` | Sept/Oct 2026: *Resolved: The United States federal government should enact a moratorium on hyperscale data center construction.* | Step-by-step round guide (PRO). |
 
@@ -15,6 +16,17 @@ Offline apps for **Public Forum** debate. Each one is a single `.html` file: no 
   - PRO gets 7 special attacks on what Russia, the US, Britain, France and NATO have actually done, plus 18 new prefires and 10 myth-busters.
   - CON gets the US-reliability argument, built on Trump's own words and on former CIA Director Leon Panetta (March 2025): "a very nervous Europe believes that The United States would not stand behind Article Five".
   - Both sides get answers to the other side's version of it.
+- **Real offline AI search.** Two neural models are built into the file and run with no internet:
+  - **BGE-small** understands the *meaning* of what you type.
+  - **MS-MARCO MiniLM** re-reads the top 12 results and re-ranks them.
+
+  Their ranking is merged with the typo-proof keyword search. The AI switches on a few seconds after the page opens; watch for "🧠 Offline AI: ready" in the bottom-right corner. Until then, and on browsers that can't run it, the keyword search works as before.
+  - In the **AI search boxes** and **Source Cards**, it re-ranks results about half a second after you stop typing.
+  - In **crossfire**, it only answers when the keyword matcher has no answer and the AI is very confident. Those answers are labelled "🧠 AI Match — check it fits".
+  - **Tested on 390 searches:**
+    - Wording the app had never seen: 38 of 40 found. Keyword search alone found 32.
+    - Badly misspelled searches: 230 of 232.
+    - Off-topic crossfire questions: all 16 still answered "no prefired answer".
 - **Search finds it even if you misspell it.** It handles typos, sound-alike spelling and different wording in every search box: AI search, crossfire, Source Cards and list filters.
 - **Timers.** Each step has its own clock. Switching steps or browser tabs never stops or resets a clock; only ↺ resets it.
 - **Custom boxes are kept.** Text you're typing into a custom box or box editor stays when you switch steps or reload.
@@ -73,7 +85,9 @@ NSDA rules ban getting outside help during a round, and some state associations 
 
 | Path | What it is |
 |---|---|
-| `PF.html`, `PF.txt` | The Nov/Dec app, newest. |
+| `PF.html`, `PF.txt` | The Nov/Dec app, newest, with the offline AI. |
+| `PF-lite.html` | The same app without the AI model. |
+| `tpnw-source/ai/` | Builds the offline AI block appended to `PF.html`: `cd tpnw-source/ai && npm install && npm run build`, then insert `ai_snippet.html` before `</body>` of `PF-lite.html`. The first build downloads the models from Hugging Face. |
 | `tpnw.html` | The Nov/Dec app, older v3-based version. |
 | `tpnw-source/v7work/` | Builds `PF.html` from Gemini's v7 (`incoming/PF-gemini-v7-upload.html`): `cd tpnw-source/v7work && sh make_base.sh`, then the `node build.mjs …` line it prints. Tests are in `tpnw-source/tests/`. |
 | `index.html` | The Sept/Oct app. |

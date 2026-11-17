@@ -1,0 +1,8 @@
+{
+  "name": "pf-offline-ai",
+  "private": true,
+  "type": "module",
+  "description": "Builds the offline AI search block (BGE-small embeddings + MS-MARCO MiniLM re-ranker) that is appended to PF.html",
+  "scripts": { "build": "node build_ai.mjs ../v7work/data7_final.json ai_snippet.html" },
+  "dependencies": { "@huggingface/transformers": "3.5.2" }
+}
