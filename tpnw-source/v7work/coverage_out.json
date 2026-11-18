@@ -1,0 +1,665 @@
+{
+ "PRO": [
+  {
+   "name": "Zero Warheads (No Solvency)",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_3",
+    "pro_fl_8",
+    "pro_cd_2"
+   ],
+   "xf": "p_pf_2",
+   "soft": false
+  },
+  {
+   "name": "Nine Years, Zero Umbrella States",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_11",
+    "pro_reb_s4",
+    "pro_reb_s1"
+   ],
+   "xf": "p_pf_54",
+   "soft": false
+  },
+  {
+   "name": "B61 Expulsion (Articles 1(1)(g) and 4(4))",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_3",
+    "pro_reb_7",
+    "pro_reb_10"
+   ],
+   "xf": "p_pf_11",
+   "soft": false
+  },
+  {
+   "name": "Article 1(1)(e) Assistance Ban",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_3",
+    "pro_reb_26",
+    "pro_fl_10"
+   ],
+   "xf": "p_pf_46",
+   "soft": false
+  },
+  {
+   "name": "Strategic Concept Incompatibility",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_s6",
+    "pro_reb_s3",
+    "pro_fl_10"
+   ],
+   "xf": "p_pf_5",
+   "soft": false
+  },
+  {
+   "name": "France and the UK Must Disarm",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_8",
+    "pro_reb_2",
+    "pro_fl_5"
+   ],
+   "xf": "p_pf_4",
+   "soft": false
+  },
+  {
+   "name": "Two-Tier NATO / Cohesion Collapse",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_3",
+    "pro_reb_15",
+    "pro_fl_10"
+   ],
+   "xf": "p_pf_46",
+   "soft": false
+  },
+  {
+   "name": "Poland Proliferates",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_7",
+    "pro_reb_11",
+    "pro_reb_13"
+   ],
+   "xf": "p_pf_11",
+   "soft": false
+  },
+  {
+   "name": "Germany Proliferates / Euro-Deterrent",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_15",
+    "pro_reb_19",
+    "pro_fl_10"
+   ],
+   "xf": "p_pf_46",
+   "soft": false
+  },
+  {
+   "name": "Turkey and Incirlik",
+   "freq": "rare but devastating",
+   "siphon": [
+    "pro_reb_2",
+    "pro_reb_29",
+    "pro_fl_7"
+   ],
+   "xf": "p_pf_33",
+   "soft": false
+  },
+  {
+   "name": "Asian Knock-On (South Korea, Japan)",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_7",
+    "pro_reb_11",
+    "pro_fl_2"
+   ],
+   "xf": "p_pf_3",
+   "soft": false
+  },
+  {
+   "name": "Verification Vacuum",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_2",
+    "pro_reb_27",
+    "pro_fl_7"
+   ],
+   "xf": "p_pf_8",
+   "soft": false
+  },
+  {
+   "name": "Budapest 1994",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_6",
+    "pro_fl_6",
+    "pro_cd_6"
+   ],
+   "xf": "p_pf_1",
+   "soft": false
+  },
+  {
+   "name": "Belarus and the Tactical Asymmetry",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_12",
+    "pro_reb_28",
+    "pro_fl_5"
+   ],
+   "xf": "p_pf_43",
+   "soft": false
+  },
+  {
+   "name": "Russian Doctrine and Nuclear Coercion",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_4",
+    "pro_reb_25",
+    "pro_reb_s2"
+   ],
+   "xf": "p_pf_s10",
+   "soft": false
+  },
+  {
+   "name": "Worst Possible Timing (Trump Reliability)",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_15",
+    "pro_reb_23",
+    "pro_reb_s3"
+   ],
+   "xf": "p_pf_46",
+   "soft": false
+  },
+  {
+   "name": "China Free-Rides",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_11",
+    "pro_reb_s5",
+    "pro_fl_5"
+   ],
+   "xf": "p_pf_21",
+   "soft": false
+  },
+  {
+   "name": "Norms Do Not Bind Autocracies",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_s1",
+    "pro_cd_10"
+   ],
+   "xf": "p_pf_38",
+   "soft": false
+  },
+  {
+   "name": "Divestment Does Not Bite",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_5",
+    "pro_reb_15",
+    "pro_fl_4"
+   ],
+   "xf": "p_pf_21",
+   "soft": false
+  },
+  {
+   "name": "Article 17 Double Bind",
+   "freq": "rare but devastating",
+   "siphon": [
+    "pro_reb_3",
+    "pro_reb_23",
+    "pro_fl_6"
+   ],
+   "xf": "p_pf_34",
+   "soft": false
+  },
+  {
+   "name": "Conventional Substitution Is Unaffordable",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_9",
+    "pro_fl_4",
+    "pro_cd_9"
+   ],
+   "xf": "p_pf_14",
+   "soft": false
+  },
+  {
+   "name": "Ratification Is Politically Impossible",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_10",
+    "pro_fl_6",
+    "pro_cd_3"
+   ],
+   "xf": "p_pf_11",
+   "soft": false
+  },
+  {
+   "name": "Timeframe: The Arms Race Is Now",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_11",
+    "pro_reb_s1",
+    "pro_reb_s6"
+   ],
+   "xf": "p_pf_38",
+   "soft": false
+  },
+  {
+   "name": "Nuclear Peace / Stability-Instability",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_1",
+    "pro_reb_17",
+    "pro_fl_11"
+   ],
+   "xf": "p_pf_48",
+   "soft": false
+  },
+  {
+   "name": "Nuclear Winter Is Contested",
+   "freq": "rare but devastating",
+   "siphon": [
+    "pro_reb_17",
+    "pro_reb_18",
+    "pro_fl_11"
+   ],
+   "xf": "p_pf_48",
+   "soft": false
+  },
+  {
+   "name": "Accident Impact Defense",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_19",
+    "pro_reb_13",
+    "pro_fl_1"
+   ],
+   "xf": "p_pf_10",
+   "soft": false
+  },
+  {
+   "name": "TPNW Wrecks the NPT",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_2",
+    "pro_reb_s6",
+    "pro_fl_7"
+   ],
+   "xf": "p_pf_8",
+   "soft": false
+  },
+  {
+   "name": "Conventional War Turn",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_6",
+    "pro_reb_12",
+    "pro_fl_5"
+   ],
+   "xf": "p_pf_19",
+   "soft": false
+  },
+  {
+   "name": "Crossfire Trap: Who Inspects Russia?",
+   "freq": "common",
+   "siphon": [
+    "pro_reb_2",
+    "pro_fl_7",
+    "pro_cd_2"
+   ],
+   "xf": "p_pf_9",
+   "soft": false
+  },
+  {
+   "name": "Probability-Times-Timeframe Framework",
+   "freq": "very common",
+   "siphon": [
+    "pro_reb_11",
+    "pro_reb_2",
+    "pro_fl_11"
+   ],
+   "xf": "p_pf_54",
+   "soft": false
+  }
+ ],
+ "CON": [
+  {
+   "name": "Your Own Unreliability Double Bind",
+   "freq": "very common",
+   "siphon": [
+    "con_reb_7",
+    "con_reb_s3",
+    "con_fl_2"
+   ],
+   "xf": "c_pf_g1",
+   "soft": false
+  },
+  {
+   "name": "Extended Deterrence Was Never Credible",
+   "freq": "common",
+   "siphon": [
+    "con_reb_5",
+    "con_reb_7",
+    "con_fl_1"
+   ],
+   "xf": "c_pf_4",
+   "soft": false
+  },
+  {
+   "name": "A Hundred Bombs Deter Nothing",
+   "freq": "common",
+   "siphon": [
+    "con_reb_6",
+    "con_fl_2",
+    "con_cd_6"
+   ],
+   "xf": "c_pf_31",
+   "soft": false
+  },
+  {
+   "name": "Deterrence Does Not Explain the Long Peace",
+   "freq": "common",
+   "siphon": [
+    "con_reb_6",
+    "con_reb_16",
+    "con_fl_5"
+   ],
+   "xf": "c_pf_g2",
+   "soft": false
+  },
+  {
+   "name": "The Near-Miss Litany",
+   "freq": "very common",
+   "siphon": [
+    "con_reb_1",
+    "con_reb_5",
+    "con_fl_2"
+   ],
+   "xf": "c_pf_16",
+   "soft": false
+  },
+  {
+   "name": "Nuclear Winter Magnitude",
+   "freq": "very common",
+   "siphon": [
+    "con_reb_17",
+    "con_reb_21",
+    "con_fl_1"
+   ],
+   "xf": "c_pf_48",
+   "soft": false
+  },
+  {
+   "name": "Moral Side Constraint / ICJ 1996",
+   "freq": "common",
+   "siphon": [
+    "con_reb_7",
+    "con_reb_24",
+    "con_fl_2"
+   ],
+   "xf": "c_pf_2",
+   "soft": false
+  },
+  {
+   "name": "Belarus Disproves Deterrent Restraint",
+   "freq": "common",
+   "siphon": [
+    "con_reb_10",
+    "con_fl_1",
+    "con_cd_10"
+   ],
+   "xf": "c_pf_19",
+   "soft": false
+  },
+  {
+   "name": "Cascade Turn: Umbrella Erosion Is the Cause",
+   "freq": "common",
+   "siphon": [
+    "con_reb_13",
+    "con_fl_5",
+    "con_cd_13"
+   ],
+   "xf": "c_pf_10",
+   "soft": false
+  },
+  {
+   "name": "Proliferation Cascades Never Actually Happen",
+   "freq": "rare but devastating",
+   "siphon": [
+    "con_reb_13",
+    "con_reb_29",
+    "con_fl_5"
+   ],
+   "xf": "c_pf_10",
+   "soft": false
+  },
+  {
+   "name": "NPT Article VI Compliance",
+   "freq": "very common",
+   "siphon": [
+    "con_reb_8",
+    "con_fl_7",
+    "con_cd_8"
+   ],
+   "xf": "c_pf_59",
+   "soft": false
+  },
+  {
+   "name": "Nuclear Sharing Is the Legal Violation",
+   "freq": "common",
+   "siphon": [
+    "con_reb_5",
+    "con_reb_8",
+    "con_reb_29"
+   ],
+   "xf": "c_pf_9",
+   "soft": false
+  },
+  {
+   "name": "Article 17 Solves Their Offense",
+   "freq": "common",
+   "siphon": [
+    "con_reb_29",
+    "con_fl_5",
+    "con_cd_3"
+   ],
+   "xf": "c_pf_35",
+   "soft": false
+  },
+  {
+   "name": "Stigma Empirically Works",
+   "freq": "very common",
+   "siphon": [
+    "con_reb_2",
+    "con_fl_1",
+    "con_cd_12"
+   ],
+   "xf": "c_pf_54",
+   "soft": false
+  },
+  {
+   "name": "Divestment Raises the Cost of Capital",
+   "freq": "common",
+   "siphon": [
+    "con_reb_3",
+    "con_reb_28",
+    "con_fl_7"
+   ],
+   "xf": "c_pf_14",
+   "soft": false
+  },
+  {
+   "name": "Verification Comparison",
+   "freq": "common",
+   "siphon": [
+    "con_reb_8",
+    "con_reb_29",
+    "con_fl_5"
+   ],
+   "xf": "c_pf_11",
+   "soft": false
+  },
+  {
+   "name": "Cohesion Defense: Observers Already",
+   "freq": "common",
+   "siphon": [
+    "con_reb_1",
+    "con_fl_2",
+    "con_cd_5"
+   ],
+   "xf": "c_pf_20",
+   "soft": false
+  },
+  {
+   "name": "Hosts Bear the Risk Without the Decision",
+   "freq": "common",
+   "siphon": [
+    "con_reb_1",
+    "con_reb_17",
+    "con_fl_1"
+   ],
+   "xf": "c_pf_48",
+   "soft": false
+  },
+  {
+   "name": "Opportunity Cost of the Arsenals",
+   "freq": "common",
+   "siphon": [
+    "con_reb_12",
+    "con_reb_22",
+    "con_fl_1"
+   ],
+   "xf": "c_pf_25",
+   "soft": false
+  },
+  {
+   "name": "Conventional Deterrence Is the Better Buy",
+   "freq": "common",
+   "siphon": [
+    "con_reb_11",
+    "con_reb_22",
+    "con_fl_4"
+   ],
+   "xf": "c_pf_s1",
+   "soft": false
+  },
+  {
+   "name": "Nuclear Sharing Paints Targets on Europe",
+   "freq": "common",
+   "siphon": [
+    "con_reb_1",
+    "con_reb_17",
+    "con_fl_1"
+   ],
+   "xf": "c_pf_48",
+   "soft": false
+  },
+  {
+   "name": "Dual-Capable Ambiguity Escalates",
+   "freq": "rare but devastating",
+   "siphon": [
+    "con_reb_6",
+    "con_fl_1",
+    "con_cd_9"
+   ],
+   "xf": "c_pf_49",
+   "soft": false
+  },
+  {
+   "name": "Structural Violence and the Victims",
+   "freq": "common",
+   "siphon": [
+    "con_reb_8",
+    "con_reb_15",
+    "con_reb_29"
+   ],
+   "xf": "c_pf_9",
+   "soft": false
+  },
+  {
+   "name": "Their Incompatibility Evidence Is Circular",
+   "freq": "rare but devastating",
+   "siphon": [
+    "con_reb_5",
+    "con_fl_2",
+    "con_cd_5"
+   ],
+   "xf": "c_pf_8",
+   "soft": false
+  },
+  {
+   "name": "Unfalsifiable Deterrence",
+   "freq": "common",
+   "siphon": [
+    "con_reb_11",
+    "con_reb_12",
+    "con_reb_15"
+   ],
+   "xf": "c_pf_46",
+   "soft": false
+  },
+  {
+   "name": "How Much Is Enough",
+   "freq": "common",
+   "siphon": [
+    "con_reb_8",
+    "con_fl_9",
+    "con_cd_8"
+   ],
+   "xf": "c_pf_g3",
+   "soft": false
+  },
+  {
+   "name": "Perpetual Success Requirement",
+   "freq": "very common",
+   "siphon": [
+    "con_reb_15",
+    "con_reb_29",
+    "con_fl_5"
+   ],
+   "xf": "c_pf_24",
+   "soft": false
+  },
+  {
+   "name": "Democratic Legitimacy",
+   "freq": "common",
+   "siphon": [
+    "con_reb_28",
+    "con_fl_9",
+    "con_cd_8"
+   ],
+   "xf": "c_pf_30",
+   "soft": false
+  },
+  {
+   "name": "Timeframe Turn: The Architecture Is Gone",
+   "freq": "common",
+   "siphon": [
+    "con_reb_13",
+    "con_fl_7",
+    "con_cd_13"
+   ],
+   "xf": "c_pf_39",
+   "soft": false
+  },
+  {
+   "name": "Compounding Annual Risk",
+   "freq": "common",
+   "siphon": [
+    "con_reb_20",
+    "con_reb_21",
+    "con_fl_6"
+   ],
+   "xf": "c_pf_16",
+   "soft": false
+  }
+ ]
+}

@@ -1,0 +1,589 @@
+{
+  "vs_pro": [
+    {
+      "name": "Zero Warheads (No Solvency)",
+      "attack": "Ask them to name a single Russian or American warhead that is dismantled on the day European NATO ratifies. The TPNW binds only its parties, and Article 4's elimination obligations attach to states that possess or host weapons, not to Moscow, so the arsenals that actually threaten Europe are untouched. Every risk reduction in their case is a norm-diffusion claim stacked three internal links deep, while every cost we read is immediate and legally binding.",
+      "type": "link attack",
+      "why_it_wins": "It forces PRO to defend a purely constructivist internal link against a concrete, treaty-text-based cost, which collapses their probability even if all their impact evidence is true.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Nine Years, Zero Umbrella States",
+      "attack": "The TPNW opened for signature in September 2017 and entered into force in January 2021 with roughly 70-plus states parties and 90-plus signatories, and in that entire window not one NATO member, not one extended-deterrence state, and not one nuclear possessor has joined. The Netherlands actually participated in the negotiations and was the single state to vote against the text in July 2017. Their 'norm cascade' has had nine years to produce exactly zero of the conversions their solvency depends on.",
+      "type": "evidence challenge",
+      "why_it_wins": "It is an empirical denial of the mechanism, not a theoretical objection, so PRO cannot answer it with more advocacy evidence.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "B61 Expulsion (Articles 1(1)(g) and 4(4))",
+      "attack": "Article 1(1)(g) bars a state party from allowing any stationing, installation or deployment of nuclear weapons in its territory, and Article 4(4) requires a hosting state that joins to ensure prompt removal. The Federation of American Scientists estimates roughly 100 US B61 gravity bombs at a handful of European bases including Buchel, Kleine Brogel, Volkel, Ghedi, Aviano and Incirlik. Ratification is not a symbolic gesture, it is a legal eviction notice for the physical hardware of extended deterrence.",
+      "type": "link attack",
+      "why_it_wins": "It is textual, so PRO has to either concede the weapons leave or misread their own treaty in front of the judge.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Article 1(1)(e) Assistance Ban",
+      "attack": "Article 1(1)(e) prohibits assisting, encouraging or inducing anyone in any way to engage in any prohibited activity. That reaches participation in the Nuclear Planning Group, SNOWCAT conventional support sorties, dual-capable aircraft certification, and host-nation basing support, which means ratifying states must walk out of the committee that governs NATO nuclear policy. Non-nuclear allies lose their seat and their voice, so even on PRO's own theory of influence they are strictly worse off inside the room than outside it.",
+      "type": "link attack",
+      "why_it_wins": "It attacks the 'we keep the alliance and get the norm' middle ground that PRO needs to survive both our cohesion and our solvency presses.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Strategic Concept Incompatibility",
+      "attack": "The 2022 Madrid Strategic Concept commits that as long as nuclear weapons exist NATO will remain a nuclear alliance and that the Alliance will take all necessary steps to keep the nuclear mission credible, and successive North Atlantic Council statements have declared that allies will not support, sign or ratify the TPNW and that it risks undermining the NPT. PRO is asking thirty states to simultaneously hold two mutually exclusive treaty commitments. The result is not disarmament, it is a constitutional crisis inside NATO at the exact moment the Alliance is managing a live war on its eastern flank.",
+      "type": "link attack",
+      "why_it_wins": "The incompatibility is asserted by the Alliance itself, so PRO is arguing against the stated position of the very actors who have to implement their plan.",
+      "frequency": "very common",
+      "unverified": true
+    },
+    {
+      "name": "France and the UK Must Disarm",
+      "attack": "The resolution says European members of NATO, which includes the two European nuclear powers. Article 4(2) requires a possessor that accedes to submit a legally binding, time-bound plan for the verified and irreversible elimination of its programme within sixty days. PRO is therefore defending the destruction of the French force de dissuasion and the UK Trident force, roughly 500 warheads between them on SIPRI's estimates, leaving Europe with no indigenous nuclear backstop precisely as American commitment becomes least reliable.",
+      "type": "case turn",
+      "why_it_wins": "Most PRO teams write the case as if only the umbrella states ratify and have no block for the two possessors the resolution actually includes.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Two-Tier NATO / Cohesion Collapse",
+      "attack": "Ratification splits the Alliance into treaty-bound states that cannot participate in nuclear planning and non-parties that must shoulder the deterrent alone, which is exactly the fracture Russian political warfare has spent a decade trying to manufacture. Article 5 deters because adversaries believe the response is collective and unpredictable; a formal legal declaration that most of Europe will not assist in the nuclear portion of that response is a published map of the seams. Decoupling is not an abstraction, it is the thing Moscow's theory of limited war in the Baltics requires.",
+      "type": "case turn",
+      "why_it_wins": "It converts PRO's own cooperative framing into the source of the harm and gives CON a high-probability, short-timeframe impact.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Poland Proliferates",
+      "attack": "Polish leaders across parties have publicly floated participation in nuclear sharing and, more recently, acquiring nuclear capability outright, and Poland is the state with the shortest strategic depth and the strongest threat perception in Europe. Pull the B61s out of the sharing arrangement and the frontline states do not accept less deterrence, they seek their own. The TPNW's accession in the west produces indigenous arsenals in the east, which is more fingers on more triggers with worse command and control.",
+      "type": "case turn",
+      "why_it_wins": "It gives CON the PRO's own impact, nuclear use, with a tighter causal chain than norm diffusion.",
+      "frequency": "very common",
+      "unverified": true
+    },
+    {
+      "name": "Germany Proliferates / Euro-Deterrent",
+      "attack": "German political leadership has already opened the conversation about European nuclear arrangements with Paris and London in response to doubts about Washington, which is the opposite direction from the TPNW. Mearsheimer's 1990 'Back to the Future' argument that a Germany without a credible umbrella seeks its own capability is now live policy debate rather than theory. PRO's plan removes the mechanism, nuclear sharing, that has kept Germany non-nuclear for sixty years.",
+      "type": "case turn",
+      "why_it_wins": "It uses the strongest contemporary news hook on the topic and shows the counterfactual to sharing is proliferation, not zero.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Turkey and Incirlik",
+      "attack": "Turkey is a European member of NATO under this resolution, hosts US weapons at Incirlik, and its leadership has publicly complained that it is unacceptable for other states to have nuclear-armed missiles while Turkey does not. A treaty obligation to expel those weapons removes the single most important non-proliferation bargain NATO has with Ankara. The state with a latent nuclear ambition, a contested regional neighbourhood and a safeguards record that already worries the IAEA is the last state you want to push out from under the umbrella.",
+      "type": "case turn",
+      "why_it_wins": "PRO almost never preps Turkey and cannot claim Turkey ratifies while also claiming the plan is feasible.",
+      "frequency": "rare but devastating",
+      "unverified": true
+    },
+    {
+      "name": "Asian Knock-On (South Korea, Japan)",
+      "attack": "Extended deterrence is one global reputation, not thirty separate ones. If European allies legally renounce assistance and evict American weapons, Seoul and Tokyo read that as the umbrella folding, and South Korean polling has repeatedly run around seventy percent in favour of an indigenous nuclear weapon. The TPNW's European success is a Northeast Asian proliferation trigger in the most nuclear-dense theatre on earth.",
+      "type": "case turn",
+      "why_it_wins": "It expands CON's impact scope beyond Europe while PRO's offense stays regional and normative.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Verification Vacuum",
+      "attack": "Article 3 requires at minimum a Comprehensive Safeguards Agreement, which is a 1970s-era declaration-based standard that failed to catch Iraq and Iran, and it does not require the Additional Protocol. Article 4 refers to a 'competent international authority' that has still never been designated, nearly a decade after adoption. PRO is asking Europe to trade a verified, inspected, extant deterrent posture for a treaty that has no verification body, no inspectorate and no enforcement mechanism.",
+      "type": "link attack",
+      "why_it_wins": "It is an institutional-design flaw PRO cannot fix with fiat because designing the authority is reserved to the states parties.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Budapest 1994",
+      "attack": "In 1994 Ukraine surrendered the third largest arsenal in the world in exchange for security assurances from Russia, the US and the UK in the Budapest Memorandum, and in 2014 and again in 2022 the guarantor invaded. That is the empirical test case for trading nuclear capability for paper, and the answer was annexation and a land war. Every European state on the eastern flank has drawn exactly that lesson, which is why not one of them is signing this treaty.",
+      "type": "case turn",
+      "why_it_wins": "It is a single, vivid, universally known historical analogy that does more work with lay judges than any card PRO reads.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Belarus and the Tactical Asymmetry",
+      "attack": "Russia announced the deployment of tactical nuclear weapons to Belarus in 2023 and Belarus amended its constitution to drop its non-nuclear status, while Russia retains a large non-strategic arsenal that has never been covered by any arms control treaty. The TPNW does nothing about either. PRO's plan takes roughly 100 American bombs out of Europe while leaving a thousand-plus Russian non-strategic warheads in place, which is unilateral disarmament dressed as multilateralism.",
+      "type": "link attack",
+      "why_it_wins": "The asymmetry is factual and recent, so it makes PRO's reciprocity claim look naive rather than idealistic.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Russian Doctrine and Nuclear Coercion",
+      "attack": "Russia published an updated deterrence doctrine in November 2024 that broadened the conditions for nuclear use, including aggression by a non-nuclear state supported by a nuclear one, and it has used explicit nuclear signalling throughout the Ukraine war to constrain Western conventional support. Nuclear threats work best against states that cannot answer in kind. Ratification formally converts thirty European states into the category Moscow's coercion is designed to exploit.",
+      "type": "case turn",
+      "why_it_wins": "It gives CON a coercion-and-conquest impact that does not require anyone to actually detonate a weapon, so PRO's accident and taboo defense is irrelevant to it.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Worst Possible Timing (Trump Reliability)",
+      "attack": "Cross-apply PRO's own framing: they say American commitment is unreliable, that the administration is pressing allies on burden-sharing after the five percent GDP pledge, and that force posture in Europe is being trimmed. If that is true, this is the single worst moment in eighty years to legally renounce the nuclear leg of European defense. You do not cancel the insurance policy in the week the underwriter starts hinting they might not pay.",
+      "type": "case turn",
+      "why_it_wins": "It turns PRO's strongest contemporary uniqueness argument into the reason their plan is catastrophic.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "China Free-Rides",
+      "attack": "The Pentagon's China Military Power reports put China past 600 operational warheads and project more than 1,000 by 2030, the fastest nuclear expansion in modern history, and China is not a TPNW party and will never be one. A treaty that disarms democracies while autocracies build is not disarmament, it is a transfer of relative nuclear power to the states least constrained by domestic or legal accountability. PRO's norm has to bind the Politburo, and they have no evidence that it does.",
+      "type": "link attack",
+      "why_it_wins": "It isolates the free-rider problem that is structurally unanswerable within a treaty regime autocracies refuse to join.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Norms Do Not Bind Autocracies",
+      "attack": "Russia de-ratified the Comprehensive Test Ban Treaty in 2023, suspended participation in New START in 2023, and New START's limits lapsed in February 2026, leaving the two largest arsenals legally unconstrained for the first time since 1972. That is the observed behaviour of the state PRO's stigma is supposed to shame. The empirical record of the last five years is norm erosion by the possessors, which is direct evidence against the one internal link their whole case rests on.",
+      "type": "evidence challenge",
+      "why_it_wins": "It uses the most recent arms-control facts to falsify PRO's mechanism rather than merely doubt it.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Divestment Does Not Bite",
+      "attack": "PRO will read ICAN and PAX 'Don't Bank on the Bomb' material on financial institutions exiting nuclear weapons producers, but nuclear weapons programmes in the US, UK, France, Russia and China are sovereign-funded through defense appropriations, not raised on public equity markets. A pension fund in Oslo selling Northrop Grumman shares does not change a single line in a defense budget, and those shares are bought by someone else at a marginally lower price. Ask them for one warhead cancelled by divestment and watch the silence.",
+      "type": "evidence challenge",
+      "why_it_wins": "It severs PRO's only tangible, non-normative solvency mechanism using the basic economics of sovereign procurement.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Article 17 Double Bind",
+      "attack": "Article 17 lets a party withdraw on twelve months' notice, but Article 17(3) says a party that is in the middle of an armed conflict when notice expires stays bound until the conflict ends. So either withdrawal is easy, in which case the commitment is cheap talk and there is no norm, or it is hard, in which case Europe is legally locked out of nuclear assistance in exactly the wartime scenario where it matters most. Both horns are fatal and they must pick one.",
+      "type": "crossfire trap",
+      "why_it_wins": "It is a genuine textual dilemma: PRO's answer to our deterrence offense destroys their own solvency and vice versa.",
+      "frequency": "rare but devastating",
+      "unverified": false
+    },
+    {
+      "name": "Conventional Substitution Is Unaffordable",
+      "attack": "Replacing the deterrent value of nuclear sharing requires a conventional force posture Europe demonstrably cannot field, which is why allies had to pledge five percent of GDP at the 2025 Hague summit just to repair the conventional baseline after Ukraine depleted stockpiles. Nuclear sharing is cheap deterrence, roughly a hundred bombs and a few DCA squadrons; conventional parity with Russia on the eastern flank is hundreds of billions. PRO's plan creates a deterrence gap that will be filled by vulnerability, not by artillery shells.",
+      "type": "link attack",
+      "why_it_wins": "It denies PRO the 'we substitute conventional defense' answer with a budgetary constraint they cannot fiat away.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Ratification Is Politically Impossible",
+      "attack": "Ratification means parliamentary majorities in thirty states including France, the UK, Poland and the Baltics, all of whose governments have formally refused, and even the observer states, Germany, Norway, Belgium and the Netherlands, have repeatedly declined to sign after attending Meetings of States Parties. Either they get no solvency because this never happens, or they are fiating away the deliberative politics that is the only thing that makes their norm meaningful. A norm imposed by fiat over the objection of every relevant electorate is not a norm.",
+      "type": "theory/topicality",
+      "why_it_wins": "It puts PRO in a bind between probability of the plan and the constructivist legitimacy their advocacy requires.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Timeframe: The Arms Race Is Now",
+      "attack": "With New START's limits expired and no successor framework, the next twenty-four months decide whether the US and Russia re-expand deployed strategic forces. In that window the only leverage Europe has is its position inside an alliance that Washington actually listens to on nuclear policy. Ratifying evicts Europe from that conversation at the precise moment the conversation matters, so even on PRO's disarmament goals our timeframe argument shows their plan is counterproductive.",
+      "type": "framework",
+      "why_it_wins": "It reframes timeframe as a reason PRO loses on their own value, not just as defensive weighing.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Nuclear Peace / Stability-Instability",
+      "attack": "Rauchhaus's 2009 'Evaluating the Nuclear Peace Hypothesis' in the Journal of Conflict Resolution finds that mutual nuclear possession is associated with a substantially reduced likelihood of major war between those states, even while low-level disputes rise. Europe has had no great-power war on its soil between nuclear-armed blocs for eighty years after having two in thirty. PRO has to explain why the one period of great-power peace in modern European history should be ended by treaty.",
+      "type": "impact defense",
+      "why_it_wins": "It supplies a peer-reviewed quantitative finding against PRO's core claim that nuclear weapons increase war risk.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Nuclear Winter Is Contested",
+      "attack": "The nuclear winter modelling PRO relies on, Robock, Toon and the Xia 2022 Nature Food famine paper, depends on assumed soot injection, soot lofting into the stratosphere and firestorm ignition that Los Alamos modelling by Reisner and colleagues has challenged, finding far less soot reaching altitude and far smaller climate effects. We are not saying nuclear war is survivable, we are saying their magnitude multiplier is a modelled assumption with live scientific dissent. Discount the five-billion-deaths number accordingly and their magnitude advantage over our impacts evaporates.",
+      "type": "impact defense",
+      "why_it_wins": "Most PRO teams have only the advocacy side of the nuclear winter literature and have never read the atmospheric-modelling critique.",
+      "frequency": "rare but devastating",
+      "unverified": true
+    },
+    {
+      "name": "Accident Impact Defense",
+      "attack": "In eighty years and tens of thousands of weapon-years there has never been an accidental nuclear detonation, because permissive action links, two-person rules, insensitive high explosives and one-point safety design were engineered in response to exactly the incidents PRO lists, Goldsboro, Damascus, Minot. Sagan's own 'Limits of Safety' documents near-misses, which is evidence the system detects and corrects failure. More importantly, the TPNW removes no Russian or American warhead, so it reduces accident risk by approximately zero while imposing all of our costs.",
+      "type": "impact defense",
+      "why_it_wins": "It pairs a safety-record answer with a no-solvency answer, so even a judge who buys the accident risk cannot vote on it.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "TPNW Wrecks the NPT",
+      "attack": "The NPT is a consensus regime with 191 parties, universal buy-in from the nuclear possessors, and a functioning IAEA verification arm; the TPNW has none of those and has become a wedge issue that hardens positions at Review Conferences. North Atlantic Council statements have said directly that it risks undermining the NPT. PRO is trading the one non-proliferation instrument that actually constrains behaviour for a parallel regime the constrained states have rejected.",
+      "type": "case turn",
+      "why_it_wins": "It gives CON a non-proliferation impact, which steals PRO's moral high ground and their terminal impact at once.",
+      "frequency": "very common",
+      "unverified": true
+    },
+    {
+      "name": "Conventional War Turn",
+      "attack": "Ukraine is the controlled experiment: the state that gave up its weapons was invaded, and the nuclear-armed states around it were not. Removing the nuclear leg from European defense raises the expected payoff of a limited conventional land grab in the Baltics, and a conventional war between Russia and NATO escalates to nuclear use anyway because Russia's doctrine contemplates escalation to de-escalate. PRO's plan therefore increases the probability of the exact nuclear use their case is about.",
+      "type": "case turn",
+      "why_it_wins": "It routes CON's impact through PRO's own terminal impact, so PRO's magnitude weighing works for us.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Crossfire Trap: Who Inspects Russia?",
+      "attack": "Ask in grand crossfire: under your plan, which body inspects Russian warhead dismantlement, and under what authority? There is no answer, because the TPNW's competent international authority has never been designated and Russia is not a party to anything that would admit inspectors. Make them say 'the norm' out loud in front of the judge.",
+      "type": "crossfire trap",
+      "why_it_wins": "The honest answer is 'nobody', and any other answer is a misstatement of the treaty that CON can correct with text.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Probability-Times-Timeframe Framework",
+      "attack": "Judge, weigh by expected value rather than raw magnitude. PRO's impact is a low-probability, decades-out chain, ratification to stigma to autocratic disarmament to reduced war risk, with four independent internal links each well under fifty percent. Our impacts, alliance fracture, eviction of US weapons, and frontline proliferation pressure, are near-certain and begin the day of ratification, so even with a smaller magnitude we win the multiplication.",
+      "type": "framework",
+      "why_it_wins": "It gives a lay judge an explicit arithmetic reason to prefer CON that survives losing individual evidence fights.",
+      "frequency": "very common",
+      "unverified": false
+    }
+  ],
+  "vs_con": [
+    {
+      "name": "Your Own Unreliability Double Bind",
+      "attack": "CON spends half their case telling you American commitment is wobbling, that troops are being repositioned and that allies are being told to pay five percent of GDP, and the other half telling you that same commitment is the thing keeping Europe safe. Pick one. If the umbrella is already leaking, we are not destroying a working deterrent, we are declining to keep paying premiums on a policy they themselves say will not be honoured.",
+      "type": "link attack",
+      "why_it_wins": "It is an internal contradiction in CON's own case, so answering one half of it concedes the other.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Extended Deterrence Was Never Credible",
+      "attack": "De Gaulle's question has never been answered: would an American president trade Chicago for Tallinn? Sechser and Fuhrmann's 'Nuclear Weapons and Coercive Diplomacy' (2017) examines the historical record of nuclear coercion and finds nuclear-armed states are not meaningfully more successful at compellence than non-nuclear ones. CON's entire impact rests on a promise that the strategic logic says no rational president would keep.",
+      "type": "link attack",
+      "why_it_wins": "It attacks the credibility premise rather than the existence of the weapons, which is the one place CON has no empirical proof.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "A Hundred Bombs Deter Nothing",
+      "attack": "Ask them in crossfire: if roughly 1,700 deployed Russian strategic warheads do not deter NATO, how do 100 gravity bombs on fourth-generation dual-capable aircraft deter Russia? The B61 force requires manned aircraft to penetrate the most dense integrated air defense network in the world; its value is political symbolism, not military capability, which is why NATO's actual deterrent is the US strategic triad that the TPNW does not touch for non-parties. Their impact scenario loses the hardware that does not matter and keeps the hardware that does.",
+      "type": "link attack",
+      "why_it_wins": "It concedes CON's premise about deterrence while severing the link to the specific weapons the plan removes.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Deterrence Does Not Explain the Long Peace",
+      "attack": "John Mueller's 'Atomic Obsession' and Ward Wilson's work argue the post-1945 peace is explained by the memory of total war, economic interdependence and great-power satisfaction with the status quo, not by warheads, and that the classic cases of claimed nuclear coercion do not survive scrutiny. There is no counterfactual Europe without nuclear weapons to compare against, so CON's eighty-years-of-peace card is correlation presented as mechanism. You cannot vote on an unfalsifiable claim.",
+      "type": "evidence challenge",
+      "why_it_wins": "It shifts the burden of proof onto CON for a claim that is structurally impossible to prove.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "The Near-Miss Litany",
+      "attack": "Chatham House's 2014 report 'Too Close for Comfort' by Lewis, Williams, Pelopidas and Aghlani catalogues roughly thirteen instances since 1962 where nuclear weapons were nearly used by accident or miscalculation, including Stanislav Petrov's 1983 decision to disregard a satellite launch warning, the Able Archer 83 scare, and the 1995 Norwegian Black Brant sounding rocket that opened the Russian nuclear briefcase. Deterrence has not worked, it has survived. Any system whose failure mode is civilizational collapse and whose observed near-failure rate is one every few years is not a safety argument, it is a countdown.",
+      "type": "framework",
+      "why_it_wins": "Each example is independently verifiable and the cumulative-probability framing makes CON's 'it has worked so far' sound like survivorship bias.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Nuclear Winter Magnitude",
+      "attack": "Xia et al. 2022 in Nature Food model soot injection from nuclear war and find that a US-Russia exchange at roughly 150 teragrams of soot could cause well over five billion deaths from crop, fishery and livestock collapse, with even a regional India-Pakistan war killing around two billion. That is not a war impact, it is a species-level impact, and it means the magnitude side of the weighing calculus is not close. Any policy that reduces the probability of that outcome by even a fraction of a percent outweighs every alliance-management harm CON has read.",
+      "type": "framework",
+      "why_it_wins": "A peer-reviewed Nature Food number lets PRO win on expected value even while conceding low probability.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Moral Side Constraint / ICJ 1996",
+      "attack": "The International Court of Justice's 1996 advisory opinion held that the threat or use of nuclear weapons would generally be contrary to the rules of international humanitarian law, and found unanimously an obligation to pursue in good faith negotiations leading to nuclear disarmament. Extended deterrence is the standing threat to incinerate civilian populations, which is a side constraint no consequentialist benefit can license. CON is asking you to rule that holding hundreds of millions of innocents hostage is acceptable because it is convenient.",
+      "type": "framework",
+      "why_it_wins": "It converts the round from a risk calculation into a question about whether CON's strategy is permissible at all.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Belarus Disproves Deterrent Restraint",
+      "attack": "If nuclear deterrence produced stability, Russia would not have needed to announce the forward deployment of tactical nuclear weapons to Belarus in 2023, amend Belarusian non-nuclear status, or broaden its use doctrine in November 2024. Those are the moves of a system that is arms racing in response to NATO's nuclear posture, exactly the action-reaction spiral the status quo generates. CON's own best evidence of Russian escalation is evidence that the posture they defend is causing it.",
+      "type": "case turn",
+      "why_it_wins": "It takes CON's most emotive uniqueness evidence and reassigns the causal arrow.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Cascade Turn: Umbrella Erosion Is the Cause",
+      "attack": "Poland and Germany are talking about nuclear options right now, in the status quo, with the umbrella intact and the TPNW not ratified by anyone. The driver is doubt about Washington, not a treaty, which means CON's proliferation cascade is a status quo harm that their advocacy does nothing about. The TPNW is the only instrument that provides a legal and normative brake on exactly that, so their cascade impact is a reason to vote PRO.",
+      "type": "case turn",
+      "why_it_wins": "It flips CON's single best offensive argument into a non-unique status quo harm with PRO as the only solvency mechanism.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Proliferation Cascades Never Actually Happen",
+      "attack": "The nuclear domino has been predicted since the 1960s, when Kennedy's administration expected fifteen to twenty-five nuclear states by the 1970s, and it has never fallen; Jacques Hymans's 'Achieving Nuclear Ambitions' shows weapons programmes are institutionally brittle and usually fail. Germany is bound by Euratom, the NPT and the Two Plus Four Treaty and has no enrichment or reprocessing path; Poland has no fissile material production capability and a decade-plus lead time. CON's cascade is a prediction with a sixty-year track record of being wrong.",
+      "type": "impact defense",
+      "why_it_wins": "It supplies both a historical base rate and specific legal and technical barriers for each country CON names.",
+      "frequency": "rare but devastating",
+      "unverified": false
+    },
+    {
+      "name": "NPT Article VI Compliance",
+      "attack": "NPT Article VI obligates parties to pursue negotiations in good faith on effective measures relating to cessation of the nuclear arms race and to nuclear disarmament, and the 1996 ICJ opinion affirmed that obligation unanimously. The 2015 Review Conference collapsed without a final document two years before the TPNW existed, so CON cannot blame the TPNW for a regime crisis caused by possessor non-compliance. The TPNW is the implementation of Article VI, and non-nuclear states joining it is how the grand bargain gets enforced.",
+      "type": "case turn",
+      "why_it_wins": "It takes CON's 'TPNW wrecks the NPT' turn and shows the TPNW is the NPT's own obligation being performed.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Nuclear Sharing Is the Legal Violation",
+      "attack": "NPT Article I bars nuclear weapon states from transferring control over nuclear weapons to any recipient and Article II bars non-nuclear states from receiving control, and NATO's dual-capable aircraft arrangements, where German and Belgian pilots train to deliver American warheads, have been contested as inconsistent with that text since the 1960s. CON is defending the legally dubious arrangement and calling our treaty the destabilizing one. Ratification does not break the non-proliferation regime, it brings Europe into compliance with it.",
+      "type": "case turn",
+      "why_it_wins": "It puts CON in the position of defending a practice whose legality rests on unilateral Cold War interpretive understandings.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Article 17 Solves Their Offense",
+      "attack": "Article 17 permits withdrawal on twelve months' notice, so none of CON's doom scenarios are irreversible: if the security environment genuinely required restoring nuclear sharing, states could leave. That means the realistic cost of ratification is bounded, while the benefit, a legal and normative instrument that exists in perpetuity and shifts the default, is not. Any risk-averse judge should prefer the reversible option.",
+      "type": "impact defense",
+      "why_it_wins": "It caps CON's impact with treaty text, which turns their catastrophic framing into a manageable policy adjustment.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Stigma Empirically Works",
+      "attack": "Nina Tannenwald's 'The Nuclear Taboo' traces how a normative prohibition, not just deterrence, explains eighty years of non-use, and the Ottawa landmine and Oslo cluster munitions conventions changed the behaviour of major non-parties, including the United States, by making the weapons politically untouchable and collapsing their markets. Prohibition precedes disarmament; that is the pattern for chemical and biological weapons too. CON's claim that norms never move great powers is contradicted by every other category of banned weapon.",
+      "type": "evidence challenge",
+      "why_it_wins": "It supplies three concrete precedents for the exact mechanism CON says is impossible.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Divestment Raises the Cost of Capital",
+      "attack": "ICAN and PAX's 'Don't Bank on the Bomb' reporting documents financial institutions, including large European pension funds, excluding nuclear weapons producers following the TPNW's adoption and entry into force. Producers are private contractors, not sovereign arsenals: Northrop, Lockheed, BAE and Babcock raise capital, and exclusion from major index funds raises their cost of capital and the political price of modernization contracts. Thirty European ratifications would pull in the deepest capital pools in the world.",
+      "type": "link attack",
+      "why_it_wins": "It gives PRO a material, non-normative solvency mechanism that does not require Russia to cooperate.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Verification Comparison",
+      "attack": "CON says Article 3 only requires a Comprehensive Safeguards Agreement, but that is the same baseline that governs most of the non-nuclear world and the TPNW explicitly does not reduce any existing safeguards obligation, so European states keep their Additional Protocols. More importantly, compare worlds: their alternative verifies nothing, because New START's limits lapsed in February 2026 and there are currently no inspections of Russian or American strategic forces at all. A treaty with imperfect verification beats a status quo with none.",
+      "type": "link attack",
+      "why_it_wins": "It reframes verification as a comparative question where CON's status quo loses outright.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Cohesion Defense: Observers Already",
+      "attack": "Germany, Norway, Belgium and the Netherlands have all attended TPNW Meetings of States Parties as observers while remaining NATO members in good standing, and NATO did not fracture. Norway's governing coalition platform committed to observer participation and Norway is a frontline Arctic ally. CON's alliance-collapse impact has already been partially tested and nothing happened.",
+      "type": "impact defense",
+      "why_it_wins": "It is an existence proof that TPNW engagement and NATO membership coexist, which deflates CON's cohesion rhetoric.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Hosts Bear the Risk Without the Decision",
+      "attack": "The B61s on European soil remain in US custody under American permissive action links, and release authority belongs to one person, the President of the United States. So Belgium, Germany, Italy, the Netherlands and Turkey accept first-strike targeting and participation in nuclear war without any vote on whether it happens. Ask CON whether they are comfortable handing that decision to the same administration whose reliability they spent their own case questioning.",
+      "type": "case turn",
+      "why_it_wins": "It makes nuclear sharing look like a sovereignty surrender rather than a security guarantee, and CON has to defend the current US president as a trustworthy custodian.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Opportunity Cost of the Arsenals",
+      "attack": "ICAN's annual spending reports put global nuclear weapons spending at roughly 90 to 100 billion dollars a year across the nine possessors, and CBO projects US nuclear forces costing on the order of 946 billion dollars across 2025 to 2034. That is money not spent on the conventional forces, drones, air defense and ammunition that actually stopped Russian armour in Ukraine. CON cannot simultaneously demand a conventional buildup and defend the budget line that crowds it out.",
+      "type": "case turn",
+      "why_it_wins": "It uses CON's own conventional-defense priority to argue against nuclear spending.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Conventional Deterrence Is the Better Buy",
+      "attack": "The lesson of Ukraine is that layered air defense, long-range fires, drones and deep magazines deter and defeat invasion, while nuclear signalling produced nothing but coercion theatre. Post-Hague, Europe is already rebuilding exactly that capability. Ratification reallocates political attention and budget toward the deterrent that has demonstrated effect in the actual war on the continent, rather than toward a hundred bombs that no one believes would ever be dropped.",
+      "type": "link attack",
+      "why_it_wins": "It offers the judge a substitute for deterrence rather than asking them to accept less of it.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Nuclear Sharing Paints Targets on Europe",
+      "attack": "Hosting American weapons at Buchel, Kleine Brogel, Volkel, Ghedi and Incirlik makes those bases priority first-strike targets in any conflict, so nuclear sharing imports risk to European civilians rather than exporting it. Removing the weapons reduces the number of nuclear aimpoints on European soil. CON's security argument gets German and Belgian towns destroyed in the scenario they claim to be preventing.",
+      "type": "case turn",
+      "why_it_wins": "It localizes the harm to the voters of the very states CON says are protected, which lands hard with lay judges.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Dual-Capable Ambiguity Escalates",
+      "attack": "Dual-capable aircraft and dual-capable delivery systems are indistinguishable from conventional ones to an adversary's early warning, so in a Baltic crisis Russia cannot tell a conventional strike package from a nuclear one, and its November 2024 doctrine lowers the bar for responding. That is entanglement, and entanglement is the leading pathway to inadvertent escalation in the crisis-stability literature. CON's posture does not stabilize a crisis, it compresses decision time.",
+      "type": "link attack",
+      "why_it_wins": "It is a technical escalation mechanism most CON teams have never prepped and that turns their stability framing.",
+      "frequency": "rare but devastating",
+      "unverified": false
+    },
+    {
+      "name": "Structural Violence and the Victims",
+      "attack": "The TPNW is the first nuclear treaty with positive obligations to people rather than just prohibitions: Article 6 requires victim assistance and environmental remediation and Article 7 requires international cooperation for it, which reaches the downwinders of Semipalatinsk, Maralinga, the Marshall Islands, Algeria and the uranium mining communities. Those harms are happening right now, with certainty, to identifiable people, not in a hypothetical exchange. CON's framework requires you to ignore ongoing, documented harm in favour of a speculative deterrence benefit.",
+      "type": "framework",
+      "why_it_wins": "It gives PRO a one-hundred-percent-probability impact that does not depend on winning any deterrence debate.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Their Incompatibility Evidence Is Circular",
+      "attack": "When CON reads the North Atlantic Council saying the TPNW is incompatible with NATO policy, notice who is speaking: the actors whose policy is at issue, declaring their own policy to be unchangeable. That is not analysis, it is a bargaining position, and NATO policy is whatever its members decide it is, which is the whole point of the resolution. Ask them for a single legal body, rather than a political communique, that has found the treaties incompatible.",
+      "type": "evidence challenge",
+      "why_it_wins": "It exposes CON's central link card as self-serving political assertion rather than independent analysis.",
+      "frequency": "rare but devastating",
+      "unverified": false
+    },
+    {
+      "name": "Unfalsifiable Deterrence",
+      "attack": "Press them: what observation would count as evidence that deterrence failed, short of a detonation? There is none, which means their theory makes no testable prediction and absorbs every data point, including Russian invasions of non-nuclear neighbours and seventy years of proxy wars, as confirmation. A theory that cannot fail cannot bear the weight of a policy decision.",
+      "type": "crossfire trap",
+      "why_it_wins": "It is an epistemic attack CON cannot answer without conceding their argument is faith-based.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "How Much Is Enough",
+      "attack": "In crossfire, ask how many warheads Europe needs to be safe, and then ask whether more than that is therefore unnecessary. Every answer is a trap: a number concedes that most of the arsenal is surplus and should be eliminated, and refusing to answer concedes that their framework licenses unlimited accumulation forever. Make them say the number out loud.",
+      "type": "crossfire trap",
+      "why_it_wins": "There is no stable answer, and the question exposes that CON's logic has no upper bound.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Perpetual Success Requirement",
+      "attack": "CON's case requires deterrence to work not most of the time but every single time, forever, across nine arsenals, fallible early warning systems, cyber intrusion, and leaders like the ones currently in office. We only need it to fail once. Ask them in crossfire whether they are willing to commit to a strategy with a zero-tolerance failure requirement and no exit plan.",
+      "type": "framework",
+      "why_it_wins": "It makes the asymmetry of burdens explicit, which is PRO's most intuitive winning frame for lay judges.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Democratic Legitimacy",
+      "attack": "Polling commissioned by ICAN and conducted by YouGov in European host states has repeatedly found large majorities, often around two thirds to three quarters, in favour of their government joining the TPNW, including in Belgium, the Netherlands, Germany and Italy. CON's position is that elected governments should keep weapons their publics have said they do not want. Ratification is not an imposition on Europe, it is the thing European publics already asked for.",
+      "type": "framework",
+      "why_it_wins": "It answers CON's feasibility and legitimacy press with public opinion rather than elite preference.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Timeframe Turn: The Architecture Is Gone",
+      "attack": "The INF Treaty died in 2019, Russia de-ratified the CTBT in 2023, and New START's central limits expired in February 2026, which means for the first time since 1972 there is no legally binding limit on the two largest arsenals. CON's status quo is not stability, it is an unconstrained arms race with no legal floor. In that world the TPNW is the only treaty-based instrument left standing, and the uniqueness argument runs entirely our way.",
+      "type": "case turn",
+      "why_it_wins": "It takes CON's timeframe argument and shows the urgency favours building new architecture rather than defending a collapsed one.",
+      "frequency": "common",
+      "unverified": true
+    },
+    {
+      "name": "Compounding Annual Risk",
+      "attack": "Treat this as a probability problem over time: even a one-in-two-hundred annual chance of nuclear use, which is conservative against the documented near-miss rate, compounds to roughly a one-in-four chance over a human lifetime. CON needs the per-year risk to be effectively zero for their 'it has worked so far' argument to hold, and the historical record of false alarms makes that indefensible. Vote on cumulative probability rather than on any single year's quiet.",
+      "type": "framework",
+      "why_it_wins": "It mathematically reframes CON's best defensive argument into an admission of accumulating danger.",
+      "frequency": "common",
+      "unverified": true
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Magnitude Trumps Probability (Extinction Framing)",
+      "side": "pro",
+      "attack": "Judge, when one outcome is unrecoverable you do not weigh it like an ordinary cost. Xia et al. 2022 in Nature Food puts a US-Russia exchange at over five billion deaths from agricultural collapse, which ends the conditions for any future human flourishing, so even a very small reduction in that probability dominates every alliance-management harm CON has described. Their impacts are bad outcomes inside a world that continues; ours is the end of the world continuing.",
+      "deployment": "Lead the final focus with it, then concede probability explicitly: 'grant them it is unlikely, it still outweighs.' Pair with the near-miss list so the probability is not read as zero.",
+      "type": "framework",
+      "why_it_wins": "It lets PRO lose every solvency press and still win, because any nonzero risk reduction beats any finite harm.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Expected Value Discipline (Probability Times Magnitude)",
+      "side": "con",
+      "attack": "Magnitude framing without probability is not weighing, it is intimidation. Walk the judge through PRO's chain, ratification, then stigma, then autocratic behaviour change, then arsenal reduction, then reduced war risk, and assign each link a generous fifty percent: that is six percent of their claimed benefit. Our harms, eviction of US weapons and loss of a seat in the Nuclear Planning Group, are at or near one hundred percent on the day of ratification.",
+      "deployment": "Use in summary with explicit numbers and a visible multiplication; invite the judge to write the chain on their flow. Always name the number of internal links.",
+      "type": "framework",
+      "why_it_wins": "It converts PRO's strongest framework into an arithmetic exercise PRO loses, and lay judges find the multiplication intuitive.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Timeframe Priority",
+      "side": "con",
+      "attack": "Prefer impacts that happen first, because near-term harms determine whether the long-term scenario is ever reached. Alliance fracture and frontline proliferation pressure begin within the ratification cycle, while PRO's norm cascade is a multi-decade constructivist process with no deadline. If Europe is coerced or invaded in 2028, nothing in PRO's 2050 disarmament story matters.",
+      "deployment": "Deploy in rebuttal as a tiebreaker: 'even if you think both impacts are real, ours resolves first and forecloses theirs.' Works best stacked directly on top of expected value.",
+      "type": "framework",
+      "why_it_wins": "It gives the judge a non-evidentiary reason to prefer CON that survives conceding PRO's magnitude.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Structural Violence Outweighs Hypothetical Catastrophe",
+      "side": "pro",
+      "attack": "There is a category difference between harms that are happening and harms that might happen. TPNW Articles 6 and 7 create binding obligations for victim assistance and environmental remediation for test-affected and uranium-mining communities from Semipalatinsk to the Marshall Islands, and those people are sick right now at one hundred percent probability. CON's deterrence benefit is a counterfactual; our harm is a medical record.",
+      "deployment": "Use when losing the deterrence debate: pivot to the one advantage with no probability discount, and frame CON as asking the judge to discount real suffering for a speculative benefit.",
+      "type": "framework",
+      "why_it_wins": "It offers a certain-probability impact that is immune to every deterrence and solvency press CON runs.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Moral Side Constraint / Deontological Trump",
+      "side": "pro",
+      "attack": "Some acts are impermissible regardless of consequence, and holding civilian populations hostage to indiscriminate incineration is one of them. The ICJ's 1996 advisory opinion found the threat or use of nuclear weapons generally contrary to international humanitarian law and found unanimously an obligation to negotiate disarmament in good faith. If extended deterrence requires an intention to commit an act that is itself a war crime, no security benefit can license it.",
+      "deployment": "Open final focus with it when the consequentialist weighing is going badly, and frame CON's entire case as inadmissible rather than merely outweighed. Pair with the democratic-legitimacy argument so it is not just abstract ethics.",
+      "type": "framework",
+      "why_it_wins": "It removes CON's impacts from consideration entirely instead of competing with them, so the evidence fight stops mattering.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Side Constraints Cut Both Ways (Protective Duty)",
+      "side": "con",
+      "attack": "If PRO wants a deontological frame, apply it consistently: a government's first obligation is the protection of the people who authorized it, and knowingly stripping away the deterrent that has kept your population from invasion is itself a violation of that duty. Ukraine's experience after the 1994 Budapest Memorandum is what it looks like when a state is talked out of its protection by other people's moral theory. You cannot gamble other people's survival to keep your own hands clean.",
+      "deployment": "Deploy as the direct answer to the side-constraint framework rather than arguing consequentialism; mirror their language of impermissibility back at them.",
+      "type": "framework",
+      "why_it_wins": "It neutralizes PRO's deontology by supplying a competing absolute duty, returning the round to the comparative CON wins.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Cumulative Risk Over Time",
+      "side": "pro",
+      "attack": "Judge the status quo over the right time horizon. The Chatham House 2014 study documents roughly thirteen near-use incidents since 1962, which is a near-miss every few years, and any annual failure probability above negligible compounds toward near-certainty across a century. CON's 'eighty years of peace' is a sample from a distribution whose tail has not yet been drawn.",
+      "deployment": "Use immediately after CON's nuclear-peace card; convert their defense into your offense by asking the judge to extend the timeline rather than freeze it at today.",
+      "type": "framework",
+      "why_it_wins": "It reframes CON's only empirical proof as survivorship bias using arithmetic the judge can follow.",
+      "frequency": "common",
+      "unverified": false
+    },
+    {
+      "name": "Comparative Worlds, Not Ideal Worlds",
+      "side": "con",
+      "attack": "The question is not whether a world without nuclear weapons would be better, we concede that it would. The question is whether thirty European ratifications get us there, and since the treaty binds only its parties and no possessor has joined in nine years, the realistic comparison is a disarmed Europe facing an armed Russia and China. Hold PRO to defending the world their plan actually produces, not the world they wish for.",
+      "deployment": "Use in first rebuttal to concede the value debate and move the round to solvency, which denies PRO their moral framing without seeming callous.",
+      "type": "framework",
+      "why_it_wins": "Conceding the ideal disarms PRO's ethical appeal while leaving them with the solvency burden they cannot carry.",
+      "frequency": "very common",
+      "unverified": false
+    },
+    {
+      "name": "Risk Aversion and Reversibility",
+      "side": "pro",
+      "attack": "When you are uncertain, prefer the reversible option. Article 17 allows withdrawal on twelve months' notice, so if CON's security nightmare materializes, states can exit and reconstitute sharing arrangements; by contrast, a nuclear detonation is permanently irreversible and so is the erosion of the non-use norm. A rational decision-maker under uncertainty takes the bounded, recoverable risk over the unbounded, unrecoverable one.",
+      "deployment": "Deploy in summary as a decision-rule when the judge seems uncertain about either side's evidence; it gives them a principled way to vote PRO on uncertainty alone.",
+      "type": "framework",
+      "why_it_wins": "It converts judge uncertainty, normally a presumption for the status quo, into an affirmative reason to vote PRO.",
+      "frequency": "rare but devastating",
+      "unverified": false
+    },
+    {
+      "name": "Presumption and Burden of Proof",
+      "side": "con",
+      "attack": "PRO is asking thirty democracies to abandon the security architecture of eighty years, so the burden of proof is theirs and it is heavy. They have to prove the norm binds Moscow and Beijing, that the Alliance survives the split, and that frontline states do not proliferate, and a single failed link means the judge should not run the experiment. Absent that proof, presumption lies with the arrangement that has in fact coincided with the longest great-power peace on record.",
+      "deployment": "State it in the first CON speech as the decision rule, then in every rebuttal name which link PRO failed to prove; it makes dropped CON arguments decisive rather than merely conceded.",
+      "type": "framework",
+      "why_it_wins": "It converts every unresolved question in the round into a CON ballot without requiring CON to win any of them affirmatively.",
+      "frequency": "very common",
+      "unverified": false
+    }
+  ],
+  "done": true
+}
