@@ -11,6 +11,12 @@ Offline apps for **Public Forum** debate. Each one is a single `.html` file: no 
 
 ## What's new in `PF.html`
 
+- **Tighter constructives.** Both opening speeches were cut and every mid-sentence definition removed (all 12 terms live in the **All 12 Key Terms** drawer instead). PRO is 662 words, CON 614 — both fit 4:00 with room to breathe. PRO's second contention now explains *why* conventional forces win a fight: an invasion needs a constant stream of tanks, fuel and ammunition down a few roads, and stealth jets, air defenses and long-range missiles cut that stream, so the attack stalls without anyone threatening civilians.
+- **⚖ Test Their Evidence.** A drawer next to the key terms holds the four tests every card must pass — date, qualifications, funding, full text — each with the exact line to say to get a card dropped, and a "careful" note saying when the test does *not* apply.
+  - While you type the opponent's speech, cards that look vulnerable are flagged live with the line to say ("you heard *Shlapak, 16*…").
+  - Four answers per side are prefired for when they run the same tests on us.
+  - Every one of the 109 source cards now opens with **why its author is qualified**, and 91 carry an honest **"if they attack this card"** note naming its own weakness.
+
 - **False-fact alarm.** If the opponent's speech says something flatly false (for example, that Russia or China is in NATO), a red box appears under it with the sourced correction. In crossfire, the correction is the first answer. If they say it in the last speech, use a **Last-Speech Shield** line from the closing snippets: it quotes the NSDA ballot rule that bans new arguments in Final Focus.
 - **More ammunition, PRO first.**
   - PRO gets 7 special attacks on what Russia, the US, Britain, France and NATO have actually done, plus 18 new prefires and 10 myth-busters.

@@ -1,0 +1,55 @@
+{
+ "note": "Answers for when the opponent runs the four evidence tests on US, plus offensive traps that run them on THEM. Every answer concedes what is true and pivots to a defensible reason.",
+ "prefiresBoth": [
+  {"idSuffix": "e1",
+   "chip": "E1. 'Your Card Is Too Old'",
+   "topicLabel": "Isn't your evidence from before 2022, so it describes a world that no longer exists?",
+   "phrases": ["your evidence is old", "that card is old", "from before 2022", "pre 2022", "before the invasion", "outdated evidence", "out of date", "old card", "2014 card", "that's from 2016", "recency"],
+   "keywords": ["old", "outdated", "2022", "recency", "dated", "before"],
+   "coreAnswer": "The recency test applies to forecasts about Russian intentions, not to history, physics, or treaty text. A near-miss that happened cannot un-happen because the calendar moved, radioactive fallout does not behave differently after 2022, and the treaty's words have not changed since 2017. Where the question is what Russia is doing now, our evidence is current: Kristensen, 26, SIPRI, 26, and Danylyuk, 26. Point to a specific card and I will tell you which kind it is.",
+   "extraClauses": [],
+   "mustContainAny": ["old", "outdated", "out of date", "before 2022", "pre 2022", "recency", "dated", "2014", "2016", "2018", "2019", "2020"],
+   "citation": "Kristensen, 26 (FAS), SIPRI, 26 & Danylyuk, 26 (RUSI)"},
+
+  {"idSuffix": "e2",
+   "chip": "E2. 'Your Source Is an Advocacy Group'",
+   "topicLabel": "Isn't ICAN or PAX a biased campaign group rather than independent research?",
+   "phrases": ["ican is biased", "pax is biased", "advocacy group", "campaign group", "they campaign for the ban", "biased source", "who funds", "funding bias", "not independent", "paid advertisement"],
+   "keywords": ["ican", "pax", "biased", "advocacy", "campaign", "funding", "independent"],
+   "coreAnswer": "Conceded: ICAN campaigns for this treaty, and we say so openly. But the numbers they publish are not their opinions. The institution counts come from what the banks and pension funds disclosed about their own policies, which anyone can check against those institutions' published statements. And our opponents quote the same report when they claim investment went up, so either the report counts or neither of us can use it.",
+   "extraClauses": [],
+   "mustContainAny": ["ican", "pax", "biased", "bias", "advocacy", "campaign group", "who funds", "funding", "independent", "advertisement"],
+   "citation": "PAX/ICAN, 23 & Muñoz, 26 (ICAN / PAX)"},
+
+  {"idSuffix": "e3",
+   "chip": "E3. 'Your Author Is a Journalist'",
+   "topicLabel": "Isn't your author just a journalist rather than a defense expert?",
+   "phrases": ["just a journalist", "a reporter", "news article", "not an expert", "unqualified author", "staff writer", "ap is not an expert", "that's a news story"],
+   "keywords": ["journalist", "reporter", "news", "unqualified", "expert", "writer"],
+   "coreAnswer": "We use news agencies for one job only: to prove what a leader actually said. For a direct quotation from a president, the wire service that recorded it is the best possible source, not a worse one. Every analytical claim in our case comes from a named specialist: Kristensen at the Federation of American Scientists, van Hooft at RAND Europe, SIPRI, and the Royal United Services Institute. Tell me which claim you are challenging and I will name the expert behind it.",
+   "extraClauses": [],
+   "mustContainAny": ["journalist", "reporter", "news", "staff writer", "not an expert", "unqualified", "newspaper"],
+   "citation": "Kristensen, 26 (FAS), van Hooft, 25 (RAND Europe) & SIPRI, 26"},
+
+  {"idSuffix": "e4",
+   "chip": "E4. 'Read the Card / You Paraphrased'",
+   "topicLabel": "Can you produce the actual text, or did you paraphrase that evidence?",
+   "phrases": ["read the card", "call for the card", "can i see the card", "show me the evidence", "you paraphrased", "that's a paraphrase", "where does it say that", "exact words", "full text"],
+   "keywords": ["card", "paraphrase", "exact", "text", "quote", "produce"],
+   "coreAnswer": "Yes, and here it is. Everything we read inside quotation marks is the author's exact wording, and anything that is our summary is labelled as a summary on the card itself, with the link. I will hand you the paragraph right now. I would ask the same standard of your side: if a claim has no quoted sentence behind it, the judge should not flow it.",
+   "extraClauses": [],
+   "mustContainAny": ["read the card", "call for the card", "see the card", "paraphrase", "exact words", "full text", "show me the evidence", "where does it say"],
+   "citation": "Source Cards tab"}
+ ],
+ "trapsBoth": [
+  {"trigger": "They read a card and give only the author's name.", "question": "Before I respond: what year was that published, and what are the author's qualifications? If it is pre-2022 analysis of Russian intentions, it was written about a Europe that ended in February 2022.", "source": "Evidence test: date and qualifications"},
+  {"trigger": "They summarize what a study found without quoting it.", "question": "Can you read the author's own sentence that says that, and will you hand me the card after this speech? If there is no sentence, the judge should strike the claim.", "source": "Evidence test: full text"},
+  {"trigger": "They cite a think tank recommending more weapons spending.", "question": "Who funds that institute? If the people who build the weapon also fund the study recommending the weapon, that is an advertisement, not independent research.", "source": "Evidence test: funding"}
+ ],
+ "cardCitationFix": {
+  "Brennan & Panetta, 25 (Former CIA Directors)": {
+   "removeText": "; Former CIA officer Bjorn Beam (interview with J. P. Carroll, Agenda Pública, Dec 27, 2025).",
+   "reason": "Bjorn Beam could not be verified by two independent checks. Do not read that name aloud."
+  }
+ }
+}

@@ -130,6 +130,36 @@
    [
     "p_pf_s18"
    ]
+  ],
+  [
+   "isnt your evidence from before 2022",
+   [
+    "p_pf_e1"
+   ]
+  ],
+  [
+   "that card is old its from 2014",
+   [
+    "p_pf_e1"
+   ]
+  ],
+  [
+   "isnt ican a biased campaign group",
+   [
+    "p_pf_e2"
+   ]
+  ],
+  [
+   "your author is just a journalist",
+   [
+    "p_pf_e3"
+   ]
+  ],
+  [
+   "can i see the card you paraphrased that",
+   [
+    "p_pf_e4"
+   ]
   ]
  ],
  "CON": [
@@ -187,6 +217,30 @@
    "why not just rely on conventional forces",
    [
     "c_pf_s5"
+   ]
+  ],
+  [
+   "isnt your evidence from before 2022",
+   [
+    "c_pf_e1"
+   ]
+  ],
+  [
+   "who funds that think tank",
+   [
+    "c_pf_e2"
+   ]
+  ],
+  [
+   "thats just a news reporter not an expert",
+   [
+    "c_pf_e3"
+   ]
+  ],
+  [
+   "read me the exact words from the card",
+   [
+    "c_pf_e4"
    ]
   ]
  ]
