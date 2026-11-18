@@ -1,0 +1,108 @@
+200	Brennan & Panetta, 25 (Former CIA Directors)	https://onedecision.com/ex-cia-director-on-ukraines-options
+200	ICRC, 20 (Red Cross)	https://www.icrc.org/en/document/humanitarian-impacts-and-risks-use-nuclear-weapons
+200	Xia, Robock & Toon, 22 (Nature Food)	https://www.nature.com/articles/s43016-022-00573-0
+403	Lewis, 14 (Chatham House)	https://www.chathamhouse.org/2014/04/too-close-comfort-cases-near-nuclear-use-and-options-policy
+200	Kristensen, 22 (FAS)	https://fas.org/publication/steadfast-noon-exercise-and-nuclear-modernization/
+200	Sweeney, 20 (Defense Priorities)	https://www.defensepriorities.org/reports/reconsidering-us-nuclear-weapons-in-europe/
+200	SIPRI, 26 (Military Expenditure)	https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge
+403	van Hooft, 25 (RAND Europe)	https://www.rand.org/pubs/commentary/2025/03/nuclear-deterrence-can-britain-and-france-take-on-americas.html
+403	Muñoz, 26 (ICAN / PAX)	https://www.icanw.org/new_don_t_bank_on_the_bomb_report_shows_increase_in_number_of_financial_institutions_investing_in_nuclear_weapons_manufacturers
+200	Danylyuk, 26 (RUSI)	https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such
+403	Hill, 21 (Chatham House)	https://www.chathamhouse.org/2021/01/nato-and-treaty-prohibition-nuclear-weapons/03-natos-concerns-about-tpnw
+200	Docherty, 21 (Harvard Law)	https://humanrightsclinic.law.harvard.edu/banning-nuclear-weapons-milestones-and-memories/
+200	Williams, 24 & Jones, 25 (CSIS) & Kristensen, 26 (FAS)	https://www.csis.org/analysis/russian-nuclear-calibration-war-ukraine
+200	North Atlantic Council, 20 & Horschig, 25	https://www.csis.org/analysis/can-france-and-united-kingdom-replace-us-nuclear-umbrella
+200	Kristensen, 26 (FAS)	https://thebulletin.org/premium/2026-05/russian-nuclear-weapons-2026/
+200	Kristensen, 25 (FAS)	https://thebulletin.org/premium/2025-12/the-changing-nuclear-landscape-in-europe/
+200	Kristensen, 15 (FAS)	https://fas.org/publication/nuclear-insecurity/
+200	Kristensen, 08 (FAS)	https://fas.org/publication/usaf-report-most-nuclear-weapon-sites-in-europe-do-not-meet-us-security-requirements/
+403	AP, 10	https://www.washingtontimes.com/news/2010/oct/27/pentagon-equipment-outage-wyo-nuke-base/
+403	Davis, 19 (RAND)	https://www.rand.org/pubs/research_reports/RR2781.html
+403	Shlapak, 16 (RAND)	https://www.rand.org/pubs/research_reports/RR1253.html
+200	Harvard Law Clinic, 18	https://humanrightsclinic.law.harvard.edu/publications/nuclear-umbrella-arrangements-and-the-treaty-on-the-prohibition-of-nuclear-weapons
+200	Harvard Law Clinic, 19	https://humanrightsclinic.law.harvard.edu/publications/submission-to-althingi-inquiry-into-resolution-57-149-bann-vid-kjarnorkuvopnum
+403	Caughley, 20 (Chatham House)	https://www.chathamhouse.org/2020/05/nato-and-frameworks-nuclear-non-proliferation-and-disarmament/5-nato-and-tpnw-legal-issues
+403	Tusk, 25	https://www.bloomberg.com/news/articles/2025-03-07/polish-premier-tusk-to-boost-army-to-half-a-million
+403	Axios, 25	https://www.axios.com/2025/03/19/nuclear-weapons-france-poland-china
+200	Horschig, 25 (CSIS)	https://www.csis.org/analysis/can-france-and-united-kingdom-replace-us-nuclear-umbrella
+403	ICAN, 26	https://www.icanw.org/global_spending_on_nuclear_weapons_increased_19_in_2025_to_reach_its_highest_recorded_level_at_118_8_billion
+403	ICAN, 21	https://www.icanw.org/nato_poll_2021
+403	ICAN, 20	https://www.icanw.org/56_former_leaders
+200	AP, 20	https://www.pbs.org/newshour/world/u-s-urges-countries-to-withdraw-from-u-n-treaty-that-would-ban-nuclear-weapons
+403	PAX/ICAN, 23	https://www.icanw.org/109_investors_rejecting_nuclear_weapons_dont_bank_on_the_bomb_policies_report
+000ERR	PAX/ICAN, 22	https://www.dontbankonthebomb.com/wp-content/uploads/2022/01/RejectingRisk-web.pdf
+200	Band, 09	https://www.foxnews.com/story/french-british-nuclear-submarines-collide-in-atlantic
+200	AP, 22	https://www.opb.org/article/2022/02/28/belarus-sheds-neutral-status-in-vote-critics-call-rigged/
+200	AP, 23	https://abc17news.com/news/ap-national-news/2023/03/25/putin-says-russia-will-station-tactical-nukes-in-belarus/
+200	Al Jazeera, 23	https://www.aljazeera.com/news/2023/3/28/why-does-russia-want-tactical-nuclear-weapons-in-belarus
+200	Zakharova, 24	https://pap.pl/en/news/russia-issues-warnings-us-missile-base-poland
+200	Bellona, 26	https://bellona.org/news/nuclear-issues/2026-09-germany-wants-independence-from-russian-nuclear-fuel-using-rosatom-as-a-bridge
+200	World Nuclear News, 26	https://world-nuclear-news.org/articles/approval-for-vver-fuel-production-in-germany
+200	Breaking Defense, 22	https://breakingdefense.com/2022/12/germany-seals-entry-to-f-35-club-with-8-8b-35-fighter-plan/
+200	Defense News, 26	https://www.defensenews.com/global/europe/2026/03/09/finland-readies-itself-to-be-able-to-host-nukes-in-longtime-policy-departure/
+200	North Atlantic Council, 26	https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/04/20/north-atlantic-council-statement-on-the-occasion-of-the-11th-review-conference-of-the-treaty-on-the-non-proliferation-of-nuclear-weapons
+200	NATO Strategic Concept, 22	https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces
+403	NATO, 23	https://www.icanw.org/nato_fails_to_reduce_nuclear_risks_at_vilnius_summit
+200	SIPRI Yearbook, 26	https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now
+200	NAC INF Statement, 19	https://www.nato.int/cps/uk/natohq/official_texts_168164.htm
+200	Bugos, 23 (Arms Control Today)	https://www.armscontrol.org/act/2023-03/news/russia-suspends-new-start
+200	AP, 23 (CTBT)	https://www.pbs.org/newshour/world/putin-signs-bill-revoking-russias-ratification-of-a-global-nuclear-test-ban-treaty
+200	Liang, 26 (Arms Control Today)	https://www.armscontrol.org/act/2026-03/news/new-start-expires-us-urges-modernized-treaty
+200	AP, 24 (Nuclear Doctrine)	https://cfjctoday.com/2024/11/19/russian-president-putin-signs-a-new-doctrine-that-lowers-the-threshold-for-using-nuclear-weapons/
+200	NPR, 24 (Oreshnik)	https://www.npr.org/2024/11/21/nx-s1-5199704/russia-ukraine-war-ballistic-missile
+200	AP, 26 (Oreshnik Lviv)	https://www.pbs.org/newshour/world/russia-uses-its-new-hypersonic-missile-in-major-attack-on-ukraine-and-warning-to-the-west
+200	Al Jazeera, 25 (Oreshnik in Belarus)	https://www.aljazeera.com/news/2025/12/31/russia-deploys-hypersonic-oreshnik-missiles-in-belarus-amid-europe-tensions
+200	AP, 22 (Nuclear Alert)	https://www.witf.org/2022/02/27/putin-puts-russias-nuclear-forces-on-alert-cites-sanctions/
+200	AP, 22 (Not a Bluff)	https://www.news4jax.com/news/world/2022/09/21/cornered-by-war-putin-makes-another-nuclear-threat/
+200	AP, 22 (Xi and Scholz)	https://katv.com/news/nation-world/german-chancellor-urges-chinas-xi-jinping-to-exert-influence-on-russia-ukraine-olaf-scholz-xi-jinping-nuclear-weapons-international-community-chinese-communist-party-ccp-vladimir-putin-russia-nato-eu
+200	UK Integrated Review, 21	https://www.gov.uk/government/publications/global-britain-in-a-competitive-age-the-integrated-review-of-security-defence-development-and-foreign-policy/global-britain-in-a-competitive-age-the-integrated-review-of-security-defence-development-and-foreign-policy
+200	Macron, 26	https://www.elysee.fr/en/emmanuel-macron/2026/03/02/visit-to-the-ile-longue-operational-base
+200	NPT Text, 68	https://www.un.org/en/conf/npt/2015/pdf/text%20of%20the%20treaty.pdf
+200	SIPRI Yearbook, 26 (Press Release)	https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now
+200	Defense News, 25 (Pentagon China Report)	https://www.defensenews.com/pentagon/2025/12/24/chinas-military-buildup-makes-us-increasingly-vulnerable-dod-says/
+200	Reuters, 25 (Nuclear Testing)	https://www.inquirer.com/politics/nation/trump-nuclear-weapons-testing-united-states-20251030.html
+200	AP, 26 (Steadfast Noon)	https://www.news4jax.com/news/world/2026/10/08/nato-presses-ahead-with-steadfast-noon-nuclear-drill-after-russias-nuclear-warning/
+200	Stars and Stripes, 26 (Steadfast Noon)	https://www.stripes.com/theaters/europe/2026-10-13/steadfast-noon-nato-exercise-23139099.html
+200	NATO Strategic Concept, 22 (Text)	https://www.act.nato.int/wp-content/uploads/2023/05/290622-strategic-concept.pdf
+200	NATO Foreign Ministers, 14	https://www.gov.uk/government/news/statement-by-nato-foreign-ministers
+200	NATO Member Countries, 24	https://www.nato.int/en/about-us/organization/nato-member-countries
+200	TPNW Text, 17	https://treaties.un.org/doc/Treaties/2017/07/20170707%2003-42%20PM/Ch_XXVI_9.pdf
+200	TPNW 1MSP Decision 1, 22	https://documents.un.org/doc/undoc/gen/n22/434/57/pdf/n2243457.pdf
+200	Hiroshima TPNW Tracker, 26	https://www.pref.hiroshima.lg.jp/site/hiroshimaforpeace-en/status-tpnw.html
+200	ACA, 25 (TPNW at a Glance)	https://www.armscontrol.org/factsheets/treaty-prohibition-nuclear-weapons-glance
+200	Two Plus Four Treaty, 90	https://germanhistorydocs.org/en/a-new-germany-1990-2023/two-plus-four-treaty-on-germany-september-12-1990.pdf
+200	22 USC 1928f, 23	https://www.law.cornell.edu/uscode/text/22/1928f
+200	AP, 25 (If They Dont Pay)	https://www.news4jax.com/news/politics/2025/03/06/trump-casts-doubt-on-nato-solidarity-despite-it-aiding-the-us-after-sept-11/
+200	AP, 25 (Article 5 Definition)	https://abc7news.com/post/nato-leaders-including-president-donald-trump-gather-historic-summit-unity-line/16834786/
+200	White House NSS, 25	https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf
+403	CNBC, 26 (Germany Troops)	https://www.cnbc.com/2026/05/02/trump-says-us-will-withdraw-troops-in-germany-a-lot-more-than-5000.html
+403	CNBC, 26 (Greenland Tariffs)	https://www.cnbc.com/2026/01/17/trump-greenland-tariffs-nato.html
+200	Fox News, 25 (Romania Brigade)	https://www.foxnews.com/politics/pentagon-scales-back-troops-from-nato-eastern-flank-denies-american-withdrawal-from-europe
+200	ECFR, 26	https://ecfr.eu/publication/home-alone-europeans-are-ready-to-defend-themselves/
+200	Merz, 26	https://www.bundeskanzler.de/bk-en/news/speech-munich-security-conference-2407298
+200	NSDA PF Ballot	https://www.speechanddebate.org/wp-content/uploads/Sample-Ballot-Public-Forum-Blank.pdf
+200	AP, 16 (Baltics Obligations)	https://fortune.com/2016/07/21/donald-trump-nato-russia/
+200	Washington Post, 18 (Montenegro)	https://www.bangordailynews.com/2018/07/18/news/trump-says-defending-nato-ally-montenegro-could-lead-to-world-war-iii/
+200	AP, 24 (Would Not Protect You)	https://www.pbs.org/newshour/politics/trump-says-he-told-nato-ally-to-spend-more-on-defense-or-he-would-encourage-russia-to-do-whatever-the-hell-they-want
+200	Burchell, 26 (CSIS)	https://www.csis.org/analysis/europe-force-posture-review-and-transition-nato-30
+200	Stars and Stripes, 26 (Lithuania Rotation)	https://www.stripes.com/branches/army/2026-06-03/lithuania-us-troops-21860346.html
+200	Stars and Stripes, 26 (Poland Brigade)	https://www.stripes.com/branches/army/2026-05-13/tank-brigade-deployment-to-poland-on-hold-21662087.html
+200	Stars and Stripes, 26 (Hegseth Force Review)	https://www.stripes.com/theaters/europe/2026-06-18/hegseth-nato-force-review-22003995.html
+200	AP, 11 (Gates)	https://www.kpbs.org/news/2011/06/10/gates-says-nato-alliance-faces-dim-future
+200	Al Jazeera, 22 (Pacing Challenge)	https://www.aljazeera.com/news/2022/10/27/pacing-challenge-us-defence-strategy-focuses-on-china
+200	Military Times, 26 (Defense Strategy)	https://www.militarytimes.com/news/pentagon-congress/2026/01/26/trumps-new-national-defense-strategy-downgrades-china-threat/
+200	Fox News, 23 (Bolton)	https://www.foxnews.com/politics/john-bolton-predicts-trump-withdraw-nato-second-term
+200	Fox News, 26 (Paper Tiger)	https://www.foxnews.com/politics/trump-nato-withdrawal-iran-war-allies
+403	France 24, 26 (Ankara Summit)	https://www.france24.com/en/europe/20260708-trump-lashes-nato-allies-during-key-summit-ankara
+403	CDC, 24	https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html
+200	NATO, 25	https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2025-en.pdf
+200	Jones & McCabe, 25	https://www.csis.org/analysis/russias-battlefield-woes-ukraine
+403	Perrow, 84	https://press.princeton.edu/books/paperback/9780691004129/normal-accidents
+403	Sagan, 93	https://press.princeton.edu/books/paperback/9780691021010/the-limits-of-safety
+200	Finnemore and Sikkink, 98	https://doi.org/10.1162/002081898550789
+200	UN Charter, 45	https://www.un.org/en/about-us/un-charter/full-text
+200	Brennan, 25	https://www.eurointegration.com.ua/eng/news/2025/03/7/7206625/
+406	Euronews, 26	https://www.euronews.com/my-europe/2026/06/17/finlands-parliament-passes-bill-in-support-of-lifting-total-ban-on-nuclear-weapons
+200	UK MoD, 98	https://nuke.fas.org/guide/uk/doctrine/sdr98/chapt04.htm
+200	Bruegel, 25	https://www.bruegel.org/analysis/defending-europe-without-us-first-estimates-what-needed
+200	IISS, 25	https://breakingdefense.com/2025/02/russia-overtakes-all-of-europe-on-defense-spending-in-key-metric-iiss-military-balance/

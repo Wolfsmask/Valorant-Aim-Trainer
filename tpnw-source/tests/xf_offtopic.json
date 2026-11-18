@@ -1,2 +1,103 @@
-{"PRO":[["can you repeat the question",["NONE"]],["how much time do we have left",["NONE"]],["do you have a card for that",["NONE"]],["sorry what was your second contention",["NONE"]],["can you explain your framework",["NONE"]],["what is your impact",["NONE"]],["is that from your evidence",["NONE"]],["ok next question",["NONE"]]],
- "CON":[["whats your source for that",["NONE"]],["where did you get that number",["NONE"]],["what is your weighing",["NONE"]],["can i see that card after the round",["NONE"]],["what was your first point again",["NONE"]],["how is that relevant",["NONE"]],["what year was that study",["NONE"]],["thank you, next question",["NONE"]]]}
+{
+ "PRO": [
+  [
+   "can you repeat the question",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "how much time do we have left",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "do you have a card for that",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "sorry what was your second contention",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "can you explain your framework",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "what is your impact",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "is that from your evidence",
+   [
+    "p_pf_e4",
+    "c_pf_e4"
+   ]
+  ],
+  [
+   "ok next question",
+   [
+    "NONE"
+   ]
+  ]
+ ],
+ "CON": [
+  [
+   "whats your source for that",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "where did you get that number",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "what is your weighing",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "can i see that card after the round",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "what was your first point again",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "how is that relevant",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "what year was that study",
+   [
+    "NONE"
+   ]
+  ],
+  [
+   "thank you, next question",
+   [
+    "NONE"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,96 @@
+{
+  "links": [
+    {
+      "short": "Kristensen, 15 (FAS)",
+      "originalUrl": "https://fas.org/publication/nuclear-insecurity/",
+      "status": "replaced",
+      "fetched": true,
+      "note": "Original FAS post found and fetched: 'Upgrades At US Nuclear Bases In Europe Acknowledge Security Risk', Hans M. Kristensen, 09.10.15 (September 10, 2015). Confirms the card's substance: 25 underground vaults installed 1998 inside protective aircraft shelters at Incirlik (21 inside the new 4,200 m double-fenced perimeter), max capacity 100 bombs, ~50 B61 estimated remaining, plus a vault support facility garage upgrade. Caveat for the debater: the article says 'underground vaults' and names WS3 only for Kleine Brogel and Ghedi, so do not attribute the phrase 'WS3' to Incirlik in this card. Replaces military.com, which was reporting ON this FAS report."
+    },
+    {
+      "short": "Davis, 19 (RAND)",
+      "originalUrl": "https://www.rand.org/pubs/research_reports/RR2781.html",
+      "status": "replaced",
+      "fetched": true,
+      "note": "RAND's free report page for RR-2781 loads, lists all seven authors (Paul K. Davis, J. Michael Gilmore, David R. Frelinger, Edward Geist, Christopher K. Gilmore, Jenny Oberholtzer, Danielle C. Tarraf) and carries a Download PDF link. I also fetched the PDF itself (https://www.rand.org/content/dam/rand/pubs/research_reports/RR2700/RR2781/RAND_RR2781.pdf): 152 pages, 2019, ISBN 978-1-9774-0215-8, free, no paywall. Replaces the shop.rand.org checkout page."
+    },
+    {
+      "short": "Zakharova, 24",
+      "originalUrl": "https://pap.pl/en/news/russia-issues-warnings-us-missile-base-poland",
+      "status": "kept",
+      "fetched": true,
+      "note": "Kept, as instructed, since PAP is the original wire. Honest caveat: the URL returns no HTTP error, but the page body comes back empty to a scripted fetch because PAP's English site renders its article text client-side in JavaScript. I therefore could NOT text-verify the headline or the Zakharova/Redzikowo wording. It is not a dead or paywalled link; worth one eyeball check in a browser."
+    },
+    {
+      "short": "North Atlantic Council, 26",
+      "originalUrl": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/04/20/north-atlantic-council-statement-on-the-occasion-of-the-11th-review-conference-of-the-treaty-on-the-non-proliferation-of-nuclear-weapons",
+      "status": "replaced",
+      "fetched": true,
+      "note": "NATO's own official text, fetched and readable: 'Statement by the North Atlantic Council concerning the Treaty on the Non-Proliferation of Nuclear Weapons', on the occasion of the 11th Review Conference, dated 20 April 2026. Paragraph 5 contains the card's line verbatim: 'As long as nuclear weapons exist, NATO will remain a nuclear alliance.' This fixes the globalsecurity.org HTTP 402 'License Required' problem. Note: some press coverage dates the release 21 April; 20 April is the date on NATO's own document."
+    },
+    {
+      "short": "Two Plus Four Treaty, 90",
+      "originalUrl": "https://germanhistorydocs.org/en/a-new-germany-1990-2023/two-plus-four-treaty-on-germany-september-12-1990.pdf",
+      "status": "kept",
+      "fetched": true,
+      "note": "Kept. I fetched this PDF and extracted its text: it is the full authentic English text of the Treaty on the Final Settlement with Respect to Germany (preamble through the articles), so the Article 3(1) quote is verifiable there, and it is free and searchable. I did find and fetch the official German government source, the Federal Foreign Office page https://www.auswaertiges-amt.de/en/aussenpolitik/themen/uebersicht-248550, which links the official full texts; its Federal Law Gazette PDF (https://www.auswaertiges-amt.de/resource/blob/248554/cf11046bd657eb2515e9930892f29ad3/vertragstextbgbl-data.pdf) downloaded fine but is a 12-page German-language image scan with NO text layer, so a debater cannot find or read the English quote in it. UN Treaty Series is not a usable substitute: the UNTS record for this treaty is flagged 'Limited Publication' (full text not reproduced in UNTS), and the UNTS volume PDF is an unsearchable JBIG2 scan. A UK Foreign Office English text exists at https://treaties.fcdo.gov.uk/data/Library2/pdf/1991-TS0088.pdf but returned HTTP 504 on two attempts, so I will not propose it. Per rule 3, the readable English PDF stays; cite the Auswaertiges Amt page alongside it if a judge wants the official source."
+    },
+    {
+      "short": "NSDA PF Ballot",
+      "originalUrl": "https://www.speechanddebate.org/wp-content/uploads/Sample-Ballot-Public-Forum-Blank.pdf",
+      "status": "replaced",
+      "fetched": true,
+      "note": "The NSDA's own blank Public Forum Debate Ballot, hosted on speechanddebate.org, no login required. I fetched it and extracted the text; both of the card's quotes appear verbatim: 'No new arguments may be introduced in the Final Focus; however, debaters may include new evidence to support prior arguments.' and 'Judges should decide the round as it is debated, not based on their personal beliefs.' Same document as the New Mexico club copy, now from the source. (The NSDA also hosts an annotated companion, https://www.speechanddebate.org/wp-content/uploads/Sample-Public-Forum-Debate-Ballot-Comments.pdf, which I did not open.)"
+    },
+    {
+      "short": "Finnemore and Sikkink, 98",
+      "originalUrl": "https://doi.org/10.1162/002081898550789",
+      "status": "kept",
+      "fetched": true,
+      "note": "DOI verified: 10.1162/002081898550789 returns HTTP 302 to https://www.cambridge.org/core/product/identifier/S0020818398440608/type/journal_article, which loads as the Cambridge Core article landing page and confirms the citation exactly: Martha Finnemore and Kathryn Sikkink, 'International Norm Dynamics and Political Change', International Organization 52(4), Autumn 1998, 887-917. So the DOI works, but only the abstract is free; full text needs institutional or personal login, and Cambridge's purchase option currently reads 'Temporarily unavailable'. I could not verify a freely readable authorized copy: JSTOR (https://www.jstor.org/stable/2601361) errors out for automated fetches so I cannot confirm it is the right stable ID, and the free PDFs that surfaced are on third-party course sites of unverified permission. Keeping the DOI, which is the most durable and citation-correct link. Note the author's first name is Martha Finnemore per the publisher record; the card's 'Martha' is correct."
+    },
+    {
+      "short": "Brennan, 25",
+      "originalUrl": "https://www.eurointegration.com.ua/eng/news/2025/03/7/7206625/",
+      "status": "replaced",
+      "fetched": true,
+      "note": "The Ukrainska Pravda URL (pravda.com.ua/eng/news/2025/03/07/7501732/) returns HTTP 403 to scripted fetches because of Cloudflare; I could not confirm it in a browser, having no browser tool. Instead I fetched the European Pravda edition of the identical report, which is the second outlet already named in the card's citation and is the same publishing group: it loads cleanly, headline 'Former CIA Director accuses Trump of blackmailing Ukraine', dated Friday 7 March 2025, and contains both quotes the debater reads: 'I've never seen anything like this in my nearly 35 years of experience' and 'pressure tactic and extortion.' Important correction: this article credits the underlying interview to The Huffington Post, NOT Times Radio. Other outlets attribute the same remarks to a Times Radio interview, so the card's 'Times Radio interview' attribution is not supported by the text I verified. I did not locate the HuffPost UK original or a Times Radio page."
+    },
+    {
+      "short": "UK MoD, 98",
+      "originalUrl": "https://nuke.fas.org/guide/uk/doctrine/sdr98/chapt04.htm",
+      "status": "kept",
+      "fetched": true,
+      "note": "Kept the FAS mirror, which I fetched and which loads: 'Chapter Four: Deterrence and Disarmament', with paragraph 68's 'notice to fire' line present as quoted. No UK government copy could be verified. The 1998 white paper (Cm 3999) predates gov.uk; the UK Government Web Archive at webarchive.nationalarchives.gov.uk returns HTTP 403/405 to every automated request I made, so I could neither confirm nor rule out an archived mod.uk capture, and I will not propose an unfetched URL. The National Archives catalogue has records about the SDR but not the chapter text. A second non-government full-text mirror of the whole white paper exists at https://fissilematerials.org/library/mod98.pdf (surfaced in search, not fetched by me) if a backup is wanted. Recommend the debater or a human check the UK Government Web Archive by hand for an official mod.uk capture."
+    }
+  ],
+  "done": 9,
+  "cloudflareCheck": [
+    {
+      "url": "https://www.icanw.org/new_don_t_bank_on_the_bomb_report_shows_increase_in_number_of_financial_institutions_investing_in_nuclear_weapo",
+      "loads": "unknown - blocked by bot protection, not verified broken",
+      "title": null
+    },
+    {
+      "url": "https://www.icanw.org/nato_poll_2021",
+      "loads": "unknown - blocked by bot protection, not verified broken",
+      "title": null
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2025-03-07/polish-premier-tusk-to-boost-army-to-half-a-million",
+      "loads": "unknown - blocked by bot protection, not verified broken",
+      "title": null
+    },
+    {
+      "url": "https://www.cnbc.com/2026/01/17/trump-greenland-tariffs-nato.html",
+      "loads": "unknown - blocked by bot protection, not verified broken",
+      "title": null
+    },
+    {
+      "url": "https://www.washingtontimes.com/news/2010/oct/27/pentagon-equipment-outage-wyo-nuke-base/",
+      "loads": "unknown - blocked by bot protection, not verified broken",
+      "title": null
+    }
+  ],
+  "cloudflareCheckNote": "This session has no browser tool and curl was blocked by the permission system, so I could not load these five URLs as a real browser. I am NOT claiming they are broken; the 403s are bot protection. They need a human browser check."
+}

@@ -1,0 +1,167 @@
+{
+  "links": [
+    {
+      "short": "AP, 10",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com is unreachable from this environment (direct fetch blocked; AP returns HTTP 403 to scripted requests) and apnews.com is excluded from the available web-search index, so no candidate original URL could be found or loaded. Additionally, 2010 AP wire copy is generally no longer hosted on apnews.com. Kept the working Washington Times republisher link."
+    },
+    {
+      "short": "AP, 20",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the PBS NewsHour link, which is a national outlet rather than a local station and credits AP."
+    },
+    {
+      "short": "AP, 22",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the working OPB republisher link."
+    },
+    {
+      "short": "AP, 23",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the working abc17news republisher link."
+    },
+    {
+      "short": "AP, 23 (CTBT)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). Independent coverage confirms the card's facts (Putin signed the law Thursday, November 2, 2023, Moscow citing parity with the United States), and the card's quoted sentence matches the AP wire lede as reproduced by republishers, but no apnews.com URL could be loaded and read, so none is reported. Kept the PBS NewsHour link."
+    },
+    {
+      "short": "AP, 24 (Nuclear Doctrine)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). Date (November 19, 2024) and the substance of the quoted lede are corroborated by other AP-syndicated copies, but no apnews.com URL could be loaded and read. Kept the CFJC Today / Canadian Press link."
+    },
+    {
+      "short": "AP, 26 (Oreshnik Lviv)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the PBS NewsHour link. Note: the card's quote field is truncated mid-word ('meant as a warning to Eu') and should be completed from the republisher page before use."
+    },
+    {
+      "short": "AP, 22 (Nuclear Alert)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the working WITF republisher link. Note: the card's quote has unbalanced nested quotation marks and should be re-transcribed from the source page."
+    },
+    {
+      "short": "AP, 22 (Not a Bluff)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the working News4Jax republisher link."
+    },
+    {
+      "short": "AP, 22 (Xi and Scholz)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the KATV republisher link. Note: the card's quote field is truncated mid-sentence after 'highly dangerous.' and should be completed from the source page."
+    },
+    {
+      "short": "Reuters, 25 (Nuclear Testing)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Reuters",
+      "note": "reuters.com is unreachable from this environment (direct fetch blocked; Reuters returns HTTP 401 to scripted requests) and reuters.com is excluded from the available web-search index, so no candidate original URL could be found or loaded. Reuters.com is also subscription-gated for much of its content. Kept the Philadelphia Inquirer republisher link, which is a major newspaper and carries the Reuters byline (Hunnicutt, Shakil, Singh)."
+    },
+    {
+      "short": "AP, 26 (Steadfast Noon)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the working News4Jax republisher link. Note: the card's quote field is truncated mid-sentence after 'Russian embassy s' and should be completed from the source page."
+    },
+    {
+      "short": "AP, 25 (If They Dont Pay)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the working News4Jax republisher link (carries the Michelle L. Price AP byline)."
+    },
+    {
+      "short": "AP, 25 (Article 5 Definition)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the ABC7 republisher link. Note: the ABC7 page's own headline differs from the card's title, so the citation's title may need to be reconciled with whichever page is linked."
+    },
+    {
+      "short": "AP, 16 (Baltics Obligations)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index); 2016 AP wire copy is also generally no longer hosted on apnews.com. Kept the working Fortune republisher link. Separately: the underlying primary source for the quoted words is the New York Times interview transcript of July 20, 2016 (Sanger and Haberman); its URL could not be loaded either, so it is not substituted here, but it would be the strongest answer to a 'not the original source' press if the debater can access nytimes.com."
+    },
+    {
+      "short": "Washington Post, 18 (Montenegro)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "The Washington Post",
+      "note": "The canonical Washington Post original was located in the search index with a matching headline and matching content ('Trump says defending tiny NATO ally Montenegro could lead to World War III', by John Wagner, July 18, 2018): https://www.washingtonpost.com/politics/trump-says-defending-tiny-nato-ally-montenegro-could-lead-to-world-war-iii/2018/07/18/f7a09276-8a80-11e8-8aea-86e88ae760d8_story.html -- but fetching it returned HTTP 403 (hard bot/paywall block), so it was never actually read and is therefore NOT reported as a verified originalUrl. Kept the working Bangor Daily News republisher link. Note also that the WaPo headline contains 'tiny NATO ally' whereas the card's title omits 'tiny', and the card's quote ('Montenegro is a tiny country with very strong people. ... they may get aggressive, and congratulations, you're in World War III.') is an elided rendering of Trump's Fox News remarks; independent summaries of the WaPo piece render the second half as Montenegrins being 'aggressive' and 'congratulations, you're in World War III', without 'and' and 'they may get'. The ellipsis and wording should be checked against the source page before reading aloud."
+    },
+    {
+      "short": "AP, 24 (Would Not Protect You)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index). No apnews.com URL could be located or verified. Kept the PBS NewsHour link (carries the Jill Colvin AP byline)."
+    },
+    {
+      "short": "AP, 11 (Gates)",
+      "originalUrl": null,
+      "status": "kept",
+      "fetched": false,
+      "quoteFound": false,
+      "publisher": "Associated Press",
+      "note": "apnews.com unreachable (403 to scripted requests, direct fetch blocked, domain absent from the search index); 2011 AP wire copy is also generally no longer hosted on apnews.com. Kept the working KPBS republisher link. Separately: the quoted words are from Gates's own June 10, 2011 speech in Brussels, whose official transcript on defense.gov would be the primary source, but that was not fetched and is not substituted here."
+    }
+  ],
+  "done": 18
+}
