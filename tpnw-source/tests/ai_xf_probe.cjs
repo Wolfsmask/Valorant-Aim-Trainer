@@ -2,12 +2,12 @@ const { chromium } = require('/opt/node-tools/node_modules/playwright');
 const path = require('path'), fs = require('fs');
 (async () => {
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' }); const p = await (await b.newContext({ offline: true })).newPage();
-  await p.goto('file://' + path.resolve(process.argv[2])); await p.waitForFunction(() => window.PFAI && PFAI.state === 'ready', null, { timeout: 180000 });
+  await p.goto('file://' + path.resolve(process.argv[2])); await p.waitForFunction(() => window.PFX && PFX.state === 'ready', null, { timeout: 180000 });
   const rows = [];
   for (const f of ['xf_offtopic.json', 'xf_heldout.json', 'xf_third.json', 'xf_fourth.json', 'xf_new.json']) {
     const T = JSON.parse(fs.readFileSync(path.join(__dirname, f)));
     for (const side of Object.keys(T)) {
-      const r = await p.evaluate(async ([side, qs]) => { state.side = side; const out = []; for (const [q, want] of qs) { const a = await PFAI.rank(fzCorrectQuery(q), side, 'prefires'); out.push({ q, want, top: a[0].id, logit: a[0].logit, ok: want.includes(a[0].id), none: want[0] === 'NONE' }); } return out; }, [side, T[side]]);
+      const r = await p.evaluate(async ([side, qs]) => { state.side = side; const out = []; for (const [q, want] of qs) { const a = await PFX.rank(fzCorrectQuery(q), side, 'prefires'); out.push({ q, want, top: a[0].id, logit: a[0].logit, ok: want.includes(a[0].id), none: want[0] === 'NONE' }); } return out; }, [side, T[side]]);
       rows.push(...r.map(x => ({ ...x, f })));
     }
   }

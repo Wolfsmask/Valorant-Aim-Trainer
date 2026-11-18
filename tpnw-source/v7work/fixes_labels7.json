@@ -13,5 +13,45 @@
   "title": "Partner Sync window: heading no longer says 'without internet' only",
   "find": "<p class=\"text-xs text-[#6E6259] mt-0.5\">Sync live keystrokes, clicked ~5-word contention buttons, and speech edits between two laptops with zero internet.</p>",
   "replace": "<p class=\"text-xs text-[#6E6259] mt-0.5\">Sync live keystrokes, clicked ~5-word contention buttons, and speech edits between two laptops: over tournament Wi-Fi with a room code, or with zero internet using the options below.</p>"
+ },
+ {
+  "title": "Screen wording: plain 'search' labels (no AI wording)",
+  "find": "\ud83e\udde0 AI Contention &amp; Defense Finder (Understands Meaning &amp; Paraphrases):",
+  "replace": "\ud83d\udd0e Contention &amp; Defense Finder (Understands Meaning &amp; Paraphrases):"
+ },
+ {
+  "title": "Screen wording: plain 'search' labels (no AI wording)",
+  "find": "placeholder=\"\ud83e\udde0 AI Search any Attack or Defense to add to your Rebuttal",
+  "replace": "placeholder=\"\ud83d\udd0e Search any Attack or Defense to add to your Rebuttal"
+ },
+ {
+  "title": "Screen wording: plain 'search' labels (no AI wording)",
+  "find": "\ud83e\udde0 ${conceptLabel ? `AI Concept Match: ${escapeHtml(conceptLabel)}` : `Top ${blocks.length} AI Matches`}",
+  "replace": "\ud83d\udd0e ${conceptLabel ? `Topic: ${escapeHtml(conceptLabel)}` : `Top ${blocks.length} Matches`}"
+ },
+ {
+  "title": "Screen wording: plain 'search' labels (no AI wording)",
+  "find": "statusEl.textContent = conceptLabel ? `\ud83e\udde0 Matched: ${conceptLabel}`",
+  "replace": "statusEl.textContent = conceptLabel ? `Matched: ${conceptLabel}`"
+ },
+ {
+  "title": "Screen wording: plain 'search' labels (no AI wording)",
+  "find": "the Offline AI automatically finds your Rebuttals",
+  "replace": "the app automatically finds your Rebuttals"
+ },
+ {
+  "title": "Screen wording: plain 'search' labels (no AI wording)",
+  "find": "SEPARATE TEAM NOTES + AI CONTENTION FINDER",
+  "replace": "SEPARATE TEAM NOTES + CONTENTION FINDER"
+ },
+ {
+  "title": "Screen wording: plain 'search' labels (no AI wording)",
+  "find": "<!-- AI Contention & Defense Finder on Rebuttal Screen -->",
+  "replace": "<!-- Contention & Defense Finder on Rebuttal Screen -->"
+ },
+ {
+  "title": "Screen wording: plain 'search' labels (no AI wording)",
+  "find": "<!-- NEW: Custom Semantic AI Contention & Defense Search Bar -->",
+  "replace": "<!-- Contention & Defense Search Bar -->"
  }
 ]

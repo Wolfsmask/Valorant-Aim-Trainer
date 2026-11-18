@@ -460,7 +460,7 @@
         <div id="podiumScriptContainer" class="serif-podium space-y-4 text-lg leading-relaxed text-[#2A2421]"></div>
       </div>
 
-      <!-- PANEL B1: OPPONENT SPEECH DICTATION + SEPARATE TEAM NOTES + AI CONTENTION FINDER (ALL MOVABLE & EDITABLE) -->
+      <!-- PANEL B1: OPPONENT SPEECH DICTATION + SEPARATE TEAM NOTES + CONTENTION FINDER (ALL MOVABLE & EDITABLE) -->
       <div id="panelOpponentSiphon" class="hidden max-w-5xl mx-auto space-y-4">
         <div id="opponentSiphonSortableContainer" class="bg-[#FFFDF9] border border-[#E6DEC8] rounded-2xl p-5 sm:p-6 shadow-sm space-y-4">
           <!-- Movable Dual Boxes: (1) Write Their Debate to Auto-Find Rebuttals + (2) Separate Team & Case Notes -->
@@ -484,7 +484,7 @@
                 spellcheck="true"
                 autocorrect="on"
                 autocomplete="off"
-                placeholder="Write or dictate ONLY what the opponent says here—the Offline AI automatically finds your Rebuttals, Frontline Defenses, Crossfire Traps &amp; Violations in real time..."
+                placeholder="Write or dictate ONLY what the opponent says here—the app automatically finds your Rebuttals, Frontline Defenses, Crossfire Traps &amp; Violations in real time..."
                 class="w-full rounded-xl border-2 border-[#3D6B58] bg-[#FFFDF9] p-3.5 text-sm sm:text-base leading-relaxed text-[#2A2421] focus:border-[#C86D3B] outline-none transition shadow-inner"
               ></textarea>
             </div>
@@ -519,10 +519,10 @@
             </div>
           </div>
 
-          <!-- NEW: Custom Semantic AI Contention & Defense Search Bar -->
+          <!-- Contention & Defense Search Bar -->
           <div class="p-3.5 rounded-xl bg-[#FAF6F0] border-2 border-[#3D6B58]/50 space-y-2">
             <div class="flex flex-wrap items-center justify-between gap-2">
-              <span class="text-xs font-extrabold uppercase tracking-wider text-[#3D6B58]">🧠 AI Contention &amp; Defense Finder (Understands Meaning &amp; Paraphrases):</span>
+              <span class="text-xs font-extrabold uppercase tracking-wider text-[#3D6B58]">🔎 Contention &amp; Defense Finder (Understands Meaning &amp; Paraphrases):</span>
               <span id="siphonAiSearchStatus" class="text-[11px] font-semibold text-[#6E6259]">Type what they argued or how they attacked our case</span>
             </div>
             <div class="flex gap-2">
@@ -591,14 +591,14 @@
       <!-- PANEL B2: OUR REBUTTAL SPEECH PODIUM SCREEN + COMPACT ~5-WORD PREFIRE BUTTONS -->
       <div id="panelOurRebuttal" class="hidden bg-[#FFFDF9] border border-[#E6DEC8] rounded-2xl p-6 sm:p-10 shadow-sm space-y-6">
         <div class="space-y-3 pb-4 border-b border-[#F0EAE0]">
-          <!-- AI Contention & Defense Finder on Rebuttal Screen -->
+          <!-- Contention & Defense Finder on Rebuttal Screen -->
           <div class="p-3 rounded-xl bg-[#FAF6F0] border border-[#3D6B58]/40 space-y-2">
             <div class="flex gap-2">
               <input
                 id="rebuttalQuickFilterInput"
                 type="text"
                 oninput="handleRebuttalAiSearchInput(this.value)"
-                placeholder="🧠 AI Search any Attack or Defense to add to your Rebuttal (e.g. 'trump cia', 'mad bluff', 'radiation sinks', 'defend c2')..."
+                placeholder="🔎 Search any Attack or Defense to add to your Rebuttal (e.g. 'trump cia', 'mad bluff', 'radiation sinks', 'defend c2')..."
                 class="flex-1 rounded-xl border border-[#D5CBB8] bg-[#FFFDF9] px-3 py-1.5 text-xs sm:text-sm text-[#2A2421] focus:border-[#C86D3B] outline-none"
               >
               <button type="button" onclick="clearRebuttalAiSearch()" class="px-2.5 py-1.5 rounded-xl border border-[#D5CBB8] bg-[#FFFDF9] hover:bg-[#EDE6D8] text-xs font-bold text-[#6E6259] cursor-pointer">✕</button>
@@ -16631,7 +16631,7 @@
       }
       return `
         <div class="flex items-center justify-between gap-2 text-[11px] font-bold text-[#3D6B58] px-1">
-          <span>🧠 ${conceptLabel ? `AI Concept Match: ${escapeHtml(conceptLabel)}` : `Top ${blocks.length} AI Matches`}</span>
+          <span>🔎 ${conceptLabel ? `Topic: ${escapeHtml(conceptLabel)}` : `Top ${blocks.length} Matches`}</span>
           <span>Click C1 / C2 / C3 to instant-add without scrolling!</span>
         </div>
         <div class="space-y-2 max-h-72 overflow-y-auto pr-1">
@@ -16682,7 +16682,7 @@
       }
       const { conceptLabel, results } = aiSemanticRankAllBlocksForSide(q, state.side);
       if (statusEl) {
-        statusEl.textContent = conceptLabel ? `🧠 Matched: ${conceptLabel}` : `Found ${results.length} matching responses`;
+        statusEl.textContent = conceptLabel ? `Matched: ${conceptLabel}` : `Found ${results.length} matching responses`;
       }
       box.classList.remove("hidden");
       box.innerHTML = renderAiInstantMatchCardsHtml(results, conceptLabel, "siphon");

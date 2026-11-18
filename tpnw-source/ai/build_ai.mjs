@@ -18,6 +18,7 @@ const groups = {};
 for (const s of ['PRO', 'CON']) {
   groups[s + ':blocks'] = [...D[s].rebuttals, ...D[s].frontlines, ...(D[s].counterDefenses || [])].map(b => [b.id, blockText(b)]);
   groups[s + ':prefires'] = D[s].prefires.map(p => [p.id, pfText(p)]);
+  groups[s + ':traps'] = (D[s].crossfireTraps || []).map((t, i) => [String(i), t.trigger + ' ' + t.question]);
 }
 groups['cards'] = D.SOURCE_CARDS.map(c => [c.short, cardText(c)]);
 
@@ -38,10 +39,9 @@ const assets = {
   'mjs': 'node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.jsep.mjs',
 };
 for (const m of [EMB, RR]) for (const f of ['config.json', 'tokenizer.json', 'tokenizer_config.json', 'onnx/model_quantized.onnx']) assets[m + '/resolve/main/' + f] = path.join(C, m, f);
-let html = '\n<!-- ================= OFFLINE AI SEARCH ================= -->\n';
-html += '<!-- AI models: BGE-small-en-v1.5 (MIT, BAAI) and ms-marco-MiniLM-L-6-v2 (Apache-2.0); runtime: transformers.js 3.5.2 (Apache-2.0) + ONNX Runtime Web (MIT). Stored gzip+base64 so the file works with no internet. -->\n';
-for (const [k, f] of Object.entries(assets)) html += `<script type="application/octet-stream" data-pfai="${k}">${gzb64(fs.readFileSync(f))}</script>\n`;
-html += `<script type="application/json" id="pfai-index">${JSON.stringify(index).replace(/</g, '\\u003c')}</script>\n`;
+let html = '\n<!-- search index data. Bundled components and licenses: bge-small-en-v1.5 (MIT), ms-marco-MiniLM-L-6-v2 (Apache-2.0), transformers.js 3.5.2 (Apache-2.0), ONNX Runtime Web (MIT). -->\n';
+for (const [k, f] of Object.entries(assets)) html += `<script type="application/octet-stream" data-pfx="${k}">${gzb64(fs.readFileSync(f))}</script>\n`;
+html += `<script type="application/json" id="pfx-index">${JSON.stringify(index).replace(/</g, '\\u003c')}</script>\n`;
 html += `<script>\n${fs.readFileSync('pfai_runtime.js', 'utf8')}\n</script>\n`;
 fs.writeFileSync(OUT, html);
 console.log('wrote', OUT, (html.length / 1e6).toFixed(1), 'MB', Object.fromEntries(Object.entries(index).map(([g, v]) => [g, v.ids.length])));
